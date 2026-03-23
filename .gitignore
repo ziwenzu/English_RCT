@@ -17,4 +17,7 @@
 
 # Project-specific data folders
 analysis/data/
+analysis/output/
+analysis/tables/
+analysis/figures/
 writing/tables/

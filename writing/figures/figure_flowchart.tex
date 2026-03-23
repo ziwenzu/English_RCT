@@ -1,0 +1,65 @@
+\begin{tikzpicture}[
+  x=1cm, y=1cm,
+  every node/.style={font=\small},
+  % Outer width matches the six-arm container (group); text area = width minus inner sep
+  main/.style={
+    draw=black!60,
+    fill=blue!3,
+    rounded corners=2pt,
+    align=center,
+    minimum width=12.6cm,
+    text width=\dimexpr12.6cm-12pt\relax,
+    minimum height=1.0cm,
+    inner sep=6pt
+  },
+  group/.style={
+    draw=black!60,
+    fill=blue!3,
+    rounded corners=2pt,
+    minimum width=12.6cm,
+    minimum height=5.6cm,
+    inner sep=0pt
+  },
+  arm/.style={
+    draw=black!60,
+    fill=blue!3,
+    rounded corners=2pt,
+    align=center,
+    inner sep=3pt
+  },
+  arr/.style={-{Latex[length=2.2mm]}, line width=0.9pt, draw=black!75},
+  arrlabel/.style={font=\footnotesize, text=black!80, align=left}
+]
+
+% Uniform vertical shaft length between stacked boxes (south of upper → north of lower)
+\def\flowarrowgap{0.45}
+
+\node[main] (recruit) at (0,0) {\textbf{Recruit}\\59,901 ad clicks recorded (May 2025).};
+
+\node[main, anchor=north] (screen) at ($(recruit.south)+(0,-\flowarrowgap)$) {\textbf{Prescreen \& baseline}\\22,317 started; 12,215 completed baseline after prescreen (June 2025).};
+\node[main, anchor=north] (rand) at ($(screen.south)+(0,-\flowarrowgap)$) {\textbf{Randomization}\\Blocked on demographics and ideology; consent and delivery verified. \textit{N}=6,365.};
+\node[group, anchor=north] (armsbox) at ($(rand.south)+(0,-\flowarrowgap)$) {};
+
+% Panel label: single line, tight to top border; arm cells start lower so nothing overlaps
+\node[font=\scriptsize\bfseries, text=black!75, anchor=north, inner sep=0pt] at ($(armsbox.north)+(0,-0.10)$) {Treatment arms};
+
+% Six equal cells (3x2) — row offsets leave ~0.45cm below the label for descenders / padding
+\node[arm, anchor=north] (pl) at ($(armsbox.north)+(-4.00,-0.62)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Pro-China}\\Low dose\\(6/24)}};
+\node[arm, anchor=north] (ph) at ($(armsbox.north)+(0,-0.62)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Pro-China}\\High dose\\(24/24)}};
+\node[arm, anchor=north] (al) at ($(armsbox.north)+(4.00,-0.62)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Anti-China}\\Low dose\\(6/24)}};
+\node[arm, anchor=north] (ah) at ($(armsbox.north)+(-4.00,-2.96)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Anti-China}\\High dose\\(24/24)}};
+\node[arm, anchor=north] (nc) at ($(armsbox.north)+(0,-2.96)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Control}\\NonChina\\(24 neutral)}};
+\node[arm, anchor=north] (ac) at ($(armsbox.north)+(4.00,-2.96)$) {\parbox[c][1.90cm][c]{3.55cm}{\centering\textbf{Apolitical China}\\12 apolitical items\\+ 12 neutral fillers}};
+
+\node[main, anchor=north] (endline) at ($(armsbox.south)+(0,-\flowarrowgap)$) {\textbf{Weekly \& endline}\\\textit{N}=5,215; June--October 2025};
+\node[main, anchor=north] (follow) at ($(endline.south)+(0,-\flowarrowgap)$) {\textbf{Follow-up}\\\textit{N}=2,115; November 2025};
+
+% Connectors: equal-length vertical segments
+\draw[arr] (recruit.south) -- (screen.north);
+\draw[arr] (screen.south) -- (rand.north);
+\draw[arr] (rand.south) -- (armsbox.north)
+  node[pos=0.5, anchor=west, xshift=2mm, arrlabel] {\textbf{Assignment:} one of six arms.};
+\draw[arr] (armsbox.south) -- (endline.north);
+\draw[arr] (endline.south) -- (follow.north);
+
+\end{tikzpicture}

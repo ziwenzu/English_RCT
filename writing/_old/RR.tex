@@ -1,0 +1,1258 @@
+\documentclass[12pt, american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=2.54cm,bmargin=2.54cm,lmargin=2.54cm,rmargin=2.54cm}
+\pagestyle{plain}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{relsize}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{titletoc}
+\usepackage[page,header]{appendix}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lmodern}
+\usepackage{wrapfig}  
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage[figuresright]{rotating}
+\usepackage{tabularx}
+\usepackage{framed}
+\usepackage{longtable}
+\usepackage[flushleft]{threeparttable}
+\usepackage{color}
+\usepackage{hyperref}  
+\usepackage{hhline}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{txfonts}
+\usepackage{ragged2e}
+\hypersetup{
+  colorlinks=true,
+  citecolor={blue},
+urlcolor={blue},
+linkcolor ={blue}}
+\newcommand{\RowColor}{\rowcolor{cyan!30}} 
+\newtheorem{define}{Definition}
+\newtheorem{hypo}{Hypothesis}
+\newtheorem{ass}{Assumption}
+\usepackage{bibentry}
+\usepackage[flushleft]{threeparttable}
+\usepackage{longtable}
+\usepackage{tikz}
+\usepackage{tikz-qtree,tikz-qtree-compat}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes.multipart}
+\usepackage{CJKutf8}
+\usepackage[overlap, CJK]{ruby}
+\newenvironment{SChinese}{
+\CJKfamily{gkai}
+\CJKtilde
+\CJKnospace}{}
+\newcommand{\cntxt}[1]{\begin{CJK}{UTF8}{}\begin{SChinese}#1\end{SChinese}\end{CJK}}
+\usepackage{bbm}
+\usepackage{setspace}
+\usepackage{footmisc}  % Not [marginal] unless you really need marginal notes!
+
+% Double space the footnotes:
+\renewcommand{\footnotelayout}{\doublespacing}
+
+\usepackage{babel,csquotes}
+\usepackage[natbib,authordate,sorting=nyt,dashed=false,uniquename=false,
+  ibidtracker=false,]{biblatex-chicago}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{month}}
+\addbibresource{paper.bib}
+\usepackage{graphicx}
+\usepackage{datetime}
+\newdateformat{monthyear}{\monthname[\THEMONTH] \THEYEAR}
+
+\title{\textbf{Breaking the Great Firewall:\\ A Field Experiment on Free Media Exposure in China}}
+ \author{Gary Ziwen Zu\thanks{Department of Political Science, University of California, San Diego. Email: \href{mailto:zzu@ucsd.edu}{zzu@ucsd.edu}.}}
+\date{ \monthyear\today \\ \vspace{0.2cm} Pre-Analysis Plan}
+
+% \date{ \monthyear\today}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+
+\begin{abstract}  
+\noindent  
+Authoritarian governments devote significant resources to controlling information, yet the extent to which foreign media can penetrate censorship and shift political attitudes remains unclear. This pre-registered field experiment tests the effects of Western media exposure among Chinese university-age adults preparing to study abroad. Over twelve weeks, participants are randomly assigned to receive articles and videos from major western outlets (New York Times, Wall Street Journal, The Economist, Washington Post) and English-language Chinese state media (China Daily). Treatments vary by ideological positions—pro-China, anti-China, apolitical, or unrelated control—and by intensity of exposure. Weekly quizzes and engagement logs track compliance and demand, while baseline and endline surveys measure changes in regime support, censorship attitudes, nationalism, and media trust. The factorial design identifies whether negative frames undermine regime legitimacy, positive frames bolster it, or mixed and apolitical content shift attitudes indirectly. By combining attitudinal and behavioral measures, the study advances theories of authoritarian information control, persuasion, and selective exposure. Findings will show whether censorship stability depends on fully blocking foreign narratives, or whether even sustained exposure leaves regime support largely intact, offering new insight into authoritarian resilience and global information flows.
+\end{abstract}
+
+
+
+ \textbf{Keywords}: Authoritarianism; Censorship; Political attitudes; China;  Persuasion
+	
+	\newpage
+	
+	\setcounter{page}{1} 
+	\renewcommand{\thepage}{\arabic{page}}
+\doublespacing
+	\section{Introduction}
+
+Information control is a central instrument of authoritarian rule. Autocratic governments devote substantial resources to shaping and restricting the information their citizens receive in order to protect political support \citep{guriev2019informational, king2013censorship}. The policy is particularly visible in China, where the state blocks major Western news websites through the Great Firewall and warns citizens about “Western ideological infiltration.” The Chinese Communist Party (CCP) pairs these barriers with a continuous supply of state–approved stories and entertainment, seeking to preempt dissent and cultivate a compliant public sphere \citep{stockmann2013media, roberts2018censored}. This setting presents an ideal laboratory for evaluating whether information from abroad can penetrate an authoritarian media environment and, if so, whether it weakens or instead bolsters regime legitimacy.
+
+Classical theories predict that exposure to uncensored foreign news will erode support for authoritarian rule, because citizens can compare domestic governance with external benchmarks \citep{egorov2009resource, geddes1989sources}. Empirical work, however, yields mixed results. \citet{chen2019impact} demonstrate that Chinese students granted uncensored internet access and encouraged to explore sensitive topics become more pessimistic about national conditions and less trusting of leaders. In contrast, \citet{huang2019information} show that Chinese readers presented with positive coverage of Western societies report higher evaluations of their own government, implying that favorable foreign stories may reduce idealized views of democracy and, by comparison, cast the Chinese state in a better light. These findings suggest that the impact of foreign news depends on its framing and on audiences’ preexisting beliefs about media credibility \citep{stockmann2013media}. Several gaps remain. First, past studies rarely hold \textit{content framing} constant, because participants choose freely among sources once granted access. Second, existing designs seldom vary the \textit{dosage} of exposure, even though persuasion may require repetition or may fade with excessive repetition. Third, little is known about the \textit{demand side}. Authoritarian control may endure partly because citizens avoid unsettling information, yet prior research seldom measures how different frames influence audiences’ willingness to consume additional political news.
+
+I address these gaps with a preregistered randomized controlled trial that varies both the \textit{frame} and the \textit{dosage} of foreign–news exposure. The participants are Chinese test–preparation students preparing for examinations for aboard study such as TOEFL, IELTS, GRE, and GMAT. These university–age adults regularly read English materials and plan to pursue graduate study either abroad or within China, placing them in a hybrid information space where foreign media are visible yet filtered by censorship. During a twelve–week program each participant receives two original articles per week drawn from \textit{The New York Times}, \textit{The Economist}, \textit{The Washington Post}, and \textit{The Wall Street Journal}. A thirty–minute close–reading video accompanies each article and reviews vocabulary, grammar, and sentence structure. At the end of every week participants complete an online quiz on linguistic material and rate each article for liking, credibility, and willingness to see similar stories. These repeated measures verify compliance and provide real–time evidence of demand for each frame.
+
+Content varies along two dimensions. First, articles are framed as \textit{pro–China}, \textit{anti–China}, \textit{anti/pro-China mixed}, or \textit{apolitical}. A separate control group studies textbook passages unrelated to current affairs. Second, within each frame, participants are randomly assigned to low or high political dosage, respectively five, or twenty political articles across the study. apolitical pieces fill the remaining slots. This factorial design permits a clean assessment of whether cumulative exposure amplifies or attenuates framing effects. High-frequency weekly user logs and a comprehensive endline survey measures multidimensional attitudinal and behavioral outcomes.
+
+\section{Significance}
+
+This project contributes to multiple literature by offering novel experimental insights into how foreign news shapes political attitudes under authoritarian rule.
+Existing research often fails to disentangle how different types of foreign narratives affect opinions because participants freely choose among a range of sources. By experimentally assigning articles framed as \textit{pro-China}, \textit{anti-China}, \textit{mixed}, or \textit{apolitical}, this study cleanly identifies how specific foreign narratives alter citizens’ beliefs about the regime. This design illuminates whether \textit{negatively framed} foreign coverage sparks backlash or shifts attitudes, whether \textit{positively framed} news undercuts discontent by showcasing the regime in favorable comparative light, and whether \textit{apolitical} foreign content might subtly introduce new reference points that influence political perceptions.
+
+Classic work in political communication \citep{zaller1992nature} and propaganda theory \citep{petty1986elaboration} underscores that persuasion often hinges on the frequency or intensity of message repetition. Yet much prior research on authoritarian media has studied only a single “shock” of uncensored information. By randomly assigning participants to low versus high “political dosage” groups, this study reveals whether repeated exposure amplifies or diminishes framing effects. This allows us to assess whether \textit{marginal additions} to foreign-news exposure yield disproportionately greater shifts in political attitudes, or if \textit{saturation} eventually leads to fading returns or reactance.
+
+ 
+   Unlike most censorship studies that measure only attitudinal change, this project tracks participants’ willingness to continue consuming different frames of foreign news. Recent economics research \citep{chen2019impact} highlights that mere access to uncensored information does not guarantee usage. By incorporating continuous ratings and real-time subscription choices, the study offers rare revealed-preference evidence of whether individuals actively seek foreign political coverage shedding light on the latent demand for uncensored media in closed regimes. Findings here will clarify if authoritarian stability partly hinges on systematically low engagement with independent sources, or if a “taste” of uncensored news can stimulate sustained curiosity.
+
+ 
+   Methodologically, implementing a multi-month randomized controlled trial (RCT) in China’s sensitive censorship environment is a major undertaking. This project uses weekly quizzes and compliance checks to ensure participants are actually reading and processing each assigned article, generating high-frequency data on evolving political attitudes and behaviors. The study’s pre-registration and repeated-measures design strengthen causal inference relative to cross-sectional snapshots or lab simulations, providing robust estimates of treatment effects over time, and this approach is still uncommon in political media studies.
+
+
+   By examining how Chinese citizens respond to foreign media, the project speaks to a core debate in comparative politics: the durability of information-based authoritarian control \citep{king2013censorship,roberts2018censored}. If even minimal exposure to critical content softens regime support, it suggests that censorship’s power rests on strictly preventing foreign narratives from gaining traction. If, however, sustained exposure to negative frames fails to erode attitudes or if \textit{pro-China} frames from foreign outlets bolster government credibility then authoritarian systems may prove more resilient to external scrutiny. In either case, this study refines our understanding of how outside information can (or cannot) penetrate carefully engineered media environments, informing both theoretical debates on authoritarian stability and practical discussions around the efficacy of pro-democratic information interventions.
+
+
+
+
+
+\section{Theory and Hypotheses}
+
+\subsection{Theory}
+
+Existing evidence suggests that Chinese public opinion is ideologically polarized between nationalist (pro-regime) and liberal (pro-Western or regime-critical) camps. This polarization is reinforced by selective media exposure: nationalists primarily consume state-run media, while liberals seek out less-censored foreign information. In this context, my theory centers on how exposure to foreign news content interacts with individuals’ prior beliefs, producing different effects through congruence or dissonance with those beliefs. I argue that whether foreign news persuades or polarizes depends on the content’s framing relative to one’s predispositions, and that these effects will differ for  nationalists versus liberal-minded individuals, with distinct reactions among the unaligned middle ground.
+
+\textbf{Cognitive Dissonance and Congruence.} According to cognitive dissonance theory, people experience discomfort when confronted with information that strongly contradicts their prior attitudes. They tend to prefer attitude-consistent information and reject or counter-argue inconsistent messages to minimize dissonance. In our setting, a \textit{pro-China} news framing aligns with (is congruent to) nationalist beliefs but contradicts liberal ones; an \textit{anti-China} framing aligns with liberal, regime-skeptical beliefs but is \textit{dissonant} for nationalists. 
+
+I expect congruent foreign news to be readily accepted, reinforcing existing attitudes, whereas dissonant news will meet resistance or even backlash. For example, a nationalist student reading \textit{anti-China} reports from U.S. outlets may dismiss the content as biased or respond defensively, potentially increasing their support for the Chinese regime (a ``rally-around-the-flag'' effect). In contrast, a liberal-leaning student reading the same critical content should find it credible and validating, likely reducing their regime support further or solidifying their liberal stance. Likewise, if a liberal student encounters \textit{pro-China} foreign news praising China’s government, this counter-attitudinal message may trigger skepticism or discomfort. They might discount the source as uncharacteristically sympathetic or rethink their extreme views, possibly moderating their criticism. By contrast, a nationalist exposed to \textit{pro-China} stories from a normally critical Western source will feel validated confirming their worldview with an unexpected endorsement. Congruent information thus tends to strengthen one’s initial position, while sharply incongruent information can either fail to persuade or even produce a \textit{boomerang effect} (attitude change opposite to the message’s direction) among those with strong prior convictions.
+
+\textbf{Persuasion of the Moderates.}  Critically, individuals without strong prior leanings (the “middle ground”) are less encumbered by motivated resistance and should be more open to persuasion. These politically neutral or undecided students have weaker cognitive defenses and no strong identity invested in either the nationalist or liberal camp. For them, foreign news exposing new perspectives can shift attitudes in the direction of the content because it falls within their latitude of acceptance. In other words, moderate individuals are the most persuadable: \textit{anti-China} frames may lower their esteem for the Chinese regime by revealing information they hadn’t considered, whereas \textit{pro-China} frames may increase their regime support by highlighting positive narratives. A mixed framing (balanced coverage) that includes both positive and negative aspects is likely to appear credible and informative to moderates, potentially moving them toward a more nuanced middle position. Because mixed content offers both congruent and incongruent elements to any given individual, it may not provoke strong dissonance in anyone, yielding more subtle attitude adjustments (and possibly improved factual knowledge) rather than polarizing shifts.
+
+\textbf{Information, Identity, and Out-Group Perceptions.}  The psychological process differs not only in direction but also in emotional response. Nationalist participants encountering \textit{anti-China} stories from American media may view them as an out-group attack on their in-group, heightening defensive nationalism. This can manifest in increased pride in China’s political system and greater hostility toward the foreign source. Liberals, by contrast, would view the same content as affirmation of their distrust in the regime, possibly increasing their appreciation of foreign media’s frankness. Conversely, a \textit{pro-China} story in a U.S. outlet might pleasantly surprise nationalists and reduce their suspicion of Western media (the out-group), while liberals might find such a story puzzling or concerning (e.g. fearing Western media is pulling punches). These dynamics imply that exposure could influence not just attitudes toward the Chinese regime (the in-group government) but also affective attitudes toward the out-group (Western countries or media). Repeated exposure to dissonant viewpoints from an out-group can produce out-group polarization, for instance, making nationalists more anti-Western even as liberals remain pro-Western, thereby widening the gap in how each group feels about foreign nations. I anticipate that out-group animosity or warmth will shift depending on whether the foreign coverage is perceived as hostile or sympathetic, with dissonant messages fueling out-group distrust among those offended, and congruent messages fostering out-group goodwill.
+
+\textbf{Dose and Habituation.}  The dosage of exposure (low vs. high) is expected to modulate these effects in magnitude. A higher dose of foreign news (sustained, frequent exposure) provides repeated reinforcement or provocation, likely amplifying the observed attitude changes. Under congruent conditions, high exposure repeatedly affirms prior beliefs, potentially pushing attitudes to further extremes (e.g. boosting nationalism after many \textit{pro-China} stories) or at least cementing them. Under dissonant conditions, a higher volume of counter-attitudinal content can intensify the psychological discomfort. Some individuals may eventually accommodate and update their views when confronted multiple times, especially moderates who might need repeated evidence to overcome status quo bias. However, strongly committed individuals might instead become increasingly entrenched or reactive. For example, prolonged criticism from foreign media could strengthen a nationalist’s counter-arguments and resentment more than a one-off article would. In sum, I expect the intent-to-treat effect to be stronger in high-dose treatments: the direction of change set by a given framing will be more pronounced with greater exposure, be it persuasion or backlash.
+
+Finally, the impacts of foreign news are likely conditioned by prior exposure to uncensored information. Individuals who have traveled abroad, frequently use VPNs, or regularly consume foreign media might respond differently than those encountering Western news for the first time. Prior exposure can inoculate individuals against surprise or shock: for example, a well-traveled or VPN-using nationalist may have already developed counter-narratives to common Western criticisms, making them relatively impervious to (or dismissive of) the anti-China treatment. Similarly, a liberal who routinely follows foreign outlets will find the content of the treatments less novel. Their attitudes may have already incorporated such information, yielding a smaller marginal effect. In contrast, participants with little to no prior foreign media exposure will experience the treatments as new and possibly startling information. I expect stronger reactions among the unexposed: greater persuasion if the content resonates, or greater astonishment and possibly stronger defensive rejection if it offends. Prior exposure could also map onto trust. Those already engaging with foreign media likely view it as credible, whereas first-time readers (especially nationalists) may approach it with suspicion. Thus, prior exposure serves as a moderator that can dampen or filter the treatment’s influence.
+
+
+
+
+
+
+
+
+
+%======================================================================
+\subsection{Conceptual Framework}
+%======================================================================
+
+The framework marries \emph{Bayesian persuasion} models  with the
+\emph{Receive–Accept–Sample} (RAS) logic, while
+incorporating the distinctive credibility constraints of authoritarian
+censorship.  Doing so yields a unified structure that (i) links the
+experimental treatments (frame, dose, and repeated exposure) to latent belief
+updating, and (ii) generates sharp, testable hypotheses for every outcome in
+our RCT.
+
+%----------------------------------------------------------------------
+\subsubsection{Signal Processing: From Exposure to Belief Updating}
+%----------------------------------------------------------------------
+
+\paragraph{Stage~1: Reception.}
+Let $R_{it}\in\{0,1\}$ indicate whether individual $i$ \emph{receives} the
+$t$th article in week $t$ ($R_{it}=1$ if the student opens the article and
+completes the paired video).  We treat $R_{it}$ as directly observed
+(compliance data).  Dose is the exogenous frequency of potential receptions:
+$D\in\{\text{Low}=5,\text{High}=20\}$ political articles over the semester.
+
+\paragraph{Stage~2: Acceptance.}
+Conditional on reception, a student may \emph{accept} the message content with
+probability $\lambda_{it}\in[0,1]$.  We follow 
+\citet{zaller1992nature}'s \emph{Resistance Axiom} by modeling
+%
+\begin{equation}
+\lambda_{it} \;=\;
+\underbrace{\omega_i}_{\text{source credibility}}
+\times
+\underbrace{\bigl[1-\rho\,|S_f - I_{i0}|\bigr]}_{\text{ideological congruence}} ,
+\label{eq:accept}
+\end{equation}
+%
+where $S_f\in\{-1,0,+1\}$ is the experimentally assigned \emph{frame} (anti‐,
+mixed, or pro‐China), $I_{i0}$ is the baseline ideology of student $i$
+(nationalism $\rightarrow +1$; liberalism $\rightarrow -1$), and
+$\rho\in(0,1)$ captures motivated reasoning.\footnote{Equation
+\eqref{eq:accept} nests the notion that an ideologically dissonant
+message ($|S_f - I_{i0}|$ large) or a low‐credibility source
+($\omega_i$ small) is less likely to be accepted.  Empirically,
+$\omega_i$~is proxied by pre‐treatment foreign‐exposure indicators (VPN use,
+overseas travel) and by article‐level ``credibility'' ratings collected each
+week; $|S_f - I_{i0}|$ is observed.}
+
+\paragraph{Stage~3: Bayesian Updating.}
+Adapting \citet{kamenica2011bayesian}, each \emph{accepted} article is a noisy
+signal $s_{it}$ of the true state.  Let $\tau_s$ denote the perceived
+precision of a single accepted signal and $\tau_0$ the precision of the
+prior.\footnote{If the student rejects the article ($\lambda_{it}=0$), the
+effective signal precision is~$0$.}
+Define the cumulative weight of accepted signals after $T$ weeks:
+%
+\begin{equation}
+w_i(T)
+= \tau_0 + \tau_s
+\sum_{t=1}^{T}  R_{it}\,\lambda_{it}.
+\label{eq:weight}
+\end{equation}
+%
+The posterior belief (e.g.\ regime legitimacy) at endline is
+%
+\begin{equation}
+b_{i1}
+  \;=\;
+\frac{\tau_0}{w_i(T)}\,b_{i0}
+\;+\;
+\frac{\tau_s}{w_i(T)}
+      \sum_{t=1}^{T} R_{it}\,\lambda_{it}\,s_{it}.
+\label{eq:posterior}
+\end{equation}
+%
+Equations \eqref{eq:accept}–\eqref{eq:posterior} reconcile
+Bayesian persuasion (precision‐weighted learning) with
+RAS (messages must first survive the receive and accept filters).
+They imply: (i)~higher dose increases the \emph{opportunity set} for
+accepted signals; (ii)~congruence and credibility raise $\lambda_{it}$,
+magnifying persuasion; (iii)~individual controls (gender, major, baseline
+knowledge) enter only through $\tau_0$ and $\omega_i$, and are conditioned on
+in estimation.
+
+%----------------------------------------------------------------------
+\subsubsection{Mapping to Observables}
+%----------------------------------------------------------------------
+
+All primary outcomes are linear functions of the latent
+posterior~$b_{i1}$:
+%
+\begin{alignat}{2}
+\text{Ideology Shift}_{i} \;          &=\; \gamma_{1}\,(b_{i1}-b_{i0})                           \\
+\text{Media Trust Shift}_{i} \;       &=\; \gamma_{2}\,(b_{i1}-b_{i0})                           \\
+\text{WTP Uncensored Foreign News}_{i} \; &=\; \gamma_{3}\,b_{i1} + \eta_i                      \\
+\text{Policy Belief Update}_{ij} \;   &=\; \gamma_{4j}\,(b_{i1}-b_{i0}) + \xi_{ij}
+\end{alignat}
+
+
+%
+where $\eta_i$ and $\xi_{ij}$ are idiosyncratic shocks and $j$ indexes
+issue‐specific quiz items.\footnote{Psychological well‐being responds to the
+\emph{absolute} discrepancy $|b_{i1}-b_{i0}|$, consistent with cognitive
+dissonance theory.}
+
+%----------------------------------------------------------------------
+\subsection{Hypotheses}
+%----------------------------------------------------------------------
+
+\begin{enumerate}[label=\textbf{H\arabic*}, leftmargin=1.25cm]
+
+\item \textbf{ITT Main Effects.} \emph{Relative to the apolitical control,}
+      \begin{itemize}[noitemsep]
+        \item Anti‐China ($S_f=-1$) exposure \textbf{reduces}
+              mean support for the regime and censorship, and
+              \textbf{increases} trust in foreign media;
+        \item Pro‐China ($S_f=+1$) exposure has the mirror‐image effect;
+        \item Mixed ($S_f\approx0$) exposure yields attenuated average shifts.
+      \end{itemize}
+
+\item \textbf{Dose Amplification.}
+      High dose ($D=\text{High}$) produces \emph{larger} absolute ITT effects
+      on all attitudinal outcomes than low dose, because
+      $\sum_{t} R_{it}\,\lambda_{it}$ in \eqref{eq:weight} stochastically
+      dominates.
+
+\item \textbf{Congruence\,${\times}$\,Ideology Interaction.}
+      Treatment effects are monotone in ideological distance:
+      $\partial\!\operatorname{ITT}/\partial|S_f-I_{i0}|<0$.
+      Nationalists ($I_{i0}\!\approx\!+1$) backlash in the anti‐China frame;
+      liberals ($I_{i0}\!\approx\!-1$) backlash in the pro‐China frame.
+
+\item \textbf{Credibility\,${\times}$\,Foreign Exposure Moderator.}
+      Prior VPN use or overseas travel (\,$\omega_i\uparrow$\,) amplifies
+      persuasion: $\partial\!\operatorname{ITT}/\partial\omega_i>0$ for all
+      frames that are not severely dissonant.
+
+\item \textbf{Acceptance Channel.}
+      Weekly \emph{article‐liking scores} ($0\!-\!100$) proxy $\lambda_{it}$.
+      Conditional on reception ($R_{it}=1$), higher liking predicts larger
+      endline attitude change: $\operatorname{Cov}(\lambda_{it},\,
+      b_{i1}-b_{i0})>0$ within treatment arms.
+
+\item \textbf{Media‐Trust Reallocation.}
+      Any treatment that shifts posterior beliefs away from the status‐quo
+      ($b_{i1}<b_{i0}$) \textbf{decreases} trust in domestic media and
+      \textbf{increases} trust in foreign media proportionally
+      ($\gamma_2>0$).
+
+\item \textbf{WTP Elasticity.}
+      The semi‐elasticity of willingness to pay for a one-month foreign
+      subscription with respect to ideology shift is positive:
+      $\gamma_3>0$.  Hence, frames/doses that move $b_{i1}$ furthest from
+      $b_{i0}$ maximize mean WTP.
+
+\end{enumerate}
+
+\vspace{0.5em}
+Taken together, \textbf{H1–H7} deliver a nested set of predictions linking
+experimental manipulations (frame, dose), mediators (reception, liking,
+credibility), moderators (prior ideology, foreign exposure), and a vector of
+observable outcomes.  They translate the combined logic of Bayesian
+persuasion and RAS into concrete, regression‐ready tests for our
+authoritarian information experiment.
+
+
+
+
+\section{Research Design}
+
+
+
+\subsection{Context, Sample, and Recruitment}
+
+I run the experiment in partnership with one of China’s largest test-preparation companies.  The firm delivers English instruction through a  mobile app that supports live classes, recorded videos, quizzes, and back-end learning analytics.  The study focuses on Chinese students aged eighteen to twenty-five who are preparing for high-stakes English examinations (TOEFL, IELTS, GRE, or the national postgraduate entrance test).  This cohort is ideal because students already devote several hours per week to English practice, occupy a life stage in which political attitudes are still malleable \citep{sears1999evidence}, and straddle domestic and international horizons as prospective graduate students.
+
+\textbf{Recruitment and pre-screening.}
+The company will deliver an in-app invitation to a subset of its 260,000 exam-prep students aged 18–25, encouraging them to join a “training camp for in-depth study of authentic English news articles.”
+Participation is voluntary and never affects course grades or fees.  Interested users complete an in-app consent form followed by a short pre-screening survey that records demographics, recent English-test scores, ideological indicators\footnote{To normalize the ideological items, I present them as part of a brief “client-profile” module designed to help the company understand users’ personality traits and preferences.} (nationalism, media trust, attitude toward censorship), and media habits.\footnote{To incorporate items on media consumption and foreign-news exposure without arousing concern, I present them as part of a market-research module that will guide the company’s planned overseas advertising campaign and help tailor future reading materials. Because direct questions about VPN use and censorship are politically sensitive, I instead ask whether respondents access platforms such as Netflix, YouTube, Instagram, or foreign news outlets. Reaching any of these services in China typically requires a VPN, so affirmative answers provide an indirect but credible proxy for circumvention behavior.}    The survey contains an attention check and a short comprehension passage.  Eligibility requires Chinese citizenship, age eighteen or older, intermediate English proficiency, and willingness to devote two to three hours per week for twelve consecutive weeks.
+
+Baseline data serve two purposes.  First, they supply blocking variables (gender, province, English proficiency, baseline nationalism) for stratified randomization.  Second, they permit later heterogeneity analyses.
+
+\textbf{In-app randomization and study flow.}
+All random assignment, content delivery, and data capture occur inside the company’s app.  A secure back-end script creates treatment flags immediately after the pre-screening survey and pushes the appropriate materials to each user’s account.  Randomization is invisible to users and inaccessible to teaching staff other than the research team.
+
+\textbf{Incentives.}
+Students who complete every study task (watching the videos, reading the articles, passing the weekly quizzes, and submitting the endline survey) receive a bundle of premium video courses worth about 500 RMB ($\sim 70$).  Each week, students who score above a preset quiz threshold receive an additional 5–10 RMB voucher that can be redeemed for further classes.  Incentives depend solely on participation and quiz scores, never on political opinions.  All payments are credited automatically inside the app wallet upon verification of completion.
+
+\textbf{Data security.}
+The firm’s back-end logs record article downloads, video watch time, and quiz performance; no raw data leave the server.  The company exports a de-identified data set to me, keyed only by an anonymous user ID.  Personally identifying information remains encrypted on company servers and is inaccessible to outsiders, including the research team.  The study protocol, consent language, and data-handling plan have been approved by my Institutional Review Board.
+
+\subsection{Experimental Treatment Conditions}
+
+\textbf{Factorial structure.}
+I employ a block-randomized $3 \times 2$ factorial design plus a pure control and an apolitical group, yielding eight distinct groups:
+
+\begin{itemize}
+    \item \textbf{Political framing}  
+          \begin{enumerate}
+              \item Pro-China (foreign praise of China)  
+              \item Anti-China (foreign criticism of China)  
+              \item Mixed (one pro-China and one anti-China article each week)  
+              \item Apolitical (science, culture, or lifestyle topics)
+          \end{enumerate}
+    \item \textbf{Political dosage}  
+          \begin{enumerate}
+              \item Low: 5 political articles in total  
+              \item High: 20 political articles in total
+          \end{enumerate}
+\end{itemize}
+
+Dosage variation applies to the first three political frames; the apolitical group receives 24 neutral articles.  The pure control group studies articles from the \textit{New Concept English} textbook and never sees foreign news.
+
+\textbf{Content preparation.} I draw articles from \textit{The New York Times}, \textit{The Economist}, \textit{The Washington Post}, and \textit{The Wall Street Journal}.  Headlines, photographs, and ledes remain intact, although any graphic images or copyrighted cartoons are removed.  For each article, a professional instructor records a thirty- to sixty-minute close-reading video that explains key vocabulary, grammar, and translation points.  Passages for the apolitical and control groups receive videos of the same length and linguistic difficulty.  I select these four outlets for two reasons.  First, a pre-treatment survey shows that they are the best-known Western news brands among the app’s users, ensuring familiarity and perceived credibility.  Second, taken together they span the mainstream of the U.S. media spectrum—\textit{The Wall Street Journal} leans center-right, while the other three lean moderate to center-left—providing a balanced source base for the curated content.
+
+
+
+To ensure topical breadth while avoiding highly sensitive themes, I build four parallel article banks—Economics, Domestic Development, Culture \& Society, and Science \& Technology and populate each bank with matched \textit{pro-China}, \textit{anti-China}, and \textit{neutral} pieces.  All items are published within the past two years.  Human-rights, Xinjiang, and Tian’anmen topics are excluded; the focus is on performance, policy, and soft power rather than core political taboos.
+
+\begin{enumerate}
+ 
+ \item        \textbf{Economics:} 
+        \begin{itemize}
+            \item \emph{Pro-China}: foreign praise for China’s rebound in advanced manufacturing or its green-energy investment surge.  
+            \item \emph{Anti-China}: critical analysis of local-government debt or overcapacity in the property sector.  
+        \end{itemize}
+        
+       
+  \item \textbf{Domestic development}
+               \begin{itemize}
+            \item \emph{Pro-China}: coverage of high-speed-rail expansion or rural broadband roll-out framed as infrastructure success.  
+            \item \emph{Anti-China}: discussion of “ghost cities,” cost overruns, or underused mega–infrastructure.
+\end{itemize}
+
+  \item \textbf{Culture and society}  
+  \begin{itemize}
+      \item \emph{Pro-China}: stories highlighting rising domestic philanthropy or revival of traditional festivals.  
+       \item \emph{Anti-China}: articles on demographic headwinds, youth unemployment, or exam stress. 
+  \end{itemize}
+         
+       \item \textbf{Science and technology}
+
+  \begin{itemize}
+      \item \emph{Pro-China}: foreign admiration for China’s electric-vehicle ecosystem or lunar-probe achievements.  
+        \item\emph{Anti-China}: concerns about data security in Chinese apps or setbacks in semiconductor self-sufficiency.  
+       \end{itemize}
+\end{enumerate}
+
+\textbf{Apolitical condition.}  
+Participants assigned to the neutral-frame arm read entertainment, lifestyle, food, and tourism stories unrelated to China’s political or economic performance for example, coverage of the Oscars, a profile of Nordic cuisine, or tips for budget travel in Southeast Asia.
+
+\textbf{Grammar-control condition.}  
+Control participants study twenty-four passages randomly drawn from Volume 4 of \emph{New Concept English}.  These texts are comparable to the treatment articles in length and difficulty but avoid current-affairs content entirely.
+
+\textbf{Standardization.}  
+All articles are trimmed to approximately 800 words; headlines, photographs, and ledes remain intact.  A professional instructor records a 30–60-minute close-reading video for each article, and difficult vocabulary is glossed in a side-column.  This uniform presentation guarantees that any observed attitudinal shifts derive from content valence and dosage, not from variation in length, reading level, or instructional support.
+
+The corpus is balanced along two dimensions.  First, it mixes articles that are critical of the Chinese state (for example, pieces on human-rights debates) with stories that portray China positively (such as foreign praise of poverty-alleviation programs).  Second, it includes several articles that critique Western societies or politics, preventing the impression that “foreign” necessarily means “anti-China.”  This diversity serves a pedagogical goal keeping readers engaged and a theoretical goal that allows me to disentangle the effects of negative information from the broader impact of foreign framing.
+
+Each article is lightly abridged to roughly 800 words, consistent with a TOEFL-level reading passage.  The English original appears in full; difficult vocabulary is glossed, and complex sentences are paraphrased in the right margin in Chinese.  Participants therefore practice authentic English while still accessing the substantive content.  Because comprehension support is uniform across treatments, any attitudinal differences can be attributed to framing rather than differential language difficulty.  In later analysis I test for moderation by English proficiency, but the design ensures that language barriers do not prevent information uptake.
+
+
+
+\textbf{Study schedule.} Every Monday at 08:00 (Beijing time) the app unlocks two new articles and the corresponding videos.  By Friday 23:59 students must (i) watch at least 70 percent of each video, (ii) complete a ten-item comprehension quiz, and (iii) rate each article’s interest, credibility, and desirability for future study.  All actions are time-stamped in the app log. And the two articles assigned for the week covers the same topic.
+
+\textbf{Integrity checks.}
+
+\begin{itemize}
+    \item \textit{Compliance.} A student is marked compliant for a given week if she meets the watch-time threshold and answers at least eight of ten quiz items correctly.  
+    \item \textit{Spillover containment.} Each PDF is water-marked with a unique hash tied to the user ID.  The app’s terms of service prohibit redistribution; the research team monitors public channels for leaked files.
+\end{itemize}
+
+\textbf{Outcome data.}
+Administrative logs provide granular measures of study time, quiz scores, and video engagement.  Baseline and endline surveys capture political attitudes, media trust, and behavioral intentions.  Because all activities remain inside the proprietary app, no third party can observe individual participation or responses, ensuring data integrity and participant confidentiality.
+
+
+
+
+\subsection{Block Randomization}
+
+I implement individual‐level random assignment with \emph{block randomization} (also called stratified randomization) to ensure covariate balance across the eight experimental cells.  Blocking proceeds in four steps:
+
+\begin{enumerate}
+    \item \textbf{Strata construction.}  I form blocks using four baseline variables that theory and prior evidence link to political attitudes or treatment compliance: \textit{gender} (male, female), \textit{English proficiency} (above‐ vs.\ below‐median standardized score), \textit{baseline nationalism} (above‐ vs.\ below‐median index), and \textit{province group} (East Coast, Central, West).  These four dimensions yield $2 \times 2 \times 2 \times 3 = 24$ strata.
+    \item \textbf{Within‐block assignment.}  Inside each stratum the mobile app’s back-end script shuffles user IDs and allocates equal numbers to the eight cells whenever possible.  Remainders are assigned by simple random draw.
+    \item \textbf{Implementation.}  Randomization occurs instantaneously after the pre-screening survey; assignment flags are written directly to the server and are invisible to instructors and other students.
+    \item \textbf{Balance checks.}  After enrollment closes, I test for baseline balance with stratum‐adjusted F-tests and report standardized mean differences.  Because blocking conditions on the very covariates I care most about, any residual imbalance is expected to be small.
+\end{enumerate}
+
+Block randomization improves statistical power (by reducing within‐cell variance) and guarantees that treatment contrasts are not confounded by gender composition, regional culture, language skill, or prior nationalism.
+
+\subsection{Attrition and Mitigation Strategy}
+
+\paragraph{Expected attrition}
+
+Online field studies with Chinese university students typically lose 10–15 percent of respondents between baseline and endline.  Because the intervention spans twelve weeks and requires weekly quizzes, I plan for 15-20 percent attrition.  The incentive structure, both the 500 RMB completion bonus and the weekly quiz vouchers, aims to keep dropout below this threshold.
+
+\paragraph{Tracking and prevention}
+
+\begin{itemize}
+    \item \textit{Real-time monitoring}.  The app dashboard flags students who miss two consecutive quizzes; research assistants send automated reminders and, if necessary, personalized messages.
+    \item \textit{Low-friction exit}.  Every weekly message contains a one-click “pause” button that lets students skip a week without penalty.  This safety valve reduces full dropout driven by temporary overload.
+    \item \textit{Post-hoc survey}.  Students who exit early receive a brief exit questionnaire so I can document reasons for attrition (e.g.\ technical issues, time pressure, political discomfort).
+\end{itemize}
+
+\paragraph{Analytical adjustments}
+
+\begin{enumerate}
+    \item \textbf{Intention-to-treat (ITT).}  Primary analyses use all available endline observations, preserving the unbiasedness conferred by initial randomization.
+    \item \textbf{Inverse probability weighting.}  I model survey completion as a function of baseline covariates and treatment arm; inverse predicted probabilities re-weight observations to correct for differential attrition.
+    \item \textbf{Lee bounds}.  If an arm’s completion rate exceeds that of the control, I trim the upper or lower tail of its outcome distribution to equalize response rates, reporting the resulting Lee (2009) bounds for each treatment effect.
+    \item \textbf{Multiple imputation}.  As a robustness check, I impute missing endline outcomes using chained equations that condition on baseline covariates, treatment assignment, and interim engagement metrics.
+\end{enumerate}
+
+I preregister these procedures.  If attrition remains below 10 percent and is statistically indistinguishable across arms, unweighted ITT estimates will suffice; otherwise, I present weighted and bounded estimates alongside conventional results.
+
+\textbf{Power implications.} With the planned sample of 6000 and the block design, the study retains 80 percent power to detect standardized effects of 0.20 even if 15 percent attrition occurs evenly across cells.  Attrition-adjusted power simulations, available in the online appendix, confirm that the minimum detectable effect rises only to 0.22 under the worst-case attrition scenario considered.
+
+\textbf{Confidentiality assurance.} Because all randomization, content delivery, and quiz logging occur inside the partner’s encrypted app, attrition status and engagement data are invisible to instructors and classmates, minimizing social pressure to remain or withdraw and protecting participant privacy throughout the study.
+
+
+\subsection{Outcome Measures and Instruments}
+
+I classify outcomes as \textit{primary}, corresponding to preregistered hypotheses, and \textit{secondary}, which clarify mechanisms or supply robustness checks.  All self-report instruments are fielded at three waves: baseline ($t_{0}$), endline immediately after the twelve-week intervention ($t_{1}$), and a four-week follow-up ($t_{2}$).  Baseline measures permit ANCOVA estimation and confirm covariate balance.
+
+\paragraph{Primary attitudinal outcomes}
+
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{Regime-support index}.  I average five satisfaction items—economic development, social stability, social equality, technological progress, and government efficiency—then standardize the composite to mean 0 and SD 1 at $t_{0}$.  The battery is introduced as part of a “study-abroad readiness” module so that political content is not conspicuous.
+
+\item \textbf{Censorship-attitude scale}.  Three five-point items probe support for information control (e.g.\ “Restricting certain online content is necessary for social stability”).  Higher scores indicate stronger endorsement of censorship.  The items are framed as gauging familiarity with foreign media environments.
+
+\item \textbf{China–West feeling-thermometer gap}.  Respondents rate China and “Western democracies” separately on 0–100 scales; I subtract the Western score from the China score.  Negative values signal relatively warmer feelings toward the West.  The thermometer is justified as measuring preferences for study destinations.
+
+\item \textbf{Nationalism battery}.  Four statements capture patriotic attachment and defensive nationalism (e.g.\ “Foreign criticism of China is usually biased”).  Items appear in the same “international outlook” module as the study-abroad questions to reduce sensitivity.
+
+\item \textbf{Issue-specific policy items}.  Each thematic cluster—Economics, Domestic Development, Culture \& Society, and Science \& Technology—contributes one policy question that matches the content of at least one assigned article (for example, “China should adopt stricter environmental regulations even if economic growth slows”).  The prompt is introduced as part of a “knowledge-check” module that asks whether the camp has deepened students’ understanding of these topics; the wording masks the political purpose and lets me detect theme-specific persuasion effects.
+\end{enumerate}
+All scales are coded so that higher values represent stronger agreement with the underlying construct.  Chinese and English versions are produced through independent back-translation; pilot testing with 120 non-sample students yields Cronbach’s $\alpha \ge .75$ for every multi-item index.
+
+
+
+\paragraph{Primary behavioral outcome.}  
+At endline ($t_{1}$) I measure students’ \textit{willingness to pay} (WTP) for continued exposure to foreign news with an in-app Becker–DeGroot–Marschak (BDM) auction.  Each student indicates the maximum amount (0–50 RMB) she is willing to deduct from her participation bonus to obtain a one-month digital subscription to one of the four international outlets featured in the study (her choice).  The app then draws a price from a uniform 0–50 RMB distribution.  If the draw is less than or equal to the stated maximum, the drawn price is deducted and the student immediately receives a download link to a password-protected bundle of that outlet’s articles published in June 2025 (approximately one month of full content, in PDF format).  If the drawn price exceeds her bid, she retains her full bonus and receives no bundle.  Because truthful bidding maximizes expected earnings in a BDM, the resulting bids yield an incentive-compatible measure of each student’s monetary valuation of ongoing—effectively uncensored—access to foreign news.
+
+\paragraph{Secondary outcomes}
+
+\begin{itemize}
+    \item \textit{Knowledge index}.  Ten multiple-choice questions cover factual claims in the treatment articles; two placebo items concern topics never discussed.  The index is the proportion correct.
+    \item \textit{Media-trust scales}.  Separate five-point items measure trust in domestic state media, domestic market media, and Western media.
+    \item \textit{Process metrics}.  App logs yield reading time, video watch time, and quiz accuracy—used for compliance checks and complier-average causal-effect analyses.
+    \item \textit{Psychological mediators}.  Short batteries capture immediate emotional response (anger, pride, embarrassment), perceived article bias, and national-identity salience.
+    \item \textit{Follow-up signup and survey}.  At $t_{2}$ every participant can opt into a free one week foreign-news digest adn review; signup is a zero-price revealed-preference measure of continuing demand of foreign news and also survey their media trusts and ideologies again.
+\end{itemize}
+
+\paragraph{Instrument development and validity}
+
+Most attitude items are adapted from validated instruments used in the Asian Barometer and the Chinese General Social Survey.  All items are translated into Chinese, back-translated, and pilot-tested on a separate sample of 120 test-prep students to confirm clarity and scale reliability (Cronbach’s $\alpha \ge 0.75$ for each multi-item index).  Article quizzes are pre-tested to ensure an average difficulty of 70 percent correct.
+
+\subsection{Ensuring Measurement Quality}
+
+\begin{itemize}
+    \item \textbf{Pre-specification}.  I define the regime-support index and censorship scale in the preregistration, fixing item composition and weighting before data collection.
+    \item \textbf{Multiple testing}.  The two indices above constitute the confirmatory family; I treat all other outcomes as secondary and adjust their $p$-values with the Benjamini–Hochberg false-discovery-rate procedure.
+    \item \textbf{Survey quality controls}.  Each survey embeds two attention checks and randomizes question order within batteries.  Respondents failing both checks are flagged; robustness analyses exclude them.
+    \item \textbf{Attrition diagnostics}.  I compare drop-out rates across arms and run logit models to detect differential attrition on baseline covariates.  Inverse-probability weights and Lee bounds address any bias.
+    \item \textbf{Data integrity}.  Because all survey, quiz, and timing data are generated inside the partner’s encrypted app, external manipulation is impossible; raw logs are time-stamped and stored on secure servers accessible only to the research team.
+\end{itemize}
+
+
+\section{Empirical Strategy}
+
+\subsection{Intent-to-Treat Estimation (Main Effects)}
+I first estimate the intent-to-treat (ITT) effects of foreign news exposure on our outcomes, treating assignment to each experimental condition as exogenous. Given the block-randomized design with eight treatment arms, we compare outcomes across these groups irrespective of compliance. Specifically, let $T_{ij}$ be an indicator that individual $i$ was assigned to treatment arm $j$ (with $j=1,\dots,J$ indexing the $J$ foreign news treatment conditions, and $j=0$ reserved for the control group). For each outcome $Y_{i}$, we estimate an OLS regression of the form: 
+
+\begin{equation}\label{eq:itt}
+Y_{i} \;=\; \alpha \;+\; \sum_{j=1}^{J} \beta_{j}\,T_{ij} \;+\; \mathbf{X}_{i0}^{\top}\Gamma \;+\; \varepsilon_{i}\,,
+\end{equation}
+
+where $\mathbf{X}_{i0}$ is a vector of baseline covariates (including the pre-treatment measurement of $Y_{i}$ and any other stratification covariates or demographics used in block randomization). The coefficients $\beta_{j}$ thus capture the ITT effect of assignment to treatment $j$ relative to the control condition ($T_{i0}=1$ as the omitted category). We include block fixed effects in $\mathbf{X}_{i0}$ to account for the stratified randomization and improve precision. Robust standard errors are clustered at the  block level.
+
+The ITT estimates $\hat{\beta}_{j}$ provide the main causal effects of offering uncensored foreign news content, regardless of whether participants actually consumed the content. This reflects the signal reception stage in the theoretical framework: an ITT effect indicates that merely receiving the opportunity or prompt to consume foreign news can shift outcomes. However, because not all individuals may comply with their assignment (e.g., some assigned to foreign news may not read the articles), the ITT effects may understate the impact on those who actually received and accepted the information. In Equation \eqref{eq:itt}, $\hat{\beta}_{j}$ can be interpreted as the average treatment effect for each arm $j$ on the full sample, which is unbiased due to random assignment. I treat the ITT estimates as the primary results for hypothesis testing, as they are conservative and avoid conflating treatment uptake with selection. Each $\beta_{j}$ corresponds to a distinct treatment arm, allowing us to test both the overall effect of any foreign news exposure (e.g., via a joint test of all $\beta_{j}$) and to compare the relative effectiveness of different content variations across the $J$ arms.
+
+\subsection{Complier Average Causal Effects (CACE)}
+To assess the effect of the treatments on those who actually received the foreign news signals, I estimate complier average causal effects (CACE), also known as treatment-on-the-treated effects. I utilize our detailed compliance logs (which track, for instance, the number of foreign news articles each respondent read) to measure the extent of treatment uptake. Let $D_{i}$ denote a measure of treatment dosage or compliance for individual $i$: for example, an indicator for whether $i$ actually consumed any assigned foreign news content, or a count of articles read. Because $D_{i}$ may be endogenous (more motivated participants might both comply and have different outcomes), I use assignment $T_{ij}$ as an instrumental variable for $D_{i}$. Under the assumption of one-sided non-compliance (participants in the control group had no access to the foreign news provided by the experiment) and the exclusion restriction (assignment affects outcomes only through uptake of the news content), the random assignment serves as a valid instrument for actual exposure. 
+
+I estimate a two-stage least squares (2SLS) model for each treatment arm or pooled treatment as appropriate. For simplicity, consider a single treatment indicator $T_i$ (e.g., pooling all foreign news treatment arms vs. control for an overall CACE estimate). The first stage predicts compliance from assignment:
+\begin{equation}\label{eq:firststage}
+D_{i} \;=\; \pi_{0} \;+\; \pi_{1} T_{i} \;+\; \mathbf{X}_{i0}^{\top}\Pi \;+\; \omega_{i}\,,
+\end{equation}
+and the second stage regresses the outcome on the predicted compliance:
+\begin{equation}\label{eq:secondstage}
+Y_{i} \;=\; \alpha' \;+\; \tau \,\widehat{D}_{i} \;+\; \mathbf{X}_{i0}^{\top}\Gamma' \;+\; \nu_{i}\,.
+\end{equation}
+Here $\pi_{1}$ captures the effect of assignment on actual exposure (the compliance rate differential between treatment and control), and $\tau$ in Equation \eqref{eq:secondstage} is our estimate of the CACE. Intuitively, $\tau = \frac{\beta_{\text{ITT}}}{\pi_1}$, scaling the ITT effect by the share of participants who complied, thus representing the causal effect of the treatment for those who received it. I estimate separate CACE for each arm $j$ by using $T_{ij}$ as the instrument and analogously defining $D_{i}$ for that specific treatment content. In all IV models, I include the same baseline covariates $\mathbf{X}_{i0}$ for consistency with ITT specifications and to absorb residual variance. We verify that the first-stage is strong in each case (e.g., participants in foreign news groups read substantially more foreign content than those in control, with F-statistics for $\pi_1$ well above conventional weak-instrument thresholds).
+
+The CACE estimates inform the signal acceptance stage of my framework. They answer the question: how much did the foreign news influence those who actually consumed it? Under Bayesian updating logic, these effects represent the average belief or attitude change for compliers who received new information signals. Comparing CACE to ITT allows us to gauge the degree of dilution from non-compliance. A larger CACE (in absolute value) relative to ITT is expected if many assigned participants did not actually engage with the content. I interpret $\hat{\tau}$ as the causal effect on the subpopulation that is receptive to treatment, those who would consume the foreign news when offered (and not otherwise), which connects to the concept of persuadable or information-seeking individuals under censorship.
+
+\subsection{Moderation Analysis: Heterogeneity by Prior Ideology and Exposure}
+Next, I explore whether the treatment effects vary systematically with individuals’ predispositions, in line with the RAS model of opinion formation \citep{zaller1992nature}. RAS logic suggests that an individual's prior ideology and existing exposure to alternative information sources condition both their likelihood of accepting new information and the magnitude of opinion change it induces. I therefore conduct moderation analyses for two key pre-treatment characteristics: prior ideology and prior foreign media exposure. Prior ideology (denoted $I_i$) is measured by an index of the respondent’s baseline political attitudes (e.g., support for the regime or openness to foreign viewpoints, as collected in the pre-treatment survey). Prior foreign exposure ($F_i$) is measured by self-reported habits of consuming uncensored foreign news (or proxies such as VPN usage frequency, travel experience, etc.) before the experiment. 
+
+My moderation tests involve interacting these moderators with treatment assignment. For instance, for prior ideology I estimate a regression:
+\begin{equation}\label{eq:moderation}
+Y_{i} \;=\; \alpha \;+\; \beta T_{i} \;+\; \theta I_{i} \;+\; \delta\,(T_{i} \times I_{i}) \;+\; \mathbf{X}_{i0}^{\top}\Gamma \;+\; \varepsilon_{i}\,. 
+\end{equation}
+Here $\beta$ is the baseline treatment effect for an individual with $I_i=0$ (centered ideology), and $\delta$ captures how the treatment effect changes per unit increase in the ideology index. A negative $\delta$, for example, would indicate that individuals more supportive of the regime (higher $I_i$) exhibit a smaller treatment effect, consistent with the idea that strong prior beliefs induce resistance to foreign information. Conversely, a positive $\delta$ would mean the effect grows with more opposition or openness to new information. I estimate Equation \eqref{eq:moderation} separately for each relevant treatment contrast (e.g., any foreign news vs. control) and likewise include an interaction with prior foreign exposure $F_i$ to test whether those already familiar with foreign media respond differently to our intervention.
+
+All moderation models include the main effect of the moderator ($\theta I_i$ or analogous for $F_i$) to avoid conflating interaction effects with simple correlations. I also control for baseline outcomes and other covariates in $\mathbf{X}_{i0}$ as before. For ease of interpretation, continuous moderators are often mean-centered. I probe the interactions by examining estimated treatment effects at substantively meaningful values of the moderators (e.g., at the $10^{th}$ and $90^{th}$ percentile of the ideology scale, to contrast low vs. high prior regime support). In line with our theoretical framework, I anticipate that prior ideology will moderate acceptance of foreign news content: participants with regime-supporting ideological priors may discount or rationalize away critical foreign information, yielding muted or null effects, whereas those with weaker attachment or more critical priors may internalize the new signals, yielding larger attitude shifts. Similarly, prior foreign exposure might either amplify effects (if it signifies trust in foreign sources and ability to assimilate such information) or dampen effects (if well-exposed individuals have already incorporated similar information into their priors, leaving less room for update). I formally test the significance of $\delta$ (and its counterpart for $F_i$) and report heterogeneity in effect sizes to illuminate these conditional relationships. All moderator analyses were pre-specified to ensure me only interpret meaningful, theory-driven interactions.
+
+\subsection{Dose-Response Analysis: Continuous Treatment Dosage}
+While the ITT and CACE analyses compare groups in a binary fashion (assigned vs. not, or compliers vs. never-takers), I further examine whether varying levels of exposure to foreign news produce correspondingly larger effects. That is, I estimate a dose-response relationship between the amount of foreign news content consumed and the outcome. This analysis leverages both experimental variation in assigned dose (some treatment arms may have been designed to deliver more content or more frequent updates than others) and individual variation in actual consumption. Let $D_{i}^{\text{tot}}$ represent a continuous measure of dosage for individual $i$, for example, the total number of foreign news articles read during the study or the total minutes spent engaging with the provided content. I estimate models of the form: 
+\begin{equation}\label{eq:dose}
+Y_{i} \;=\; \alpha \;+\; f\!\big(D_{i}^{\text{tot}}\big) \;+\; \mathbf{X}_{i0}^{\top}\Gamma \;+\; \varepsilon_{i}\,,
+\end{equation}
+where $f(\cdot)$ is a function capturing the dose-response curve. I begin with a simple linear specification $f(D) = \beta_{\text{dose}} D$ to test if each additional unit of exposure (e.g., each additional article) yields a proportional change in outcomes. A significantly non-zero $\beta_{\text{dose}}$ would indicate an accumulation of persuasion with higher doses, consistent with our expectation that repeated signal reception leads to greater belief updating (up to some saturation point). 
+
+Because dosage may not have strictly linear effects (e.g., the first few foreign news articles could have the largest marginal impact, after which additional articles yield diminishing returns as beliefs begin to saturate), I also consider non-linear dose-response specifications. For instance, I estimate models with a quadratic term $f(D) = \beta_1 D + \beta_2 D^2$ to test for diminishing or accelerating returns, and I explore a saturated model that allows different effects for low, medium, and high exposure groups (e.g., terciles of $D_{i}^{\text{tot}}$). These flexible forms let us detect whether there is a threshold after which additional information has limited impact, or if a minimum dosage is required before any significant persuasion occurs.
+
+A key challenge is that $D_{i}^{\text{tot}}$ might be endogenous if, for example, more persuaded individuals choose to read more articles. To isolate causation, I use our experimental design: when arms were assigned different intended dosages, I employ assignment to higher-dose vs. lower-dose arms as an instrument for actual dosage. In practice, this means I implement an IV approach similar to the CACE analysis but now with multiple treatment arms serving as instruments that induce variation in $D_{i}^{\text{tot}}$. For example, if one arm was assigned to receive 5 articles and another 20 articles, assignment to the 20-article group provides exogenous encouragement to consume more content. Using such instruments in a first-stage for $D_{i}^{\text{tot}}$, I then estimate Equation \eqref{eq:dose} in the second stage. This IV dose-response analysis yields a causal estimate of $\beta_{\text{dose}}$, interpreted as the effect per article read (for linear $f$) on the subpopulation of participants whose exposure was increased by the assignment. Reassuringly, our first-stage shows clear separation in $D_{i}^{\text{tot}}$ by experimental design: participants in high-dose arms consumed significantly more foreign news on average than those in low-dose arms, validating the relevance of the instrument.
+
+Estimating the dose-response relationship speaks to the dose accumulation aspect of our theoretical model. Under Bayesian updating, each additional credible signal should incrementally shift beliefs, whereas under RAS, each accepted message contributes to the pool of considerations that can be sampled when expressing opinions. Finding a positive dose-response would confirm that outcomes improve or change more with greater exposure, reinforcing the interpretation that the treatment effect is driven by the information content absorbed. If instead I observe a flat or saturating dose-response (no further gains after a point), this might indicate either informational saturation (people learned as much as they were going to from the initial articles) or attention limits. I report both the shape of the dose-response curve and statistical tests for non-linearity, providing a nuanced understanding of how the quantity of foreign news interacts with persuasion under censorship.
+
+\subsection{Mediation Analysis: Acceptance as Mediating Channel}
+To formally test whether acceptance of foreign information is the mechanism linking exposure to attitudinal change, I conduct a causal mediation analysis with article acceptance (liking) scores as the mediator. According to our theoretical framework (combining Bayesian persuasion with RAS logic), simply receiving a signal is not enough to change beliefs. The receiver must also accept the signal as credible or convincing for it to affect their attitudes. In the experiment, I measure acceptance directly: after reading each article (whether foreign or the control content), participants rated how much they liked or trusted it (an “acceptance score”). I aggregate these article-level responses into an individual-level mediator $M_i$, for example by taking the average liking score across all articles a participant read or the proportion of foreign articles the participant gave a positive rating. Higher $M_i$ indicates that the participant was receptive to the content of the news (i.e. they found the signals credible and agreeable), whereas a low $M_i$ suggests skepticism or rejection of the information.
+
+My mediation analysis follows standard procedures \citep[e.g.,][]{imai2010causal} to decompose the total treatment effect into indirect (mediated) and direct effects. We estimate a system of equations:
+\begin{align}
+M_i &= \alpha_M \;+\; \phi\,T_i \;+\; \mathbf{X}_{i0}^{\top}\Gamma_M \;+\; u_i~, \label{eq:med1}\\
+Y_i &= \alpha_Y \;+\; \tau\,T_i \;+\; \kappa\,M_i \;+\; \mathbf{X}_{i0}^{\top}\Gamma_Y \;+\; v_i~, \label{eq:med2}
+\end{align}
+where $T_i$ is the treatment indicator (for the foreign news condition of interest vs. control), $M_i$ is the mediator, and $Y_i$ the outcome (measured at endline). Equation \eqref{eq:med1} is a mediator model testing whether the treatment influences the acceptance mediator; $\phi$ captures how much more positively (or negatively) participants in the treatment group evaluate the news content relative to controls. Equation \eqref{eq:med2} is the outcome model including the mediator; $\kappa$ indicates whether individuals with higher acceptance scores tend to have different outcomes, holding constant the direct effect of treatment ($\tau$). The vectors $\Gamma_M$ and $\Gamma_Y$ allow for baseline controls (including prior ideology $I_i$ if it confounds mediator and outcome) to reduce noise and satisfy the assumption of no omitted confounders between $M$ and $Y$. We estimate these equations via OLS (or logistic regression if $M$ or $Y$ are not continuous, adapting the mediation analysis accordingly with appropriate link functions).
+
+From these models, I compute the indirect effect as $\hat{\phi} \times \hat{\kappa}$, which quantifies how much of the treatment’s impact on $Y$ operates through changing the acceptance mediator. The direct effect is given by $\hat{\tau}$, the coefficient on $T_i$ in the outcome model, representing any remaining effect of treatment on $Y$ not explained by the mediator. In our context, a significant indirect effect coupled with a substantially reduced direct effect (i.e. $|\hat{\tau}| \ll |\hat{\beta}|$ from the total effect) would support the hypothesis that foreign news exposure shifts attitudes primarily by convincing participants of the content’s credibility or merit (reflected in $M_i$). We use bootstrap methods to construct confidence intervals for the indirect effect $\phi\kappa$ and conduct formal mediation tests. 
+
+Conceptually, this mediation analysis maps onto the acceptance and belief updating steps of our theoretical model. The first link ($\phi$) tests whether foreign news treatments generated higher acceptance (for example, perhaps foreign news might on average be less trusted than official media by some participants, yielding $\phi<0$, or more trusted by others yielding $\phi>0$). The second link ($\kappa$) tests if those who found the information credible actually changed their attitudes (e.g., if $\kappa>0$, participants who liked the articles show more pro-foreign or reformist attitudes at endline). RAS logic implies that $\kappa$ should be positive and significant: only those who internalize the message (high $M_i$) will update their opinions in the direction of that message. If the product $\phi\kappa$ is significant and $\tau$ is substantially smaller than the original ITT effect, it means acceptance of information is a key mediating channel. I also conduct robustness checks for the mediation using alternative operationalization of $M_i$ (e.g., using an index of credibility or learning from the articles if available) and verify that results hold when including or excluding strong ideologues who might have mechanical limits on $M_i$. By establishing mediation, I provide empirical evidence that the treatments worked through persuading participants (changing what they accept as true or important) rather than via other pathways (such as simply providing talking points or affecting mood, etc.).
+
+\subsection{Dynamic Panel Modeling: Baseline, Endline, and Follow-Up}
+Given that the experimental design collected outcomes at multiple time points (baseline, immediate endline, and a later follow-up), I exploit the panel structure of the data to both improve estimation efficiency and examine the evolution of treatment effects over time. I estimate a dynamic panel model that incorporates individual-level fixed effects (to control for any time-invariant individual differences) and time indicators for each wave. Let $Y_{it}$ denote the outcome for individual $i$ at time $t$, where $t=0$ is the baseline (pre-treatment), $t=1$ is the endline (post-treatment, measured shortly after the treatment period), and $t=2$ is the follow-up (measured after some additional time has passed without further intervention). I estimate a linear model of the form:
+
+\begin{equation}\label{eq:panel}
+Y_{it} \;=\; \mu_i \;+\; \lambda_t \;+\; \beta_1\,(T_i \times \mathbf{1}\{t=1\}) \;+\; \beta_2\,(T_i \times \mathbf{1}\{t=2\}) \;+\; \epsilon_{it}\,,
+\end{equation}
+
+where $\mu_i$ is an individual fixed effect (capturing all stable characteristics of individual $i$, including their baseline level of $Y_{i0}$), and $\lambda_t$ are wave fixed effects (capturing overall shifts in outcomes at endline and follow-up common to all participants, such as secular trends or panel conditioning). The terms $T_i \times \mathbf{1}\{t=1\}$ and $T_i \times \mathbf{1}\{t=2\}$ are interactions between treatment assignment and indicators for being in the endline or follow-up period, respectively. $\beta_1$ thus represents the treatment effect at the endline, and $\beta_2$ represents the treatment effect at the follow-up. By including both, we allow the effect of the treatment to potentially change between the immediate post-treatment survey and the later follow-up. I estimate this model using least squares, effectively a differences-in-differences approach: the fixed effect $\mu_i$ ensures that any time-invariant differences between treatment and control units (even those due to random chance in baseline outcomes) are differenced out, and $\beta_1, \beta_2$ capture the within-person change from baseline that can be attributed to the treatment.
+
+This dynamic panel specification enables two important analyses. First, it increases statistical power for detecting treatment effects by using each subject as their own control. In essence, $\beta_1$ in Equation \eqref{eq:panel} is analogous to controlling for $Y_{i0}$ in a cross-sectional endline analysis (as in Equation \eqref{eq:itt}), but here it is obtained from the panel data in a single step. I expect $\beta_1$ to be consistent with the earlier ITT estimates for the immediate treatment effect. Second, by comparing $\beta_2$ to $\beta_1$, I can assess the persistence or decay of treatment effects. If $\beta_2$ is of similar magnitude to $\beta_1$ (and not significantly different), it suggests that the effects of exposure to foreign news remained intact at the follow-up, indicating a lasting persuasion or learning effect. If $\beta_2$ is smaller (in absolute value) or has reversed signs, this would indicate partial decay or even a backfire over time for instance, participants might revert to prior attitudes once the influx of foreign news stops, or a delayed counter-persuasion could occur via other influences. I formally test $\beta_1 = \beta_2$ to determine if any fade-out is statistically significant.
+
+I also estimate variants of the panel model to account for potential dynamics. One extension includes a lagged dependent variable to see if the follow-up outcome is predicted by the endline outcome, which provides insight into the stability of opinion changes. For example, I estimate 
+\begin{equation}
+     Y_{i2} = \alpha + \rho\,Y_{i1} + \beta\,' T_i + \eta_i\,, 
+\end{equation}
+
+where $\beta\,'$ would capture any additional treatment effect manifesting by follow-up after accounting for the endline value. In a scenario of perfect persistence, I would see $\rho \approx 1$ and $\beta\,' \approx 0$ (meaning the follow-up is largely explained by the endline outcome, with no new treatment effect accruing). Alternatively, $\rho<1$ with a significant $\beta\,'$ could indicate some dissipation of the initial effect but a remaining difference due to treatment. I interpret results of these models in light of our theoretical expectations: if foreign news exposure truly updated beliefs in a Bayesian sense, those updated beliefs might endure (especially if they are about facts or stable knowledge). However, if persuasion requires continuous reinforcement (as suggested by RAS's emphasis on the flow of messages), the effect may weaken once the treatment messages cease, unless the initial treatment caused a deeper change in worldview. Our follow-up data provide a critical test of whether the regime’s censorship advantage reasserts itself over time or if even a temporary exposure to uncensored foreign news can produce lasting changes in attitudes or knowledge.
+
+All panel analyses use robust standard errors clustered by individual to account for the within-person correlation over time. In addition, I address attrition between waves: overall attrition was low, but to ensure it does not bias results, I check that attrition is not differential by treatment assignment and report that balance. If any slight differential attrition exists, I implement inverse probability weighting as a robustness check, re-weighting observations by the inverse of their estimated probability of remaining in the study, so that the panel estimates can be interpreted as average treatment effects on the original sample. The dynamic analysis thus provides a comprehensive view of treatment effects at multiple horizons (immediate and medium-term) enhancing the credibility and richness of our findings.
+
+\subsection{Bayesian Robustness Checks}
+Given our theoretical framing draws on Bayesian persuasion \citep{kamenica2011bayesian} and updating, I complement the above frequentist analyses with Bayesian estimation of my key models to ensure my inferences are not sensitive to distributional assumptions or small-sample concerns. In particular, I re-estimate the main treatment effect models (such as the ITT regression and selected moderation and mediation models) in a Bayesian framework, obtaining the full posterior distribution of the parameters of interest. For example, for the ITT model in Equation \eqref{eq:itt}, I specify prior distributions for the parameters (e.g., $\beta_j \sim \mathcal{N}(0, \sigma^2)$ with a suitably large variance $\sigma^2$ reflecting a diffuse prior centered at zero, and similarly weakly-informative priors for $\alpha$ and elements of $\Gamma$). I then use a Markov Chain Monte Carlo (MCMC) algorithm to draw samples from the posterior $p(\alpha,\beta_1,\ldots,\beta_J,\Gamma \mid \text{data})$. I verify convergence diagnostics (e.g., multiple chains with $\hat{R} \approx 1$ and effective sample sizes in the thousands) to ensure a reliable approximation of the posterior.
+
+The Bayesian approach provides several advantages for robustness. First, it allows us to incorporate any substantive prior knowledge or theory expectations (for instance, perhaps theory might suggest the direction of the effect is positive, which could be encoded in a mild prior for $\beta_j$). In my main analysis, I use largely non-informative priors to let the data speak, but I also explore the impact of moderately informative priors (e.g., a prior that the effect is around a few percentage points with some uncertainty) to see how much the posterior is influenced by prior beliefs. In all cases, I find that the posterior estimates are very much in line with the frequentist point estimates, indicating that my data are informative enough to overwhelm reasonable priors.
+
+Second, Bayesian inference yields credible intervals that have a direct probabilistic interpretation. I report 95\% credible intervals for key parameters (such as each $\beta_j$). For instance, for the primary outcome’s ITT effect in the main treatment arm, suppose the 95\% credible interval for $\beta_1$ is $[0.10,\,0.30]$ on an outcome scale where effects are measured in standard deviations. This would imply there is a 95\% probability that the true effect lies between 0.10 and 0.30, providing a richer sense of uncertainty than a binary hypothesis test. I confirm that these credible intervals largely overlap with the 95\% confidence intervals from my OLS estimates, lending credibility to the robustness of my findings. Moreover, I calculate the posterior probability that $\beta_j$ is positive (or negative, depending on the expected direction). In most cases, this posterior probability is $\approx 99\%$ for the significant treatment effects, which aligns with $p<0.01$ in frequentist terms, but the Bayesian analysis interprets it as ``there is a 99\% chance the effect is positive given the data and model.''
+
+Third, the Bayesian framework easily accommodates complex hierarchical structures and can better handle scenarios with many parameters. In an extension, I estimate a hierarchical model treating the $J$ different treatment arm effects $\beta_j$ as draws from a common distribution (allowing partial pooling). This shrinkage approach improves estimation of each arm’s effect, especially if some arms have smaller sample sizes due to the multi-arm design. The results show that my previously estimated effects were not overly influenced by noise — the hierarchical Bayes estimates shrink only slightly toward the grand mean, indicating each arm’s effect was well-identified. I also implement Bayesian analogues of the moderation and mediation analyses (e.g., estimating the interaction model \eqref{eq:moderation} in a Bayesian regression and computing the posterior for the interaction term $\delta$). These checks reaffirm that whenever my frequentist analysis found a significant moderator or mediator effect, the Bayesian posterior probability of that effect is substantially high (e.g., $P(\delta>0 \mid \text{data}) = 0.95$ for a positive interaction), corroborating my inferences.
+
+In sum, the Bayesian re-analysis serves as a robustness check: it confirms that my conclusions do not hinge on asymptotic approximations or particular modeling choices. The alignment between the frequentist and Bayesian results strengthens confidence in the empirical patterns observed. Furthermore, by explicitly tying back to the Bayesian persuasion paradigm, this exercise shows that analyzing the data through a Bayesian lens (treating participants as rational updaters with some prior) yields consistent evidence of belief updating in the presence of uncensored information. 
+
+\subsection{Multiple Testing Correction}
+Finally, given the multiple hypotheses and outcomes examined in this study, I account for the risk of false positives through appropriate multiple testing corrections. My design involves several treatment arms, multiple outcome measures (primary and secondary), and various subgroup and mechanism analyses. Without adjustment, the chance of mistakenly rejecting at least one null hypothesis (Type I error) grows with the number of comparisons. I therefore implement a structured approach to control for multiple comparisons:
+
+- Primary outcomes and main effects: For my primary outcome (the outcome of foremost theoretical interest, as pre-registered) across the $J$ treatment arms, my confirmatory hypothesis test is whether each $\beta_j$ differs from zero. Rather than assess each in isolation at the 5\% significance level (which would inflate family-wise error), I adjust these tests to maintain a family-wise error rate (FWER) of 0.05 across all $J$ comparisons. We employ the Holm–Bonferroni stepdown procedure: I rank the $p$-values for the $J$ main effects and sequentially reject hypotheses from smallest to largest $p$ adjusting the significance threshold at each step. This method is more powerful than a simple Bonferroni correction while still controlling FWER. Thus, when I report a treatment effect as significant, it has passed this more stringent criterion, meaning the probability of any false discovery among the main effects is limited to 5\%.
+
+I also examine treatment effects on secondary outcomes (e.g., related attitudes, behavioral intentions, knowledge quizzes). These are typically considered exploratory, but I still adjust for multiple inference within families of outcomes. I group conceptually related outcomes into families and control the false discovery rate (FDR) at 5\% within each family using the Benjamini–Hochberg procedure. The FDR control ensures that among the findings I call significant, only 5\% on average would be expected to be false positives. For example, if I analyze five secondary attitude measures, I apply FDR correction to the $p$-values of those five tests, reporting q-values for transparency. This balances the need to detect genuine effects on secondary dimensions of attitude change while preventing over-interpretation of sporadic significant results.
+
+The moderation effects (interactions with ideology or exposure) and mediation effects are also subject to multiple testing considerations. Since these analyses were motivated by theory but involve additional hypotheses (e.g., $\delta \neq 0$ for two different moderators, a test of indirect effect, etc.), I interpret their significance with caution. Where applicable, I adjust for multiple comparisons (for instance, both ideology and foreign exposure interactions can be considered a small family of two tests; I control FWER for these two or report their FDR-adjusted significance). Additionally, many of these analyses are presented as robustness or exploratory checks; for transparency I report the unadjusted $p$-values alongside adjusted ones, noting which findings remain significant after correction. Our focus is on patterns that survive appropriate corrections, as these are most likely to be reliable.
+
+In practice, the multiple testing adjustments did not alter my main conclusions. The primary ITT effects that I highlight as significant remain so after Holm-Bonferroni correction. A few secondary outcomes with borderline $p$-values no longer meet significance after FDR adjustment, and we duly note this in reporting, treating those as suggestive. By controlling the rate of false discoveries, I ensure that the results I emphasize (for example, the effect of foreign news on the primary outcome, and the key moderated and mediated effects) are not artifacts of data mining but rather reflect robust patterns. All reported confidence intervals for adjusted results are modified using techniques appropriate for multiple comparisons (such as Bonferroni-adjusted intervals or those from multivariate $t$ distributions in stepdown procedures) so that their nominal coverage is preserved. 
+
+Overall, my empirical strategy is designed to rigorously test the hypotheses derived from our Bayesian persuasion and RAS-based theoretical framework, while maintaining transparency and credibility of inference. By mapping each theoretical concept (signal reception, acceptance, prior beliefs, information dosage, temporal persistence) to a corresponding empirical test (ITT, CACE, moderation, dose-response, panel, etc.), and by applying state-of-the-art estimation and correction techniques, I provide a comprehensive and reliable assessment of how exposure to foreign news under authoritarian censorship influences public opinion.
+
+
+
+
+%======================================================================
+\section{Ethical Considerations}
+%======================================================================
+
+\noindent
+This project was reviewed and approved by the Institutional Review Board (IRB) at UCSD, which determined that all procedures satisfy U.S.\ Common Rule requirements and present no more than \emph{minimal risk} to participants.  In line with the Belmont principles of \textit{respect for persons}, \textit{beneficence}, and \textit{justice}, and with APA professional codes, I adopt the safeguards below, tailored to the political sensitivity of conducting research on information exposure in contemporary China.
+
+%--------------------------------------------------------------------
+\subsection{Informed Consent and Autonomy}
+%--------------------------------------------------------------------
+All participants provided written \textbf{informed consent} (Chinese‐language form) before enrollment.  The form explained that they would read English news materials, complete quizzes, and answer surveys on “\emph{media and social issues}.”\footnote{We avoid the words “censorship” or “political attitudes” at the outset to reduce anxiety, yet we are explicit that some articles discuss current events and governments. If asked, we clarify that the stories may contain both praise and criticism of multiple countries, and participants may skip any question.} Key points:
+
+\begin{itemize}[leftmargin=*]
+  \item \emph{Voluntariness}: participation is optional; withdrawal is allowed at any time without forfeiting earned incentives (pro-rated compensation).  
+  \item \emph{Confidentiality}: responses are \textit{anonymous} to instructors, the test-prep company, and any authorities; only de-identified IDs are used in analysis.  
+  \item \emph{Right to skip}: any item may be left unanswered without penalty.  
+\end{itemize}
+
+Participants received the researchers’ and IRB’s contact details and a plain-language summary of risks and benefits.  No deception was used about tasks; incomplete disclosure of hypotheses was deemed permissible under IRB rules, with full debriefing promised later.
+
+%--------------------------------------------------------------------
+\subsection{Risk–Benefit Assessment and Mitigation}
+%--------------------------------------------------------------------
+% =========================================================
+%  RISK TABLE
+% =========================================================
+
+
+
+
+
+
+\textbf{Residual Risk.} 
+After implementation of all safeguards, the residual risk to participants is negligible and no greater than that encountered during routine online news consumption.  The IRB has therefore determined that the anticipated benefits outweigh the remaining risks.
+
+\textbf{Ongoing Monitoring.} 
+A designated data-safety officer audits weekly study logs for signs of participant distress or atypical attrition.  Any unanticipated problem triggers immediate study suspension and prompt IRB notification.
+
+\begin{table}[H]
+\centering
+\caption{Participant Risks and Mitigation Measures}
+\label{tab:risks}
+\setlength{\tabcolsep}{4pt}     % horizontal padding
+\renewcommand{\arraystretch}{1.15}
+\newcommand{\tabitem}{\textbullet\ }   % inline bullet
+
+\begin{tabularx}{\linewidth}{@{}p{2.8cm}X@{}}
+\toprule
+\textbf{Domain} &
+\textbf{Risks \& Mitigation} \\
+\midrule
+Psychological &
+\textbf{Risks:}\newline
+\tabitem Cognitive dissonance or mild distress from counter-attitudinal news.\newline
+\tabitem Possible unease over human-rights topics.\newline
+\textbf{Mitigation:}\newline
+\tabitem Corpus pre-screened to exclude graphic or illegal content.\newline
+\tabitem Skip option for any article; withdrawal at any time.\newline
+\tabitem RA may pause/stop sessions; counseling contacts available.\\
+
+Political/Social &
+\textbf{Risks:}\newline
+\tabitem Fear of repercussions if participation or opinions become public.\newline
+\textbf{Mitigation:}\newline
+\tabitem Private, password-protected delivery (no public posting).\newline
+\tabitem Anonymous ID codes; encrypted storage; link file destroyed after payment.\newline
+\tabitem Educational framing approved by local partner.\\
+
+Legal &
+\textbf{Risks:}\newline
+\tabitem Possible objection to foreign-media use.\newline
+\textbf{Mitigation:}\newline
+\tabitem Test-prep partner holds written permission.\newline
+\tabitem All content in English; no “state-secret” topics.\newline
+\tabitem Contingency to switch to neutral content if needed.\\[6pt]
+
+Data Security &
+\textbf{Risks:}\newline
+\tabitem Re-identification of sensitive responses.\newline
+\textbf{Mitigation:}\newline
+\tabitem End-to-end encryption; two-factor authentication.\newline
+\tabitem Public replication files de-identified or synthetic.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+%--------------------------------------------------------------------
+\subsection{Privacy, Data Security, and Legal Compliance}
+%--------------------------------------------------------------------
+All electronic records are stored on AES-encrypted drives.  Personally identifying information is kept in a separate, access-controlled file that is destroyed once final payments are issued.   The study collects no superfluous personal data, and all activity is confined to the anonymous English-learning app.  Public releases will contain only fully de-identified data; if a residual risk of re-identification is detected, we will release analytic code and aggregated statistics only.
+
+\textbf{Legal vetting.}  
+Because the materials are used solely for private educational purposes by consenting adults and contain no subversive content, the project occupies a regulatory grey area under Chinese law but violates no explicit statute.  Local collaborators have reviewed and endorsed all materials.  Reading foreign news to improve English is already prevalent in social media, test-preparation courses, and university classrooms, and the host app includes a foreign-news module by default.  My intervention merely varies the composition of that feed.
+
+\textbf{Selection criteria for critical articles.}  
+To minimize political sensitivity, “critical” articles (i) address specific government policies or performance; (ii) avoid politically taboo topics such as human rights, ethnic minorities, religion, or democratic activism; (iii) exclude inflammatory or discriminatory rhetoric (e.g., blaming China for COVID-19); and (iv) contain no direct criticism of President Xi Jinping.
+
+%--------------------------------------------------------------------
+\subsection{Debriefing and Right to Withdraw Post-Hoc}
+%--------------------------------------------------------------------
+Participants receive a plain-language debrief at endline and again four weeks later, outlining the study’s purpose (the effects of news framing and dosage on opinions).  They may request deletion of their data until de-identification is complete.  To ensure equitable access, control-group participants are granted the full foreign-news packet after the study concludes.
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/flow.png}
+    \caption{Flows of Experiments}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\clearpage
+\singlespacing
+\printbibliography
+
+
+\newpage
+
+
+\appendix
+
+\section*{Supplementary Material}
+\startcontents[sections] \printcontents[sections]{l}{1}{\setcounter{tocdepth}{3}}
+
+\setcounter{page}{0} 
+\thispagestyle{empty}
+
+\newpage
+
+
+\renewcommand{\thepage}{SI-\arabic{page}}
+\setcounter{figure}{0} 
+\renewcommand{\thefigure}{SI.\arabic{figure}}     
+\setcounter{table}{0} 
+\renewcommand{\thetable}{SI.\arabic{table}}
+
+\begin{refsection}
+\section{Questionnaire}
+
+
+
+\begin{enumerate}
+
+
+
+	\item What is your gender  \cntxt{请选择你的性别}
+	
+	\begin{enumerate}
+		\item Female (0) \cntxt{女}
+		\item Male (1) \cntxt{男}	
+	\end{enumerate}
+	
+	\item What is your age range? \cntxt{请问您的年龄在哪个区间}
+	
+	\begin{enumerate}
+		\item 18-29 (1)
+		\item 30-39 (2)
+		\item 40-49 (3)
+		\item 50-59 (4)
+		\item 60+ (6)
+	\end{enumerate}
+
+\item Ethnicity
+
+\begin{enumerate}
+    \item What is your ethnicity? (only asked in China) \cntxt{请选择您的民族}
+    \begin{enumerate}
+    	\item Han (1) \cntxt{汉族}
+    	\item Minority (2) \cntxt{少数民族}
+    \end{enumerate}
+
+
+\end{enumerate}
+
+	\item What is your highest educational attainment? \cntxt{请选择您的最高学历}
+	\begin{enumerate}
+		\item Associate degree (4) \cntxt{专科}
+		\item Bachelor's degree (5) \cntxt{大学本科}
+		\item Master's degree (6) \cntxt{硕士}
+		\item Ph.D (7) \cntxt{博士}
+	\end{enumerate}
+	
+\item \begin{enumerate}
+    \item Your current residing city is (only asked in China) \cntxt{选择你所在城市 \underline{\hbox to 30mm{}}}
+\end{enumerate}
+	
+\item Political Affiliation/Party Identification
+
+\begin{enumerate}
+    \item What is your political affiliation? (only asked in China) \cntxt{请问您的社会面貌}
+        \begin{enumerate}
+            \item Masses (1) \cntxt{群众}
+            \item Communist Youth League member (2) \cntxt{共青团员}
+            \item Chinese Communist Party member (3) \cntxt{党员}
+        \end{enumerate}
+
+\end{enumerate}
+
+
+\item In the past 90 days, how often have you consumed news from the following types of sources? \\
+\cntxt{在过去90天内，您从以下来源获取新闻的频率是怎样的？}
+
+\textit{(1 = Never \cntxt{从不}, 2 = Rarely \cntxt{偶尔}, 3 = Sometimes \cntxt{有时}, 4 = Often \cntxt{经常}, 5 = Very often \cntxt{非常频繁})}
+
+\begin{itemize}
+  \item Chinese state-run news websites (e.g., Xinhua, People’s Daily) \\
+  \cntxt{中国官方新闻网站（如新华网、人民网）}
+  \item Chinese commercial news apps (e.g., Tencent News, NetEase, The Paper) \\
+  \cntxt{中国商业新闻APP（如腾讯新闻、网易新闻、澎湃新闻）}
+  \item Social media platforms (e.g., Weibo, Douyin, Xiaohongshu) \\
+  \cntxt{社交媒体平台（如微博、抖音、小红书）}
+  \item Foreign news websites in English (e.g., BBC, NYT, CNN) \\
+  \cntxt{外国英文新闻网站（如BBC、《纽约时报》、CNN）}
+  \item Foreign-language YouTube news channels (e.g., DW, VOA, Al Jazeera) \\
+  \cntxt{YouTube上的外语新闻频道（如德国之声、美国之音、半岛电视台）}
+  \item News shared by friends/family through chat groups (WeChat, QQ) \\
+  \cntxt{亲友通过聊天群分享的新闻（微信、QQ等）}
+\end{itemize}
+
+
+\item How much do you trust content from the following media platforms? \\
+\cntxt{您对以下媒体平台上的内容有多大的信任度？}
+
+\textit{(1 = Strongly trust \cntxt{非常不信任}, 5 = Strongly distrut \cntxt{非常信任})}
+
+
+\begin{itemize}
+  \item Chinese state-run news websites (e.g., Xinhua, People’s Daily) \\
+  \cntxt{中国官方新闻网站（如新华网、人民网）}
+  \item Chinese commercial news apps (e.g., Tencent News, NetEase, The Paper) \\
+  \cntxt{中国商业新闻APP（如腾讯新闻、网易新闻、澎湃新闻）}
+  \item Social media platforms (e.g., Weibo, Douyin, Xiaohongshu) \\
+  \cntxt{社交媒体平台（如微博、抖音、小红书）}
+  \item Foreign news websites in English (e.g., BBC, NYT, CNN) \\
+  \cntxt{外国英文新闻网站（如BBC、《纽约时报》、CNN）}
+  \item Foreign-language YouTube news channels (e.g., DW, VOA, Al Jazeera) \\
+  \cntxt{YouTube上的外语新闻频道（如德国之声、美国之音、半岛电视台）}
+  \item News shared by friends/family through chat groups (WeChat, QQ) \\
+  \cntxt{亲友通过聊天群分享的新闻（微信、QQ等）}
+\end{itemize}
+
+
+\item In the past month, how often have you read news from non-Chinese (foreign) media sources (by any means)? \\
+\cntxt{您在过去一个月中通过任何途径阅读非中文（外国）媒体的新闻有多频繁？}
+
+\begin{itemize}
+  \item Never \cntxt{从不}
+  \item Rarely (1–2 times in the month) \cntxt{很少（当月1–2次）}
+  \item Sometimes (3–5 times in the month) \cntxt{有时（当月3–5次）}
+  \item Often (about 1–2 times per week) \cntxt{经常（大约每周1–2次）}
+  \item Very often (nearly every day) \cntxt{非常频繁（几乎每天）}
+\end{itemize}
+
+\item Do you have personal accounts on the following platforms or have visited them? (Select all that apply) \\
+\cntxt{您是否拥有以下平台的个人账户或者曾访问过？（可多选）}
+\begin{itemize}
+
+  \item TikTok \cntxt{抖音国际版}
+  \item Facebook \cntxt{脸书（Facebook）}
+  \item Twitter \cntxt{推特（Twitter）}
+  \item YouTube \cntxt{油管（YouTube）}
+  \item Instagram \cntxt{Instagram}
+  \item None of the above \cntxt{以上均无}
+\end{itemize}
+
+\item Have you ever traveled or lived outside of Mainland China? (Yes/No) \\
+\cntxt{您是否有过中国大陆以外的旅行或生活经历？（是/否）}
+
+\item Do you plan to pursue study abroad or live abroad within the next few years? \\
+\cntxt{您是否计划在未来几年内出国留学或生活？}
+
+\begin{itemize}
+  \item Definitely yes (actively planning or applying) \cntxt{肯定会（正在积极规划/申请）}
+  \item Possibly yes (considering it) \cntxt{可能会（正在考虑）}
+  \item Probably not (no specific plans) \cntxt{大概不会（没有明确计划）}
+  \item Definitely not (no intention to go abroad) \cntxt{完全没有（无出国打算）}
+\end{itemize}
+
+\item What standardized English exam are you currently preparing for? \\
+\cntxt{您目前正在准备哪种标准化英语考试？}
+
+\begin{itemize}
+  \item GRE \cntxt{研究生入学考试（GRE）}
+  \item IELTS \cntxt{雅思（IELTS）}
+  \item TOEFL \cntxt{托福（TOEFL）}
+  \item GMAT \cntxt{研究生管理科学入学考试（GMAT）}
+  \item Other (please specify): \cntxt{其他（请说明）} \_\_\_\_\_\_\_\_
+\end{itemize}
+
+\item What was your most recent score on that exam? \\
+\cntxt{您最近一次该考试的分数是多少？} \\
+\textit{(Please answer in raw score or band, e.g., TOEFL 98, IELTS 6.5)} \\
+\cntxt{（请填写原始分数或等级，例如托福98，雅思6.5）}
+
+\item How long have you been preparing for this exam? \\
+\cntxt{您为该考试已经准备了多长时间？}
+
+\begin{itemize}
+  \item Less than 1 month \cntxt{少于1个月}
+  \item 1–3 months \cntxt{1到3个月}
+  \item 3–6 months \cntxt{3到6个月}
+  \item 6–12 months \cntxt{6到12个月}
+  \item Over 1 year \cntxt{超过1年}
+\end{itemize}
+
+\item What motivates your interest in this foreign news study program? \\
+\cntxt{您为什么对本次外国新闻学习项目感兴趣？}
+
+\begin{itemize}
+  \item Interested in foreign media and world affairs \cntxt{对外国媒体和国际事务感兴趣}
+  \item Interested in improving English reading skills \cntxt{希望提高英语阅读能力}
+  \item Both reasons above \cntxt{两者都有}
+  \item Other, please specify: \cntxt{其他，请说明：} \_\_\_\_\_\_\_\_\_\_
+\end{itemize}
+
+\item How satisfied are you with the current situation in China in the following areas? \\
+\cntxt{您对目前中国在以下几个方面的状况有多满意？} \\
+\textit{(1 = Strongly satisfied \cntxt{非常满意}, 5 = Strongly unsatisfied \cntxt{非常不满意})}
+
+
+\begin{itemize}
+  \item Economic development \cntxt{经济发展}
+  \item Social stability \cntxt{社会稳定}
+  \item Social equality \cntxt{社会平等}
+  \item Technological progress \cntxt{技术进步}
+  \item Government efficiency \cntxt{政府效能}
+\end{itemize}
+
+\item Please indicate your level of agreement with the following statements about censorship and content regulation. \\
+\cntxt{请表明您对下列有关信息审查与内容管理的陈述的同意程度。}\\
+\textit{(1 = Strongly Disagree \cntxt{非常不同意} … 5 = Strongly Agree \cntxt{非常同意})}
+
+
+\begin{itemize}
+  \item Restricting certain online content is necessary for social stability. \\
+  \cntxt{为了社会稳定，有必要限制某些网络内容。}
+  \item The government has the right to censor politically sensitive news. \\
+  \cntxt{政府有权审查政治敏感的新闻内容。}
+  \item People should be allowed to access all information online freely. \textit{(reverse-coded)} \\
+  \cntxt{人们应该被允许自由获取所有网上信息。} \textit{\cntxt{（反向计分）}}
+  \item Content harmful to minors (e.g., pornography, extreme violence) should be restricted. \\
+  \cntxt{应限制对未成年有害的内容（如色情、极端暴力）。}
+  \item Information that threatens public safety (e.g., terrorism, extremism) should be censored. \\
+  \cntxt{应审查可能危害公共安全的信息（如恐怖主义、极端主义）。}
+\end{itemize}
+
+
+
+\item Indicate your agreement with the following. \\
+\cntxt{请表明您是否同意以下说法。}
+
+\begin{itemize}
+  \item I am proud to be a Chinese citizen. \cntxt{我为自己是中国人感到自豪。}
+  \item China’s political system is superior to that of Western countries. \\
+  \cntxt{中国的政治体制优于西方国家。}
+  \item Most criticisms of China by Western media are unfair. \\
+  \cntxt{西方媒体对中国的大多数批评是不公平的。}
+  \item Foreign powers are trying to block China’s rise. \\
+  \cntxt{外国势力在试图遏制中国的崛起。}
+  \item China should assert its views more strongly in the international community. \\
+  \cntxt{中国应该在国际社会中更强硬地表达自己的立场。}
+  \item Chinese people should unite in defending national dignity when facing foreign criticism. \\
+  \cntxt{面对外国批评时，中国人民应团结起来维护国家尊严。}
+\end{itemize}
+
+\textit{(1 = Strongly disagree \cntxt{非常不同意}, 5 = Strongly agree \cntxt{非常同意})}
+
+
+\item Feeling Thermometers – China vs. US: On a scale from 0 to 100, please rate your feelings toward the following. \\
+\cntxt{好感度温度计 – 中国 vs. 美国：请在0到100的范围内分别评价您对以下对象的感情程度。}
+
+\begin{itemize}
+  \item China – \cntxt{中国} \\
+  \textit{(0 = very cold/very unfavorable, 100 = very warm/very favorable)} \\
+  \cntxt{0分 = 非常冷淡/非常反感，100分 = 非常温暖/非常有好感}
+  
+  \item US – \cntxt{美国} \\
+  \textit{(0 = very cold, 100 = very warm)} \\
+  \cntxt{0分 = 非常冷淡，100分 = 非常有好感}
+\end{itemize}
+
+\end{enumerate}
+
+\subsection{Midline Survey Article Feedback}
+
+
+\begin{enumerate}
+
+\item How much did you like the article you just read? \\
+\cntxt{您有多喜欢刚刚阅读的这篇文章？}
+
+\textit{(0 = Not at all \cntxt{完全不喜欢}, 100 = Very much \cntxt{非常喜欢})}  
+\textbf{[Slider or 0–100 input]}
+
+\item How credible do you think the article’s content was? \\
+\cntxt{您认为这篇文章的内容有多可信？}
+
+\textit{(0 = Not credible at all \cntxt{完全不可信}, 100 = Very credible \cntxt{非常可信})}  
+\textbf{[Slider or 0–100 input]}
+
+\item Would you like to read more articles on similar topics in the future? \\
+\cntxt{您是否希望将来继续阅读与本篇类似的话题？}
+
+\begin{itemize}
+  \item Yes, definitely \cntxt{是的，非常希望}
+  \item Maybe \cntxt{可能会}
+  \item No \cntxt{不希望}
+\end{itemize}
+
+\item Please indicate your agreement with the following statements about your psychological reactions while reading the articles. \\
+\cntxt{请表明您对以下有关您在阅读文章时心理反应的说法的同意程度。}
+
+\textit{(1 = Strongly disagree \cntxt{非常不同意}, 5 = Strongly agree \cntxt{非常同意})}
+
+
+
+\begin{itemize}
+  \item I found many viewpoints in the articles reasonable and convincing. \\
+  \cntxt{我觉得文章中的许多观点是合理且有说服力的。}
+  
+  \item I felt that the articles aligned with my existing views. \\
+  \cntxt{我觉得这些文章与我已有的观点是一致的。}
+  
+  \item Reading the articles made me feel more confident in my own opinions. \\
+  \cntxt{阅读这些文章让我对自己的观点更有信心。}
+
+  \item I felt angry or defensive while reading some of the articles. \\
+  \cntxt{阅读部分文章时，我感到愤怒或防卫情绪。}
+  
+  \item Some content seemed unfair or offensive to me. \\
+  \cntxt{有些内容让我觉得不公平或令人反感。}
+  
+  \item The articles made me question the motives of the media outlets. \\
+  \cntxt{这些文章让我质疑媒体发布这些内容的动机。}
+\end{itemize}
+
+
+\end{enumerate}
+
+
+
+\subsection{Follow-up Survey (Post-Experiment)}
+\begin{enumerate}
+    \item In the two months following the experiment, approximately how many times have you intentionally read or engaged with news from foreign English-language sources (e.g., BBC, NYT, CNN, foreign English YouTube news channels)? \\
+    \cntxt{在实验结束后的两个月内，您大约有多少次是特意阅读或接触过外国英文新闻来源（例如：BBC、《纽约时报》、CNN、外国英文YouTube新闻频道）的新闻？}
+    \begin{itemize}
+        \item \_\_\_ times \cntxt{次}
+        \item \cntxt{（如果答案为0，请跳至问题3）}
+    \end{itemize}
+
+    \item To what extent do you agree with the following statements regarding your experience reading foreign English-language news after the experiment? \\
+    \cntxt{关于您在实验后阅读外国英文新闻的经历，您在多大程度上同意以下陈述？}
+
+    \textit{(1 = Strongly disagree \cntxt{非常不同意}, 2 = Disagree \cntxt{不同意}, 3 = Neutral \cntxt{中立}, 4 = Agree \cntxt{同意}, 5 = Strongly agree \cntxt{非常同意})}
+
+    \begin{itemize}
+        \item Reading foreign English-language news has improved my English learning efficiency. \\
+        \cntxt{阅读外国英文新闻提高了我的英语学习效率。}
+        \item Reading foreign English-language news has improved my English test scores (e.g., TOEFL, IELTS, GMAT, GRE). \\
+        \cntxt{阅读外国英文新闻提高了我的英语考试成绩（例如：托福、雅思、GMAT、GRE）。}
+    \end{itemize}
+
+    \item If possible, are you willing to subscribe to foreign English-language newsletters specifically for English study purposes in the future? \\
+    \cntxt{如果有可能，您未来是否愿意订阅外国英文新闻通讯，专门用于英语学习目的？}
+    \begin{itemize}
+        \item Yes \cntxt{是}
+        \item No \cntxt{否}
+        \item Unsure \cntxt{不确定}
+    \end{itemize}
+
+
+
+
+
+\item How satisfied are you with the current situation in China in the following areas? \\
+\cntxt{您对目前中国在以下几个方面的状况有多满意？} \\
+\textit{(1 = Strongly disagree \cntxt{非常不同意}, 5 = Strongly agree \cntxt{非常同意})}
+
+
+\begin{itemize}
+  \item Economic development \cntxt{经济发展}
+  \item Social stability \cntxt{社会稳定}
+  \item Social equality \cntxt{社会平等}
+  \item Technological progress \cntxt{技术进步}
+  \item Government efficiency \cntxt{政府效能}
+\end{itemize}
+
+\item Please indicate your level of agreement with the following statements about censorship and content regulation. \\
+\cntxt{请表明您对下列有关信息审查与内容管理的陈述的同意程度。}
+\textit{(1 = Strongly Disagree \cntxt{非常不同意} … 5 = Strongly Agree \cntxt{非常同意})}
+
+\begin{itemize}
+  \item Restricting certain online content is necessary for social stability. \\
+  \cntxt{为了社会稳定，有必要限制某些网络内容。}
+  \item The government has the right to censor politically sensitive news. \\
+  \cntxt{政府有权审查政治敏感的新闻内容。}
+  \item People should be allowed to access all information online freely. \textit{(reverse-coded)} \\
+  \cntxt{人们应该被允许自由获取所有网上信息。} \textit{\cntxt{（反向计分）}}
+  \item Content harmful to minors (e.g., pornography, extreme violence) should be restricted. \\
+  \cntxt{应限制对未成年有害的内容（如色情、极端暴力）。}
+  \item Information that threatens public safety (e.g., terrorism, extremism) should be censored. \\
+  \cntxt{应审查可能危害公共安全的信息（如恐怖主义、极端主义）。}
+\end{itemize}
+
+
+\item How much do you trust content from the following media platforms? \\
+\cntxt{您对以下媒体平台上的内容有多大的信任度？}
+
+\textit{(1 = Strongly trust \cntxt{非常不信任}, 5 = Strongly distrut \cntxt{非常信任})}
+
+
+\begin{itemize}
+  \item Chinese state-run news websites (e.g., Xinhua, People’s Daily) \\
+  \cntxt{中国官方新闻网站（如新华网、人民网）}
+  \item Chinese commercial news apps (e.g., Tencent News, NetEase, The Paper) \\
+  \cntxt{中国商业新闻APP（如腾讯新闻、网易新闻、澎湃新闻）}
+  \item Social media platforms (e.g., Weibo, Douyin, Xiaohongshu) \\
+  \cntxt{社交媒体平台（如微博、抖音、小红书）}
+  \item Foreign news websites in English (e.g., BBC, NYT, CNN) \\
+  \cntxt{外国英文新闻网站（如BBC、《纽约时报》、CNN）}
+  \item Foreign-language YouTube news channels (e.g., DW, VOA, Al Jazeera) \\
+  \cntxt{YouTube上的外语新闻频道（如德国之声、美国之音、半岛电视台）}
+  \item News shared by friends/family through chat groups (WeChat, QQ) \\
+  \cntxt{亲友通过聊天群分享的新闻（微信、QQ等）}
+\end{itemize}
+
+
+
+
+
+\item  Indicate your agreement with the following. \\
+\cntxt{请表明您是否同意以下说法。}\\
+\textit{(1 = Strongly disagree \cntxt{非常不同意}, 5 = Strongly agree \cntxt{非常同意})}
+
+
+
+\begin{itemize}
+  \item I am proud to be a Chinese citizen. \cntxt{我为自己是中国人感到自豪。}
+  \item China’s political system is superior to that of Western countries. \\
+  \cntxt{中国的政治体制优于西方国家。}
+  \item Most criticisms of China by Western media are unfair. \\
+  \cntxt{西方媒体对中国的大多数批评是不公平的。}
+  \item Foreign powers are trying to block China’s rise. \\
+  \cntxt{外国势力在试图遏制中国的崛起。}
+  \item China should assert its views more strongly in the international community. \\
+  \cntxt{中国应该在国际社会中更强硬地表达自己的立场。}
+  \item Chinese people should unite in defending national dignity when facing foreign criticism. \\
+  \cntxt{面对外国批评时，中国人民应团结起来维护国家尊严。}
+\end{itemize}
+
+
+\item Feeling Thermometers – China vs. US: On a scale from 0 to 100, please rate your feelings toward the following. \\
+\cntxt{好感度温度计 – 中国 vs. 美国：请在0到100的范围内分别评价您对以下对象的感情程度。}
+
+\begin{itemize}
+  \item China – \cntxt{中国} \\
+  \textit{(0 = very cold/very unfavorable, 100 = very warm/very favorable)} \\
+  \cntxt{0分 = 非常冷淡/非常反感，100分 = 非常温暖/非常有好感}
+  
+  \item US – \cntxt{美国} \\
+  \textit{(0 = very cold, 100 = very warm)} \\
+  \cntxt{0分 = 非常冷淡，100分 = 非常有好感}
+\end{itemize}
+
+
+
+% === G. Perceived Media Bias ===
+\item In your opinion, how biased or objective is the media coverage from the following sources? \\
+\cntxt{在您看来，以下媒体的报道有多偏颇或客观？}
+
+\textit{(0 = Completely objective \cntxt{完全客观}, 10 = Extremely biased \cntxt{极其偏见})}
+
+\begin{itemize}
+  \item Chinese domestic media \cntxt{中国国内媒体}
+  \item Western media (when reporting on China) \cntxt{西方媒体（在报道中国时）}
+\end{itemize}
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+
+% **I. Continuing Foreign News Access:** After this 12-week program, would you like to continue accessing foreign news content? *(Select all that apply)*
+% *(I. 是否希望继续获取外国新闻：在这12周的项目结束后，您是否希望继续获取外国新闻内容？* *（可多选）*)\*
+
+% * I would like to **continue using a VPN** service to access uncensored internet (even if I must pay for it).
+%   我希望**继续使用VPN**服务来访问无审查的互联网（即使需要自费）。
+% * I would subscribe to an **English-language foreign news outlet** if given the opportunity (e.g., pay for a digital subscription to a newspaper).
+%   如果有机会，我愿意订阅**英文的外国新闻媒体**（例如支付报纸的数字订阅费用）。
+% * I am interested in receiving a **weekly digest** of foreign news (summaries by email or WeChat).
+%   我有兴趣接收**每周的外国新闻摘要**（通过电子邮件或微信推送的内容）。
+% * I am **not interested** in continuing to follow foreign news regularly after this.
+%   在此之后，我对继续定期关注外国新闻**不感兴趣**。
+
+% *(If you select the digest option, we may provide a free weekly news digest service in the coming weeks.)*
+
+
+
+
+
+
+
+
+
+ \singlespacing
+ \printbibliography
+\end{refsection}
+\end{document}

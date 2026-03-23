@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Data and binaries
+*.dta
+*.csv
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# Temporary / generated
+*.log
+~$*
+
+# Project-specific data folders
+analysis/data/
+writing/tables/

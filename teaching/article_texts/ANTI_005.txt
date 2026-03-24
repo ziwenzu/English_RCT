@@ -1,204 +1,51 @@
 ID: ANTI_005
 Bank: ANTI
-Source: The Economist
-Title: A new class struggle is brewing in China
-URL: https://www.economist.com/china/2024/09/23/a-new-class-struggle-is-brewing-in-china
-Topic: social inequality and unrest
-Method: jina_proxy
-Words: 766
-Fetched: 2026-03-23T18:07:34.309593
-============================================================
+Source: The Guardian
+Title: How China’s internet police went from targeting bloggers to their followers
+Publication date: UNKNOWN
 
-A new class struggle is brewing in China
-Subscribe
-The Economist Pro
-Log in
-Menu
-Skip to content
-Subscribe
-The Economist Pro
-Log in
-Menu
-The world in brief
-Catch up on global daily news
-1843
-Compelling long reads
-The World Ahead 2026
-Future-gazing analysis, predictions and speculation
-Podcasts
-Tune into captivating conversations
-Video
-Watch engaging short films
-Insider
-Behind the scenes at The Economist
-Newsletters
-Curated news, direct to your inbox
-Weekly edition
-This week
-Past editions
-Weekly edition
-This week
-Past editions
-Current topics
-Current topics
-War in the Middle East
-War in Ukraine
-Geopolitics
-Climate change
-The world economy
-Artificial intelligence
-Trump approval tracker
-World
-World
-The world this week
-China
-United States
-Europe
-Britain
-Middle East
-Africa
-Asia
-The Americas
-International
-Business & economics
-Business & economics
-Business
-Finance & economics
-Big Mac index
-Economic & financial indicators
-Opinion
-Opinion
-Leaders
-Columns
-By Invitation
-Letters to the editor
-In depth
-In depth
-Science & technology
-Briefing
-Graphic detail
-Interactives
-Special reports
-Technology Quarterly
-Essay
-Primers
-Schools brief
-Culture, history & society
-Culture, history & society
-Culture
-The Economist reads
-Obituary
-Military history
-Archive 1945
-Games
-Our A-to-Zs
-Our A-to-Zs
-Economics
-American politics
-Military terms
-International relations
-Weekly edition
-World in brief
-United States
-China
-Business
-Finance & economics
-Europe
-Asia
-Middle East
-Americas
-Artificial intelligence
-Culture
-Cartoons & games
-undefined undefined
-Subscribe to The Economist
-Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
-Subscribe to The Economist
-Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
-Subscribe
-Manage account
-Gift subscriptions
-Log out
-Manage account
-Gift subscriptions
-Log out
-China | Looking up in frustration
-A new class struggle is brewing in China
-As the economy falters, resentment between social groups is growing
-Share
-Photograph: Getty Images
-Sep 23rd 2024|7 min read
-T HE TERM “three generations in tobacco” has become a common shorthand in China. On social media it means a privileged elite whose members hand out coveted jobs (such as managerial roles in the state’s tobacco monopoly) to their own types. Earlier this year a microblogger with more than 850,000 followers invoked the meme. “The result of this hereditary system is a closed circle of power that completely cuts off opportunities for people at the bottom to rise up!” he wrote. Hundreds expressed agreement. “The ruling class is solidifying,” one replied. Another fumed: “The children of the elite get ahead, and the children of the poor remain poor.”
-Already have an account?Log in
-Continue with a free trial
-Get full access to our independent journalism for free
-Free trial
-Or create a free account to unlock just this article
-Create account
-Explore more
-Xi Jinping
-China
-ShareReuse this content
-The Economist Today
-Handpicked stories, in your inbox
-A daily newsletter with the best of our journalism
-Sign up
-[x] Yes, I agree to receive exclusive content, offers and updates to products and services from The Economist Group. I can change these preferences at any time. 
-More from China
-Why China’s fight on air pollution has slowed
-Officials are now trying to take it to the next stage
-Public opinion in China is hardening on America and Taiwan
-A rare poll shows the views of ordinary Chinese are changing
-Is cheap energy the key to China gaining AI supremacy?
-Leaders are hoping it will make up for its weakness in chips
-Chaguan
-A Maoist survival guide to the Iranian energy crisis
-For a self-reliant power like China, no supplier is ever irreplaceable
-China’s nationalist spy thriller has few girls and lots of government
-“Main melody” films are in a rut
-Hong Kong’s property market has turned
-That’s not good news for everyone
-[](https://www.linkedin.com/company/the-economist/)
-[](https://www.instagram.com/theeconomist)
-[](https://www.facebook.com/TheEconomist/)
-[](https://x.com/theeconomist)
-[](https://www.tiktok.com/@theeconomist)
-[](https://www.youtube.com/user/economistmagazine)
-[](https://www.whatsapp.com/channel/0029VacYweLAe5VlfOBglq3h)
-Get The Economist app oniOSorAndroid
-The Economist
-The Economist
-About
-Reuse our content
-Subscribe
-Gift subscriptions
-The Economist Pro
-SecureDrop
-The Economist Group
-The Economist Group
-The Economist Group
-Economist Intelligence
-Economist Impact
-Economist Impact Events
-Economist Education Courses
-Contact
-Contact
-Help and support
-Advertise
-Press centre
-Affiliate programme
-Careers
-Careers
-Working here
-Executive Jobs
-To enhance your experience and ensure our website runs smoothly, we use cookies and similar technologies.
-Manage cookies
-Terms of use
-Privacy
-Cookie Policy
-Accessibility
-Modern Slavery Statement
-Sitemap
-Your Privacy Choices
-Registered in England and Wales. No. 236383 | Registered office: The Adelphi, 1-11 John Adam Street, London, WC2N 6HT | VAT Reg No: GB 340 436 876
-© The Economist Newspaper Limited 2026
+In recent months, followers of influential liberal bloggers have been interviewed by police as China widens its net of online surveillance
+
+Late last year, Duan, a university student in China, used a virtual private network to jump over China’s great firewall of internet censorship and download social media platform Discord.
+
+Overnight he entered a community in which thousands of members with diverse views debated political ideas and staged mock elections. People could join the chat to discuss ideas such as democracy, anarchism and communism. “After all, it’s hard for us to do politics in reality, so we have to do it in a group chat,” Yang Minghao, a popular vlogger, said in a video on YouTube.
+
+Duan’s interest in the community was piqued while watching one of Yang’s videos online. Yang, who vlogs under the nickname MHYYYY, was talking about the chat on Discord, which like YouTube is blocked in China, and said that he “would like to see where this group will go, as far as possible without intervention”.
+
+The answer to Yang’s question came after less than a year. In July, Duan and several other members of the Discord group, in cities thousands of miles apart, were called in for questioning by the police.
+
+Duan says that he was detained for 24 hours and interrogated about his relationship to Yang, his use of a VPN and comments that he’d made on Discord. He was released without charge after 24 hours, but he – and other followers of Yang – remain concerned about the welfare of the vlogger, who hasn’t posted online since late July.
+
+The incident is just one sign of the growing severity of China’s censorship regime, under which even private followers of unfavourable accounts can get into trouble.
+
+“I don’t think I’ve seen followers of influencers being questioned to this extent in the past,” said Maya Wang, the associate China director at Human Rights Watch.
+
+China’s ministry of public security and the local public security bureau handling Duan’s case could not be reached for comment, but both he and his fellow online idealists fell foul of one of the foundational principles of China’s internet: don’t form a community, especially not one related to politics, even in private.
+
+Being punished for comments made online is common in China, where the internet is tightly regulated. As well as a digital firewall that blocks the majority of internet users from accessing foreign websites like Google, Facebook and WhatsApp, people who publish content on topics deemed sensitive or critical of the government often find themselves banned from websites, or worse.
+
+Last year, a man called Ning Bin was sentenced to more than two years in prison for posting “inappropriate remarks” and “false information” on X and Pincong, a Chinese-language forum.
+
+Even ardent nationalists are not immune. In recent weeks, the influential, pro-government commentator, Hu Xijin, appears to have been banned from social media after making comments about China’s political trajectory that didn’t align with Beijing’s view.
+
+Duan said that the call from the police was not entirely unexpected. Still, he says, the intensity of the interrogation caught him by surprise. “Just complaining in a group chat on overseas software is not allowed”.
+
+The net of online surveillance widens
+
+In February, Li Ying, who runs a popular Chinese-language X account, posted an “urgent notice” saying that his followers in China were being called in to “drink tea” with the police, a euphemism for interrogations. He urged people to unfollow him and take care to make sure that their X accounts didn’t reveal their personal information.
+
+Li, who is based in Italy, runs an account called “Teacher Li is not your teacher”, which posts a stream of unfiltered news about protests and repression in China, the likes of which would never be published in China’s domestic media.
+
+“The police began to call all users who had registered with Chinese mobile phone numbers and asked them to unfollow me,” Li said. People living overseas had their relatives in China contacted by the police, Li said. They were put pressure on to persuade the person overseas to unfollow Li’s account.
+
+Two other popular Chinese bloggers, including Wang Zhi’an, a Chinese journalist based in Japan, also said that their followers were questioned by police this year.
+
+“Part of this has to do with deepening repression – police have gone from harassing activists and people ‘out there’ active in physical spaces to harassing those online because much of activism and dissent is now more deeply hidden,” says Wang.
+
+In December, Li Tong, an official at the ministry of public security’s cybersecurity bureau said that the government had designated 2024 as “the year of a special campaign to combat and rectify online rumours”. Local authorities have taken on this mantle with gusto: in July, Guangdong province said that it had dealt with more than 1,000 cases of “online rumours” and “online trolls” this year.
+
+William Farris, a lawyer who studies state prosecutions of speech in China, said that internet cleaning campaigns are “an annual, or semi-annual, tradition”. Similar campaigns have been announced every year dating back to at least 2013. He noted that in several judgements against people who had been punished for their online activity, the authorities also paid attention to who the people followed. In 2019, a man called Jiang Kun was sentenced to eight months in jail for posts on X, with the court noting that “he followed certain anti-Chinese forces” on the platform.
+
+Still, Wang said that the ongoing cat and mouse game between the authorities and those who think differently from them indicated “an emerging set of shared values that cut across China’s borders. Despite the fact that the authorities have always sought to stamp out these ‘universal values’, they have nonetheless persisted among significant portions of people in and from China.”
+
+The Discord crackdown has been widely discussed online, in forums blocked by China’s firewall. On Reddit, one user wrote: “I sincerely hope that all those who have lost contact can return to life safely. We will meet again, in a place where there is no darkness!”

@@ -1,0 +1,61 @@
+ID: ANTI_005
+Bank: ANTI
+Source: The Guardian
+Title: How China’s internet police went from targeting bloggers to their followers
+Publication date: 
+URL: https://www.theguardian.com/world/article/2024/sep/02/how-chinas-internet-police-went-from-targeting-bloggers-to-their-followers
+How China’s internet police went from targeting bloggers to their followers
+
+In recent months, followers of influential liberal bloggers have been interviewed by police as China widens its net of online surveillance
+
+Amy Hawkins, senior China correspondent, and Chi-hui Lin
+
+Late last year, Duan*, a university student in China, used a virtual private network to jump over China’s great firewall of internet censorship and download social media platform Discord.
+
+Overnight he entered a community in which thousands of members with diverse views debated political ideas and staged mock elections. People could join the chat to discuss ideas such as democracy, anarchism and communism. “After all, it’s hard for us to do politics in reality, so we have to do it in a group chat,” Yang Minghao, a popular vlogger, said in a video on YouTube.
+
+Duan’s interest in the community was piqued while watching one of Yang’s videos online. Yang, who vlogs under the nickname MHYYYY, was talking about the chat on Discord, which like YouTube is blocked in China, and said that he “would like to see where this group will go, as far as possible without intervention”.
+
+The answer to Yang’s question came after less than a year. In July, Duan and several other members of the Discord group, in cities thousands of miles apart, were called in for questioning by the police.
+
+Duan says that he was detained for 24 hours and interrogated about his relationship to Yang, his use of a VPN and comments that he’d made on Discord. He was released without charge after 24 hours, but he – and other followers of Yang – remain concerned about the welfare of the vlogger, who hasn’t posted online since late July.
+
+The incident is just one sign of the growing severity of China’s censorship regime, under which even private followers of unfavourable accounts can get into trouble.
+
+“I don’t think I’ve seen followers of influencers being questioned to this extent in the past,” said Maya Wang, the associate China director at Human Rights Watch.
+
+China’s ministry of public security and the local public security bureau handling Duan’s case could not be reached for comment, but both he and his fellow online idealists fell foul of one of the foundational principles of China’s internet: don’t form a community, especially not one related to politics, even in private.
+
+View image in fullscreen
+
+People stand in front of the screen playing Chinese President Xi Jinping message during an Internet Conference in China. Photograph: Alex Plavevski/EPA
+
+Being punished for comments made online is common in China, where the internet is tightly regulated. As well as a digital firewall that blocks the majority of internet users from accessing foreign websites like Google, Facebook and WhatsApp, people who publish content on topics deemed sensitive or critical of the government often find themselves banned from websites, or worse.
+
+Last year, a man called Ning Bin was sentenced to more than two years in prison for posting “inappropriate remarks” and “false information” on X and Pincong, a Chinese-language forum.
+
+Even ardent nationalists are not immune. In recent weeks, the influential, pro-government commentator, Hu Xijin, appears to have been banned from social media after making comments about China’s political trajectory that didn’t align with Beijing’s view.
+
+Duan said that the call from the police was not entirely unexpected. Still, he says, the intensity of the interrogation caught him by surprise. “Just complaining in a group chat on overseas software is not allowed”.
+
+## The net of online surveillance widens
+
+In February, Li Ying, who runs a popular Chinese-language X account, posted an “urgent notice” saying that his followers in China were being called in to “drink tea” with the police, a euphemism for interrogations. He urged people to unfollow him and take care to make sure that their X accounts didn’t reveal their personal information.
+
+Li, who is based in Italy, runs an account called “Teacher Li is not your teacher”, which posts a stream of unfiltered news about protests and repression in China, the likes of which would never be published in China’s domestic media.
+
+“The police began to call all users who had registered with Chinese mobile phone numbers and asked them to unfollow me,” Li said. People living overseas had their relatives in China contacted by the police, Li said. They were put pressure on to persuade the person overseas to unfollow Li’s account.
+
+Two other popular Chinese bloggers, including Wang Zhi’an, a Chinese journalist based in Japan, also said that their followers were questioned by police this year.
+
+“Part of this has to do with deepening repression – police have gone from harassing activists and people ‘out there’ active in physical spaces to harassing those online because much of activism and dissent is now more deeply hidden,” says Wang.
+
+In December, Li Tong, an official at the ministry of public security’s cybersecurity bureau said that the government had designated 2024 as “the year of a special campaign to combat and rectify online rumours”. Local authorities have taken on this mantle with gusto: in July, Guangdong province said that it had dealt with more than 1,000 cases of “online rumours” and “online trolls” this year.
+
+William Farris, a lawyer who studies state prosecutions of speech in China, said that internet cleaning campaigns are “an annual, or semi-annual, tradition”. Similar campaigns have been announced every year dating back to at least 2013. He noted that in several judgements against people who had been punished for their online activity, the authorities also paid attention to who the people followed. In 2019, a man called Jiang Kun was sentenced to eight months in jail for posts on X, with the court noting that “he followed certain anti-Chinese forces” on the platform.
+
+Still, Wang said that the ongoing cat and mouse game between the authorities and those who think differently from them indicated “an emerging set of shared values that cut across China’s borders. Despite the fact that the authorities have always sought to stamp out these ‘universal values’, they have nonetheless persisted among significant portions of people in and from China.”
+
+The Discord crackdown has been widely discussed online, in forums blocked by China’s firewall. On Reddit, one user wrote: “I sincerely hope that all those who have lost contact can return to life safely. We will meet again, in a place where there is no darkness!”
+
+** Names have been changed.*

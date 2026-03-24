@@ -1,44 +1,53 @@
 ID: ANTI_020
 Bank: ANTI
-Source: Reuters
-Title: Some Chinese youth spurn corporate jobs for 'me time' as economy slows
-URL: https://www.reuters.com/world/china/some-chinese-youth-spurn-corporate-jobs-me-time-economy-slows-2024-02-15/
-Topic: youth disaffection and labor market stress
-Method: direct_html
-Words: 551
-Fetched: 2026-03-23T18:14:38.384020
-============================================================
+Source: AP News
+Title: China Evergrande has been ordered to liquidate. The real estate giant owes over $300 billion
+Publication date: 2024-01-29
 
-SHANGHAI, Feb 15 (Reuters) - Faced with diminishing job prospects as the economy slows, Chu Yi is choosing to "lie flat", a Chinese term used to describe people who work just enough to afford to spend their time on what they enjoy.
-The Shanghai-based 23-year-old used to work at a fashion company, but said she quit her job two years ago because she had to frequently work overtime and she hated her boss.
-Sign up
-here.
-Chu now works from home just one day a week for a travel company, which gives her ample time to practice tattooing as part of a six-month apprenticeship towards becoming a full-time tattoo artist.
-And she is not alone in "lying flat": although there is no data on how many young Chinese are opting out of corporate jobs that they traditionally would have taken, the youth jobless rate rose to a record high of 21.3% in June 2023 amid an economy still struggling to return to pre-pandemic growth levels, and several Chinese college graduates have said that they are
-trading down
-to find a source of income.
-"For me, there is not much meaning to work," Chu said. "Most of it seems to be finishing work for your manager and making your manager happy. So I decided I don't want to work."
-There are around 280 million young Chinese who like Chu are born between 1995-2010, and surveys show that this Generation Z is the
-most pessimistic
-of all age groups in the country.
-Item 1 of 5 Chu Yi, 23, who is doing a six-month apprenticeship to be a tattoo artist, uses her laptop during an interview with Reuters at her home on the outskirts of Shanghai, China February 5, 2024. REUTERS/Nicoco Chan
-[1/5]
-Chu Yi, 23, who is doing a six-month apprenticeship to be a tattoo artist, uses her laptop during an interview with Reuters at her home on the outskirts of Shanghai, China February 5, 2024....
-Purchase Licensing
-Rights
-, opens new tab
-Read more
-Pacifying this generation amid some of the slowest economic growth in nearly half a century presents a key
-policymaking challenge
-for Chinese President Xi Jinping, and last month the human resources ministry said more efforts were needed to
-prop up employment
-in 2024, especially for the youth.
-Zhou Yun, an assistant professor of sociology at the University of Michigan, said that while it may seem that some youth were opting out of the corporate rat race, it was impossible to overlook their pessimism about the future.
-As China's economy slows and the labour market remains tight, it is "profoundly challenging for young people to navigate rigid social inequalities, tightening political control and dim economic prospects," Zhou said.
-All this combined is making young people like Chu prioritise their own well-being and interests over what she called the "unending pressure" of corporate work. Chu said that she was much happier now and believed her choice was "worthwhile".
-"My current salary, even though it's not a lot, is enough to cover my daily costs. Free time is worth much more than several thousand yuan," she said.
-(This story has been refiled to change the dateline to Shanghai from Hong Kong)
-Writing by Farah Master; editing by Miral Fahmy
-Our Standards:
-The Thomson Reuters Trust Principles.
-, opens new tab
+HONG KONG (AP) — A Hong Kong court ordered China Evergrande, the world’s most heavily indebted real estate developer, to undergo liquidation following a failed effort to restructure $300 billion owed to banks and bondholders that fueled fears about China’s rising debt burden.
+
+“It would be a situation where the court says enough is enough,” Judge Linda Chan said Monday. She said it was appropriate for the court to order Evergrande to wind up its business given a “lack of progress on the part of the company putting forward a viable restructuring proposal” as well as Evergrande’s insolvency.
+
+China Evergrande Group is among dozens of Chinese developers that have collapsed since 2020 under official pressure to rein in surging debt the ruling Communist Party views as a threat to China’s slowing economic growth.
+
+But the crackdown on excess borrowing tipped the property industry into crisis, dragging on the economy and rattling financial systems in and outside China.
+
+“It is indisputable that the company is grossly insolvent and is unable to pay its debts,” the documents say.
+
+About 90% of Evergrande’s business is in mainland China. Its chairman, Hui Ka Yan, who is also known as Xu Jiayin, was detained by authorities for suspected “illegal crimes” in late September, further complicating the company’s efforts to recover.
+
+It’s unclear how the liquidation order will affect China’s financial system or Evergrande’s operations as it struggles to deliver housing that has been paid for but not yet handed over to families that put their life savings into such investments.
+
+Evergrande’s Hong Kong-traded shares plunged nearly 21% early Monday before they were suspended from trading. But Hong Kong’s benchmark Hang Seng index was up 0.9% and some property developers saw gains in their share prices.
+
+China’s largest real estate developer, Country Garden, initially gained nearly 3% but was flat. Sunac China Holdings rose 2.4%.
+
+The Shanghai Composite index dropped 0.9% while Shenzhen’s A-share index fell more than 2%.
+
+The Hong Kong court gave Evergrande a reprieve in December to allow it time to “refine” a new debt restructuring plan.
+
+“The company has failed to engage with us. There has been a history of last-minute engagement which has gone nowhere,” he said.
+
+Saurin said that his team worked in good faith during the negotiations. Evergrande “only has itself to blame for being wound up,” he said.
+
+Tiffany Wong, one of two liquidators appointed by the court from global services firm Alvarez & Marsal, said that their priority was to ensure that “as much of the business as possible (is) retained, restructured and remains operational.”
+
+Evergrande CEO Shawn Siu told Chinese news outlet 21Jingji that the company feels “utmost regret” at the liquidation order.
+
+He emphasized that the order affects only the Hong Kong-listed China Evergrande unit and that the group’s domestic and overseas units are independent legal entities. Siu said that Evergrande will strive to continue smooth operations and deliver properties to buyers.
+
+Real estate drove China’s economic boom, but developers borrowed heavily as they turned cities into forests of apartment and office towers. That has helped to push total corporate, government and household debt to the equivalent of more than 300% of annual economic output, unusually high for a middle-income country.
+
+Evergrande first defaulted on its financial obligations in 2021, just over a year after Beijing clamped down on lending to property developers to cool a property bubble.
+
+As a former British colony, Hong Kong operates under a legal system that is separate, though increasingly influenced by, communist-ruled China’s. In some cases, mainland courts have recognized bankruptcy rulings in Hong Kong but analysts say Evergrande’s is something of a test case.
+
+Brock Silvers, managing director at Kaiyuan Capital, said the liquidation order was likely to have more of an immediate impact on foreign investors and their confidence in China’s financial markets than on Evergrande’s operations in mainland China.
+
+“So onshore, Evergrande tomorrow will look a lot like Evergrande yesterday, there won’t be a lot of noticeable difference,” he said.
+
+Regulators need to restructure Evergrande and other struggling property developers, but it will be a complex and difficult process, said David Goodman, director of the China Studies Center at the University of Sydney.
+
+“If the government could see simple answers to these problems, it would have reached them two to three years ago,” Goodman said.
+
+Zen Soo reported from Singapore.

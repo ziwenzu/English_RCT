@@ -1,48 +1,39 @@
 ID: PRO_010
 Bank: PRO
-Source: Reuters
-Title: China unveils childcare subsidies in push to boost fertility
-URL: https://www.reuters.com/markets/emerging/china-unveils-childcare-subsidies-push-boost-fertility-2025-07-28/
-Topic: childcare subsidy policy
-Method: wayback:20250730072925
-Words: 486
-Fetched: 2026-03-23T16:48:22.106777
-============================================================
+Source: AP News
+Title: Top Chinese official says green, high tech development key as nation seeks to spur economy
+Publication date: 2024-03-28
 
-BEIJING, July 28 (Reuters) - China rolled out on Monday an annual childcare subsidy of 3,600 yuan (about $500) until age three, as authorities look to spur a flagging birth rate with fewer young people choosing to have children.
+BOAO, China (AP) — China is committed to reforms that will upgrade the technological level of its largely manufacturing-based economy and exploit green technologies expected to drive around $1.4 trillion in annual revenues, a senior Communist Party official said Thursday.
 
-The high cost of childcare and education as well as job uncertainty and a slowing economy are among the concerns that have discouraged many young Chinese from getting married and starting a family.
+“We sincerely welcome all countries to board the express train of China’s development and join hands to realize world modernization featuring peaceful development, mutually beneficial cooperation and common prosperity,” Zhao Leiji, who heads China’s rubber stamp congress and sits on the party’s all-powerful Politburo Standing Committee, was quoted as telling business people and other leaders attending the Boao Forum for Asia.
 
-Sign up here.
+The gathering in Boao, held on China’s island island province of Hainan on the South China Sea, is the latest venue for efforts by Beijing to reassure foreign investors rattled by policies that have raised uncertainties for foreign businesses, geopolitical tensions, and an economic slowdown.
 
-Subsidies will start from this year, with partial subsidies for children under three born prior to 2025, in a policy expected to benefit more than 20 million families of toddlers and infants, the official Xinhua news agency said.
+Zhao told the forum that China’s economy will be good in the long term, the Foreign Ministry cited him as saying.
 
-The plan is an "important national livelihood policy" and direct cash subsidies would help "reduce the cost of family childbirth and parenting", the National Health Commission said.
+Related Stories
 
-Demographers and economists said while the move was positive, the amount was likely to small to incentivise people to have children.
+China to unveil priorities for coming 5 years at major annual political meeting
 
-China's population fell for a third consecutive year in 2024, with experts warning of a worsening downturn, after decades of falling birth rates following a one-child policy adopted from 1980 to 2015, coupled with rapid urbanisation
+US won't abandon the Philippines in fighting China's assertiveness at sea, Manila's envoy says
 
-In the past two years provinces nationwide have started handing out childcare subsidies in amounts that vary considerably, from 1,000 yuan a child to up to 100,000 yuan, including housing subsidies.
+Trade, Ukraine and new world order are top concerns on German leader's visit to China
 
-The central government will fund the new national policy instead of local authorities, Xinhua said. Authorities are expected to announce more details on Wednesday.
+“The fundamentals have not changed,” he was quoted as saying.
 
-Zichun Huang, China Economist at Capital Economics, said the sums involved were too small to have a near-term impact on the birth rate or consumption.
+China is the world’s second largest economy after the U.S. and has excelled in areas such as electric vehicles, solar and wind power, and high-speed trains. But it remains heavily dependent on highly-polluting coal to power its industries.
 
-"But the policy does mark a major milestone in terms of direct handouts to households and could lay the groundwork for more fiscal transfers in future."
+The government has set a goal for this year of China’s energy consumption per unit of GDP by 2.5% as part of its efforts to reduce carbon emissions and transition to a greener economy.
 
-Citi Research estimates a total lump-sum payout of 117 billion yuan in the second half of this year through the plan, saying the scheme is more meaningful as a consumption policy than as a population policy.
+“We are speeding up efforts to promote green and low-carbon economic and social development, and will strive to peak carbon dioxide emissions by 2030 and achieve carbon neutrality by 2060,” said Zhao, who ranks third in the party hierarchy and has a strong background in managing state industries that make up about a quarter of the economy and help maintain the party’s overwhelming influence over economic, political and cultural life.
 
-"As a population policy, it remains to be seen whether the national program can move the needle on fertility rate," the research house said in a note.
+China’s leaders have set an ambitious target of around 5% economic growth this year despite a slowdown that has been accentuated by troubles in the property sector and the lingering effects of strict anti-virus measures during the pandemic that disrupted travel, logistics, manufacturing and other industries.
 
-Authorities in China unfurled a series of "fertility friendly" measures in 2024 to tackle the coming decade's challenge of the entry into retirement of roughly 300 million people, equivalent to almost the entire U.S. population.
+Zhao also touched on geopolitical topics, saying, “China calls on all countries to transcend the old mentality of bloc confrontation and zero-sum games and practice genuine multilateralism to jointly build an open world economy.”
 
-A nationwide scheme may offer some coordination and signal greater central commitment, said demographer Emma Zang, a professor at Yale University, but called for greater efforts.
+That reflects Communist Party leader-for-life Xi Jinping’s aspirations to make China a leading player in international affairs by challenging the power and credibility of the U.S. and its Western allies.
 
-"Without sustained structural investment in areas like affordable childcare, parental leave, and job protections for women, the effect on fertility is likely to remain minimal," she added.
+China has backed Russia in its invasion of Ukraine and threatens various of its neighbors in East Asia, including the self-governing island democracy of Taiwan, a close U.S. ally, that it claims as its own territory to be annexed by force if necessary.
 
-($1=7.1736 Chinese yuan renminbi)
-
-Reporting by Farah Master and the Beijing Newsroom; Editing by Toby Chopra, Ros Russell and Lincoln Feast.
-
-Our Standards: The Thomson Reuters Trust Principles. , opens new tab
+But its top leaders have also reiterated China’s intention to keep its economy open for business. On Wednesday, Xi met with American business leaders in Beijing and emphasized mutually beneficial economic ties, despite U.S. tariffs on imports from China and efforts to cut off access to advanced and sensitive technologies, especially those with military applications.

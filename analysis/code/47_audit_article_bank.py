@@ -17,8 +17,6 @@ ANALYSIS = PROJECT / "analysis"
 TEXTS = TEACHING / "article_texts"
 OUTDIR = ANALYSIS / "output" / "article_audit"
 OUTDIR.mkdir(parents=True, exist_ok=True)
-CLEANED_DIR = OUTDIR / "cleaned_texts"
-CLEANED_DIR.mkdir(parents=True, exist_ok=True)
 ASSIGNMENT_CSV = OUTDIR / "source_assignments.csv"
 
 BANK_PATH = TEACHING / "materials_master_bank.csv"
@@ -283,6 +281,9 @@ def resolve_source_path(article_id: str, title: str) -> tuple[Path | None, str]:
 
 
 def infer_source(raw_text: str, path: Path) -> str:
+    m = re.search(r"^Source:\s*(.+)$", raw_text, flags=re.I | re.M)
+    if m:
+        return normalize_line(m.group(1))
     lowered = raw_text.lower()
     if "bbc.com" in lowered or "features correspondent" in lowered:
         return "BBC Travel"
@@ -306,6 +307,9 @@ def infer_source(raw_text: str, path: Path) -> str:
 
 
 def infer_title(raw_text: str) -> str:
+    m = re.search(r"^Title:\s*(.+)$", raw_text, flags=re.I | re.M)
+    if m:
+        return normalize_line(m.group(1))
     lines = [normalize_line(x) for x in raw_text.splitlines() if normalize_line(x)]
     skip = {
         "city guide", "at the smithsonian", "share", "save", "stay", "neighborhoods", "eat",
@@ -317,7 +321,7 @@ def infer_title(raw_text: str) -> str:
             continue
         if line.lower() in skip:
             continue
-        if line.lower().startswith(("published ", "updated ", "by ", "photograph by", "id:", "url:", "status:", "source:", "title:", "bank:", "topic:", "method:", "words:", "fetched:")):
+        if line.lower().startswith(("published ", "updated ", "by ", "photograph by", "id:", "url:", "status:", "source:", "title:", "bank:", "topic:", "method:", "words:", "fetched:", "publication date:")):
             continue
         if re.match(r"^\d+\s+min\s+read$", line.lower()):
             continue
@@ -328,6 +332,9 @@ def infer_title(raw_text: str) -> str:
 
 def extract_pub_date(url: str, article_id: str, raw_text: str = "") -> tuple[date | None, str]:
     head = raw_text[:5000]
+    m = re.search(r"publication date:\s*(20\d{2})-(\d{2})-(\d{2})", head, flags=re.I)
+    if m:
+        return date(int(m.group(1)), int(m.group(2)), int(m.group(3))), "text_iso_header"
     months = {
         "january": 1, "jan": 1,
         "february": 2, "feb": 2,
@@ -382,6 +389,11 @@ def split_header_body(text: str) -> tuple[str, str]:
     parts = re.split(r"\n=+\n", text, maxsplit=1)
     if len(parts) == 2:
         return parts[0], parts[1]
+    lines = text.splitlines()
+    if lines and lines[0].startswith("ID:"):
+        for i, line in enumerate(lines):
+            if not line.strip():
+                return "\n".join(lines[:i]), "\n".join(lines[i + 1 :])
     return "", text
 
 
@@ -641,7 +653,12 @@ def info_density(text: str) -> float:
 def likely_truncated(text: str) -> bool:
     if not text:
         return True
-    tail = text[-160:]
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    while lines and len(lines[-1].split()) <= 12 and not re.search(r"[.!?]['”\"]?\s*$", lines[-1]):
+        lines.pop()
+    if not lines:
+        return True
+    tail = "\n".join(lines)[-160:]
     if re.search(r"[A-Za-z]{1,4}$", tail) and not re.search(r"[.!?]['”\"]?\s*$", tail):
         return True
     if tail.count("{") + tail.count("}") > 0:
@@ -693,8 +710,6 @@ def keep_decision(pub_date, cleaned_words, sentences, noise_share, density, trun
 def main():
     rows = load_rows()
     manifest = load_manifest()
-    for old in CLEANED_DIR.glob("*.cleaned.txt"):
-        old.unlink()
 
     audit_rows = []
     assignments = []
@@ -764,23 +779,6 @@ def main():
             "pub_date": pub_date.isoformat() if pub_date else "",
             "decision": decision,
         })
-
-        if cleaned:
-            out_path = CLEANED_DIR / f"{article_id}.cleaned.txt"
-            header = [
-                f"ID: {article_id}",
-                f"Bank: {row['bank']}",
-                f"Source: {effective_source or 'UNKNOWN'}",
-                f"Title: {effective_title}",
-                f"URL: {effective_url or 'UNKNOWN'}",
-                f"Publication date: {pub_date.isoformat() if pub_date else 'UNKNOWN'}",
-                f"Source file: {source_path.name if source_path else 'MISSING'}",
-                "============================================================",
-                "",
-                cleaned,
-                "",
-            ]
-            out_path.write_text("\n".join(header), encoding="utf-8")
 
     with open(ASSIGNMENT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(assignments[0].keys()))

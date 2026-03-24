@@ -1,35 +1,57 @@
 ID: PRO_009
 Bank: PRO
-Source: Reuters
-Title: China to adopt policies for aging population, try to boost birth rates
-URL: https://www.reuters.com/world/china/china-formulate-policies-elderly-focus-boosting-birth-rates-2025-03-05/
-Topic: aging and fertility policy
-Method: direct_html
-Words: 513
-Fetched: 2026-03-23T18:05:05.192071
-============================================================
+Source: AP News
+Title: China’s economy expands 5% in 2024, hitting target helped by strong exports, stimulus measures
+Publication date: 2025-01-16
 
-HONG KONG, March 5 (Reuters) - China will "actively" respond to population aging with policies for its rapidly growing elderly and its young people, including providing childcare subsidies and making preschool education free, as it tries to boost the country's declining population.
-The measures were announced in two official government documents on Wednesday, prepared for the annual meeting of the National People's Congress, China's rubber-stamp parliament.
-Sign up
-here.
-China's population fell for a third consecutive year in 2024, as marriages plummeted by one-fifth, the biggest drop on record, despite efforts by authorities to encourage young couples to wed and have children.
-Rapid aging has become a growing concern in the world's second-largest economy with the number of those aged 60 and older expected to rise at least 40% to more than 400 million by 2035, equal to the populations of Britain and the United States combined.
-China said it would raise minimum basic old age benefits for rural and non-working urban residents by 20 yuan and make an "appropriate increase" in the basic pension benefits for retirees, without giving other details.
-It will also expand 'public interest' elderly care services, particularly in rural areas and for seniors with physical disabilities.
-Authorities will 'prudently advance the reform to gradually raise' the statutory retirement age, said Premier Li Qiang's official work report, without giving further details.
-China raised its
-retirement
-age for men to 63 years from 60, while for women in white collar work it was raised to 58 years from 55. For women in blue collar work it was increased to 55 from 50. The changes came into effect on January 1 and are to be implemented over a 15 year period.
-CHILDCARE
-China will provide childcare subsidies, the government reports said without giving further details, and formulate "sound plans" for a childcare service system, including progressively making preschool education free.
-Care and services for children in rural areas and those who live with migrant worker parents would also be strengthened, authorities said.
-Women in early stages of pregnancy would also be offered more services, the documents said, without giving further details.
-Much of China's demographic downturn is the result of its one-child policy imposed between 1980 and 2015. Couples have been allowed to have up to three children since 2021.
-However a rising number of young Chinese are opting to not have children, put off by the high cost of childcare or an unwillingness to marry or put their careers on hold, while gender discrimination persists.
-Authorities have tried to roll out incentives and measures to encourage couples to have babies, including expanding maternity leave, financial and tax benefits for having children as well as housing subsidies.
-But China is one of the world's most expensive places to bring up a child, relative to its GDP per capita, a prominent Chinese think tank said last year, detailing the time and opportunity cost for women who give birth.
-Reporting by Farah Master in Hong Kong and the Beijing newsroom; Editing by Sandra Maler
-Our Standards:
-The Thomson Reuters Trust Principles.
-, opens new tab
+HONG KONG (AP) — China’s economy expanded at a 5% annual pace in 2024, slower than the year before but in line with Beijing’s target of “around 5%” growth, thanks to strong exports and recent stimulus measures.
+
+The economy picked up speed in the last quarter, the government reported Friday, growing 5.4% in October-December.
+
+Exports have surged as companies and consumers rush to beat potential tariff hikes President-elect Donald Trump may impose on Chinese goods.
+
+“The national economy was generally stable with steady progress and new achievements were made in high-quality development,” the report by the National Bureau of Statistics said. “Particularly, with a package of incremental policies being timely rolled out, public confidence was effectively bolstered and the economy recovered remarkably,” it said.
+
+Manufacturing was a strong engine for growth last year, with industrial output jumping 5.8% from a year earlier. Total retail sales of consumer goods grew 3.5% at an annual rate. Exports expanded 7.1% in annual terms, while imports grew 2.3%.
+
+The world’s second largest economy has struggled with weaker consumer spending and resulting deflationary pressures as its recovery after the COVID 19 pandemic faltered and the property sector, once a main driver of business activity, fell into a downturn.
+
+Related Stories
+
+Trade, Ukraine and new world order are top concerns on German leader's visit to China
+
+Japan's economy barely grows in the last quarter as exports slow, with 2025 expansion just 1.1%.
+
+China's exports surge in Jan-Feb despite waning trade with the US
+
+The Chinese economy grew at a 5.2% annual rate in 2023, and economists have forecast that it will slow further in coming years.
+
+Zichun Huang of Capital Economics said that the economy regained some momentum last quarter thanks to recent policy easing.
+
+“Increased fiscal spending should continue to provide a near-term prop to activity,” Huang said in a report. “We still expect growth to slow for 2025 as a whole, with Trump likely to follow through on his tariff threats soon and persistent structural imbalances still weighing on the economy.”
+
+China’s population also is aging and declining, adding to pressures on growth. The government reported Friday that the population fell for a third straight year in 2024, to 1.408 billion at the end of 2024, a decline of 1.39 million from the previous year.
+
+With costs of living rising faster than wages, young Chinese are putting off or ruling out marriage and childbirth, accentuating the impact of birth control policies that once limited most families to one child each.
+
+Some economists say the economy is growing at a slower pace than shown in official estimates.
+
+“The precise achievement of the official growth target is highly dubious at a time when most indicators of economic activity and financial markets are flashing red,” Eswar Prasad, an economics professor at Cornell University, said in an emailed comment.
+
+“The economy continues to be beset by a combination of weak domestic demand and persistent deflationary pressures, in addition to a hostile external environment that could limit exports,” he said.
+
+Trump, who will be inaugurated next week, has pledged to increase U.S. import duties on Chinese goods. This week, the Biden administration also imposed further restrictions on exports of advanced semiconductors and technology, seeking to maintain the U.S. lead on advanced technologies and block China’s access.
+
+The ruling Communist Party has rolled out a series of stimulus measures, including reducing banks’ reserve requirement ratios, cutting interest rates and frontloading billions from its budget in 2025 to fund construction projects. It has ordered banks to lend to beleaguered property developers that were left mired in debt after authorities cracked down on excess borrowing.
+
+National Bureau of Statistics spokesperson Fu Linghui told reporters in Beijing that boosting consumption and expanding domestic demand are priorities this year.
+
+“With the coordinated efforts of stock policies and a package of incremental policies, the momentum of economic recovery is strengthening, the recovery of consumer demand has accelerated, and there are more favorable factors for a moderate rebound in prices,” he said.
+
+Beijing has expanded a trade-in scheme for consumer goods and raised the wages of millions of government workers to revive domestic demand.
+
+Those incremental moves need to be accompanied by broader structural reforms, some economists say, that will improve productivity and make the economy less reliant on construction and export manufacturing. In particular, private businesses remain wary of boosting investment or hiring after years of policy shifts that have added to uncertainty over their role in the economy.
+
+Scant social safety nets, meanwhile, lead families to save rather than spend, and falling housing prices and weak stock prices have hurt household wealth, compounding the problem.
+
+“China needs a strong and multi-pronged policy package to revive growth momentum,” Prasad said. Such a package would need to include substantial and well-targeted monetary and fiscal stimulus, complemented by reforms and other measures to revive private sector confidence.”

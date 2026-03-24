@@ -1,26 +1,55 @@
 ID: PRO_005
 Bank: PRO
-Source: The Economist
-Title: How China became an innovation powerhouse
-URL: https://www.economist.com/business/2025/08/25/how-china-became-an-innovation-powerhouse
-Topic: innovation and technology leadership
-Method: wayback:20250825180812
-Words: 210
-Fetched: 2026-03-23T18:06:30.730914
-============================================================
+Source: AP News
+Title: China sticks to an economic growth target of 'around 5%' despite a looming trade war with US
+Publication date: 2025-03-05
 
-How China became an innovation powerhouse
-Its state-led model has generated impressive results. But the costs are mounting
-Most STARTUPS need time to prove that they can be trusted with investors’ money, let alone dangerous technologies. But not Fusion Energy Tech, a Chinese company in the city of Hefei that was carved out two years ago from a nuclear-research lab. In July it announced that it would be commercialising a plasma technology derived from fusing the nuclei of atoms, which produces a reaction much hotter than the sun. It has already developed a security-screening device using related technology that is popping up in local metro stations. Commuters walk past them every day.
-The last days of brainstorming
-Enjoy the peculiar melange of whiteboards and humans while you can
-China’s hottest new look: the facekini
-Communist party officials disapprove of the trend
-China is quietly upstaging America with its open models
-How worried should OpenAI and other labs be?
-Big Chocolate has a growing taste for lab-grown cocoa
-Can science solve the problem of a shortage of beans?
-American tech’s split personalities
-Publicly traded startups aren’t what they used to be
-To survive, Intel must break itself apart
-And it should do so before it is too late
+Title: China sticks to an economic growth target of 'around 5%' despite a looming trade war with US
+
+Publication date: 2025-03-05
+
+URL:
+
+China sticks to an economic growth target of ‘around 5%' despite a looming trade war with US
+
+BEIJING (AP) — The Chinese government unveiled an annual economic growth target of “around 5%” on Wednesday, despite the possible negative impact of a looming trade war with the United States, and pledged to address what it called “sluggish” consumer spending at home.
+
+The target was announced at the opening session of the annual meeting of China’s legislature. It’s the same as for the last two years but will likely be more difficult to achieve because of the new, higher U.S. tariffs on Chinese products and other economic headwinds. The use of “around” gives the government some room if growth falls short.
+
+The target signals the government’s intention to try to stabilize growth in challenging economic times but hold back on more dramatic action that some economists say is needed to supercharge it.
+
+The government also said in a draft budget released Wednesday that defense spending would rise 7.2% this year to 1.78 trillion yuan ($245 billion), second only to the United States.
+
+It released the growth target in a separate report, parts of which were presented to the nearly 3,000 members of the National People’s Congress by Premier Li Qiang. It acknowledged both international and domestic challenges.
+
+“An increasingly complex and severe external environment may exert a greater impact on China in areas such as trade, science, and technology,” the report said, without specifics. “Unilateralism and protectionism are on the rise.”
+
+It added: “Domestically, the foundation for China’s sustained economic recovery and growth is not strong enough. Effective demand is weak, and consumption, in particular, is sluggish.”
+
+The International Monetary Fund has projected that China’s economy will grow 4.6% this year, down from 5% in 2024, according to Chinese government statistics.
+
+The new report placed more emphasis on reviving domestic demand and consumption than last year’s, echoing a shift by the ruling Communist Party at meetings in December. It said the government should “make domestic demand the main engine and anchor of economic growth.”
+
+The report added that “achieving this year’s targets will not be easy, and we must make arduous efforts to meet them.”
+
+Across-the-board 20% tariffs imposed this week on Chinese products by U.S. President Donald Trump pose the latest threat to an economy already weighed down by a prolonged real estate slump and sluggish consumer spending and private business investment. The tariffs could crimp sales to one of China’s major export markets, making the need to boost domestic demand more urgent.
+
+The new report offered some details on the party’s plans for a “more proactive fiscal policy,” including a rise in the government budget deficit from 3% to 4% of GDP, or the size of the overall economy. It also reiterated the party’s announcement in December that the central bank would shift its monetary policy from “prudent” to “moderately loose” for the first time in more than a decade.
+
+The government will issue 1.3 trillion yuan ($180 billion) in ultra-long term bonds, up from 1 trillion yuan last year, the report said. Of that, 300 billion yuan would go toward a program launched last year that offers rebates to consumers who trade in automobiles or appliances for new ones, doubling central government support for the program.
+
+Economists expressed doubts over whether the policies will do enough, noting that the government reduced its inflation target to 2% from 3% last year, and suggesting leaders have accepted that the economy is still mired in deflation, or a cycle of weakening prices.
+
+The degree of support is “more modest than it may appear,” Julian Evans-Pritchard of Capital Economics said in a report. “We remain skeptical that it will be sufficient to prevent growth from slowing this year, especially given the headwinds on the external front and the lack of a more pronounced shift in government spending toward support for consumption.”
+
+Chinese leader Xi Jinping also wants to wean the economy off its long-running dependence on the highly indebted real estate market.
+
+He is directing economic resources into developing a more innovative, high-tech economy — and with growing restrictions on U.S. technology exports to China, one that isn’t beholden to other countries for the most powerful semiconductors and other electronic components.
+
+Xi told delegates from Jiangsu province, one of China’s wealthier coastal provinces known for exports, on Wednesday that “technological innovation and industrial innovation are the basic paths to developing new quality productivity.”
+
+He also referred to a meeting in February with the heads of China’s top private companies, and said the province should “treat all types of enterprises equally, and continuously optimize the business environment.”
+
+The push towards developing a high-tech economy has been a long-term economic goal of the Communist Party, though it has enacted measures since September that suggest a shift in emphasis toward shoring up growth in the short term.
+
+The new report highlighted artificial intelligence in a section on fostering “industries of the future,” saying the government would support the application of large-scale AI models, smart manufacturing equipment, connected vehicles and intelligent robots.

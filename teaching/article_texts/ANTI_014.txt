@@ -1,38 +1,43 @@
 ID: ANTI_014
 Bank: ANTI
-Source: Reuters
-Title: China censors strive to filter or erase details of mortgage protests
-URL: https://www.reuters.com/world/china/china-censors-strive-filter-or-erase-details-mortgage-protests-2022-07-20/
-Topic: censorship and housing protest management
-Method: direct_html
-Words: 596
-Fetched: 2026-03-23T18:07:49.028151
-============================================================
+Source: The Guardian
+Title: China new home prices drop at fastest rate in nearly a decade
+Publication date: UNKNOWN
 
-Homebuyers balk at paying mortgages on unfinished housing
-Censors scramble to erase or filter details of boycotts
-Protests come at a sensitive time for Chinese leader
-SHANGHAI/BEIJING, July 20 (Reuters) - As China grapples to contain a mortgage boycott that has triggered rare protests, censors have gone into overdrive with social media messages blocked, videos of demonstrations wiped and key word searches coming up blank.
-Censors are scrambling to filter or erase details of angry homebuyers threatening to stop paying mortgages on hundreds of unfinished housing projects, as regulators seek to reassure residents that everything will be taken care of.
-Sign up
-here.
-The protests have erupted at a sensitive time for Beijing. Chinese President Xi Jinping is expected to secure a third leadership term at the 20th Communist Party Congress later this year, and social stabililty is crucial ahead of the meeting.
-In a bid to appease protesters and contain the crisis, regulators and local governments have stepped up efforts to reassure critics that projects will be completed.
-The banking authority has encouraged lenders to extend loans to projects, and districts - including in Henan province and the city of Chongqing - have set up task forces.
-But mounting turmoil over uncompleted developments is testing Chinese social media companies, which are subject to strict laws requiring them to censor content that "undermines social stability" or is critical of the central government.
-One video showing fingerprinted notices from homebuyers declaring a boycott on mortgage payments was blocked on Douyin, the Chinese version of TikTok, according to saved images shown to Reuters by a protester. The social media platform said "the content didn't pass scrutiny".
-A protester in the city of Zhengzhou in Henan province surnamed Lu said a video about the mortgage boycott that he uploaded via Douyin was among the top trending items at one point. But he added that such videos could no longer be uploaded or found on the platform.
-Yang, a mortgage protestor in Nanchang, capital of southeastern Jiangxi province, said his videos of mortgage protests on Douyin were also censored.
-ByteDance, which owns Douyin, did not immediately respond to a request for comment on Wednesday.
-Another protester surnamed Wang, also in Henan province, told Reuters he tried to upload videos about the mortgage boycott, but they were either restricted, failed to get approval, or could only be viewed by him.
-On the social media platform Weibo, the hashtag #stopmortgagepayments has been censored, according to a search by Reuters. A notice says: "Due to related laws and rules, the topic page cannot be displayed."
-Other videos that were blocked or deleted from social media sites included scenes of empty construction sites, protesters scuffling with bodyguards, and analyst commentaries on the boycott movement, underscoring the sensitivity of the issue.
-Another protester told Reuters he could not share videos related to the crisis via China's most popular messaging service, WeChat.
-Weibo, Tencent, which owns WeChat, and the Cyberspace Administration of China (CAC), the government body responsible for enforcing censorship guidelines, did not immediately respond to requests for comment.
-Censorship of the issue is not limited to social media.
-An official at a developer said his boss had banned staff from commenting on the mortgage protests, even off the record, due to an "order from above".
-Analysts at some securities and research firms in China told Reuters they were also advised not to comment on the protests.
-Reporting by Shanghai and Beijing Newsrooms, additional reporting by Clare Jim; Writing by Anne Marie Roantree; Editing by Mark Heinrich
-Our Standards:
-The Thomson Reuters Trust Principles.
-, opens new tab
+House prices in China slumped at the fastest rate in almost 10 years in May as a glut of properties on the market hit demand, despite renewed efforts by the government to prop up the sector.
+
+The price of new homes in 70 cities, excluding subsidised housing, fell by 0.7% from April. This was the steepest drop since October 2014, according to National Bureau of Statistics (NBS) figures posted on Monday. Values of existing homes fell by 1%, the steepest drop since China started using its current data collection method in 2011.
+
+The disappointing data comes despite the most ambitious attempt yet by the government to revive house prices in China. In May, the People’s Bank of China scrapped the minimum rate of interest and reduced down-payment ratios to 15% for first-time buyers and 25% for second homes. It also created a 300bn yuan (£32.8bn) facility to support local state-owned companies to buy homes at reasonable prices.
+
+China’s glut of idle property causes headache for the government
+
+Investors say the amount the central bank has invested may not be enough. Measures in several cities allowing local governments to buy up excess properties from developers have made slow progress in deploying allocated funds. The oversupply of homes on the market has hit prices, making people less likely to invest.
+
+Liu Aihua, a spokesperson for the NBS, told a media briefing on Monday that the property market was undergoing adjustment and it would take some time for policy measures to kick in.
+
+Policymakers have been attempting to rein in the oversupply of housing, and support debt-laden developers since the market went into freefall in 2020, hit by the pandemic and a sudden regulatory crackdown on indebted lenders.
+
+skip past newsletter promotion
+
+Sign up to Business Today
+
+Free daily newsletter
+
+Get set for the working day – we'll point you to all the business news and analysis you need every morning
+
+Enter your email address
+
+Privacy Notice: Newsletters may contain information about charities, online ads, and content funded by outside parties. If you do not have an account, we will create a guest account for you on theguardian.com to send you this newsletter. You can complete full registration at any time. For more information about how we use your data see our Privacy Policy. We use Google reCaptcha to protect our website and the Google Privacy Policy and Terms of Service apply.
+
+after newsletter promotion
+
+China to cut mortgage rates as part of plan to prop up property market
+
+China’s ailing property market reflects struggles in the wider economy. Industrial output grew more slowly in May at 5.6% compared with 6.7% a year earlier. Economists were expecting growth of about 6%.
+
+Retail sales beat expectations in May, however, climbing 3.7%. This was better than analyst expectations of 3% growth.
+
+Ipek Ozkardeskaya, a senior analyst at Swissquote Bank, said gloomy economic data could prompt the Bank of China to cut interest rates to help demand. “The latest data showed that home prices there slid at a faster pace in May despite all the efforts that the Chinese government puts in to stop the bleeding, and industrial production slowed significantly more than expected, as well, during the same month,” she added.
+
+“The People’s Bank of China is expected to maintain its rates unchanged this week, but some economists at Bloomberg believe that the week could bring a 10 basis point cut in China to prop things up.”

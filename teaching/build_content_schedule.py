@@ -15,10 +15,10 @@ Columns:
   sched_valence, sched_political
 
 Schedule design (from proposal Table 2):
-  Arm 1  Pro-China  low   :  6 PRO  (slots 1,5,9,13,17,21) + 18 CTRL
-  Arm 2  Pro-China  high  : 24 PRO
-  Arm 3  Anti-China low   :  6 ANTI (same slots as arm 1)  + 18 CTRL
-  Arm 4  Anti-China high  : 24 ANTI
+  Arm 1  Pro-China  low   :  6 PRO in participant-specific random slot-1 weeks + 18 CTRL
+  Arm 2  Pro-China  high  : 12 PRO (slot 1 every week) + 12 CTRL
+  Arm 3  Anti-China low   :  6 ANTI in participant-specific random slot-1 weeks + 18 CTRL
+  Arm 4  Anti-China high  : 12 ANTI (slot 1 every week) + 12 CTRL
   Arm 5  Apolitical China : 12 APOL (slot_wk==1 every week) + 12 CTRL
   Arm 6  Non-China ctrl   : 24 CTRL
 
@@ -33,7 +33,7 @@ import os
 SEED = 20250406
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BANK_PATH   = os.path.join(HERE, '..', 'materials_master_bank.csv')
+BANK_PATH   = os.path.join(HERE, 'materials_master_bank.csv')
 ARM_EXPORT  = os.path.join(HERE, 'sim_arm_export.csv')
 OUT_PATH    = os.path.join(HERE, 'content_assignment.csv')
 
@@ -63,7 +63,7 @@ POOL_MAP = {
 # content_id 1..24:  week = ceil(cid/2),  slot_wk = 1 if odd else 2
 #
 # Design: EVERY week = 1 treatment (slot_wk 1) + 1 CTRL filler (slot_wk 2)
-#   Arm 1/3 low  : treatment in 6 of 12 weeks (odd weeks: cids 1,5,9,13,17,21)
+#   Arm 1/3 low  : treatment in 6 of 12 participant-specific random slot_wk 1 weeks
 #                  the other 6 weeks: slot_wk 1 = CTRL as well
 #   Arm 2/4 high : treatment in ALL 12 weeks (slot_wk 1 = PRO/ANTI every week)
 #   Arm 5        : slot_wk 1 = APOL every week,  slot_wk 2 = CTRL
@@ -77,18 +77,23 @@ POOL_MAP = {
 #   Arm 5 → 12 APOL + 12 CTRL
 #   Arm 6 → 24 CTRL
 
-LOW_POL_CIDS  = frozenset([1, 5, 9, 13, 17, 21])   # 6 political slots (low dose)
-HIGH_POL_CIDS = frozenset(range(1, 24, 2))           # 12 slots: all slot_wk==1
+SLOT1_CIDS    = tuple(range(1, 24, 2))
+HIGH_POL_CIDS = frozenset(SLOT1_CIDS)                # 12 slots: all slot_wk==1
 
-def slot_type(arm: int, cid: int):
+def low_pol_cids_for_study(study_id: int, arm: int):
+    """Deterministic participant-specific low-dose political weeks."""
+    local_rng = random.Random(SEED + study_id * 1009 + arm * 97)
+    return frozenset(local_rng.sample(SLOT1_CIDS, 6))
+
+def slot_type(arm: int, cid: int, low_pol_cids=None):
     """Return (pool_key, sched_valence) for this arm and content_id."""
     slot_wk = 1 if cid % 2 == 1 else 2
     if arm == 1:
-        return ('PRO',  1) if cid in LOW_POL_CIDS else ('CTRL', 0)
+        return ('PRO',  1) if cid in low_pol_cids else ('CTRL', 0)
     elif arm == 2:
         return ('PRO',  1) if cid in HIGH_POL_CIDS else ('CTRL', 0)
     elif arm == 3:
-        return ('ANTI', -1) if cid in LOW_POL_CIDS else ('CTRL', 0)
+        return ('ANTI', -1) if cid in low_pol_cids else ('CTRL', 0)
     elif arm == 4:
         return ('ANTI', -1) if cid in HIGH_POL_CIDS else ('CTRL', 0)
     elif arm == 5:
@@ -114,11 +119,12 @@ rows_out = []
 for p in participants:
     sid = p['study_id']
     arm = p['arm']
+    low_pol_cids = low_pol_cids_for_study(sid, arm) if arm in (1, 3) else None
 
     # Group content_ids by pool type for this arm
     groups: dict[str, list[int]] = {}
     for cid in range(1, 25):
-        key, _ = slot_type(arm, cid)
+        key, _ = slot_type(arm, cid, low_pol_cids)
         groups.setdefault(key, []).append(cid)
 
     # Sample articles for each pool type (no within-person repeats)
@@ -134,7 +140,7 @@ for p in participants:
     for cid in range(1, 25):
         week    = (cid - 1) // 2 + 1
         slot_wk = 1 if cid % 2 == 1 else 2
-        key, sched_valence = slot_type(arm, cid)
+        key, sched_valence = slot_type(arm, cid, low_pol_cids)
         art = article_for_cid[cid]
         rows_out.append({
             'study_id':       sid,

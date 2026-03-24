@@ -445,15 +445,15 @@
   },
   {
     "id": "CTRL_010",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "status": "ok",
+    "words": 1878,
+    "method": "wayback_bs:20190619053926"
   },
   {
     "id": "CTRL_011",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "status": "ok",
+    "words": 185,
+    "method": "bs4_ua1"
   },
   {
     "id": "CTRL_012",

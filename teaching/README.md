@@ -68,9 +68,9 @@ Every recruited participant received **24 content slots** over 12 weeks (2 per w
 
 | Arm | Label | Political articles | N |
 |-----|-------|--------------------|---|
-| 1 | Pro-China, low dose | 6 (odd weeks) | 1,061 |
+| 1 | Pro-China, low dose | 6 (participant-specific randomized slot-1 weeks) | 1,061 |
 | 2 | Pro-China, high dose | 12 (every week) | 1,061 |
-| 3 | Anti-China, low dose | 6 (odd weeks) | 1,061 |
+| 3 | Anti-China, low dose | 6 (participant-specific randomized slot-1 weeks) | 1,061 |
 | 4 | Anti-China, high dose | 12 (every week) | 1,061 |
 | 5 | Apolitical China | 12 apolitical | 1,061 |
 | 6 | Non-China control (ref) | 0 | 1,060 |

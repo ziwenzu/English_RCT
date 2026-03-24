@@ -14,6 +14,8 @@
 # Temporary / generated
 *.log
 ~$*
+__pycache__/
+*.pyc
 
 # Project-specific data folders
 analysis/data/
@@ -21,3 +23,7 @@ analysis/output/
 analysis/tables/
 analysis/figures/
 writing/tables/
+teaching/content_assignment.csv
+teaching/sim_arm_export.csv
+teaching/city_counts.csv
+teaching/article_analysis/

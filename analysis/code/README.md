@@ -40,6 +40,12 @@ Each numbered script corresponds to one output table and can be run directly wit
 - `37_tab_wtp_outlet_choice.R`
 - `38_tab_summary_indices_strict.R`
 - `39_tab_negative_controls.R`
+- `40_tab_credibility_moderation_t1.R`
+- `41_tab_acceptance_mediation.R`
+- `42_tab_dissonant_highdose_demand.R`
+- `43_tab_polarization_t1.R`
+- `44_tab_placebo_knowledge.R`
+- `45_tab_valence_vs_apolitical_t1.R`
 
 ## Figure Scripts
 

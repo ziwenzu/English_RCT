@@ -1,3 +1,14 @@
 ID: CTRL_011
+Bank: NONCHINA_CONTROL
+Source: The Washington Post
+Title: A local’s guide to Tokyo
 URL: https://www.washingtonpost.com/travel/japan/tokyo-local-guide/
-STATUS: FETCH_FAILED
+Topic: city guide and urban culture
+Method: bs4_ua1
+Words: 185
+Fetched: 2026-03-23T17:19:14.382772
+============================================================
+
+The sprawling metropolis is so big that even lifelong residents will never really know certain neighborhoods. There is always something to uncover or a new area to explore.
+The food is amazing, and it’s easy to eat like an emperor, even on a budget. There is respect for others, which explains why packed trains are quiet. The city is devoid of litter despite the relatively few trash cans. The country is so safe that 6-year-olds are expected to walk to school by themselves, and attention to detail is evident across the landscape, from how stores present items for sale to how food is packaged. It’s a peaceful society. Our transit-system cars are clean and frequent. And we have the best toilets in the world. It all makes visitors fall hard for Japan.
+Born in Tokyo, raised in Minnesota and drawn back to the Japanese capital to be closer to relatives, Yukari is the author of “Food Sake Tokyo.” She offers tours to local markets and cooking classes out of her home. On her days off, she can be found relaxing in onsen, or hot springs.

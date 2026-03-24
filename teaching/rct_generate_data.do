@@ -1555,10 +1555,40 @@ replace  wk_open = . if complete_endline == 0 & week > last_week_active
 
 set seed `seed'
 
+* ── Shared week/article shocks and person-specific fatigue ───────────────────
+* These make weekly trajectories look more like real learning/app-use data:
+* some common week-to-week variation, article-specific salience, and mild fatigue.
+bysort study_id: gen double _fatigue_read = cond(_n == 1, -0.06 + 0.03*rnormal(), .)
+bysort study_id: replace _fatigue_read = _fatigue_read[1]
+bysort study_id: gen double _fatigue_react = cond(_n == 1, -0.28 + 0.10*rnormal(), .)
+bysort study_id: replace _fatigue_react = _fatigue_react[1]
+
+bysort week: gen double _week_shock_read = cond(_n == 1, 0.28*rnormal(), .)
+bysort week: replace _week_shock_read = _week_shock_read[1]
+bysort week: gen double _week_shock_react = cond(_n == 1, 1.10*rnormal(), .)
+bysort week: replace _week_shock_react = _week_shock_react[1]
+
+bysort article_id: gen double _art_shock_read = cond(_n == 1, 0.45*rnormal(), .)
+bysort article_id: replace _art_shock_read = _art_shock_read[1]
+bysort article_id: gen double _art_shock_cred = cond(_n == 1, 1.80*rnormal(), .)
+bysort article_id: replace _art_shock_cred = _art_shock_cred[1]
+bysort article_id: gen double _art_shock_react = cond(_n == 1, 1.40*rnormal(), .)
+bysort article_id: replace _art_shock_react = _art_shock_react[1]
+
+sort study_id content_id
+by study_id: gen byte _is_pro  = (sched_valence ==  1)
+by study_id: gen byte _is_anti = (sched_valence == -1)
+by study_id: gen int  _cum_pro_before  = sum(_is_pro)  - _is_pro
+by study_id: gen int  _cum_anti_before = sum(_is_anti) - _is_anti
+
 * ── Time on task (missing after dropout) ─────────────────────────────────────
-* wk_read_min: ~9 min base; political slots slightly longer; varies by engagement
+* wk_read_min: ~9 min base; political slots slightly longer; allows week/article
+* shocks and mild fatigue so classroom plots do not look mechanically flat.
 gen float wk_read_min = max(2, min(25, ///
-    9 + 1.5*sched_political + 2.0*_fe_eng + 1.5*rnormal())) if wk_open == 1
+    8.9 + 1.1*sched_political + 0.25*(sched_valence != 0) ///
+    + 1.9*_fe_eng + _fatigue_read*week                    ///
+    + _week_shock_read + _art_shock_read                  ///
+    + 1.7*rnormal())) if wk_open == 1
 
 * wk_vid_pct: proportion of ~5-min audio listened; high base (incentivised app)
 gen float wk_vid_pct = max(0.2, min(1, ///
@@ -1587,23 +1617,29 @@ gen byte wk_comply = (wk_vid_pct >= 0.8) if wk_open == 1
 * ── Weekly reaction ratings ───────────────────────────────────────────────────
 * wk_rate_interest:
 *   Base ~55; political +6; anti-China × nationalist → -7 (defensive);
-*   pro-China × liberal → -4 (skeptical); slight novelty decay by week
+*   pro-China × liberal → -4 (skeptical); slight novelty decay by week.
+*   Added article/week shocks so average paths are smoother and more realistic.
 gen float wk_rate_interest = max(0, min(100, ///
     55 + 6*sched_political                       ///
     - 7*(sched_valence==-1)*(_fe_pol > 0.5)     ///
     - 4*(sched_valence== 1)*(_fe_pol < -0.5)    ///
     + 8*_fe_eng                                  ///
-    - 0.5*week                                   ///
-    + 12*rnormal())) if wk_open == 1
+    + _fatigue_react*week                        ///
+    + _week_shock_react + _art_shock_react       ///
+    + 11*rnormal())) if wk_open == 1
 
-* wk_rate_cred: costly-signal effect for pro-China; dismissal for anti×nationalist
+* wk_rate_cred: costly-signal effect for pro-China; dismissal for anti×nationalist.
+* Replaces the old linear pro×week term with a weaker cumulative-exposure effect
+* plus article/week shocks, so credibility does not move in a visibly mechanical line.
 gen float wk_rate_cred = max(0, min(100, ///
     50 + 5*(sched_valence== 1)                ///
     - 4*(sched_valence==-1)*(_fe_pol > 0.5)  ///
     + 3*(sched_valence==-1)*(_fe_pol < -0.5) ///
-    + 0.4*week*(sched_valence== 1)            ///
+    + 0.15*_cum_pro_before*(sched_valence== 1)  ///
+    - 0.05*_cum_anti_before*(sched_valence==-1)*(_fe_pol > 0.5) ///
     + 10*_fe_eng                              ///
-    + 14*rnormal())) if wk_open == 1
+    + _week_shock_react + _art_shock_cred     ///
+    + 12*rnormal())) if wk_open == 1
 
 * wk_rate_similar: demand for similar content; decays under dissonant high-dose
 gen double _congruent = (sched_valence == 1)*(_fe_pol > 0) + ///
@@ -1612,10 +1648,15 @@ gen float wk_rate_similar = max(0, min(100, ///
     58 + 8*_congruent                                  ///
     - 1.2*sched_political*(1-_congruent)*week          ///
     + 6*_fe_eng                                        ///
-    + 14*rnormal())) if wk_open == 1
+    + 0.7*_week_shock_react + 0.8*_art_shock_react     ///
+    + 13*rnormal())) if wk_open == 1
 drop _congruent
 
-drop _fe_eng _fe_pol t0_nat_index t0_exam_score
+drop _fe_eng _fe_pol t0_nat_index t0_exam_score ///
+     _fatigue_read _fatigue_react ///
+     _week_shock_read _week_shock_react ///
+     _art_shock_read _art_shock_cred _art_shock_react ///
+     _is_pro _is_anti _cum_pro_before _cum_anti_before
 
 compress
 save weekly_long.dta, replace

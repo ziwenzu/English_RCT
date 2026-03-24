@@ -1,0 +1,305 @@
+\documentclass[12pt,american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\pagestyle{plain}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amsmath,amssymb}
+\usepackage{relsize}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{titletoc}
+\usepackage[page,header]{appendix}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lmodern}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage[figuresright]{rotating}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{framed}
+\usepackage{longtable}
+\usepackage[flushleft]{threeparttable}
+\usepackage{color}
+\usepackage{hhline}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{threeparttablex}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,arrows,shapes.multipart}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{fancyvrb}
+\usepackage{csquotes}
+\usepackage[american]{babel}
+\usepackage{tocloft}
+\usepackage{txfonts}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  citecolor={blue},
+  urlcolor={blue},
+  linkcolor={blue}}
+\newcommand{\RowColor}{\rowcolor{cyan!30}}
+\newtheorem{define}{Definition}
+\newtheorem{hypo}{Hypothesis}
+\newtheorem{ass}{Assumption}
+\newtheorem{prop}{Proposition}
+\newtheorem{hyp}{Hypothesis}
+\usepackage{bibentry}
+\usepackage[natbib,authordate,sorting=nyt,sortcites=true,dashed=false,uniquename=false,citetracker=false,ibidtracker=false,doi=false,isbn=false]{biblatex-chicago}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{month}}
+\addbibresource{ref.bib}
+\usepackage{chngcntr}
+\captionsetup{justification=centering,singlelinecheck=false}
+\cftsetpnumwidth{4em}
+\cftsetrmarg{5em}
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\setcounter{topnumber}{5}
+\setcounter{bottomnumber}{5}
+\setcounter{totalnumber}{10}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\makeatletter
+\def\fps@figure{!htbp}
+\def\fps@table{!htbp}
+\makeatother
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\textsuperscript{#1}\fi}
+\newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\newcommand{\figuremeta}[2][\textwidth]{\par\vspace{0.3em}\noindent\begin{minipage}{\textwidth}\footnotesize #2\end{minipage}}
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+    keywordstyle=\color{blue},
+    commentstyle=\color{DarkGreen},
+}
+\newcolumntype{x}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{\textbf{Breaking the Great Firewall:}\\
+\textbf{Foreign Media, Message Valence, and Regime Legitimacy in China}}
+\author{Ziwen Zu\thanks{Department of Political Science, University of California, San Diego. Email: \href{mailto:zzu@ucsd.edu}{zzu@ucsd.edu}.}}
+\date{}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent How does foreign media shape political opinion in an authoritarian information environment? I answer this question with a 12-week field experiment embedded in a large Chinese English test-preparation app. The study randomized 6,365 users into six arms that varied the valence and dose of weekly foreign-news exposure: pro-China political coverage, anti-China political coverage, apolitical China-related content, and non-China neutral content. Three findings stand out. First, foreign-media effects are strongly valence-dependent. Pro-China coverage from Western outlets increases regime legitimacy and trust in foreign media, whereas anti-China coverage lowers regime support on average but also increases identity backlash. Second, the dynamic effects are asymmetric. Pro-China effects on legitimacy persist to follow-up, while anti-China effects attenuate sharply after treatment ends. Third, persuasion is inseparable from demand. Political content increases weekly attention regardless of valence, but only pro-China content raises perceived credibility and willingness to consume more foreign news, while anti-China content suppresses downstream demand. Together, the evidence shows that the political consequences of foreign media under authoritarianism depend not on foreign source identity alone, but on the interaction of message valence, repeated exposure, and audience acceptance.
+\end{abstract}
+
+\textbf{Keywords}: Authoritarianism; Censorship; China; Media; Public Opinion
+
+\setcounter{page}{0}
+\thispagestyle{empty}
+\newpage
+\doublespacing
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\hypersetup{pageanchor=true}
+
+\section*{Introduction}
+
+Information control is a foundational instrument of authoritarian rule. In China, the state blocks major foreign news websites, curates domestic information flows, and devotes substantial capacity to steering online attention toward regime-compatible narratives \citep{kingpanroberts2013,roberts2018}. Yet censorship does not eliminate foreign information. Citizens still encounter outside reporting through educational settings, platform-mediated content, and foreign-language study. The central empirical question is therefore not only whether authoritarian citizens can access outside information, but what kinds of outside narratives they receive, how often they receive them, and whether those encounters generate continued demand for more foreign news.
+
+The existing literature offers sharply different expectations. Research on censorship circumvention shows that access to blocked information can reduce trust in the regime and broaden political knowledge \citep{chenyang2019}. Other work shows that foreign information can improve evaluations of domestic governance when it revises idealized views of democratic alternatives or confirms favorable narratives about national performance \citep{huang2015international}. At the same time, message effects are filtered by selective exposure, credibility judgments, and prior ideological commitments \citep{huangyeh2017,wangwestwood2024}. These findings suggest that ``foreign media'' is too coarse a treatment. Under authoritarianism, the effects of foreign information should depend on message valence, repetition, and the audience's willingness to accept the source.
+
+I investigate these issues with a field experiment embedded in a large Chinese English test-preparation app. Over twelve weeks, participants received two English-language readings per week, paired with close-reading videos, quizzes, and weekly article evaluations. The design varies the valence of foreign coverage (pro-China versus anti-China), its dose (low versus high), and the benchmark against which political content is evaluated (apolitical China-related content and non-China neutral content). Because the app records article openings, reading time, quizzes, and weekly content ratings, the design captures not only treatment assignment but also engagement, acceptance, and continued demand for similar content.
+
+The results support three conclusions. First, foreign-media effects are strongly valence-dependent. Pro-China coverage from Western outlets increases regime legitimacy and trust in foreign media. Anti-China coverage lowers regime support, but it does not uniformly liberalize attitudes; it also increases identity backlash. Second, these effects persist asymmetrically. Pro-China legitimacy effects remain visible at follow-up, whereas anti-China effects on regime support fade once treatment ends. Third, persuasion and demand are linked. Political content increases attention regardless of valence, but only pro-China content raises credibility and willingness to consume more similar foreign news. Anti-China content holds attention without generating sustained demand.
+
+These findings contribute to research on authoritarian information control and political persuasion in four ways. First, the study moves beyond binary access designs by randomizing the content of foreign reporting inside a common delivery environment. Second, it observes repeated exposure rather than one-shot reactions, allowing dose, fatigue, and backlash to become part of the design rather than post hoc interpretations. Third, it combines attitudes with behavioral traces and willingness-to-pay measures, making it possible to distinguish persuasion from avoidance. Fourth, it shows that foreign media can both erode and reinforce regime legitimacy, depending on how China is framed by foreign sources.
+
+\section*{Theory}
+
+My argument starts from a simple claim: foreign media do not operate as a uniform liberalizing force in authoritarian settings. Instead, their political effects depend on whether messages are congruent with audience priors, whether the source is judged credible, and whether repeated exposure increases or suppresses future demand for similar content.
+
+The first mechanism is ideological congruence. Citizens are more likely to accept information that fits prior beliefs and more likely to resist sharply dissonant messages \citep{taberlodge2006}. In China, anti-China coverage should be more congruent for regime skeptics, while pro-China coverage should be more congruent for more nationalist or regime-supportive respondents. Congruent messages reinforce prior views. Dissonant messages may fail to persuade or provoke defensive reactions.
+
+The second mechanism is source credibility. Foreign reporting can shape opinion only if the source is not rejected at the outset \citep{hovlandweiss1951}. Repeated exposure to Western outlets that publish pro-China stories may increase both regime support and trust in those outlets by signaling that foreign media are not uniformly hostile. By contrast, anti-China stories may be interpreted either as credible criticism or as hostile out-group attack. The result can be a mixed response: lower regime support alongside higher nationalism and reduced willingness to seek similar material again.
+
+The third mechanism is dose. Repetition should matter because it changes the opportunity to receive and accept new signals. High dose may strengthen persuasion by making a frame more cognitively available, but it may also intensify reactance or fatigue. Under this view, dose is not a purely technical design choice; it is part of the theory of authoritarian persuasion.
+
+Finally, acceptance should shape future demand. A setting with repeated weekly exposure makes it possible to observe not only whether assigned content shifts attitudes, but also whether recipients subsequently want more similar foreign content. If pro-China messages are easier to accept, they should increase downstream demand for foreign news. If anti-China messages are more likely to trigger threat or distrust, they may depress future demand even when they attract attention in the short run.
+
+These mechanisms imply four expectations. First, pro-China and anti-China foreign coverage should move legitimacy in opposite directions. Second, anti-China effects should be less persistent if they rely more on short-run affective reaction than durable acceptance. Third, engagement and persuasion should not be conflated: attention can rise without credibility or demand increasing. Fourth, heterogeneity should be theoretically central, not ancillary, because the same foreign source can be accepted or rejected depending on message content and prior beliefs.
+
+\section*{Research Design and Empirical Strategy}
+
+\subsection*{Experimental Setting and Design}
+
+The experiment was conducted through a major Chinese English test-preparation app. The study population consists of users preparing for TOEFL, IELTS, GRE, GMAT, and related exams. This setting is substantively valuable because it creates a realistic pathway through which Chinese users encounter foreign English-language material while remaining inside a highly censored information environment.
+
+The realized study randomized 6,365 participants from a baseline pool of 12,215 into six treatment arms. Two arms received pro-China political content at low or high dose; two arms received anti-China political content at low or high dose; one arm received apolitical China-related content; and one arm received non-China neutral content. Each participant faced 24 reading slots over 12 weeks. Weekly assignments were paired with instructional videos, quizzes, and article ratings. Endline surveys were completed by 5,215 participants, and a four-week follow-up was completed by 2,115 participants.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{../analysis/output/figures/frozen/fig_flowchart.pdf}
+\caption{Study Flow and Treatment Assignment}
+\label{fig:study_flow}
+\end{figure}
+
+The final materials bank contains 89 distinct readings: 24 pro-China political articles, 24 anti-China political articles, 17 apolitical China-related articles, and 24 non-China control articles. The political pools draw mainly from \emph{Reuters}, \emph{AP News}, \emph{The Guardian}, \emph{The Economist}, \emph{The Washington Post}, and \emph{The New York Times}. The benchmark pools are drawn more heavily from \emph{Smithsonian}, \emph{National Geographic}, \emph{The Guardian}, and a smaller number of \emph{CNN Travel} and \emph{Washington Post} feature pieces. This diversification reduces the risk that treatment effects are driven by a single outlet label.
+
+Content validity is strong. Using a China-valence measure based on China-anchored sentences, pro-China articles average \(+0.490\), anti-China articles average \(-0.432\), while the apolitical-China and non-China benchmark pools remain near zero. Figure~\ref{fig:content_validity} shows that the political pools are clearly separated, whereas the benchmark pools cluster near neutrality.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../analysis/output/figures/fig_content_validity_tone.pdf}
+\caption{Content Validity of the Final Article Pools}
+\label{fig:content_validity}
+\end{figure}
+
+The benchmark pools are not perfectly identical in article length, but after excerpt harmonization they are much closer in readability and sentence structure than in the raw corpus. I therefore treat textual comparability as an explicit design diagnostic rather than an untested assumption.
+
+\subsection*{Outcomes}
+
+The study uses three families of outcomes. First are attitudinal outcomes measured at endline and follow-up: regime support, censorship support, nationalism, the China--West thermometer gap, and trust in foreign media. Second are weekly behavioral outcomes: article compliance, reading minutes, quiz scores, interest ratings, credibility ratings, and whether respondents wanted more similar content. Third are post-treatment demand outcomes: willingness to pay for future foreign news, a purchase indicator, and sign-up for a later foreign-news digest.
+
+To summarize the main theoretical constructs more parsimoniously, I also use three standardized indices: a legitimacy index, a foreign-media receptivity and demand index, and an identity-backlash index. These indices provide the cleanest summary of the political and behavioral argument and serve as the main outcomes in the body of the paper.
+
+\subsection*{Empirical Strategy}
+
+The main endline and follow-up estimates use ANCOVA specifications of the following form:
+\[
+Y_{i1} = \alpha + \beta T_i + \gamma Y_{i0} + \delta_b + \varepsilon_i,
+\]
+where \(T_i\) denotes treatment assignment, \(Y_{i0}\) is the baseline value of the outcome, and \(\delta_b\) are randomization-block fixed effects. The omitted category is the non-China control arm, and standard errors are HC2-robust.
+
+For the primary presentation, I focus on pooled treatment contrasts that collapse low and high dose within each political valence. This yields three substantively interpretable comparisons: pooled pro-China versus control, pooled anti-China versus control, and apolitical China versus control. I then turn to arm-level contrasts to show dose intensification.
+
+For dynamic persistence, I use individual fixed-effects panel models that stack baseline, endline, and follow-up observations and interact treatment status with survey wave. This provides a direct test of whether effects attenuate between endline and follow-up. Weekly panel estimates use week fixed effects, randomization-block fixed effects, and participant-clustered standard errors.
+
+I treat robustness as a design-based inference problem rather than an afterthought. The paper therefore reports randomization-inference p-values, Holm-adjusted p-values for the primary summary-index family, Lee bounds and inverse-probability weights for follow-up attrition, and evidence on sample selection into the realized experimental population. These checks matter because the sample is clearly a foreign-oriented English-learning subpopulation rather than a nationally representative sample of Chinese adults.
+
+\section*{Findings}
+
+\subsection*{Main Effects on Legitimacy, Receptivity, and Backlash}
+
+The cleanest main results are the summary indices reported in Table~\ref{tab:summary_indices}. Pro-China foreign coverage increases both legitimacy and subsequent receptivity to foreign media, while anti-China coverage reduces legitimacy and increases identity backlash. Specifically, pooled pro-China treatment raises the legitimacy index at endline by \(0.075\) standard deviations and the foreign-media receptivity and demand index by \(0.223\) standard deviations. Pooled anti-China treatment reduces the legitimacy index by \(0.033\) standard deviations and increases the backlash index by \(0.062\) standard deviations. These results survive stricter inference based on randomization inference and Holm correction.
+
+\input{../analysis/output/tables/tab_summary_indices.tex}
+
+The arm-level outcome table shows the same directional pattern in the component outcomes. Relative to the non-China control arm, pro-China content substantially increases regime support, and the high-dose pro-China arm produces the strongest positive effect. Anti-China content lowers regime support in both dose conditions, with the high-dose anti-China arm generating the largest negative effect. At the same time, anti-China exposure increases nationalism rather than uniformly pushing respondents toward pro-Western views. This mixed response is the central substantive finding of the paper: foreign criticism can reduce regime support without generating straightforward liberalization.
+
+\input{../analysis/output/tables/tab_main_ancova_t1.tex}
+
+\subsection*{Persistence Is Asymmetric}
+
+The follow-up results show that pro-China and anti-China messages do not decay in the same way. Table~\ref{tab:persistence_panel_fe} reports fixed-effects panel estimates that compare endline and follow-up treatment effects within respondents. Pooled pro-China treatment increases regime support by \(0.270\) at endline and still has a positive follow-up effect of \(0.110\), with attenuation but not disappearance. By contrast, pooled anti-China treatment reduces regime support by \(0.203\) at endline but has essentially no follow-up effect. The endline-to-follow-up change is statistically significant, indicating sharper decay for anti-China treatment.
+
+\input{../analysis/output/tables/tab_persistence_panel_fe.tex}
+
+This asymmetry matters theoretically. If foreign media merely operated through temporary attention shocks, one might expect both pro- and anti-China effects to wash out at similar rates. Instead, positive foreign validation of China appears to generate more durable legitimating effects than negative foreign criticism generates durable delegitimating effects.
+
+Attrition sensitivity strengthens this conclusion rather than undermining it. Lee bounds, inverse-probability-weighted ANCOVA, and balanced-panel fixed-effects models all indicate that the follow-up pro-China legitimacy effect remains positive, while the anti-China follow-up legitimacy effect remains close to zero.
+
+\subsection*{Mechanisms: Attention, Acceptance, and Demand}
+
+The weekly and post-treatment behavioral data show that persuasion is not reducible to exposure alone. Table~\ref{tab:mechanism_chain} reports a mechanism chain spanning weekly engagement, weekly acceptance, and downstream demand. Both pro-China and anti-China political content increase total reading time by roughly 14 minutes over the study period relative to control. In other words, anti-China content does not simply cause avoidance at the attention stage.
+
+The divergence appears at acceptance and demand. Pro-China treatment increases weekly credibility ratings by \(2.900\) points and weekly demand for similar content by \(0.583\) points, while anti-China treatment produces neither effect. The downstream behavioral demand outcomes are even sharper: pro-China treatment raises willingness to pay by nearly 5 RMB and increases the purchase indicator by 11.7 percentage points, whereas anti-China treatment lowers willingness to pay by 2.8 RMB and lowers the purchase indicator by 5.1 percentage points.
+
+\input{../analysis/output/tables/tab_mechanism_chain.tex}
+
+The weekly panel estimates reinforce the same interpretation. Pro-China content consistently increases credibility and interest. Anti-China content increases interest and reading time, but it reduces the desire to receive more similar content. Figure~\ref{fig:weekly_effects} shows that the pro-China credibility premium is visible across the weekly sequence, while anti-China content becomes especially negative on the ``want more similar'' dimension later in the intervention.
+
+\input{../analysis/output/tables/tab_weekly_panel_slot1.tex}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../analysis/output/figures/fig_weekly_treatment_effects.pdf}
+\caption{Weekly Treatment Effects in Slot 1}
+\label{fig:weekly_effects}
+\end{figure}
+
+Together, these results favor a selective-acceptance interpretation rather than a selective-avoidance interpretation. Participants do read politically charged foreign content. The difference is that pro-China messages are more likely to be accepted as credible and converted into continued demand for foreign news, whereas anti-China messages attract attention without generating sustained appetite for more of the same source.
+
+\subsection*{Topic Heterogeneity}
+
+Treatment heterogeneity is not only about respondents. It is also about the type of foreign story participants see. Article-level topic diagnostics show that anti-China content is most negative when it focuses on repression, censorship, and broad social stress, while pro-China content is most positive when it emphasizes green development, technology, and macroeconomic performance. Weekly topic heterogeneity shows a parallel behavioral pattern: pro-China green-development and technology stories generate especially strong credibility and interest responses, while anti-China economy and property stories are more likely to depress willingness to consume more similar content.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../analysis/output/figures/fig_topic_tone_heterogeneity.pdf}
+\caption{Article-Level China-Valence by Topic Family}
+\label{fig:topic_tone}
+\end{figure}
+
+\input{../analysis/output/tables/tab_weekly_topic_heterogeneity.tex}
+
+This heterogeneity clarifies why ``foreign media'' is too blunt a category. The political consequences of foreign reporting depend on whether foreign outlets criticize repression, criticize economic governance, praise policy performance, or cover China in nonpolitical cultural terms. Different topics produce different blends of attention, persuasion, and backlash.
+
+\subsection*{Scope Conditions}
+
+The internal validity of the design is strong, but the target population is narrow. The randomized sample consists of young Chinese users studying English for test preparation, many of whom are already more internationally oriented than the population at large. The paper should therefore not be read as estimating the average effect of foreign media on all Chinese citizens. Instead, it identifies the effects of repeated foreign-news exposure among a particularly relevant subpopulation: individuals who are plausibly among the most likely to encounter foreign-language reporting in everyday life.
+
+That scope condition does not weaken the core argument. If even this foreign-oriented population does not respond to anti-China foreign media in a uniformly liberalizing way, then simple access-based models of authoritarian persuasion are incomplete. The evidence instead points to a more conditional process in which valence, credibility, and repeated demand jointly determine political influence.
+
+\section*{Conclusion}
+
+Foreign media under authoritarianism do not produce a single political effect. In this study, Western reporting that framed China positively increased regime legitimacy and trust in foreign media, and some of those effects persisted after the intervention ended. Western reporting that framed China negatively reduced regime support in the short run, but it also generated identity backlash and did not translate into sustained demand for more foreign news. The contrast is clearest in the behavioral data: both kinds of political content hold attention, but only pro-China content is systematically converted into credibility and continued demand.
+
+The broader implication is that foreign source identity is not enough to predict persuasion. What matters is whether the foreign message validates or threatens the audience, whether it is repeated often enough to shape expectations, and whether recipients come to view the source as worth returning to. In authoritarian settings, then, foreign media can erode regime legitimacy, but they can also provide international legitimation. Understanding that dual possibility is essential for both theories of information control and debates about the political consequences of censorship circumvention.
+
+More generally, the study suggests that the politics of foreign information should be studied as a dynamic process that links exposure, credibility, and demand. Future work can extend this approach by testing how outlet labels, peer discussion, and algorithmic recommendation systems interact with message valence. But the core lesson of the present experiment is already clear: in authoritarian information environments, what foreign media say matters at least as much as the fact that they are foreign.
+
+\clearpage
+\begingroup
+\singlespacing
+\setlength\bibitemsep{0pt}
+\printbibliography
+\endgroup
+
+\newpage
+\begin{refsection}
+
+\appendix
+\section*{Supplemental Information}
+\onehalfspacing
+\startcontents[sections]
+\printcontents[sections]{l}{1}{\setcounter{tocdepth}{3}}
+\thispagestyle{empty}
+
+\newpage
+\singlespacing
+\hypersetup{pageanchor=false}
+\renewcommand{\thepage}{SI-\arabic{page}}
+\setcounter{page}{1}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{footnote}{0}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+
+\section{Appendix Placeholder}
+Appendix content and supplemental robustness checks will be inserted here.
+
+% Uncomment when the appendix cites sources:
+% \printbibliography[heading=subbibliography,title={Supplemental References}]
+\end{refsection}
+
+\end{document}

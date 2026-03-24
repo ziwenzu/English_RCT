@@ -1,0 +1,284 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{chenyang2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dfdb65a15df89a457967767f4286ebc0}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuyu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1a7a6234615f25de49f8b78db48c27b8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={David\bibnamedelima Y.},
+           giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{92ad904e7700104d14cfc9e80089fee7}
+      \strng{fullhash}{92ad904e7700104d14cfc9e80089fee7}
+      \strng{bibnamehash}{92ad904e7700104d14cfc9e80089fee7}
+      \strng{authorbibnamehash}{92ad904e7700104d14cfc9e80089fee7}
+      \strng{authornamehash}{92ad904e7700104d14cfc9e80089fee7}
+      \strng{authorfullhash}{92ad904e7700104d14cfc9e80089fee7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{6}
+      \field{title}{The Impact of Media Censorship: 1984 or Brave New World?}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{2294\bibrangedash 2332}
+      \range{pages}{39}
+    \endentry
+    \entry{hovlandweiss1951}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2907960ac4ee867d70853214bb2835e9}{%
+           family={Hovland},
+           familyi={H\bibinitperiod},
+           given={Carl\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=eca744453ff08e82e762f910c4dc5118}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f7457f010fd382adffe966e9219ee65}
+      \strng{fullhash}{7f7457f010fd382adffe966e9219ee65}
+      \strng{bibnamehash}{7f7457f010fd382adffe966e9219ee65}
+      \strng{authorbibnamehash}{7f7457f010fd382adffe966e9219ee65}
+      \strng{authornamehash}{7f7457f010fd382adffe966e9219ee65}
+      \strng{authorfullhash}{7f7457f010fd382adffe966e9219ee65}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Public Opinion Quarterly}
+      \field{number}{4}
+      \field{title}{The Influence of Source Credibility on Communication Effectiveness}
+      \field{volume}{15}
+      \field{year}{1951}
+      \field{pages}{635\bibrangedash 650}
+      \range{pages}{16}
+    \endentry
+    \entry{huang2015international}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2303f1c1339331afd73230d4fe6f751e}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Haifeng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{fullhash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{bibnamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authorbibnamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authornamehash}{2303f1c1339331afd73230d4fe6f751e}
+      \strng{authorfullhash}{2303f1c1339331afd73230d4fe6f751e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{3}
+      \field{title}{International Knowledge and Domestic Evaluations in a Changing Society: The Case of China}
+      \field{volume}{109}
+      \field{year}{2015}
+      \field{pages}{613\bibrangedash 634}
+      \range{pages}{22}
+    \endentry
+    \entry{huangyeh2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2303f1c1339331afd73230d4fe6f751e}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Haifeng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f238a4c30296910a92f74ecab11e179b}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Yao-Yuan},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9f5d6a7c281613b61ca171d19672380}
+      \strng{fullhash}{b9f5d6a7c281613b61ca171d19672380}
+      \strng{bibnamehash}{b9f5d6a7c281613b61ca171d19672380}
+      \strng{authorbibnamehash}{b9f5d6a7c281613b61ca171d19672380}
+      \strng{authornamehash}{b9f5d6a7c281613b61ca171d19672380}
+      \strng{authorfullhash}{b9f5d6a7c281613b61ca171d19672380}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{2}
+      \field{title}{Information from Abroad: Foreign Media, Selective Exposure and Political Support in China}
+      \field{volume}{49}
+      \field{year}{2017}
+      \field{pages}{611\bibrangedash 636}
+      \range{pages}{26}
+    \endentry
+    \entry{kingpanroberts2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2594ce3e567ef750dba39f69b3ced277}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{fullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{bibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorbibnamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authornamehash}{77747f51045a52db6a65b10fe93c5d24}
+      \strng{authorfullhash}{77747f51045a52db6a65b10fe93c5d24}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{2}
+      \field{title}{How Censorship in China Allows Government Criticism but Silences Collective Expression}
+      \field{volume}{107}
+      \field{year}{2013}
+      \field{pages}{326\bibrangedash 343}
+      \range{pages}{18}
+    \endentry
+    \entry{roberts2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \strng{fullhash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \strng{bibnamehash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \strng{authorbibnamehash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \strng{authornamehash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \strng{authorfullhash}{ca08ae29f1298af10aa6e11f92b01aae}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Censored: Distraction and Diversion Inside China's Great Firewall}
+      \field{year}{2018}
+    \endentry
+    \entry{taberlodge2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3208d73f57a959eee608febb03481a57}{%
+           family={Taber},
+           familyi={T\bibinitperiod},
+           given={Charles\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ef8b6d143f20a38f14986d1f4853b2c2}{%
+           family={Lodge},
+           familyi={L\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \strng{fullhash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \strng{bibnamehash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \strng{authorbibnamehash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \strng{authornamehash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \strng{authorfullhash}{534cf0ce2f9db4b47683fb0923bfce06}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{number}{3}
+      \field{title}{Motivated Skepticism in the Evaluation of Political Beliefs}
+      \field{volume}{50}
+      \field{year}{2006}
+      \field{pages}{755\bibrangedash 769}
+      \range{pages}{15}
+    \endentry
+    \entry{wangwestwood2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0ea258b4249c0d9b6f2e6496923378fd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Clara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e69e21235b827c2f3f6bb59b1d987f50}{%
+           family={Westwood},
+           familyi={W\bibinitperiod},
+           given={Sean\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{356188991e3c511b7c5328bba3965a2b}
+      \strng{fullhash}{356188991e3c511b7c5328bba3965a2b}
+      \strng{bibnamehash}{356188991e3c511b7c5328bba3965a2b}
+      \strng{authorbibnamehash}{356188991e3c511b7c5328bba3965a2b}
+      \strng{authornamehash}{356188991e3c511b7c5328bba3965a2b}
+      \strng{authorfullhash}{356188991e3c511b7c5328bba3965a2b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{The China Quarterly}
+      \field{title}{What Chinese Internet Users ``Like'' to Read: Selective Exposure in a Restricted Information Environment}
+      \field{volume}{260}
+      \field{year}{2024}
+      \field{pages}{1059\bibrangedash 1074}
+      \range{pages}{16}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

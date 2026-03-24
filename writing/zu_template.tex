@@ -1,0 +1,166 @@
+\documentclass[12pt,american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\pagestyle{plain}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amsmath,amssymb}
+\usepackage{relsize}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{titletoc}
+\usepackage[page,header]{appendix}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lmodern}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage[figuresright]{rotating}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{framed}
+\usepackage{longtable}
+\usepackage[flushleft]{threeparttable}
+\usepackage{color}
+\usepackage{hhline}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{threeparttablex}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,arrows,shapes.multipart}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{fancyvrb}
+\usepackage{csquotes}
+\usepackage[american]{babel}
+\usepackage{tocloft}
+\usepackage{txfonts}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  citecolor={blue},
+  urlcolor={blue},
+  linkcolor={blue}}
+\usepackage[natbib,authordate,sorting=nyt,sortcites=true,dashed=false,uniquename=false,citetracker=false,ibidtracker=false,doi=false,isbn=false]{biblatex-chicago}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{month}}
+\addbibresource{paper.bib}
+\usepackage{chngcntr}
+
+\newcommand{\RowColor}{\rowcolor{cyan!30}}
+\newtheorem{define}{Definition}
+\newtheorem{hypo}{Hypothesis}
+\newtheorem{ass}{Assumption}
+\newtheorem{prop}{Proposition}
+\newtheorem{hyp}{Hypothesis}
+\usepackage{bibentry}
+\captionsetup{justification=centering,singlelinecheck=false}
+\setlength{\emergencystretch}{3em}
+\cftsetpnumwidth{4em}
+\cftsetrmarg{5em}
+\raggedbottom
+\setcounter{topnumber}{5}
+\setcounter{bottomnumber}{5}
+\setcounter{totalnumber}{10}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\makeatletter
+\def\fps@figure{!htbp}
+\def\fps@table{!htbp}
+\makeatother
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\textsuperscript{#1}\fi}
+\newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\newcommand{\figuremeta}[2][\textwidth]{\par\vspace{0.3em}\noindent\begin{minipage}{\textwidth}\footnotesize #2\end{minipage}}
+\newcolumntype{x}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+    keywordstyle=\color{blue},
+    commentstyle=\color{DarkGreen},
+}
+
+\title{\textbf{Paper Title}\\
+\textbf{Subtitle}}
+\author{Author Name\thanks{Affiliation. Email: \href{mailto:name@example.com}{name@example.com}.}}
+\date{}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent Abstract text.
+
+\vspace{0.15in}
+\noindent \textbf{Keywords}: Keyword 1; Keyword 2; Keyword 3
+\end{abstract}
+
+\setcounter{page}{0}
+\thispagestyle{empty}
+\doublespacing
+\newpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\hypersetup{pageanchor=true}
+
+\section*{Introduction}
+
+Text.
+
+\clearpage
+\begingroup
+\singlespacing
+\setlength\bibitemsep{0pt}
+\printbibliography
+\endgroup
+
+\newpage
+\begin{refsection}
+
+\appendix
+\section*{Supplemental Information}
+\onehalfspacing
+\startcontents[sections]
+\printcontents[sections]{l}{1}{\setcounter{tocdepth}{3}}
+\thispagestyle{empty}
+
+\newpage
+\singlespacing
+\hypersetup{pageanchor=false}
+\renewcommand{\thepage}{SI-\arabic{page}}
+\setcounter{page}{1}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{footnote}{0}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+
+\section{Appendix Placeholder}
+Appendix content goes here.
+
+% Uncomment when the appendix cites sources:
+% \printbibliography[heading=subbibliography,title={Supplemental References}]
+\end{refsection}
+
+\end{document}

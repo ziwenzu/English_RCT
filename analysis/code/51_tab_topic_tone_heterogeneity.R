@@ -8,9 +8,8 @@ suppressPackageStartupMessages({
 
 source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis/code/_text_analysis_helpers.R")
 
-tables_dir <- file.path(analysis_dir_text, "tables")
-dir.create(tables_dir, showWarnings = FALSE, recursive = TRUE)
-table_path <- file.path(tables_dir, "tab_topic_tone_heterogeneity.tex")
+dir.create(tables_dir_text, showWarnings = FALSE, recursive = TRUE)
+table_path <- file.path(tables_dir_text, "tab_topic_tone_heterogeneity.tex")
 
 fmt_num <- function(x, digits = 3) sprintf(paste0("%.", digits, "f"), x)
 fmt_cell <- function(x, digits = 3) ifelse(is.na(x), "--", fmt_num(x, digits))
@@ -53,7 +52,7 @@ lines <- c(
   "\\end{tabular}",
   "\\begin{tablenotes}",
   "\\footnotesize",
-  "\\item Entries report article-level Bing lexicon tone scores aggregated to broad topic families within each content pool. Higher values indicate more positively valenced language. Topic families are constructed from the finalized materials-bank topic labels.",
+  "\\item Entries report article-level China-valence scores aggregated to broad topic families within each content pool. Scores are computed from China-anchored sentences only, using a domain-specific contrast between pro-China policy terms and anti-China criticism terms. Criticism terms receive a modestly heavier weight so that anti-China political framing is not mechanically diluted by neutral policy nouns. Higher values indicate more positively valenced China-directed framing. Topic families are constructed from the finalized materials-bank topic labels.",
   "\\end{tablenotes}",
   "\\end{threeparttable}",
   "\\end{table}"

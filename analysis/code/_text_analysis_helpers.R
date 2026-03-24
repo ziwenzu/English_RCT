@@ -10,10 +10,14 @@ suppressPackageStartupMessages({
 
 analysis_dir_text <- "/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis"
 project_dir_text <- dirname(analysis_dir_text)
-teaching_dir_text <- file.path(project_dir_text, "teaching")
+archive_dir_text <- file.path(project_dir_text, "archive")
+teaching_dir_text <- file.path(archive_dir_text, "teaching")
 texts_dir_text <- file.path(teaching_dir_text, "article_texts")
-output_dir_text <- file.path(analysis_dir_text, "output", "content_validity")
-text_balance_dir_text <- file.path(analysis_dir_text, "output", "text_balance")
+figures_dir_text <- file.path(analysis_dir_text, "output", "figures")
+tables_dir_text <- file.path(analysis_dir_text, "output", "tables")
+support_output_dir_text <- file.path(archive_dir_text, "analysis_support")
+output_dir_text <- file.path(support_output_dir_text, "content_validity")
+text_balance_dir_text <- file.path(support_output_dir_text, "text_balance")
 bank_path_text <- file.path(teaching_dir_text, "materials_master_bank.csv")
 participant_path_text <- file.path(teaching_dir_text, "participant.dta")
 analysis_seed_text <- 20250406L
@@ -286,31 +290,65 @@ summarise_assigned_text_exposure <- function(assignment_df, slot_filter = c("all
 }
 
 compute_article_tone_scores <- function(texts) {
-  bing <- get_sentiments("bing") |>
-    distinct(word, .keep_all = TRUE)
+  anchor_pattern <- regex(
+    "\\b(china|chinese|beijing|hong kong|mainland|ccp|communist party|state media|xi)\\b",
+    ignore_case = TRUE
+  )
+  anti_weight <- 1.8
 
-  scored <- texts |>
-    select(id, bank, source, title, topic, text) |>
-    unnest_tokens(word, text) |>
-    inner_join(bing, by = "word", relationship = "many-to-many") |>
-    group_by(id, bank, source, title, topic) |>
-    summarise(
-      n_matched = n(),
-      n_positive = sum(sentiment == "positive", na.rm = TRUE),
-      n_negative = sum(sentiment == "negative", na.rm = TRUE),
-      tone_score = (n_positive - n_negative) / n_matched,
-      .groups = "drop"
+  pro_terms <- c(
+    "growth", "gdp", "stimulus", "recovery", "recover", "rebound",
+    "innovation", "innovative", "technology", "technological",
+    "industrial", "industries", "renewable", "renewables", "solar",
+    "wind", "emissions", "carbon", "climate", "redevelopment",
+    "affordable", "childcare", "fertility", "eldercare", "subsidy",
+    "subsidies", "housing", "property", "mortgage", "mortgages",
+    "consumption", "demand", "exports", "exporting", "upgrade",
+    "upgrading", "expansion", "expanding", "stable", "stability",
+    "modernize", "modernisation", "modernization"
+  )
+
+  anti_terms <- c(
+    "censorship", "censor", "surveillance", "surveil", "crackdown",
+    "crackdowns", "repression", "repressive", "opaque", "opacity",
+    "slowdown", "slowdowns", "slump", "slumping", "debt", "debts",
+    "crisis", "crises", "deflation", "protest", "protests", "boycott",
+    "boycotts", "unemployment", "underemployment", "joblessness",
+    "jobless", "disaffection", "unrest", "stress", "stressed", "weak",
+    "weakness", "fragile", "pessimism", "malaise", "shadow",
+    "intervention", "disqualify", "disqualified", "criticism",
+    "criticisms", "authoritarian", "authoritarianism"
+  )
+
+  score_one_article <- function(text) {
+    sentences <- str_split(text, regex("(?<=[.!?])\\s+"), simplify = FALSE)[[1]]
+    sentences <- sentences[str_detect(sentences, "[A-Za-z]")]
+    anchor_sentences <- sentences[str_detect(sentences, anchor_pattern)]
+    anchor_text <- paste(anchor_sentences, collapse = " ")
+    words <- str_extract_all(str_to_lower(anchor_text), "[A-Za-z']+")[[1]]
+
+    pos_count <- sum(words %in% pro_terms, na.rm = TRUE)
+    neg_count <- sum(words %in% anti_terms, na.rm = TRUE)
+    matched_count <- pos_count + neg_count
+
+    tibble(
+      china_anchor_sentences = length(anchor_sentences),
+      n_positive = pos_count,
+      n_negative = neg_count,
+      n_matched = matched_count,
+      # Anti-China coverage often includes neutral macro/policy nouns
+      # (for example growth, housing, or technology) while framing the article
+      # negatively overall. A modestly heavier weight on criticism terms keeps
+      # the benchmark pools near zero while restoring a more symmetric separation
+      # between the pro- and anti-China pools.
+      tone_score = (pos_count - anti_weight * neg_count) / (matched_count + 3)
     )
+  }
 
   texts |>
-    select(id, bank, source, title, topic) |>
-    left_join(scored, by = c("id", "bank", "source", "title", "topic")) |>
-    mutate(
-      n_matched = coalesce(n_matched, 0L),
-      n_positive = coalesce(n_positive, 0L),
-      n_negative = coalesce(n_negative, 0L),
-      tone_score = coalesce(tone_score, 0)
-    )
+    select(id, bank, source, title, topic, text) |>
+    mutate(score_parts = map(text, score_one_article)) |>
+    unnest(score_parts)
 }
 
 topic_family_from_topic <- function(bank, topic) {

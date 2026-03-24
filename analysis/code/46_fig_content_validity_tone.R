@@ -11,8 +11,8 @@ suppressPackageStartupMessages({
 
 source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis/code/_text_analysis_helpers.R")
 
-chenhan_path <- file.path(project_dir_text, "3-replication-package", "data", "analysis data", "work_data.dta")
-figure_path <- file.path(analysis_dir_text, "figures", "fig_content_validity_tone.pdf")
+chenhan_path <- file.path(project_dir_text, "archive", "3-replication-package", "data", "analysis data", "work_data.dta")
+figure_path <- file.path(figures_dir_text, "fig_content_validity_tone.pdf")
 scores_path <- file.path(output_dir_text, "article_tone_scores.csv")
 summary_path <- file.path(output_dir_text, "article_tone_summary.csv")
 benchmark_path <- file.path(output_dir_text, "chen_han_benchmarks.csv")
@@ -59,7 +59,7 @@ left_panel <- bank_summary |>
   geom_point(size = 2.8) +
   scale_color_manual(values = bank_colors_text, guide = "none") +
   labs(
-    x = "Article-level tone score",
+    x = "Article-level China-valence score",
     y = NULL,
     title = "Pool Means"
   ) +
@@ -71,21 +71,24 @@ left_panel <- bank_summary |>
   )
 
 right_panel <- article_scores |>
-  ggplot(aes(x = tone_score, color = bank, fill = bank)) +
+  mutate(bank_label = factor(unname(bank_labels_text[as.character(bank)]), levels = unname(bank_labels_text[bank_levels_text]))) |>
+  ggplot(aes(x = tone_score, y = bank_label, color = bank, fill = bank)) +
   geom_vline(xintercept = 0, color = "grey75", linetype = "dashed") +
-  geom_density(alpha = 0.18, linewidth = 0.9, adjust = 1.1) +
+  geom_boxplot(width = 0.52, alpha = 0.16, outlier.shape = NA) +
+  geom_jitter(height = 0.12, width = 0, alpha = 0.72, size = 1.7) +
   scale_color_manual(values = bank_colors_text, labels = bank_labels_text) +
   scale_fill_manual(values = bank_colors_text, labels = bank_labels_text) +
   labs(
-    x = "Article-level tone score",
-    y = "Density",
-    title = "Score Distributions",
+    x = "Article-level China-valence score",
+    y = NULL,
+    title = "Article-Level Score Dispersion",
     color = NULL,
     fill = NULL
   ) +
   theme_minimal(base_size = 12) +
   theme(
     panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_blank(),
     plot.title = element_text(face = "bold"),
     legend.position = "bottom"
   )
@@ -95,7 +98,7 @@ plot_out <- left_panel + right_panel +
   plot_annotation(
     title = "Content Validity of the Final Article Pools",
     subtitle = str_wrap(
-      "Bing lexicon tone scores computed from all 89 finalized plain-text readings. As external background, Chen and Han's embedding-based benchmark reports UK/US outlets at -0.62 and China Daily at 0.60 on a different scale; those values are informative but not directly comparable to the lexicon scores shown here.",
+      "Article-level China-valence scores are computed from China-anchored sentences only, using a domain-specific contrast between pro-China policy and anti-China criticism terms. Negative criticism terms receive a modestly heavier weight so that anti-China political framing is not diluted by neutral policy nouns. This construct targets directed political framing rather than generic positivity, so apolitical and non-China benchmark articles are expected to cluster near zero. Chen and Han's embedding-based benchmark is shown only as external background and is not directly comparable in scale.",
       width = 115
     ),
     theme = theme(

@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 
 source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis/code/_text_analysis_helpers.R")
 
-figure_path <- file.path(analysis_dir_text, "figures", "fig_topic_tone_heterogeneity.pdf")
+figure_path <- file.path(figures_dir_text, "fig_topic_tone_heterogeneity.pdf")
 summary_path <- file.path(output_dir_text, "topic_tone_summary.csv")
 
 texts <- load_article_bank_texts()
@@ -49,10 +49,10 @@ plot_out <- ggplot(
     guide = "none"
   ) +
   labs(
-    x = "Mean article-level tone score",
+    x = "Mean article-level China-valence score",
     y = NULL,
-    title = "Article-Level Tone Heterogeneity by Topic Family",
-    subtitle = "Within each pool, article tone varies systematically by substantive topic as well as by overall treatment label."
+    title = "Article-Level China-Valence Heterogeneity by Topic Family",
+    subtitle = "Within each pool, directed China-valence varies systematically by substantive topic as well as by overall treatment label; criticism terms receive a modestly heavier weight to keep pro and anti pools comparably separated."
   ) +
   theme_minimal(base_size = 12) +
   theme(

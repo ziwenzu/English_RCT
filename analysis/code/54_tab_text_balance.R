@@ -7,11 +7,10 @@ suppressPackageStartupMessages({
 
 source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis/code/_text_analysis_helpers.R")
 
-tables_dir <- file.path(analysis_dir_text, "tables")
-dir.create(tables_dir, showWarnings = FALSE, recursive = TRUE)
+dir.create(tables_dir_text, showWarnings = FALSE, recursive = TRUE)
 dir.create(text_balance_dir_text, showWarnings = FALSE, recursive = TRUE)
 
-table_path <- file.path(tables_dir, "tab_text_balance.tex")
+table_path <- file.path(tables_dir_text, "tab_text_balance.tex")
 bank_anova_path <- file.path(text_balance_dir_text, "article_bank_text_balance_anova.csv")
 arm_anova_path <- file.path(text_balance_dir_text, "assigned_arm_text_balance_anova.csv")
 

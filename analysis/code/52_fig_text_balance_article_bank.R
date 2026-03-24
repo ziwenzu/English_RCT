@@ -12,7 +12,7 @@ source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/Engl
 
 dir.create(text_balance_dir_text, showWarnings = FALSE, recursive = TRUE)
 
-figure_path <- file.path(analysis_dir_text, "figures", "fig_text_balance_article_bank.pdf")
+figure_path <- file.path(figures_dir_text, "fig_text_balance_article_bank.pdf")
 article_metrics_path <- file.path(text_balance_dir_text, "article_text_features.csv")
 bank_summary_path <- file.path(text_balance_dir_text, "article_bank_text_balance_summary.csv")
 anova_path <- file.path(text_balance_dir_text, "article_bank_text_balance_anova.csv")

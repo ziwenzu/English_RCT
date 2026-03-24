@@ -9,7 +9,7 @@ suppressPackageStartupMessages({
 })
 
 root_dir <- normalizePath(".", winslash = "/", mustWork = TRUE)
-tables_dir <- file.path(root_dir, "tables")
+tables_dir <- file.path(root_dir, "output", "tables")
 dir.create(tables_dir, recursive = TRUE, showWarnings = FALSE)
 
 tex_escape <- function(x) {
@@ -441,6 +441,68 @@ prepare_participant <- function(include_moderators = FALSE) {
       foreign_exp_index = rowMeans(cbind(foreign_news30_z, foreign_freq_z, foreign_platform_z), na.rm = TRUE),
       foreign_exp_z = z_from_ref(foreign_exp_index, foreign_exp_index[recruited == 1])
     )
+}
+
+weekly_topic_family <- function(bank, topic) {
+  topic_chr <- ifelse(is.na(topic), "", as.character(topic))
+  bank_chr <- ifelse(is.na(bank), "", as.character(bank))
+
+  dplyr::case_when(
+    bank_chr == "PRO" & grepl("climate|green|renewable|energy|high-tech|technology|engineering|industrial", topic_chr, ignore.case = TRUE) ~ "Pro: Green / technology",
+    bank_chr == "PRO" & grepl("housing|property|redevelopment|affordable", topic_chr, ignore.case = TRUE) ~ "Pro: Housing / property",
+    bank_chr == "PRO" & grepl("fertility|childbirth|aging|elder|demograph", topic_chr, ignore.case = TRUE) ~ "Pro: Family / demographics",
+    bank_chr == "PRO" ~ "Pro: Macro growth support",
+
+    bank_chr == "ANTI" & grepl("censorship|surveillance|repression|judicial|hong kong|cyber|social-media|opacity", topic_chr, ignore.case = TRUE) ~ "Anti: Censorship / repression",
+    bank_chr == "ANTI" & grepl("property|financial|econom|deflation|shadow|malaise|confidence", topic_chr, ignore.case = TRUE) ~ "Anti: Economy / property",
+    bank_chr == "ANTI" ~ "Anti: Labor / social stress",
+
+    bank_chr == "APOL_CHINA" & grepl("food|cuisine|culinary", topic_chr, ignore.case = TRUE) ~ "Apolitical: Food / cuisine",
+    bank_chr == "APOL_CHINA" ~ "Apolitical: Travel / culture",
+
+    TRUE ~ "Control benchmark"
+  )
+}
+
+prepare_weekly_panel <- function(slot = NULL) {
+  weekly <- read_dta(file.path(root_dir, "data", "weekly_long.dta")) |>
+    left_join(
+      prepare_participant() |> select(study_id, block_id),
+      by = "study_id"
+    ) |>
+    mutate(
+      study_id = as.integer(study_id),
+      arm = as.integer(arm),
+      week = as.integer(week),
+      slot_wk = as.integer(slot_wk),
+      block_id = as.integer(block_id),
+      bank = as.character(bank),
+      topic = as.character(topic),
+      pro_any = as.integer(arm %in% c(1L, 2L)),
+      anti_any = as.integer(arm %in% c(3L, 4L)),
+      apol = as.integer(arm == 5L),
+      topic_family_weekly = factor(
+        weekly_topic_family(bank, topic),
+        levels = c(
+          "Control benchmark",
+          "Pro: Macro growth support",
+          "Pro: Green / technology",
+          "Pro: Housing / property",
+          "Pro: Family / demographics",
+          "Anti: Censorship / repression",
+          "Anti: Economy / property",
+          "Anti: Labor / social stress",
+          "Apolitical: Food / cuisine",
+          "Apolitical: Travel / culture"
+        )
+      )
+    )
+
+  if (!is.null(slot)) {
+    weekly <- weekly |> filter(slot_wk == slot)
+  }
+
+  weekly
 }
 
 main_outcome_map <- function() {

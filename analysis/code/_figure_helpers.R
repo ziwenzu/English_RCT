@@ -4,7 +4,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-figures_dir <- file.path(root_dir, "figures")
+figures_dir <- file.path(root_dir, "output", "figures")
 dir.create(figures_dir, recursive = TRUE, showWarnings = FALSE)
 
 paper_theme <- function() {

@@ -12,7 +12,7 @@ source("/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/Engl
 
 dir.create(text_balance_dir_text, showWarnings = FALSE, recursive = TRUE)
 
-figure_path <- file.path(analysis_dir_text, "figures", "fig_text_balance_assigned_arms.pdf")
+figure_path <- file.path(figures_dir_text, "fig_text_balance_assigned_arms.pdf")
 assignment_path <- file.path(text_balance_dir_text, "simulated_content_assignment_text_balance.csv")
 full_summary_path <- file.path(text_balance_dir_text, "assigned_arm_text_balance_all.csv")
 slot1_summary_path <- file.path(text_balance_dir_text, "assigned_arm_text_balance_slot1.csv")

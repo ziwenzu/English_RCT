@@ -1,10 +1,18 @@
 # Code Organization
 
-This folder stores runnable table scripts.
+This folder stores only runnable analysis R scripts.
 
 ## Rule
 
-Each numbered script corresponds to one output table and can be run directly with `Rscript`.
+Each numbered script corresponds to one output table or figure and can be run directly with `Rscript`.
+Final outputs are written to:
+
+- `analysis/output/tables`
+- `analysis/output/figures`
+
+Auxiliary crawlers, article-audit utilities, and text-preparation scripts are archived in:
+
+- `archive/code_auxiliary`
 
 ## Scripts
 
@@ -46,6 +54,9 @@ Each numbered script corresponds to one output table and can be run directly wit
 - `43_tab_polarization_t1.R`
 - `44_tab_placebo_knowledge.R`
 - `45_tab_valence_vs_apolitical_t1.R`
+- `51_tab_topic_tone_heterogeneity.R`
+- `54_tab_text_balance.R`
+- `63_tab_weekly_topic_heterogeneity.R`
 
 ## Figure Scripts
 
@@ -56,8 +67,15 @@ Each numbered script corresponds to one output table and can be run directly wit
 - `27_fig_mechanism_chain.R`
 - `32_fig_wtp_demand_curve.R`
 - `33_fig_weekly_event_study.R`
+- `46_fig_content_validity_tone.R`
+- `50_fig_topic_tone_heterogeneity.R`
+- `52_fig_text_balance_article_bank.R`
+- `53_fig_text_balance_assigned_arms.R`
+- `62_fig_weekly_treatment_effects.R`
+- `64_fig_weekly_topic_heterogeneity.R`
 
 ## Helper
 
 - `_table_helpers.R` stores shared formatting, data-loading, and regression utilities used by the runnable scripts.
 - `_figure_helpers.R` stores shared plotting utilities used by the runnable figure scripts.
+- `_text_analysis_helpers.R` stores shared article-bank, text-balance, and tone-scoring utilities.

@@ -49,7 +49,7 @@ Every participant received **24 content slots** over 12 weeks (2 per week). Slot
 | 5 | Apolitical China | 12 apolitical (every week, slot 1) | 12 | 1,061 |
 | 6 | Non-China control (ref) | 0 | 24 | 1,060 |
 
-**Article pools**: PRO = 24 articles, ANTI = 24, APOL_CHINA = 17, NONCHINA_CONTROL = 24. All drawn from the master bank (`../materials_master_bank.csv`). Articles are assigned without within-person repetition via `build_content_schedule.py`.
+**Article pools**: PRO = 24 articles, ANTI = 24, APOL_CHINA = 17, NONCHINA_CONTROL = 24. All drawn from the archived master bank (`../archive/teaching/materials_master_bank.csv`). Articles are assigned without within-person repetition via the archived schedule builder (`../archive/teaching/build_content_schedule.py`).
 
 **Dose contrast**: high (12) vs. low (6) political articles = 2:1 ratio.
 

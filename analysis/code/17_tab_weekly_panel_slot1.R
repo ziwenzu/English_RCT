@@ -1,24 +1,12 @@
 source(file.path("code", "_table_helpers.R"))
 
-weekly <- read_dta(file.path(root_dir, "data", "weekly_long.dta")) |>
-  left_join(
-    prepare_participant() |> select(study_id, block_id),
-    by = "study_id"
-  ) |>
-  mutate(
-    arm = as.integer(arm),
-    study_id = as.integer(study_id),
-    week = as.integer(week),
-    slot_wk = as.integer(slot_wk),
-    pro_any = as.integer(arm %in% c(1L, 2L)),
-    anti_any = as.integer(arm %in% c(3L, 4L)),
-    apol = as.integer(arm == 5L)
-  ) |>
-  filter(slot_wk == 1, !is.na(wk_open))
+weekly <- prepare_weekly_panel(slot = 1) |>
+  filter(!is.na(wk_open))
 
 weekly_specs <- tribble(
   ~outcome,          ~label,
   "wk_comply",       "Compliance",
+  "wk_rate_interest","Interest rating",
   "wk_read_min",     "Reading minutes",
   "wk_quiz_score",   "Quiz score",
   "wk_rate_cred",    "Credibility rating",

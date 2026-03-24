@@ -1,0 +1,153 @@
+# ‘It’s more than tacos’: inside LA’s first Mexican food museum
+
+This article is more than 4 years old
+
+LA Plaza Cocina, which explores the history of Mexican cuisine, will host exhibitions, classes and cultural events
+
+
+
+[Eva Recinos](https://www.theguardian.com/profile/eva-recinos) in Los Angeles
+
+<details data-gu-name="dateline" class="dcr-lp0nif" style="box-sizing: border-box; margin: 0px 0px 6px; padding: 2px 0px 0px; border: 0px; font-style: normal; font-variant: inherit; font-weight: 400; font-stretch: inherit; font-size: 0.75rem; line-height: 1.3; font-family: GuardianTextSans, &quot;Guardian Text Sans Web&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; vertical-align: baseline; display: block; --source-text-decoration-thickness: 2px; color: rgb(84, 84, 84); --mobile-colour: #545454;"><summary class="dcr-1ybxn6r" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; list-style: none; cursor: pointer;"><span class="dcr-u0h1qy" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline;">Sun 6 Mar 2022 06.00 EST</span></summary></details>
+
+Prefer the Guardian on Google
+
+
+
+In [Los Angeles](https://www.theguardian.com/us-news/los-angeles), you can easily try cochinita pibil, tamales, tlayudas and more within the span of an evening. Bring your appetite, and the city delivers.
+
+![An elderly woman cuts an amaranth crop, in Uttarakhand, India.](https://i.guim.co.uk/img/media/70b1ea2d3e3f09cd9364c42d8a294b89a0d077ac/0_215_4635_2781/master/4635.jpg?width=460&quality=85&auto=format&fit=max&s=dfb6f8e23be6f781a17459f0bf592fd4)
+
+‘It could feed the world’: amaranth, a health trend 8,000 years old that survived colonization
+
+
+
+Read more
+
+But until recently, the city lacked a formal space dedicated to exploring the rich history of such dishes. That’s changed with the opening of LA Plaza Cocina, billed as the first museum in LA dedicated to Mexican food.
+
+Calling it a “museum” alone doesn’t quite capture the mission of the space. In addition to exhibitions, LA Plaza Cocina, which opened in February, will host cooking classes, demonstrations and cultural events.
+
+For the team behind LA Plaza Cocina, the ultimate goal is expanding and highlighting people’s knowledge of Mexican cuisine.
+
+![A brightly colored building front, painted in stripes of blue, pink and red, stands in contrast to the yellow stairs in front of it.](https://i.guim.co.uk/img/media/9015af38cd11d72dd51940011890c3bb6ee7bddf/0_0_3936_2624/master/3936.jpg?width=445&dpr=1&s=none&crop=none)[View image in fullscreen](https://www.theguardian.com/food/2022/mar/06/los-angeles-mexican-cuisine-museum-history#img-2)
+
+LA Plaza Cocina’s goal is to expand people’s knowledge of Mexican cuisine. Photograph: Mario A Hernandez/LA Plaza de Cultura y Artes
+
+“It’s more than tacos,” says Ximena Martin, one of the curators of LA Plaza Cocina and a director at LA Plaza de Cultura y Artes. “Each region [of Mexico] needs to be celebrated and acknowledged.”
+
+
+
+
+
+
+
+![symbol](https://img.connatix.com/8ddf21c1-d52d-4298-99a1-80696cde8fc7/s1.png?width=72&height=72&fit=bounds)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+00:00
+
+03:12
+
+
+
+
+
+
+
+
+
+
+
+Read More
+
+
+
+
+
+<iframe src="https://imasdk.googleapis.com/js/core/bridge3.752.0_en.html#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_1745497663%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45740207%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B20%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95375930%5D%2C%5B95375931%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95376520%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95378095%5D%2C%5B95378096%2C%5B%5B45740207%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95382403%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386532%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386533%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C300%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386534%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95384561%5D%2C%5B95384562%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95385117%5D%2C%5B95385118%2C%5B%5B45761044%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95385193%5D%2C%5B95385194%2C%5B%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B44752052%2C95322027%2C95331589%2C95332046%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;page_correlator=3723804530150710&amp;pvsid=4558330478779189&amp;top_accessible_page_url=%22https%3A%2F%2Fwww.theguardian.com%2Ffood%2F2022%2Fmar%2F06%2Flos-angeles-mexican-cuisine-museum-history%22" allowfullscreen="" allow="autoplay" id="goog_1745497663" title="Advertisement" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: light; opacity: 0;"></iframe>
+
+<iframe title="Advertisement" style="box-sizing: border-box; margin: 0px auto; padding: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: none; visibility: hidden; width: 0px; height: 0px; left: 0px; top: 0px; border: medium !important;"></iframe>
+
+<iframe src="https://imasdk.googleapis.com/js/core/bridge3.752.0_en.html#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_1745497664%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45740207%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B20%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95375930%5D%2C%5B95375931%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95376520%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95378095%5D%2C%5B95378096%2C%5B%5B45740207%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95382403%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386532%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386533%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C300%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386534%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95384561%5D%2C%5B95384562%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95385117%5D%2C%5B95385118%2C%5B%5B45761044%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95385193%5D%2C%5B95385194%2C%5B%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B44752052%2C95322027%2C95331589%2C95332046%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;page_correlator=1001986596432991&amp;pvsid=4558330478779189&amp;top_accessible_page_url=%22https%3A%2F%2Fwww.theguardian.com%2Ffood%2F2022%2Fmar%2F06%2Flos-angeles-mexican-cuisine-museum-history%22" allowfullscreen="" allow="autoplay" id="goog_1745497664" title="Advertisement" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: light; opacity: 0;"></iframe>
+
+<iframe title="Advertisement" style="box-sizing: border-box; margin: 0px auto; padding: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: none; visibility: hidden; width: 0px; height: 0px; left: 0px; top: 0px; border: medium !important;"></iframe>
+
+<iframe src="https://imasdk.googleapis.com/js/core/bridge3.752.0_en.html#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_1745497665%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45740207%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45765927%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B20%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95375930%5D%2C%5B95375931%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95376520%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95378095%5D%2C%5B95378096%2C%5B%5B45740207%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95382403%5D%2C%5B95386528%2C%5B%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386532%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386533%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C300%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95386534%2C%5B%5Bnull%2C45767902%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95384561%5D%2C%5B95384562%2C%5B%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95385117%5D%2C%5B95385118%2C%5B%5B45761044%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95385193%5D%2C%5B95385194%2C%5B%5B45765927%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B44752052%2C95322027%2C95331589%2C95332046%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;page_correlator=1014712237652127&amp;pvsid=4558330478779189&amp;top_accessible_page_url=%22https%3A%2F%2Fwww.theguardian.com%2Ffood%2F2022%2Fmar%2F06%2Flos-angeles-mexican-cuisine-museum-history%22" allowfullscreen="" allow="autoplay" id="goog_1745497665" title="Advertisement" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: light; opacity: 0;"></iframe>
+
+<iframe title="Advertisement" style="box-sizing: border-box; margin: 0px auto; padding: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-width: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; vertical-align: baseline; display: block; color-scheme: none; visibility: hidden; width: 0px; height: 0px; left: 0px; top: 0px; border: medium !important;"></iframe>
+
+
+
+LA Plaza Cocina falls under the umbrella of [LA Plaza de Cultura y Artes](https://lapca.org/), an institution in downtown Los Angeles that has explored Mexican, Mexican-American and Latino culture and identity through exhibitions and education events since 2011. Food was often a part of those events, but staff wanted to see what would happen if they could dedicate an entire space to the study of Mexican cuisine.
+
+Martin teamed up with longtime collaborator Maite Gómez-Rejón, a food historian and creator of [ArtBites](https://www.artbites.net/), which hosts art and history-focused cooking classes and tastings, to bring the space’s first exhibition to life.
+
+![A sign at the museum exhibition reads “Maize: Past, Present and Future”. Pictures hang on the walls depicting the uses of corn and its influence. Several displays hold artifacts as well.](https://i.guim.co.uk/img/media/8086ff82d4c33de87cea0250857732c92d95695e/0_0_3168_3168/master/3168.jpg?width=445&dpr=1&s=none&crop=none)[View image in fullscreen](https://www.theguardian.com/food/2022/mar/06/los-angeles-mexican-cuisine-museum-history#img-3)
+
+LA Plaza Cocina’s first exhibition is dedicated to maize, an ingredient that is a staple to many Mexican dishes. Photograph: LA Plaza de Cultura y Artes
+
+<iframe id="google_ads_iframe_/59666047/theguardian.com/food/article/ng_7" name="google_ads_iframe_/59666047/theguardian.com/food/article/ng_7" title="3rd party ad content" width="300" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-google-container-id="5" data-load-complete="true" data-integralas-id-1b32eaab-97c9-3333-1841-73935fd70168="" style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px; font: inherit; vertical-align: bottom; display: block; width: 300px; height: 600px;"></iframe>
+
+LA Plaza Cocina’s [first exhibition](https://www.google.com/url?q=https://lapca.org/la-plaza-cocina-opens-its-first-exhibition-celebrating-maize-mexicos-gift-to-the-world/&sa=D&source=docs&ust=1646438184654541&usg=AOvVaw3MFQYIgPMBwmwdEUiB2crG) is Maize: Past, Present and Future, dedicated to an ingredient that is a staple in many Mexican dishes. The show includes cooking tools, artifacts, photographs and cookbooks, including an 1883 edition of Nuevo Cocinero Mexicano: en Forma de Diccionario, considered the oldest recipe book on Mexican cuisine. Some of the objects included are from Mixtec and Zapotec cultures or from places such as Colima, each one crucial to the process of using corn in food.
+
+Abelardo de la Peña Jr, the director of marketing and communications at LA Plaza de Cultura y Artes, says that the organization first discussed the idea for the museum five years ago. There was a space set aside for the museum, he explains, as part of the partnership between LA Plaza de Cultura y Artes, developer Trammell Crow Co, Los Angeles county and the [Cesar Chavez Foundation](https://chavezfoundation.org/).
+
+For Gómez-Rejón and Martin, the focus in this first exhibition is to explore the possibilities of having that larger venue, by weaving cooking tools and techniques alongside images and wall text. Right across from the Maize exhibition, you can see a large comal – griddle-like tool used to heat up tortillas, spices and more – which “is so essential as a way of preparing and cooking Mexican cuisine”, Martin said.
+
+The show ultimately highlights how maize became a worldwide phenomenon, even while 16th-century Spaniards tried to keep the crop from thriving. Now, maize is [produced](https://www.statista.com/statistics/254292/global-corn-production-by-country/) everywhere from China to Argentina to Canada.
+
+![Display tables show the tools used to process maize, including a pichancha, a large clay vase with holes used as a colander.](https://i.guim.co.uk/img/media/60c4754e6ec9b5587277eae669f74e41d7bcbee0/0_0_3008_2000/master/3008.jpg?width=445&dpr=1&s=none&crop=none)[View image in fullscreen](https://www.theguardian.com/food/2022/mar/06/los-angeles-mexican-cuisine-museum-history#img-4)
+
+The maize exhibit highlights the tools that have been used over many generations. Photograph: Courtesy of LA Plaza Cocina
+
+<iframe id="google_ads_iframe_/59666047/theguardian.com/food/article/ng_8" name="google_ads_iframe_/59666047/theguardian.com/food/article/ng_8" title="3rd party ad content" width="160" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-google-container-id="6" data-load-complete="true" data-integralas-id-1798df77-7ad2-ec3b-3881-8d4e630676a1="" style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px; font: inherit; vertical-align: bottom; display: block; width: 160px; height: 600px;"></iframe>
+
+And it’s not just tortillas – there’s so much more to maize, and the exhibition highlights the tools that have been used over many generations. The pichancha, for example, is “a clay colander used during the nixtamalization process to strain the corn kernels from the nejayote (water mixed with lime)”, the exhibition explains.
+
+Overall, the space aims to work with chefs and food experts from around LA and around the world, with an emphasis on the importance of Indigenous and Afro-Mexican cuisine.
+
+“How fortunate are we as a melting pot of Los Angeles, all these immigrant folks that we have the opportunity to bring them to the forefront and give them their place and to speak their truths and show us some great cooking techniques as well,” Martin said.
+
+The next exhibition will focus on grandmothers, cooking and oral history. The museum hopes to highlight not just professional chefs but home cooks and others with a passion for food. The layout of the space makes for a richer experience, Martin and Gómez-Rejón said. Visitors can also peek at the space’s full kitchen, where cooking classes will be held.
+
+![A large space has two brightly tiled stations. At the right is a semi-circular counter with a large comal, or circular griddle, in the center.](https://i.guim.co.uk/img/media/547ac41ed02f79b680b9380e00125b9646c01096/0_0_4032_3024/master/4032.jpg?width=445&dpr=1&s=none&crop=none)[View image in fullscreen](https://www.theguardian.com/food/2022/mar/06/los-angeles-mexican-cuisine-museum-history#img-5)
+
+LA Plaza Cocina boasts a full kitchen where cooking classes and demonstrations will be held. Photograph: LA Plaza de Cultura y Artes
+
+<iframe frameborder="0" src="https://20e2c36778cf970bc2c06a5aa090ebc6.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/59666047/theguardian.com/food/article/ng_9" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="8" data-load-complete="true" style="box-sizing: border-box; margin: 0px auto; padding: 0px; border: 0px; font: inherit; vertical-align: bottom; display: block; width: 300px; height: 250px;"></iframe>
+
+“In my regular museum classes, we would tour the exhibition and then cook,” Gómez-Rejón says. “Now, to have that [kitchen] right there, you could literally just be like ‘look over there and notice the metate or notice the pichancha’ … in all the years that I’ve been doing this, that’s not something that I’ve ever experienced.”
+
+Visitors can see the exhibitions for free, or pay a fee to attend a 16-person cooking class. They can also browse the museum’s store, LA Tiendita, which features handpicked cookbooks. The museum has also digitized materials from the inaugural exhibition, and will record and stream its workshops, creating an archive, along with recipes, accessible to those who can’t visit in person.
+
+It all comes down to a deep appreciation of Mexican cuisine, something Gómez-Rejón holds close. When asked what her favorite maize-based dish is, she replied: “I just like a good corn tortilla. If you just have really good corn, nixtamalized corn, you’re golden.”

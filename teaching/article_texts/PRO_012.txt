@@ -1,3 +1,34 @@
 ID: PRO_012
+Bank: PRO
+Source: Reuters
+Title: China earmarks $12.5 billion budget for 2025 childcare subsidies
 URL: https://www.reuters.com/world/china/china-earmarks-125-billion-budget-2025-childcare-subsidies-2025-07-30/
-STATUS: FETCH_FAILED
+Topic: childcare budget support
+Method: direct_html
+Words: 427
+Fetched: 2026-03-23T18:13:37.941629
+============================================================
+
+HONG KONG, July 30 (Reuters) - China's finance ministry on Wednesday said it had earmarked 90 billion yuan ($12.54 billion) as an initial budget for childcare subsidy payments this year, an amount that experts said would probably be insufficient to boost a flagging birth rate.
+China on Monday announced a childcare
+subsidy
+of 3,600 yuan per year for every child, until they reach the age of three.
+Sign up
+here.
+Subsidies will start from this year, and children born before 2025 who are less than three years old will get partial subsidies.
+Families can apply for the support from late August, Wang Haidong, director of the Department of Population and Family of the National Health Commission, said at a press conference on Wednesday to explain the programme.
+Chinese provinces have started issuing local childcare subsidies in the last two years, but the amounts are not uniform and range from 1,000 yuan per child to as much as 100,000 yuan including housing subsidies.
+Guo Yang, director at the Ministry of Finance, said the central government would subsidise local administrations.
+"This demonstrates the central government's high attention and strong support for local governments and will further strengthen local management responsibilities," he said.
+The high cost of childcare and education, as well as job uncertainty and a slowing economy have discouraged many young Chinese couples from starting a family, at a time when China is already ageing. Roughly 300 million Chinese are expected to enter retirement in the coming decade - the equivalent of almost the entire U.S. population.
+Authorities rolled out a series of "
+fertility-friendly
+" measures in 2024, including enhanced maternity insurance and leave, to try and boost the birth rate, which hit a record low in 2023.
+China's current spending on family-friendly policies is estimated to be well below 1% of GDP, compared to 2% to 4% in many OECD countries, said Xiujian Peng, senior research fellow in the Centre of Policy Studies at Victoria University.
+"If China can increase its spending on family support even to 2% of GDP — about 3 trillion yuan annually — it might create a strong system to address various economic and social factors that discourage childbirth," she said.
+Promoting family-friendly work environments, including childcare services, breastfeeding rooms and strengthening female workers' rights are also being urged, said Liu Hongmei, director of the All-China Federation of Trade Unions, a state-run body.
+($1 = 7.1764 Chinese yuan)
+Reporting by Farah Master and the Beijing newsroom; Editing by Christopher Cushing and Kate Mayberry
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab

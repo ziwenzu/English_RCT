@@ -1,3 +1,38 @@
 ID: ANTI_014
+Bank: ANTI
+Source: Reuters
+Title: China censors strive to filter or erase details of mortgage protests
 URL: https://www.reuters.com/world/china/china-censors-strive-filter-or-erase-details-mortgage-protests-2022-07-20/
-STATUS: FETCH_FAILED
+Topic: censorship and housing protest management
+Method: direct_html
+Words: 596
+Fetched: 2026-03-23T18:07:49.028151
+============================================================
+
+Homebuyers balk at paying mortgages on unfinished housing
+Censors scramble to erase or filter details of boycotts
+Protests come at a sensitive time for Chinese leader
+SHANGHAI/BEIJING, July 20 (Reuters) - As China grapples to contain a mortgage boycott that has triggered rare protests, censors have gone into overdrive with social media messages blocked, videos of demonstrations wiped and key word searches coming up blank.
+Censors are scrambling to filter or erase details of angry homebuyers threatening to stop paying mortgages on hundreds of unfinished housing projects, as regulators seek to reassure residents that everything will be taken care of.
+Sign up
+here.
+The protests have erupted at a sensitive time for Beijing. Chinese President Xi Jinping is expected to secure a third leadership term at the 20th Communist Party Congress later this year, and social stabililty is crucial ahead of the meeting.
+In a bid to appease protesters and contain the crisis, regulators and local governments have stepped up efforts to reassure critics that projects will be completed.
+The banking authority has encouraged lenders to extend loans to projects, and districts - including in Henan province and the city of Chongqing - have set up task forces.
+But mounting turmoil over uncompleted developments is testing Chinese social media companies, which are subject to strict laws requiring them to censor content that "undermines social stability" or is critical of the central government.
+One video showing fingerprinted notices from homebuyers declaring a boycott on mortgage payments was blocked on Douyin, the Chinese version of TikTok, according to saved images shown to Reuters by a protester. The social media platform said "the content didn't pass scrutiny".
+A protester in the city of Zhengzhou in Henan province surnamed Lu said a video about the mortgage boycott that he uploaded via Douyin was among the top trending items at one point. But he added that such videos could no longer be uploaded or found on the platform.
+Yang, a mortgage protestor in Nanchang, capital of southeastern Jiangxi province, said his videos of mortgage protests on Douyin were also censored.
+ByteDance, which owns Douyin, did not immediately respond to a request for comment on Wednesday.
+Another protester surnamed Wang, also in Henan province, told Reuters he tried to upload videos about the mortgage boycott, but they were either restricted, failed to get approval, or could only be viewed by him.
+On the social media platform Weibo, the hashtag #stopmortgagepayments has been censored, according to a search by Reuters. A notice says: "Due to related laws and rules, the topic page cannot be displayed."
+Other videos that were blocked or deleted from social media sites included scenes of empty construction sites, protesters scuffling with bodyguards, and analyst commentaries on the boycott movement, underscoring the sensitivity of the issue.
+Another protester told Reuters he could not share videos related to the crisis via China's most popular messaging service, WeChat.
+Weibo, Tencent, which owns WeChat, and the Cyberspace Administration of China (CAC), the government body responsible for enforcing censorship guidelines, did not immediately respond to requests for comment.
+Censorship of the issue is not limited to social media.
+An official at a developer said his boss had banned staff from commenting on the mortgage protests, even off the record, due to an "order from above".
+Analysts at some securities and research firms in China told Reuters they were also advised not to comment on the protests.
+Reporting by Shanghai and Beijing Newsrooms, additional reporting by Clare Jim; Writing by Anne Marie Roantree; Editing by Mark Heinrich
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab

@@ -1,3 +1,29 @@
 ID: PRO_021
+Bank: PRO
+Source: The Economist
+Title: China’s new army of engineers
 URL: https://www.economist.com/china/2025/06/26/chinas-new-army-of-engineers
-STATUS: FETCH_FAILED
+Topic: engineering and talent formation
+Method: wayback:20250909180452
+Words: 208
+Fetched: 2026-03-23T18:14:25.548058
+============================================================
+
+China’s new army of engineers
+Its ranks will swell as the country’s high-tech industries grow
+THE TEARS and toil were worth it. Some 4.8m pupils will soon learn that their scores in the recent gaokao exam have earned them spots on a bachelor’s degree course at university—unlike 8m of their fellow test-takers. How to make the most of their glittering futures? For many the answer is to study engineering.
+This article appeared in the China section of the print edition under the headline “Studying the illiberal arts ”
+From the June 28th 2025 edition
+Discover stories from this section and more in the list of contents
+Explore the edition“Dalifornication” grips China
+On tour with the low-income leisure class
+China’s urban planners could determine the future of city life
+They are betting big on interconnected city clusters
+The weird and wacky life hacks of China’s youth
+Melted ice-cream or carbonara sauce?
+All eyes on China’s massive military parade
+Xi Jinping flexes some muscle
+Chinese migrants risked their lives to reach America. For what?
+Far fewer of them are trying to sneak across the southern border
+Something is amiss in China’s foreign-affairs leadership
+Diplomats are disappearing at an extremely busy time

@@ -1,3 +1,204 @@
 ID: ANTI_005
+Bank: ANTI
+Source: The Economist
+Title: A new class struggle is brewing in China
 URL: https://www.economist.com/china/2024/09/23/a-new-class-struggle-is-brewing-in-china
-STATUS: FETCH_FAILED
+Topic: social inequality and unrest
+Method: jina_proxy
+Words: 766
+Fetched: 2026-03-23T18:07:34.309593
+============================================================
+
+A new class struggle is brewing in China
+Subscribe
+The Economist Pro
+Log in
+Menu
+Skip to content
+Subscribe
+The Economist Pro
+Log in
+Menu
+The world in brief
+Catch up on global daily news
+1843
+Compelling long reads
+The World Ahead 2026
+Future-gazing analysis, predictions and speculation
+Podcasts
+Tune into captivating conversations
+Video
+Watch engaging short films
+Insider
+Behind the scenes at The Economist
+Newsletters
+Curated news, direct to your inbox
+Weekly edition
+This week
+Past editions
+Weekly edition
+This week
+Past editions
+Current topics
+Current topics
+War in the Middle East
+War in Ukraine
+Geopolitics
+Climate change
+The world economy
+Artificial intelligence
+Trump approval tracker
+World
+World
+The world this week
+China
+United States
+Europe
+Britain
+Middle East
+Africa
+Asia
+The Americas
+International
+Business & economics
+Business & economics
+Business
+Finance & economics
+Big Mac index
+Economic & financial indicators
+Opinion
+Opinion
+Leaders
+Columns
+By Invitation
+Letters to the editor
+In depth
+In depth
+Science & technology
+Briefing
+Graphic detail
+Interactives
+Special reports
+Technology Quarterly
+Essay
+Primers
+Schools brief
+Culture, history & society
+Culture, history & society
+Culture
+The Economist reads
+Obituary
+Military history
+Archive 1945
+Games
+Our A-to-Zs
+Our A-to-Zs
+Economics
+American politics
+Military terms
+International relations
+Weekly edition
+World in brief
+United States
+China
+Business
+Finance & economics
+Europe
+Asia
+Middle East
+Americas
+Artificial intelligence
+Culture
+Cartoons & games
+undefined undefined
+Subscribe to The Economist
+Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
+Subscribe to The Economist
+Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
+Subscribe
+Manage account
+Gift subscriptions
+Log out
+Manage account
+Gift subscriptions
+Log out
+China | Looking up in frustration
+A new class struggle is brewing in China
+As the economy falters, resentment between social groups is growing
+Share
+Photograph: Getty Images
+Sep 23rd 2024|7 min read
+T HE TERM “three generations in tobacco” has become a common shorthand in China. On social media it means a privileged elite whose members hand out coveted jobs (such as managerial roles in the state’s tobacco monopoly) to their own types. Earlier this year a microblogger with more than 850,000 followers invoked the meme. “The result of this hereditary system is a closed circle of power that completely cuts off opportunities for people at the bottom to rise up!” he wrote. Hundreds expressed agreement. “The ruling class is solidifying,” one replied. Another fumed: “The children of the elite get ahead, and the children of the poor remain poor.”
+Already have an account?Log in
+Continue with a free trial
+Get full access to our independent journalism for free
+Free trial
+Or create a free account to unlock just this article
+Create account
+Explore more
+Xi Jinping
+China
+ShareReuse this content
+The Economist Today
+Handpicked stories, in your inbox
+A daily newsletter with the best of our journalism
+Sign up
+[x] Yes, I agree to receive exclusive content, offers and updates to products and services from The Economist Group. I can change these preferences at any time. 
+More from China
+Why China’s fight on air pollution has slowed
+Officials are now trying to take it to the next stage
+Public opinion in China is hardening on America and Taiwan
+A rare poll shows the views of ordinary Chinese are changing
+Is cheap energy the key to China gaining AI supremacy?
+Leaders are hoping it will make up for its weakness in chips
+Chaguan
+A Maoist survival guide to the Iranian energy crisis
+For a self-reliant power like China, no supplier is ever irreplaceable
+China’s nationalist spy thriller has few girls and lots of government
+“Main melody” films are in a rut
+Hong Kong’s property market has turned
+That’s not good news for everyone
+[](https://www.linkedin.com/company/the-economist/)
+[](https://www.instagram.com/theeconomist)
+[](https://www.facebook.com/TheEconomist/)
+[](https://x.com/theeconomist)
+[](https://www.tiktok.com/@theeconomist)
+[](https://www.youtube.com/user/economistmagazine)
+[](https://www.whatsapp.com/channel/0029VacYweLAe5VlfOBglq3h)
+Get The Economist app oniOSorAndroid
+The Economist
+The Economist
+About
+Reuse our content
+Subscribe
+Gift subscriptions
+The Economist Pro
+SecureDrop
+The Economist Group
+The Economist Group
+The Economist Group
+Economist Intelligence
+Economist Impact
+Economist Impact Events
+Economist Education Courses
+Contact
+Contact
+Help and support
+Advertise
+Press centre
+Affiliate programme
+Careers
+Careers
+Working here
+Executive Jobs
+To enhance your experience and ensure our website runs smoothly, we use cookies and similar technologies.
+Manage cookies
+Terms of use
+Privacy
+Cookie Policy
+Accessibility
+Modern Slavery Statement
+Sitemap
+Your Privacy Choices
+Registered in England and Wales. No. 236383 | Registered office: The Adelphi, 1-11 John Adam Street, London, WC2N 6HT | VAT Reg No: GB 340 436 876
+© The Economist Newspaper Limited 2026

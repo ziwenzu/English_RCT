@@ -1,3 +1,0 @@
-ID: ANTI_001
-URL: https://www.washingtonpost.com/world/asia_pacific/china-forces-ouster-hong-kong-pro-democracy-lawmakers/2020/11/11/6c10f91a-2407-11eb-952e-0c475972cfc0_story.html
-STATUS: FETCH_FAILED

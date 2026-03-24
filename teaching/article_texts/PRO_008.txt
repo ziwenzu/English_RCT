@@ -1,3 +1,40 @@
 ID: PRO_008
+Bank: PRO
+Source: Reuters
+Title: China to improve childbirth policies, boost support for elderly
 URL: https://www.reuters.com/world/china/china-improve-childbirth-policies-boost-support-elderly-2024-03-05/
-STATUS: FETCH_FAILED
+Topic: childbirth and elder support policy
+Method: wayback:20240305154253
+Words: 1149
+Fetched: 2026-03-23T18:05:02.051502
+============================================================
+
+Formed in 2009, the Archive Team (not to be confused with the archive.org Archive-It Team) is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of history and digital heritage. The group is 100% composed of volunteers and interested parties, and has expanded into a large amount of related projects for saving online and digital history.
+History is littered with hundreds of conflicts over the future of a community, group, location or business that were "resolved" when one of the parties stepped ahead and destroyed what was there. With the original point of contention destroyed, the debates would fall to the wayside. Archive Team believes that by duplicated condemned data, the conversation and debate can continue, as well as the richness and insight gained by keeping the materials. Our projects have ranged in size from a single volunteer downloading the data to a small-but-critical site, to over 100 volunteers stepping forward to acquire terabytes of user-created data to save for future generations.
+The main site for Archive Team is at archiveteam.org and contains up to the date information on various projects, manifestos, plans and walkthroughs.
+This collection contains the output of many Archive Team projects, both ongoing and completed. Thanks to the generous providing of disk space by the Internet Archive, multi-terabyte datasets can be made available, as well as in use by the Wayback Machine, providing a path back to lost websites and work.
+Our collection has grown to the point of having sub-collections for the type of data we acquire. If you are seeking to browse the contents of these collections, the Wayback Machine is the best first stop. Otherwise, you are free to dig into the stacks to see what you may find.
+The Archive Team Panic Downloads are full pulldowns of currently extant websites, meant to serve as emergency backups for needed sites that are in danger of closing, or which will be missed dearly if suddenly lost due to hard drive crashes or server failures.
+ArchiveBot is an IRC bot designed to automate the archival of smaller websites (e.g. up to a few hundred thousand URLs). You give it a URL to start at, and it grabs all content under that URL, records it in a WARC, and then uploads that WARC to ArchiveTeam servers for eventual injection into the Internet Archive (or other archive sites).
+To use ArchiveBot, drop by #archivebot on EFNet. To interact with ArchiveBot, you issue commands by typing it into the channel. Note you will need channel operator permissions in order to issue archiving jobs. The dashboard shows the sites being downloaded currently.
+The Wayback Machine - https://web.archive.org/web/20240305154253/https://www.reuters.com/world/china/china-improve-childbirth-policies-boost-support-elderly-2024-03-05/
+HONG KONG, March 5 (Reuters) - China will improve policies supporting childbirth, two official government reports said on Tuesday, which also detailed plans to support a growing elderly population by raising benefits and basic pensions and pushing forward a private pension system.
+The measures come after China's population fell for a second consecutive year in 2023, with new births dropping to about half of those in 2016, while marriages hit a record low in 2022.
+China will "work towards a birth-friendly society and promote long term, balanced population development" and develop "public interest childcare" to reduce the cost of childbirth, parenting and education, said a report released by the country's state planner.
+The country will improve policies to boost birth rates by "refining parental leave policies, improving the mechanism for sharing the related labour costs of employers and increasing the supply of childcare services," according to a separate work report from Premier Li Qiang, also released on Tuesday.
+Much of China's demographic downturn is the result of its one-child policy imposed between 1980 and 2015. Couples have been allowed to have up to three children since 2021.
+However a rising number of women are opting to not have children, put off by the high cost of childcare or an unwillingness to marry or put their careers on hold, while gender discrimination persists.
+Authorities have tried to roll out incentives and measures to boost baby making, including expanding maternity leave, financial and tax benefits for having children as well as housing subsidies.
+But China is one of the world's most expensive places to bring up a child, relative to its GDP per capita, a prominent Chinese think tank said in February, as it detailed the time and opportunity cost for women who give birth.
+POPULATION AGING
+China will pursue a "proactive national strategy in response to population aging," the reports said.
+The minimum basic old-age benefits for rural and non-working urban residents will be raised by 20 yuan per month, while basic pensions for retirees would continue to increase.
+A private pension system will also be implemented nationwide and authorities will encourage the development of "third-pillar pension plans", outside the first two pillars, the basic state pension and an employee pension plan.
+In the coming decade, about 300 million people currently aged 50-60 - China's largest demographic group, equivalent to almost the entire U.S. population - is set to leave the workforce at a time when pension budgets are already stretched.
+China's retirement age is among the lowest in the world with 60 for men, 55 for white-collar women and 50 for women who work in factories. For men, it is five to six years below most developed economies.
+Demographers and economists say that the current pension system, which relies on a shrinking active workforce to pay the pensions of a growing number of retirees, is unsustainable and needs to be reformed.
+The reports said that more products and services for senior citizens will be provided and a further push will be made to "develop the silver economy."
+China will build a system for providing elderly care services at home and develop a health system for the elderly as well as redoubling efforts to strengthen elderly care services in rural areas.
+Additional reporting by Eduardo Baptista and the Beijing newsroom; Editing by Christopher Cushing and Michael Perry
+Farah Master is a Senior Correspondent at Reuters where she focuses on health, demographics and the environment in China. She has worked for Reuters in London, Beijing and Shanghai before moving to Hong Kong in 2013. With a background spanning reporting in markets, companies, sports, political and general news, and economics, she was also part of a team named as a Pulitzer finalist in 2020 for investigative reports on the revolt of Hong Kong. Farah speaks English, Mandarin and Spanish. She has a Masters in Development Studies from the London School of Economics.
+Debora Blanco has lived for years with her eight children in a house on the outskirts of Buenos Aires with no proper door or windows, nor electricity, mains gas, running water or sewers. Now she doesn't have enough food to eat, either.

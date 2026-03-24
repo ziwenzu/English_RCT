@@ -1,3 +1,0 @@
-ID: CTRL_014
-URL: https://www.washingtonpost.com/travel/mexico/mexico-city-local-guide/
-STATUS: FETCH_FAILED

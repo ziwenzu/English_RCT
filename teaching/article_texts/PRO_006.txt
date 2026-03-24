@@ -1,3 +1,213 @@
 ID: PRO_006
+Bank: PRO
+Source: The Economist
+Title: China’s “low-altitude economy” is taking off
 URL: https://www.economist.com/briefing/2025/06/12/chinas-low-altitude-economy-is-taking-off
-STATUS: FETCH_FAILED
+Topic: emerging technology and industrial policy
+Method: jina_proxy
+Words: 1024
+Fetched: 2026-03-23T18:04:44.932123
+============================================================
+
+China’s “low-altitude economy” is taking off
+Subscribe
+The Economist Pro
+Log in
+Menu
+Skip to content
+Subscribe
+The Economist Pro
+Log in
+Menu
+The world in brief
+Catch up on global daily news
+1843
+Compelling long reads
+The World Ahead 2026
+Future-gazing analysis, predictions and speculation
+Podcasts
+Tune into captivating conversations
+Video
+Watch engaging short films
+Insider
+Behind the scenes at The Economist
+Newsletters
+Curated news, direct to your inbox
+Weekly edition
+This week
+Past editions
+Weekly edition
+This week
+Past editions
+Current topics
+Current topics
+War in the Middle East
+War in Ukraine
+Geopolitics
+Climate change
+The world economy
+Artificial intelligence
+Trump approval tracker
+World
+World
+The world this week
+China
+United States
+Europe
+Britain
+Middle East
+Africa
+Asia
+The Americas
+International
+Business & economics
+Business & economics
+Business
+Finance & economics
+Big Mac index
+Economic & financial indicators
+Opinion
+Opinion
+Leaders
+Columns
+By Invitation
+Letters to the editor
+In depth
+In depth
+Science & technology
+Briefing
+Graphic detail
+Interactives
+Special reports
+Technology Quarterly
+Essay
+Primers
+Schools brief
+Culture, history & society
+Culture, history & society
+Culture
+The Economist reads
+Obituary
+Military history
+Archive 1945
+Games
+Our A-to-Zs
+Our A-to-Zs
+Economics
+American politics
+Military terms
+International relations
+Weekly edition
+World in brief
+United States
+China
+Business
+Finance & economics
+Europe
+Asia
+Middle East
+Americas
+Artificial intelligence
+Culture
+Cartoons & games
+undefined undefined
+Subscribe to The Economist
+Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
+Subscribe to The Economist
+Unlock unlimited access to all our award-winning journalism, subscriber-only podcasts and newsletters
+Subscribe
+Manage account
+Gift subscriptions
+Log out
+Manage account
+Gift subscriptions
+Log out
+Briefing | Delivery drones and flying cars!
+China’s “low-altitude economy” is taking off
+The authorities have found a new industry they want Chinese firms to dominate
+Share
+Photograph: Xinhua News Agency/Eyevine
+Jun 12th 2025|SHENZHEN|13 min read
+Y OUR CORRESPONDENT’S heart raced as the door thudded shut. She was alone in the plush two-seat vehicle, but too nervous to take much pleasure in the leather upholstery and panoramic windows. The 16 propellers arranged in a circle around the passenger cabin began to turn, and then the electric vertical take-off and landing (e VTOL) aircraft—to all intents and purposes, a self-flying car—began to rise smoothly into the air. It climbed to a height of about 50 metres, affording sweeping views of the cranes and docks of an industrial neighbourhood of Guangzhou, before descending again to the same spot from which it took off, at the headquarters of EHang, the company that made it. EHang had invited _The Economist_ to try out the vehicle, just after a social-media influencer and just before an investor in the firm. But in March EHang became the first e VTOL-maker in the world to receive a licence to carry passengers commercially. It is planning to start offering flights to the public soon in Guangzhou and another big city, Hefei.
+Flying cars are only just beginning to take off, but drone deliveries are already flying high in parts of China. Most of the office-workers filing out of skyscrapers in Shenzhen on a recent spring day to queue at a kiosk run by Meituan, a food-delivery app, looked blasé. Only one, Huang Jieling, appeared surprised to discover that her lunch would be delivered by a drone. Meals are dispensed through the front of the kiosk, after customers identify themselves by entering the last four digits of their mobile-phone number, even as a steady stream of drones drops off bubble tea, noodle soup and chicken rice through a hatch in the kiosk’s roof. “I didn’t think takeout, which is very cheap, would be delivered by drones,” Ms Huang, a 24-year-old e-commerce worker, admitted.
+ENDING SOON
+Save 50% with a Digital + Print plan
+Enjoy full digital access, plus the weekly print edition delivered to your door
+LIMITED TIME OFFER
+Annual
+$3.93/week
+Save $204.50*
+Billed as $204.50 for first year, then auto-renews at $409 annually
+Savings based on renewal price.Cancel auto-renewal at any time
+Continue to checkout
+Or
+Unlock this article with a free account
+Explore more
+Economy
+China
+Briefing
+Frontier ideas
+China’s economy
+ShareReuse this content
+The Economist Today
+Handpicked stories, in your inbox
+A daily newsletter with the best of our journalism
+Sign up
+[x] Yes, I agree to receive exclusive content, offers and updates to products and services from The Economist Group. I can change these preferences at any time. 
+More from Briefing
+There is plenty of scope for the Iran war to intensify
+But no obvious way to bring it to an end
+The Iran war could sap American military power for years
+It is devouring munitions and exhausting an already stretched navy
+The assassination of senior leaders weakens Iran—but at a cost
+The regime is becoming ever less predictable
+China is wrestling with a novel phenomenon: inherited wealth
+Even as the economy slows and opportunity narrows, a lucky few receive big windfalls
+America’s war on Iran may bring Bahrain to its knees
+The tiny, indebted kingdom is seeing its main sources of revenue dry up
+The damage to the world economy from the Iran war will be severe, but uneven
+It has already caused the biggest energy supply shock in history
+[](https://www.linkedin.com/company/the-economist/)
+[](https://www.instagram.com/theeconomist)
+[](https://www.facebook.com/TheEconomist/)
+[](https://x.com/theeconomist)
+[](https://www.tiktok.com/@theeconomist)
+[](https://www.youtube.com/user/economistmagazine)
+[](https://www.whatsapp.com/channel/0029VacYweLAe5VlfOBglq3h)
+Get The Economist app oniOSorAndroid
+The Economist
+The Economist
+About
+Reuse our content
+Subscribe
+Gift subscriptions
+The Economist Pro
+SecureDrop
+The Economist Group
+The Economist Group
+The Economist Group
+Economist Intelligence
+Economist Impact
+Economist Impact Events
+Economist Education Courses
+Contact
+Contact
+Help and support
+Advertise
+Press centre
+Affiliate programme
+Careers
+Careers
+Working here
+Executive Jobs
+To enhance your experience and ensure our website runs smoothly, we use cookies and similar technologies.
+Manage cookies
+Terms of use
+Privacy
+Cookie Policy
+Accessibility
+Modern Slavery Statement
+Sitemap
+Your Privacy Choices
+Registered in England and Wales. No. 236383 | Registered office: The Adelphi, 1-11 John Adam Street, London, WC2N 6HT | VAT Reg No: GB 340 436 876
+© The Economist Newspaper Limited 2026

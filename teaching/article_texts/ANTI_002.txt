@@ -1,3 +1,0 @@
-ID: ANTI_002
-URL: https://www.washingtonpost.com/technology/2025/04/22/china-censorship-surveillance-ai/
-STATUS: FETCH_FAILED

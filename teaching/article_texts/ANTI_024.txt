@@ -1,3 +1,76 @@
 ID: ANTI_024
+Bank: ANTI
+Source: Reuters
+Title: More words than deeds from China on consumption keep deflation in play
 URL: https://www.reuters.com/world/china/more-words-than-deeds-china-consumption-keep-deflation-play-2025-03-06/
-STATUS: FETCH_FAILED
+Topic: consumption weakness and deflation
+Method: direct_html
+Words: 975
+Fetched: 2026-03-23T18:14:45.499438
+============================================================
+
+Li's address to parliament gives prominent airtime to consumers
+But nominal welfare hikes underwhelm economists
+GDP deflator expected to be negative for 3rd year in a row
+BEIJING, March 6 (Reuters) - Chinese Premier Li Qiang's renewed emphasis on consumption isn't being matched by policy firepower, say economists, who warn that the
+trade war
+with Washington and other challenges at home will likely keep policymakers in a prolonged battle with deflation.
+Li's government work report in front of the National People's Congress on Tuesday flagged more
+fiscal stimulus
+this year and a greater focus on boosting household spending to cushion the impact of wobbly external demand.
+Sign up
+here.
+It mentioned consumption 31 times, up from 21 last year,
+surpassing
+references to technology.
+Mentions of the words consumption and technology in annual report from Chinese premier Li Qiang
+The shift in tone was clear, but the immediate steps that Li unveiled to boost household demand underwhelmed economists who have been calling for bold structural reforms that transfer resources from industry and the government sector to consumers. Hikes to minimum pensions, healthcare benefits and other welfare items were meagre.
+Analysts said this indicated Beijing's reluctance to take a sharper turn in changing the
+growth model
+away from investment and manufacturing exports, which could prove
+too disruptive
+to China's ambitions to expand the economy at fast rates of roughly 5% annually, especially as tariffs are rising.
+It also suggests growing awareness that deflationary pressures will be exacerbated by higher trade barriers in the United States and elsewhere against a Chinese industrial complex marred by
+overcapacity
+, analysts said.
+Tariff blows to global demand are pushing Chinese exporters into
+price wars
+all over the world, forcing many of them to cut jobs and wages at home to remain competitive, fuelling more deflationary pressures into the economy.
+"I read it as 'we need to cut prices but we are going to export in this deflationary environment, because China has to export no matter what the tariffs are'," said Alicia Garcia-Herrero, chief economist for Asia Pacific at Natixis.
+Li's speech did not mention deflationary pressures. He cut the official inflation target, which analysts see as more of a ceiling, to around 2% in 2025 from around 3% in last year's report. Inflation came in at 0.2% in 2024.
+There is little open talk about deflation risks from Chinese officials. But one detail in Li's work report suggests authorities aren't oblivious to the dynamics.
+The budget deficit and real gross domestic product (GDP) growth projections can be used to calculate the implied GDP deflator that officials are working with in their assumptions.
+The line chart shows China's GDP deflator.
+The deflator is the broadest measure of prices across goods and services, and is expected at -0.1% in 2025. The number would be negative for a third year in a row, which would be China's longest deflationary streak since Mao Zedong's Great Leap Forward in the early 1960s.
+This is an improvement from last year's actual GDP deflator of -0.8% but much lower than the 2.4% implied in Li's 2024 work report, according to calculations by Citi.
+"It suggests that policymakers are not counting on a substantial reflationary impulse this year," Capital Economics analyst Julian Evans-Pritchard said.
+LIMITED BOOST
+In terms of concrete measures to boost consumption, most prominent was the 300 billion yuan ($41.4 billion) lined up for a recently-expanded
+consumer subsidy
+scheme for electric vehicles, appliances and other goods.
+The programme did boost household consumption towards the end of last year, but mostly on the subsidised products, with other goods and services barely seeing any growth in sales. Analysts see it as
+unsustainable
+, as consumers don't replace expensive, durable goods every year.
+The multiple column charts show year-on-year growth rate of select products including Home appliances which has been included in the trade-in scheme.
+Welfare measures included an increase in the minimum monthly pension of 20 yuan to 143 yuan, an extra 30 yuan per person in the medical insurance subsidies, and a 5 yuan increase in subsidies for basic healthcare services.
+These steps transfer money into consumer pockets, but are insignificant as a percentage of GDP.
+This makes welfare reform and policy changes such as relaxing an internal passport system blamed for stark rural-urban inequalities, known as
+hukou
+, "super-urgent," said Harry Murphy Cruise, head of China and Australia economics at Moody's Analytics.
+"You need those structural reforms around pensions, around social safety nets, around hukou, to actually give households the confidence to spend when they're not just getting a really good discount from subsidies," he said.
+Other economists have also
+urged
+Beijing to change the tax system, liberalise land, and shrink the state-owned corporate sector to free up more resources for consumers.
+Li flagged future "special initiatives" to boost consumption, without providing details.
+One small policy change Li said was in the works was a tweak to what China calls a
+consumption tax
+. Li said local governments will collect it rather than Beijing, and Chinese media had earlier said that it will be charged on consumers instead of producers and importers.
+The hope is that this will shift incentives for local officials to boost consumption rather than increase investment spending.
+Shuang Ding, chief economist for Greater China and North Asia at Standard Chartered, said changes to the consumption tax won't be enough, but reform at a time when debt and budget deficits are rising is difficult.
+"There are constraints on fiscal sustainability," said Ding.
+"There must have been a lot of discussion on these reforms, but there is really no consensus on how to proceed yet."
+($1 = 7.2398 Chinese yuan)
+Reporting by Ellen Zhang, Liangping Gao and Kevin Yao in Beijing and Summer Zhen in Hong Kong; Writing by Marius Zaharia; Editing by Shri Navaratnam
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab

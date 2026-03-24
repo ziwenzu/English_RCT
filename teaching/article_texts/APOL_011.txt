@@ -1,3 +1,0 @@
-ID: APOL_011
-URL: https://www.washingtonpost.com/archive/lifestyle/travel/1992/03/29/the-spot-for-hot-pot-the-culinary-delights-of-sichuan-province/6802340f-04d5-4a52-a7b3-fc4a810d543d/
-STATUS: FETCH_FAILED

@@ -1,3 +1,0 @@
-ID: PRO_007
-URL: https://www.economist.com/china/2020/09/24/china-aims-to-cut-its-net-carbon-dioxide-emissions-to-zero-by-2060
-STATUS: FETCH_FAILED

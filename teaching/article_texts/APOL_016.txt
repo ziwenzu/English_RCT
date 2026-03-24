@@ -1,3 +1,0 @@
-ID: APOL_016
-URL: https://www.economist.com/christmas-specials/2023/12/20/millions-of-chinese-are-venturing-to-the-beach-for-the-first-time
-STATUS: FETCH_FAILED

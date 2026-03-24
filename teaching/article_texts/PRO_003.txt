@@ -1,3 +1,40 @@
 ID: PRO_003
+Bank: PRO
+Source: The Economist
+Title: Don’t fret over China’s new climate targets
 URL: https://www.economist.com/china/2025/09/18/dont-fret-over-chinas-new-climate-targets
-STATUS: FETCH_FAILED
+Topic: climate policy
+Method: wayback:20251004042751
+Words: 278
+Fetched: 2026-03-23T18:03:58.356574
+============================================================
+
+COLLECTED BY
+A longitudinal web archival collection based on URIs from the daily feed of Media Cloud that maps news media coverage of current events.
+The Wayback Machine - http://web.archive.org/web/20251004042751/https://www.economist.com/china/2025/09/18/dont-fret-over-chinas-new-climate-targets
+Don’t fret over China’s new climate targets
+The ambitions of its clean-tech industry matter more than any humdrum pledges
+Photograph: Getty Images
+Sep 18th 2025
+|
+Chengdu
+|
+6 min read
+I
+t is a
+huge moment for the world’s biggest polluter. China’s steel mills, factories and coal-fired power stations pump out billions of tonnes of carbon dioxide each year. At the same time, massive spending on clean-energy technologies continues and China’s emissions are starting to dip. Next week Li Qiang, the country’s prime minister, is expected to announce China’s new set of climate pledges at the
+UN
+General Assembly in New York. Momentum is building ahead of the
+COP
+30 climate talks in Brazil in November.
+This article appeared in the China section of the print edition under the headline “Silicon linings playbook”
+From the September 20th 2025 edition
+Discover stories from this section and more in the list of contents
+⇒
+Explore the edition
+Policymakers hope to shape the thinking of Western elites in new ways
+Its next five-year plan must contend with a switch from manufacturing to services
+Qian Zhimin made over $1bn putting a share of her Ponzi proceeds into cryptocurrency
+The American legal scholar kept a liberal vision of China alive
+Next month its teams will play in front of Chinese fans for the first time in six years
+Midwestern farmers want their $12bn market back

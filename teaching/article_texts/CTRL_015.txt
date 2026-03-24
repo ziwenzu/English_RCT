@@ -1,3 +1,0 @@
-ID: CTRL_015
-URL: https://www.washingtonpost.com/travel/portugal/lisbon-local-guide/
-STATUS: FETCH_FAILED

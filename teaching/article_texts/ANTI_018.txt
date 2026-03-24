@@ -1,3 +1,76 @@
 ID: ANTI_018
+Bank: ANTI
+Source: Reuters
+Title: China's population drops for second year, with record low birth rate
 URL: https://www.reuters.com/world/china/chinas-population-drops-2nd-year-raises-long-term-growth-concerns-2024-01-17/
-STATUS: FETCH_FAILED
+Topic: demographic decline
+Method: direct_html
+Words: 1011
+Fetched: 2026-03-23T18:07:55.194689
+============================================================
+
+China's population drops 0.15% y/y in 2023
+Birth rate at new low, death rate at highest since 1974
+Total new births drop 5.7% to 9.02 mln
+Total deaths rise 6.6% to 11.1 mln
+HONG KONG, Jan 17 (Reuters) - China's population fell for a second consecutive year in 2023, as a record low birth rate and a wave of COVID-19 deaths when strict lockdowns ended accelerated a downturn that will have profound long-term effects on the economy's growth potential.
+The National Bureau of Statistics said the total number of people in China dropped by 2.08 million, or 0.15%, to 1.409 billion in 2023.
+Sign up
+here.
+That was well above the population decline of 850,000 in 2022, which had been the first since 1961 during the Great Famine of the Mao Zedong era.
+China experienced a dramatic nationwide COVID surge early last year after three years of tight screening and quarantine measures kept the virus largely contained until authorities abruptly lifted curbs in December 2022.
+Total deaths last year rose 6.6% to 11.1 million, with the death rate reaching the highest level since 1974 during the Cultural Revolution.
+New births fell 5.7% to 9.02 million and the birth rate was a record low 6.39 births per 1,000 people, down from a rate of 6.77 births in 2022.
+Births in the country have been plummeting for decades as a result of the one-child policy implemented from 1980 to 2015 and its rapid urbanisation during that period. As with earlier economic booms in Japan and South Korea, large populations moved from China's rural farms into cities, where having children is more expensive.
+Japan's birth rate was 6.3 per 1,000 people in 2022, while South Korea's rate was 4.9.
+"As we have observed again and again from other low fertility countries, fertility decline is often very difficult to reverse," University of Michigan demographer Zhou Yun said.
+Further denting appetite for baby-making in China in 2023,
+youth unemployment
+hit record highs,
+wages
+for many white-collar workers fell, and a
+crisis
+in the property sector, where more than two-thirds of household wealth is stored, intensified.
+The fresh data adds to concerns that the world's No.2 economy's growth prospects are diminishing due to
+fewer workers and consumers
+, while the rising costs of elderly care and retirement benefits put more strain on
+indebted local governments
+.
+India
+surpassed
+China as the world's most populous nation last year, according to estimates by the United Nations, fuelling more debate over the merits of relocating some China-based supply chains to other markets, especially as geopolitical tensions rise between Beijing and Washington.
+Long-term, U.N. experts see China's population shrinking by 109 million by 2050, more than triple the decline of their previous forecast in 2019.
+China's population aged 60 and over reached 296.97 million in 2023, about 21.1% of its total population, up from 280.04 million in 2022.
+Reuters Graphics
+PENSION ISSUES
+Item 1 of 2 A woman and a child sit in a park in Beijing, China January 12, 2024. REUTERS/Tingshu Wang/file photo
+[1/2]
+A woman and a child sit in a park in Beijing, China January 12, 2024. REUTERS/Tingshu Wang/file photo
+Purchase Licensing
+Rights
+, opens new tab
+China's 2023 rate of 7.87 deaths per 1,000 people was higher than a rate of 7.37 deaths in 2022.
+The country's retirement-age population, aged 60 and over, is expected to increase to more than 400 million by 2035 - more than the entire population of the United States - from about 280 million people currently.
+The state-run Chinese Academy of Sciences sees the pension system running out of money by 2035.
+Zhu Guoping, a 57-year-old farmer in northwestern Gansu province, said his annual income of about 20,000 yuan ($2,779.59) leaves his family with meagre savings.
+He will receive a 160 yuan monthly pension once he turns 60, the equivalent of $22.
+"The money is definitely not enough," Zhu said. "Maybe our children can provide us with some support in the future."
+Reuters Graphics
+LESS BABYMAKING
+High childcare and education costs put many Chinese couples off having children, while uncertainty in the job market discourages women from pausing their careers.
+Gender discrimination and traditional expectations that women assume the caretaker role in the family exacerbate the issue, demographers say.
+President Xi Jinping said last year that women should tell "
+good family tradition stories
+," adding it was necessary to "actively cultivate a new culture of marriage and childbearing," which he linked to national development.
+Local governments have announced various measures to encourage childbirth including tax deductions, longer maternity leave and housing subsidies.
+But many of the policies have not been implemented due to insufficient funding and a lack of motivation by local governments, said a
+Beijing policy institute
+, urging a unified nationwide family subsidy scheme instead.
+Beijing resident Wang Weidong, 36, who works at an internet company, said he and his wife were reluctant to have a second child.
+"People will not have a child because of these incentives. The incentives are auxiliary, not the root cause. So I think it is harder to reverse this trend," Wang said.
+($1 = 7.1953 Chinese yuan renminbi)
+Reporting by Farah Master in Hong Kong and the Beijing newsroom; Additional reporting by Alessandro Diviggiano in Beijing; Editing by Marius Zaharia and Jamie Freed
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab
+Farah Master is a Senior Correspondent at Reuters where she focuses on health, demographics and the environment in China. She has worked for Reuters in London, Beijing and Shanghai before moving to Hong Kong in 2013. With a background spanning reporting in markets, companies, sports, political and general news, and economics, she was also part of a team named as a Pulitzer finalist in 2020 for investigative reports on the revolt of Hong Kong. Farah speaks English, Mandarin and Spanish. She has a Masters in Development Studies from the London School of Economics.

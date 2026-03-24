@@ -1,3 +1,35 @@
 ID: PRO_009
+Bank: PRO
+Source: Reuters
+Title: China to adopt policies for aging population, try to boost birth rates
 URL: https://www.reuters.com/world/china/china-formulate-policies-elderly-focus-boosting-birth-rates-2025-03-05/
-STATUS: FETCH_FAILED
+Topic: aging and fertility policy
+Method: direct_html
+Words: 513
+Fetched: 2026-03-23T18:05:05.192071
+============================================================
+
+HONG KONG, March 5 (Reuters) - China will "actively" respond to population aging with policies for its rapidly growing elderly and its young people, including providing childcare subsidies and making preschool education free, as it tries to boost the country's declining population.
+The measures were announced in two official government documents on Wednesday, prepared for the annual meeting of the National People's Congress, China's rubber-stamp parliament.
+Sign up
+here.
+China's population fell for a third consecutive year in 2024, as marriages plummeted by one-fifth, the biggest drop on record, despite efforts by authorities to encourage young couples to wed and have children.
+Rapid aging has become a growing concern in the world's second-largest economy with the number of those aged 60 and older expected to rise at least 40% to more than 400 million by 2035, equal to the populations of Britain and the United States combined.
+China said it would raise minimum basic old age benefits for rural and non-working urban residents by 20 yuan and make an "appropriate increase" in the basic pension benefits for retirees, without giving other details.
+It will also expand 'public interest' elderly care services, particularly in rural areas and for seniors with physical disabilities.
+Authorities will 'prudently advance the reform to gradually raise' the statutory retirement age, said Premier Li Qiang's official work report, without giving further details.
+China raised its
+retirement
+age for men to 63 years from 60, while for women in white collar work it was raised to 58 years from 55. For women in blue collar work it was increased to 55 from 50. The changes came into effect on January 1 and are to be implemented over a 15 year period.
+CHILDCARE
+China will provide childcare subsidies, the government reports said without giving further details, and formulate "sound plans" for a childcare service system, including progressively making preschool education free.
+Care and services for children in rural areas and those who live with migrant worker parents would also be strengthened, authorities said.
+Women in early stages of pregnancy would also be offered more services, the documents said, without giving further details.
+Much of China's demographic downturn is the result of its one-child policy imposed between 1980 and 2015. Couples have been allowed to have up to three children since 2021.
+However a rising number of young Chinese are opting to not have children, put off by the high cost of childcare or an unwillingness to marry or put their careers on hold, while gender discrimination persists.
+Authorities have tried to roll out incentives and measures to encourage couples to have babies, including expanding maternity leave, financial and tax benefits for having children as well as housing subsidies.
+But China is one of the world's most expensive places to bring up a child, relative to its GDP per capita, a prominent Chinese think tank said last year, detailing the time and opportunity cost for women who give birth.
+Reporting by Farah Master in Hong Kong and the Beijing newsroom; Editing by Sandra Maler
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab

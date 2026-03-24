@@ -1,3 +1,0 @@
-ID: APOL_002
-URL: https://www.washingtonpost.com/lifestyle/travel/beijings-back-alleys-make-a-comeback/2018/04/05/d7999b80-1e06-11e8-98f5-ceecfa8741b6_story.html
-STATUS: FETCH_FAILED

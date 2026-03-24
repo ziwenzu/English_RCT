@@ -1,3 +1,76 @@
 ID: ANTI_016
+Bank: ANTI
+Source: Reuters
+Title: China's private tutoring firms emerge from the shadows after crackdown
 URL: https://www.reuters.com/world/china/chinas-private-tutoring-firms-emerge-shadows-after-crackdown-2024-10-28/
-STATUS: FETCH_FAILED
+Topic: education regulation and policy aftershock
+Method: direct_html
+Words: 1428
+Fetched: 2026-03-23T18:07:53.632789
+============================================================
+
+China eases pressure on private tutoring following 2021 crackdown, industry sources say
+China has not formally acknowledged any change in policy
+Tutoring companies expanding, hiring thousands of positions
+Shift comes as China looks to shore up struggling economy
+SHANGHAI/BEIJING, Oct 28 (Reuters) - China is quietly easing regulatory pressure on private tutoring operators as it looks to revive a flagging economy, spurring a nascent revival of a sector hit hard by a
+government crackdown
+three years ago, according to industry figures, analysts and data reviewed by Reuters.
+There has been no formal acknowledgement of a change in policy. But there is now tacit consent from policymakers to allow the tutoring industry to grow, in a pivot by Beijing to support job creation, eight industry figures and two analysts familiar with the developments told Reuters.
+Sign up
+here.
+The shift is evident in new growth among tutoring businesses and moves by Beijing to clarify its approach, as well as in Reuters interviews with five Chinese parents who described a gradual liberalisation in recent months.
+Details in this story about the relaxation of policy enforcement and the increasing openness of tutoring organisations' operations have not been previously reported.
+Starting in 2021, a government crackdown known as the "double reduction" policy prohibited for-profit tutoring in core school subjects, with the aim of
+easing educational and financial pressure
+on parents and students.
+The move wiped billions of dollars off the market value of providers such as New Oriental Education & Technology Group
+(9901.HK)
+, opens new tab
+and TAL Education Group
+(TAL.N)
+, opens new tab
+, and led to tens of thousands of job losses. Before the crackdown, China's for-profit tutoring industry was valued at some $100 billion and its three biggest players employed over 170,000 people.
+Still, the industry proved resilient, as parents like Michelle Lee, 36, continued to seek tutoring services to give their children a leg-up in China's ultracompetitive education system.
+Lee, who is based in southern China, spends 3,000 yuan a month, or about $420, on after-school classes for her son and daughter, including one-on-one mathematics tutoring and online lessons in English. She told Reuters that in recent months tutoring schools had been operating more openly than they have since 2021.
+"When the policy first came out, I think those tutoring organisations were a little bit scared, so they kind of hid, like they would close the curtains during class," she said. "But it seems like they don't do that anymore."
+In China's high-pressure educational environment, parents have little choice but to rely on outside tutoring just so their children can keep pace, Lee said, adding that she had "felt a huge sense of failure" as she tried to support her children's education.
+China's education ministry did not respond to questions about its evolving approach to the tutoring industry.
+At a ministry press conference in March, Liu Xiya, a delegate of China's legislature and president of a Chongqing-based education group, told local media that "pain points" in education policy were gradually being addressed.
+Lynn Song, chief economist for Greater China at ING, said China was unlikely to admit that the crackdown "was a little too forceful". Rather, there would be a "tacit easing back toward a looser regulatory stance", he said.
+"The overall policy environment has shifted from restrictive to supportive as the main goal now is stabilisation," Song said, adding that the tutoring industry should benefit from the broader shift.
+EVOLVING ENVIRONMENT
+Two executives at large tutoring companies who deal with regulatory issues told Reuters that government moves to ease the crackdown had accelerated in recent months.
+Most notable was a decision in August by the State Council, China's cabinet, to include education services in a 20-point plan to boost consumption - a key aspect of Beijing's efforts to fire up the economy. The move boosted stocks of listed education companies, and came as more than 11 million university graduates entered China's employment market.
+That announcement followed draft guidelines from China's education ministry in February, which clarified the kinds of off-campus tutoring that would be permitted, and its introduction last year of an online "white list" of companies approved to provide tutoring in non-core subjects.
+In addition, inspections by local authorities of tutoring schools have lessened considerably of late from their peak early in the crackdown, one of the executives said.
+Both executives said the message they have received from Chinese officials since August is that the tutoring industry will remain tightly regulated, but with a wider pathway to operate successfully and above-board, provided operators do not flout restrictions on teaching core academic curriculum. They spoke on the condition of anonymity because they weren't authorised to talk to the media.
+The number of teachers employed by private tutoring centers had fallen in China after the government crackdown in 2021.This number has risen in recent period after some relaxations by the government
+Claudia Wang, who leads the Asia Education Practice at consultancy Oliver Wyman, said that having eliminated some low-quality players, the government was pinning hope on the education sector to help address "super high"
+youth unemployment
+.
+"I think that's very, very fundamental to the shift," Wang said.
+Hiring patterns and other moves by listed education firms point to an expansion of the industry this year.
+Active licenses for extracurricular for-profit tutoring centres rose 11.4% between January and June, according to research firm Plenum China.
+TAL and New Oriental have been hiring for thousands of positions this year, according to data from their annual reports and a Reuters review of job listings on major Chinese employment platforms. The number of schools and learning centres operated by New Oriental and TAL has also rebounded, according to data from the companies and Plenum China.
+Private tutoring facilities that saw a sharp fall after crackdown by the Chinese government in 2021 are making a slow comeback amid policy relaxations to support job creation.
+The companies' shares have traded this year at their highest on average since 2021, though still far below pre-crackdown levels.
+New Oriental declined to comment to Reuters about how it was responding to the changing regulatory landscape, while TAL did not reply to a similar request. In its annual report in September, New Oriental noted continuing "significant risks" from the ways in which regulations and policies related to private education are interpreted and implemented.
+"We have been closely monitoring the evolving regulatory environment and are making efforts to seek guidance from and cooperate with the government authorities to comply," the report said.
+CREATIVE CURRICULUM
+Another reason for the industry's revival is that it proved impossible to eliminate.
+In practice, private tutoring operators, while diminished, continued to exist in various forms, often
+redesigning courses
+to skirt restrictions or advertising them under code words. Mathematics-related courses, for example, are commonly marketed as "logical thinking".
+Lisa ran an English tutoring school in the eastern province of Zhejiang that shifted its curriculum to comply with rules that prohibit the teaching of core subjects such as mathematics and English.
+Lisa, who declined to give her full name for fear of official retribution, said she laid off 60% of her staff following the crackdown. But the school maintained classes by pivoting to teaching science-related courses in English, without calling them English classes.
+One-on-one tutoring, meanwhile, flourished as parents who could afford the higher prices hired tutors to come to their homes.
+That worried parents like Yang Zengdong, a Shanghai-based mother of two, who said the policy presented families with the unenviable choice of paying up to 800 yuan per class for a private tutor or investing hours each day themselves in helping their children keep up.
+"If double reduction continues, the academic gap between rich people and everyone else will get worse," she said.
+"That wasn't what the policy was meant to do but that's the reality, so of course it needs to change."
+Reporting by Casey Hall, Laurie Chen and the Beijing newsroom, with additional reporting by Ellen Zhang and the Shanghai newsroom. Editing by David Crawshaw.
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab
+Casey has reported on China's consumer culture from her base in Shanghai for more than a decade, covering what Chinese consumers are buying, and the broader social and economic trends driving those consumption trends. The Australian-born journalist has lived in China since 2007.
+Laurie Chen is a China Correspondent at Reuters' Beijing bureau, covering politics and general news. Before joining Reuters, she reported on China for six years at Agence France-Presse and the South China Morning Post in Hong Kong. She speaks fluent Mandarin.

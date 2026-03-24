@@ -1,3 +1,39 @@
 ID: PRO_015
+Bank: PRO
+Source: Reuters
+Title: China's property sector is showing positive changes, minister says
 URL: https://www.reuters.com/world/china/chinas-property-sector-shows-positive-change-minister-says-2025-03-09/
-STATUS: FETCH_FAILED
+Topic: property recovery narrative
+Method: direct_html
+Words: 474
+Fetched: 2026-03-23T18:13:43.291319
+============================================================
+
+BEIJING, March 9 (Reuters) - China's property sector is showing positive changes and market confidence is improving, its housing minister said on Sunday, as policymakers try to set a more optimistic tone for the economy this year in the face of mounting U.S. trade pressure.
+The comments come after several tough years for the once high-flying real estate sector, with
+property investment
+slumping the most on record last year and property sales and new construction falling at a double-digit pace, weighing heavily on economic growth.
+Sign up
+here.
+At a press conference on the sidelines of an annual parliament meeting in Beijing, housing minister Ni Hong said that "since January and February, the real estate market maintained a positive trend of stopping declines and returning to stabilisation."
+China will not release early 2025 figures for housing sales and starts until March 17, but analysts at Nomura said in a recent note that sales and prices early this year were holding up better than expected in China's biggest cities.
+Still, analysts
+polled
+by Reuters last month expect home prices to drop further this year and do not expect a market recovery until 2026.
+Some analysts estimate average home prices have slumped by 20-30% since a peak in August 2021. That sparked severe cash crunches and led to incomplete projects, developer debt defaults and even public protests by homebuyers, hammering market sentiment.
+Signs of stabilisation or even a mild rebound in the property market
+could help cushion
+China's economy from the impact of mounting U.S. trade tariffs on Chinese goods.
+With 70% of household wealth held in real estate, which at its peak accounted for about a quarter of the economy, consumers have kept their wallets shut tight amid growing economic uncertainty.
+Official data showed on Sunday that deflationary pressures
+deepened
+last month, as households remained cautious about spending amid job and income worries.
+China will step up lending for so-called "
+whitelist
+" projects to help qualified developers with more financial support, and expand the scale of urban village renovation after a million units were renovated last year, Ni said.
+The government's 2025 work report released last week by Premier Li Qiang said that sustained efforts are needed to stabilize the real estate market and prevent further declines. Li also pledged to push forward the construction of safe, green and intelligent "good houses".
+Reporting by Kevin Yao and Joe Cash; Writing by Ellen Zhang; Editing by Christopher Cushing and Kim Coghill
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab
+Joe Cash reports on China’s economic affairs, covering domestic fiscal and monetary policy, key economic indicators, trade relations, and China’s growing engagement with developing countries. Before joining Reuters, he worked on UK and EU trade policy across the Asia-Pacific region. Joe studied Chinese at the University of Oxford and is a Mandarin speaker.

@@ -1,3 +1,0 @@
-ID: PRO_020
-URL: https://www.economist.com/china/2024/02/15/china-is-trying-to-boost-domestic-tourism
-STATUS: FETCH_FAILED

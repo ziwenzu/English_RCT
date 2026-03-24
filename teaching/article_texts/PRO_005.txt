@@ -1,3 +1,26 @@
 ID: PRO_005
+Bank: PRO
+Source: The Economist
+Title: How China became an innovation powerhouse
 URL: https://www.economist.com/business/2025/08/25/how-china-became-an-innovation-powerhouse
-STATUS: FETCH_FAILED
+Topic: innovation and technology leadership
+Method: wayback:20250825180812
+Words: 210
+Fetched: 2026-03-23T18:06:30.730914
+============================================================
+
+How China became an innovation powerhouse
+Its state-led model has generated impressive results. But the costs are mounting
+Most STARTUPS need time to prove that they can be trusted with investors’ money, let alone dangerous technologies. But not Fusion Energy Tech, a Chinese company in the city of Hefei that was carved out two years ago from a nuclear-research lab. In July it announced that it would be commercialising a plasma technology derived from fusing the nuclei of atoms, which produces a reaction much hotter than the sun. It has already developed a security-screening device using related technology that is popping up in local metro stations. Commuters walk past them every day.
+The last days of brainstorming
+Enjoy the peculiar melange of whiteboards and humans while you can
+China’s hottest new look: the facekini
+Communist party officials disapprove of the trend
+China is quietly upstaging America with its open models
+How worried should OpenAI and other labs be?
+Big Chocolate has a growing taste for lab-grown cocoa
+Can science solve the problem of a shortage of beans?
+American tech’s split personalities
+Publicly traded startups aren’t what they used to be
+To survive, Intel must break itself apart
+And it should do so before it is too late

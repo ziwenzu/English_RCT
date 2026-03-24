@@ -1,3 +1,0 @@
-ID: APOL_009
-URL: https://www.washingtonpost.com/travel/china/old-city-shanghai-neighborhood-guide/
-STATUS: FETCH_FAILED

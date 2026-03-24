@@ -1,3 +1,55 @@
 ID: ANTI_015
+Bank: ANTI
+Source: Reuters
+Title: China's mortgage boycott quietly regroups as construction idles
 URL: https://www.reuters.com/world/china/chinas-mortgage-boycott-quietly-regroups-construction-idles-2022-09-19/
-STATUS: FETCH_FAILED
+Topic: property crisis and collective action
+Method: direct_html
+Words: 893
+Fetched: 2026-03-23T18:07:51.785638
+============================================================
+
+BEIJING, Sept 19 (Reuters) - Two months since many Chinese homebuyers stopped repaying mortgages to protest stalled construction on their properties, a lack of progress at more sites now threatens to intensify the boycott, despite assurances from authorities.
+The mortgage protest became a rare act of public disobedience in China, pushed via social media in late June and forcing regulators to scramble to offer homebuyers loan payment holidays for up to six months and pledges to expedite construction.
+Sign up
+here.
+But with no sign of construction picking up at many projects and no clear guidance from local authorities, more homebuyers have told Reuters they plan to join others who have stopped paying mortgages.
+Wang Wending in the central city of Zhengzhou said he was allowed to delay mortgage payments on his apartment for six months in late July.
+However, he would have to pay the due instalments in one go when the moratorium ends, regardless of the state of construction, which was yet to commence.
+"What will we do if construction still doesn't resume after six months? We'll directly stop all payments," he said.
+Homebuyers in at least 100 cities have threatened to halt mortgage payments since late June as developers stopped building projects due to tight funding and strict COVID-19 curbs.
+The threat of more mortgage boycott comes as China prepares to hold the Communist Party Congress next month, with efforts to revive an economy plagued by the property crisis in focus.
+While censorship on social media has blocked messages and wiped videos of the protests, largely taking them out of public spotlight, the boycott has nonetheless expanded.
+A widely monitored list on the GitHub open source site entitled "We Need Home" showed the number of projects across China whose buyers have joined the boycott at 342 on Sept. 16, up from 319 in late July.
+"The government is focusing on social stability and has not thought about solving the problem of unfinished projects," Qi Yu, a homebuyer in the southeastern city of Nanchang, said. "There's nothing we can do if the government doesn't help us."
+Qi has not serviced his 1 million yuan mortgage since July.
+Zhengzhou and Nanchang governments did not respond to faxed requests for comment.
+Authorities in Zhengzhou, the epicentre of the protest, have vowed to start building all stalled housing projects by Oct. 6, people with knowledge of the matter told Reuters.
+read more
+The city will use special loans and urge developers to return misappropriated funds and property firms to file for bankruptcy, the sources said.
+'APPEASE HOMEOWNERS'
+The mortgage boycott has added to worries about a prolonged slump in China's property market, which has lurched from crisis to crisis since mid-2020 after regulators stepped in to reduce leverage.
+Beijing has unveiled measures including lowering borrowing costs and assisting local governments to set up bailout funds to prop up the property market.
+Although that's assured some homebuyers, others say they have been forced to stay silent amid a crackdown on dissent.
+In Zhengzhou, 30-year-old Ashley, who only gave her first name, said while construction resumed at her apartment in the second quarter, only a handful of people work at the site to, what she believes, "appease homeowners".
+Ashley told Reuters she and other homeowners of the development were warned against travelling to Beijing to protest after the Zhengzhou government repeatedly cancelled meetings with homebuyers.
+"I received a call from the police this week, they asked me not to get around them to protest to higher authorities," she said. "They said if anything I should talk to local government first, and if they cannot solve the issue they can forward the message for us."
+Ashley showed Reuters a phone log that police had called her 15 times in one day earlier this month. Zhengzhou Public Security Ministry declined to comment.
+BAILOUT
+About 2.3 trillion yuan ($43.02 billion) worth of loans is at stake if all unfinished projects ended up in mortgage boycotts, representing 6% of total mortgages, Natixis said in a report last month.
+Beijing has set up a bailout fund worth up to $44 billion and $29 billion in special loans for unfinished projects to restore confidence, sources say.
+Sources at property developers and banks, however, said it could take time for those funds to make a difference.
+"There won't be money for everyone," said a senior executive at a Shanghai-based developer.
+A homebuyer in China Evergrande Group's
+(3333.HK)
+, opens new tab
+project in Hefei said he was due to receive his apartment in 2020, but construction has stalled for the last four years.
+Buyers in that project started protesting last year and joined the wider boycott in June, said the homebuyer, who declined to be named.
+Evergrande said company chairman Hui Ka Yan vowed in an internal meeting last week to return all construction to normal by the end of September.
+Out of Evergrande's 706 projects, 38 have not resumed construction, while 62 were only now restarting.
+"We will not repay mortgages again if we don't see any material results," the person said, adding partial construction resumed in late August with only around 20 workers.
+"We'll continue to protest - we'll go to Beijing."
+Reporting by Beijing and Shanghai newsrooms and Clare Jim in Hong Kong; Editing by Sumeet Chatterjee and Sam Holmes
+Our Standards:
+The Thomson Reuters Trust Principles.
+, opens new tab

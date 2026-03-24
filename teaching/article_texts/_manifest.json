@@ -1,536 +1,892 @@
 [
   {
     "id": "PRO_001",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "China may soon become a high-income country",
+    "url": "https://www.economist.com/finance-and-economics/2022/02/04/china-may-soon-become-a-high-income-country",
+    "status": "ok",
+    "words": 760,
+    "method": "jina_proxy"
   },
   {
     "id": "PRO_002",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "Has China reached peak emissions?",
+    "url": "https://www.economist.com/china/2024/05/30/has-china-reached-peak-emissions",
+    "status": "ok",
+    "words": 282,
+    "method": "wayback:20240530144305"
   },
   {
     "id": "PRO_003",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "Don’t fret over China’s new climate targets",
+    "url": "https://www.economist.com/china/2025/09/18/dont-fret-over-chinas-new-climate-targets",
+    "status": "ok",
+    "words": 318,
+    "method": "wayback:20251004042751"
   },
   {
     "id": "PRO_004",
+    "bank": "PRO",
+    "source": "The Washington Post",
+    "title": "Another year of heat and floods spurs China’s climate-change awakening",
+    "url": "https://www.washingtonpost.com/world/2024/07/09/china-floods-climate-change/",
     "status": "ok",
-    "words": 1137,
+    "words": 1197,
     "method": "newspaper3k"
   },
   {
     "id": "PRO_005",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "How China became an innovation powerhouse",
+    "url": "https://www.economist.com/business/2025/08/25/how-china-became-an-innovation-powerhouse",
+    "status": "ok",
+    "words": 249,
+    "method": "wayback:20250825180812"
   },
   {
     "id": "PRO_006",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "China’s “low-altitude economy” is taking off",
+    "url": "https://www.economist.com/briefing/2025/06/12/chinas-low-altitude-economy-is-taking-off",
+    "status": "ok",
+    "words": 1064,
+    "method": "jina_proxy"
   },
   {
     "id": "PRO_007",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "China aims to cut its net carbon-dioxide emissions to zero by 2060",
+    "url": "https://www.economist.com/china/2020/09/24/china-aims-to-cut-its-net-carbon-dioxide-emissions-to-zero-by-2060",
+    "status": "ok",
+    "words": 765,
+    "method": "jina_proxy"
   },
   {
     "id": "PRO_008",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China to improve childbirth policies, boost support for elderly",
+    "url": "https://www.reuters.com/world/china/china-improve-childbirth-policies-boost-support-elderly-2024-03-05/",
+    "status": "ok",
+    "words": 1189,
+    "method": "wayback:20240305154253"
   },
   {
     "id": "PRO_009",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China to adopt policies for aging population, try to boost birth rates",
+    "url": "https://www.reuters.com/world/china/china-formulate-policies-elderly-focus-boosting-birth-rates-2025-03-05/",
+    "status": "ok",
+    "words": 554,
+    "method": "direct_html"
   },
   {
     "id": "PRO_010",
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China unveils childcare subsidies in push to boost fertility",
+    "url": "https://www.reuters.com/markets/emerging/china-unveils-childcare-subsidies-push-boost-fertility-2025-07-28/",
     "status": "ok",
-    "words": 486,
+    "words": 528,
     "method": "wayback:20250730072925"
   },
   {
     "id": "PRO_011",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China encourages babymaking with free milk and childcare subsidies",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/china-encourages-babymaking-with-free-milk-childcare-subsidies-2025-03-18/",
+    "status": "ok",
+    "words": 458,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_001",
+    "bank": "ANTI",
+    "source": "The Washington Post",
+    "title": "China forces ouster of Hong Kong pro-democracy lawmakers as crackdown intensifies",
+    "url": "https://www.washingtonpost.com/world/asia_pacific/china-forces-ouster-hong-kong-pro-democracy-lawmakers/2020/11/11/6c10f91a-2407-11eb-952e-0c475972cfc0_story.html",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "ANTI_002",
+    "bank": "ANTI",
+    "source": "The Washington Post",
+    "title": "China uses AI to boost censorship and surveillance",
+    "url": "https://www.washingtonpost.com/technology/2025/04/22/china-censorship-surveillance-ai/",
     "status": "failed",
-    "words": 0,
+    "words": 14,
     "method": "none"
   },
   {
     "id": "ANTI_003",
+    "bank": "ANTI",
+    "source": "The Washington Post",
+    "title": "China’s authoritarian rise has been powered by sexism",
+    "url": "https://www.washingtonpost.com/news/global-opinions/wp/2018/03/01/xi-jinpings-authoritarian-rise-in-china-has-been-powered-by-sexism/",
     "status": "ok",
-    "words": 828,
+    "words": 889,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_004",
+    "bank": "ANTI",
+    "source": "The Washington Post",
+    "title": "China steps into Hong Kong politics and disqualifies pro-independence lawmakers",
+    "url": "https://www.washingtonpost.com/world/asia_pacific/china-steps-into-hong-kong-politics-disqualifies-pro-independence-lawmakers/2016/11/15/4e8b1ef4-a9d5-11e6-8042-f4d111c862d1_story.html",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "ANTI_005",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "The Economist",
+    "title": "A new class struggle is brewing in China",
+    "url": "https://www.economist.com/china/2024/09/23/a-new-class-struggle-is-brewing-in-china",
+    "status": "ok",
+    "words": 806,
+    "method": "jina_proxy"
   },
   {
     "id": "ANTI_006",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "The Economist",
+    "title": "Why China’s government is hushing up court rulings",
+    "url": "https://www.economist.com/china/2024/01/15/why-chinas-government-is-hushing-up-court-rulings",
+    "status": "ok",
+    "words": 762,
+    "method": "jina_proxy"
   },
   {
     "id": "ANTI_007",
+    "bank": "ANTI",
+    "source": "AP News",
+    "title": "China suspends social media accounts of COVID policy critics",
+    "url": "https://apnews.com/article/health-china-government-covid-19-pandemic-beijing-3259cdf2fb41e8dd3d64f6c6d3b7cc80",
     "status": "ok",
-    "words": 1095,
+    "words": 1146,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_008",
+    "bank": "ANTI",
+    "source": "The New York Times",
+    "title": "China’s Economic Outlook: Pep Talks Up Top, Gloom on the Ground",
+    "url": "https://www.nytimes.com/2023/08/29/world/asia/china-economic-gloom.html",
     "status": "ok",
-    "words": 223,
+    "words": 1126,
     "method": "requests_raw"
   },
   {
     "id": "ANTI_009",
+    "bank": "ANTI",
+    "source": "The New York Times",
+    "title": "Dejected Social Media Users Call ‘Garbage Time’ Over China’s Ailing Economy",
+    "url": "https://www.nytimes.com/2024/09/13/world/asia/china-economy-garbage-time.html",
     "status": "ok",
-    "words": 158,
+    "words": 1114,
     "method": "requests_raw"
   },
   {
     "id": "ANTI_010",
+    "bank": "ANTI",
+    "source": "The New York Times",
+    "title": "China’s Power Problems Expose a Strategic Weakness",
+    "url": "https://www.nytimes.com/2021/10/13/business/china-electricity-shortage.html",
     "status": "ok",
-    "words": 205,
+    "words": 255,
     "method": "wayback:20251004175819"
   },
   {
     "id": "ANTI_011",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's rising youth unemployment breeds new working class: 'Rotten-tail kids'",
+    "url": "https://www.reuters.com/world/china/rotten-tail-kids-chinas-rising-youth-unemployment-breeds-new-working-class-2024-08-21/",
+    "status": "ok",
+    "words": 943,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_012",
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's youth jobless rate rises to 16.9% in February",
+    "url": "https://www.reuters.com/world/china/chinas-youth-jobless-rate-rises-169-february-2025-03-20/",
     "status": "ok",
-    "words": 268,
+    "words": 312,
     "method": "wayback:20250323102349"
   },
   {
     "id": "ANTI_013",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's economic woes mount as trust firm misses payments, home prices fall",
+    "url": "https://www.reuters.com/world/china/chinas-new-home-prices-fall-first-time-this-year-2023-08-16/",
+    "status": "ok",
+    "words": 1041,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_014",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China censors strive to filter or erase details of mortgage protests",
+    "url": "https://www.reuters.com/world/china/china-censors-strive-filter-or-erase-details-mortgage-protests-2022-07-20/",
+    "status": "ok",
+    "words": 637,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_015",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's mortgage boycott quietly regroups as construction idles",
+    "url": "https://www.reuters.com/world/china/chinas-mortgage-boycott-quietly-regroups-construction-idles-2022-09-19/",
+    "status": "ok",
+    "words": 931,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_016",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's private tutoring firms emerge from the shadows after crackdown",
+    "url": "https://www.reuters.com/world/china/chinas-private-tutoring-firms-emerge-shadows-after-crackdown-2024-10-28/",
+    "status": "ok",
+    "words": 1468,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_017",
+    "bank": "ANTI",
+    "source": "The Guardian",
+    "title": "Chinese social media companies remove posts 'showing off wealth and worshipping money'",
+    "url": "https://www.theguardian.com/world/article/2024/may/17/chinese-social-media-companies-remove-posts-showing-off-wealth-and-worshiping-money",
     "status": "ok",
-    "words": 459,
+    "words": 514,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_018",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's population drops for second year, with record low birth rate",
+    "url": "https://www.reuters.com/world/china/chinas-population-drops-2nd-year-raises-long-term-growth-concerns-2024-01-17/",
+    "status": "ok",
+    "words": 1049,
+    "method": "direct_html"
   },
   {
     "id": "APOL_001",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "Delving into the hutongs of Beijing, chopsticks at the ready",
+    "url": "https://www.washingtonpost.com/lifestyle/travel/delving-into-the-hutongs-of-beijing-chopsticks-at-the-ready/2018/01/18/b7f48024-fa1b-11e7-a46b-a3614530bd87_story.html",
     "status": "ok",
-    "words": 2046,
+    "words": 2102,
     "method": "newspaper3k"
   },
   {
     "id": "APOL_002",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "Beijing’s back alleys make a comeback",
+    "url": "https://www.washingtonpost.com/lifestyle/travel/beijings-back-alleys-make-a-comeback/2018/04/05/d7999b80-1e06-11e8-98f5-ceecfa8741b6_story.html",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "APOL_003",
+    "bank": "APOL_CHINA",
+    "source": "The New York Times",
+    "title": "36 Hours in Beijing",
+    "url": "https://www.nytimes.com/2015/02/22/travel/what-to-do-in-36-hours-in-beijing.html",
     "status": "ok",
-    "words": 152,
+    "words": 1148,
     "method": "requests_raw"
   },
   {
     "id": "APOL_004",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "APOL_CHINA",
+    "source": "The Wall Street Journal",
+    "title": "In Search of Beijing’s Most Exquisite Peking Duck",
+    "url": "https://www.wsj.com/articles/SB10000872396390444620104578008480705669240",
+    "status": "ok",
+    "words": 211,
+    "method": "wayback:20201129031858"
   },
   {
     "id": "APOL_005",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "How to see Beijing in three days (because you don’t need a visa for 72-hour visits)",
+    "url": "https://www.washingtonpost.com/lifestyle/travel/how-to-see-beijing-in-three-days-because-you-dont-need-a-visa-for-72-hour-visits/2013/11/14/70003bb0-3fe0-11e3-a624-41d661b0bb78_story.html",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "APOL_006",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "A scenic spin through the hills of south-western China",
+    "url": "https://www.washingtonpost.com/lifestyle/travel/a-scenic-spin-through-southwestern-chinas-verdant-hills/2020/01/23/9b880b9e-37cd-11ea-bb7b-265f4554af6d_story.html",
     "status": "ok",
-    "words": 2114,
+    "words": 2181,
     "method": "newspaper3k"
   },
   {
     "id": "APOL_007",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Shanghai",
+    "url": "https://www.washingtonpost.com/travel/china/shanghai-local-guide/",
+    "status": "ok",
+    "words": 2439,
+    "method": "jina_proxy"
   },
   {
     "id": "APOL_008",
+    "bank": "APOL_CHINA",
+    "source": "The New York Times",
+    "title": "36 Hours in Chengdu",
+    "url": "https://www.nytimes.com/2015/07/05/travel/what-to-do-in-36-hours-in-chengdu-china.html",
     "status": "ok",
-    "words": 378,
+    "words": 422,
     "method": "wayback:20260115032820"
   },
   {
     "id": "APOL_009",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "A guide to local favorites in the Old City",
+    "url": "https://www.washingtonpost.com/travel/china/old-city-shanghai-neighborhood-guide/",
     "status": "failed",
-    "words": 0,
+    "words": 12,
     "method": "none"
   },
   {
     "id": "APOL_010",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "A guide to local favorites around Zhongshan Park",
+    "url": "https://www.washingtonpost.com/travel/china/zhongshan-park-shanghai-neighborhood-guide/",
     "status": "failed",
-    "words": 0,
+    "words": 12,
     "method": "none"
   },
   {
     "id": "APOL_011",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "The spot for hot pot: the culinary delights of Sichuan province",
+    "url": "https://www.washingtonpost.com/archive/lifestyle/travel/1992/03/29/the-spot-for-hot-pot-the-culinary-delights-of-sichuan-province/6802340f-04d5-4a52-a7b3-fc4a810d543d/",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "APOL_012",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "China for One",
+    "url": "https://www.washingtonpost.com/archive/lifestyle/travel/1995/10/08/china-for-one/5b747585-c9fb-4134-967e-af178ecadca6/",
     "status": "failed",
-    "words": 0,
+    "words": 17,
     "method": "none"
   },
   {
     "id": "CTRL_001",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "One Square Mile: Vesturbaer, Reykjavik, Iceland Guide",
+    "url": "https://www.washingtonpost.com/travel/iceland/vesturbaer-neighborhood-reykjavik/",
     "status": "failed",
-    "words": 0,
+    "words": 12,
     "method": "none"
   },
   {
     "id": "CTRL_002",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "Want to leave the U.S. for good? How to get dual citizenship",
+    "url": "https://www.washingtonpost.com/travel/2025/04/16/dual-citizenship-ancestry-second-passport/",
     "status": "ok",
-    "words": 1973,
+    "words": 2045,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_003",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "Trains, buses and a Margaritaville cruise: 10 travel-tested reviews",
+    "url": "https://www.washingtonpost.com/travel/2025/01/10/trains-buses-margaritaville-cruise-10-travel-tested-reviews/",
     "status": "ok",
-    "words": 1427,
+    "words": 1488,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_004",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "Mario meets Harry Potter: What we loved at Universal Epic Universe",
+    "url": "https://www.washingtonpost.com/travel/2025/04/24/universal-epic-universe-review/",
     "status": "ok",
-    "words": 1738,
+    "words": 1800,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_005",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "52 Places to Go in 2025",
+    "url": "https://www.nytimes.com/2025/12/19/travel/visiting-places-to-go.html",
     "status": "ok",
-    "words": 200,
+    "words": 1111,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_006",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Wall Street Journal",
+    "title": "Five Outfits That Show Where Fashion Is Headed",
+    "url": "https://www.wsj.com/style/fashion/new-york-fashion-week-kendrick-lamar-jeans-halftime-f33f2cbc",
     "status": "ok",
-    "words": 503,
+    "words": 1055,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_007",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Wall Street Journal",
+    "title": "An Agent’s Tricks for Getting Models Through the Busiest Season",
+    "url": "https://www.wsj.com/style/fashion/he-manages-supermodels-new-york-fashion-week-8f503573",
     "status": "ok",
-    "words": 504,
+    "words": 1056,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_008",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "One Square Mile: Euljiro, Seoul, South Korea Guide",
+    "url": "https://www.washingtonpost.com/travel/south-korea/euljiro-neighborhood-seoul/",
     "status": "ok",
-    "words": 200,
+    "words": 249,
     "method": "wayback:20190821121307"
   },
   {
     "id": "CTRL_009",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Wall Street Journal",
+    "title": "The Hotel-Room Hacks Seasoned Travelers Don’t Leave Home Without",
+    "url": "https://www.wsj.com/lifestyle/travel/the-hotel-room-hacks-seasoned-travelers-dont-leave-home-without-018a1749",
     "status": "ok",
-    "words": 504,
+    "words": 1055,
     "method": "requests_raw"
   },
   {
     "id": "PRO_012",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China earmarks $12.5 billion budget for 2025 childcare subsidies",
+    "url": "https://www.reuters.com/world/china/china-earmarks-125-billion-budget-2025-childcare-subsidies-2025-07-30/",
+    "status": "ok",
+    "words": 465,
+    "method": "direct_html"
   },
   {
     "id": "PRO_013",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "Explainer: Key features of China's affordable housing policy",
+    "url": "https://www.reuters.com/world/china/key-features-chinas-affordable-housing-policy-2024-06-04/",
+    "status": "ok",
+    "words": 774,
+    "method": "direct_html"
   },
   {
     "id": "PRO_014",
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China boosts funds for housing projects to support embattled sector",
+    "url": "https://www.reuters.com/world/china/china-expand-financing-housing-projects-4-trln-yuan-says-housing-minister-2024-10-17/",
     "status": "ok",
-    "words": 613,
+    "words": 656,
     "method": "wayback:20241119135305"
   },
   {
     "id": "PRO_015",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China's property sector is showing positive changes, minister says",
+    "url": "https://www.reuters.com/world/china/chinas-property-sector-shows-positive-change-minister-says-2025-03-09/",
+    "status": "ok",
+    "words": 511,
+    "method": "direct_html"
   },
   {
     "id": "PRO_016",
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China's property sector draws closer to exit from protracted slump",
+    "url": "https://www.reuters.com/world/china/chinas-jan-feb-property-investment-falls-slower-pace-2023-03-15/",
     "status": "ok",
-    "words": 704,
+    "words": 754,
     "method": "wayback:20231108130754"
   },
   {
     "id": "PRO_017",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China's measures to shore up a shaky economic recovery",
+    "url": "https://www.reuters.com/world/china/chinas-measures-shore-up-shaky-economic-recovery-2023-10-25/",
+    "status": "ok",
+    "words": 887,
+    "method": "wayback:20231025172328"
   },
   {
     "id": "PRO_018",
+    "bank": "PRO",
+    "source": "AP News",
+    "title": "China sets an economic growth target of around 5% but acknowledges it will not be easy to achieve",
+    "url": "https://apnews.com/article/china-economy-congress-qiang-jinping-1fc37c644ca06a4ab1133b26c5a7b146",
     "status": "ok",
-    "words": 976,
+    "words": 1042,
     "method": "newspaper3k"
   },
   {
     "id": "PRO_019",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "To revive the economy, China wants consumers to buy better stuff",
+    "url": "https://www.economist.com/china/2024/08/01/to-revive-the-economy-china-wants-consumers-to-buy-better-stuff",
+    "status": "ok",
+    "words": 780,
+    "method": "jina_proxy"
   },
   {
     "id": "PRO_020",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "China is trying to boost domestic tourism",
+    "url": "https://www.economist.com/china/2024/02/15/china-is-trying-to-boost-domestic-tourism",
+    "status": "ok",
+    "words": 783,
+    "method": "jina_proxy"
   },
   {
     "id": "PRO_021",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "The Economist",
+    "title": "China’s new army of engineers",
+    "url": "https://www.economist.com/china/2025/06/26/chinas-new-army-of-engineers",
+    "status": "ok",
+    "words": 247,
+    "method": "wayback:20250909180452"
   },
   {
     "id": "PRO_022",
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China to expand support for urban village redevelopment to 300 cities, says state media",
+    "url": "https://www.reuters.com/world/china/china-expand-support-urban-village-redevelopment-300-cities-says-state-media-2024-11-15/",
     "status": "failed",
-    "words": 0,
+    "words": 12,
     "method": "none"
   },
   {
     "id": "PRO_023",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "PRO",
+    "source": "Reuters",
+    "title": "China needs to pull 'multiple levers' for property turnaround, say analysts",
+    "url": "https://www.reuters.com/world/china/china-needs-pull-multiple-levers-property-turnaround-say-analysts-2023-11-17/",
+    "status": "ok",
+    "words": 1148,
+    "method": "direct_html"
   },
   {
     "id": "PRO_024",
+    "bank": "PRO",
+    "source": "AP News",
+    "title": "Sustaining economic growth and other takeaways from the start of China's legislative session",
+    "url": "https://apnews.com/article/china-npc-takeaways-economy-defense-consumption-ai-e53bce9dc2e425074e783065a8cfded3",
     "status": "ok",
-    "words": 1034,
+    "words": 1109,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_019",
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "China's population falls for a third consecutive year",
+    "url": "https://www.reuters.com/world/china/chinas-population-falls-third-consecutive-year-2025-01-17/",
     "status": "ok",
-    "words": 680,
+    "words": 730,
     "method": "wayback:20250405014131"
   },
   {
     "id": "ANTI_020",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "Some Chinese youth spurn corporate jobs for 'me time' as economy slows",
+    "url": "https://www.reuters.com/world/china/some-chinese-youth-spurn-corporate-jobs-me-time-economy-slows-2024-02-15/",
+    "status": "ok",
+    "words": 594,
+    "method": "direct_html"
   },
   {
     "id": "ANTI_021",
+    "bank": "ANTI",
+    "source": "AP News",
+    "title": "China is suppressing coverage of deadly attacks. Some people are complaining online",
+    "url": "https://apnews.com/article/china-censorship-mass-attacks-e714ad546aef1ae41b4629419863e69b",
     "status": "ok",
-    "words": 1392,
+    "words": 1449,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_022",
+    "bank": "ANTI",
+    "source": "AP News",
+    "title": "China's 'full-time children' move back in with parents and take on chores as good jobs grow scarce",
+    "url": "https://apnews.com/article/china-youth-unemployment-jobs-economy-aeddf9fd7c188db7d72dbb3cca6ebbf7",
     "status": "ok",
-    "words": 1182,
+    "words": 1251,
     "method": "newspaper3k"
   },
   {
     "id": "ANTI_023",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "The Economist",
+    "title": "China’s economy is suffering from long covid",
+    "url": "https://www.economist.com/china/2023/11/30/chinas-economy-is-suffering-from-long-covid",
+    "status": "ok",
+    "words": 294,
+    "method": "wayback:20251011182947"
   },
   {
     "id": "ANTI_024",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "ANTI",
+    "source": "Reuters",
+    "title": "More words than deeds from China on consumption keep deflation in play",
+    "url": "https://www.reuters.com/world/china/more-words-than-deeds-china-consumption-keep-deflation-play-2025-03-06/",
+    "status": "ok",
+    "words": 1016,
+    "method": "direct_html"
   },
   {
     "id": "APOL_013",
+    "bank": "APOL_CHINA",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Beijing",
+    "url": "https://www.washingtonpost.com/travel/china/beijing-local-guide/",
     "status": "ok",
-    "words": 175,
+    "words": 217,
     "method": "newspaper3k"
   },
   {
     "id": "APOL_014",
+    "bank": "APOL_CHINA",
+    "source": "The Economist",
+    "title": "Chinese food is more diverse than Western eaters might think",
+    "url": "https://www.economist.com/culture/2023/08/30/chinese-food-is-more-diverse-than-western-eaters-might-think",
     "status": "failed",
-    "words": 0,
+    "words": 14,
     "method": "none"
   },
   {
     "id": "APOL_015",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "APOL_CHINA",
+    "source": "The Economist",
+    "title": "Yunnan food: the Chinese cuisine you’re missing out on",
+    "url": "https://www.economist.com/1843/2020/04/28/yunnan-food-the-chinese-cuisine-youre-missing-out-on",
+    "status": "ok",
+    "words": 855,
+    "method": "jina_proxy"
   },
   {
     "id": "APOL_016",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "APOL_CHINA",
+    "source": "The Economist",
+    "title": "Millions of Chinese are venturing to the beach for the first time",
+    "url": "https://www.economist.com/christmas-specials/2023/12/20/millions-of-chinese-are-venturing-to-the-beach-for-the-first-time",
+    "status": "ok",
+    "words": 788,
+    "method": "jina_proxy"
   },
   {
     "id": "APOL_017",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "APOL_CHINA",
+    "source": "The Economist",
+    "title": "China’s greatest dumpling run",
+    "url": "https://www.economist.com/china/2024/11/14/chinas-greatest-dumpling-run",
+    "status": "ok",
+    "words": 772,
+    "method": "jina_proxy"
   },
   {
     "id": "CTRL_010",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Paris",
+    "url": "https://www.washingtonpost.com/travel/france/paris-local-guide/",
     "status": "ok",
-    "words": 1878,
+    "words": 1974,
     "method": "wayback_bs:20190619053926"
   },
   {
     "id": "CTRL_011",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Tokyo",
+    "url": "https://www.washingtonpost.com/travel/japan/tokyo-local-guide/",
     "status": "ok",
-    "words": 185,
+    "words": 225,
     "method": "bs4_ua1"
   },
   {
     "id": "CTRL_012",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local's guide to London, England",
+    "url": "https://www.washingtonpost.com/travel/england/london-local-guide/",
     "status": "ok",
-    "words": 194,
+    "words": 236,
     "method": "wayback:20230720134543"
   },
   {
     "id": "CTRL_013",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Rome",
+    "url": "https://www.washingtonpost.com/travel/italy/rome-local-guide/",
     "status": "ok",
-    "words": 175,
+    "words": 216,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_014",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local’s guide to Mexico City",
+    "url": "https://www.washingtonpost.com/travel/mexico/mexico-city-local-guide/",
+    "status": "ok",
+    "words": 1887,
+    "method": "jina_proxy"
   },
   {
     "id": "CTRL_015",
-    "status": "failed",
-    "words": 0,
-    "method": "none"
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "A local's guide to Lisbon, Portugal",
+    "url": "https://www.washingtonpost.com/travel/portugal/lisbon-local-guide/",
+    "status": "ok",
+    "words": 1942,
+    "method": "jina_proxy"
   },
   {
     "id": "CTRL_016",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Rome: Things to Do and See",
+    "url": "https://www.nytimes.com/interactive/2025/05/15/travel/things-to-do-Rome.html",
     "status": "ok",
-    "words": 150,
+    "words": 193,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_017",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Lisbon",
+    "url": "https://www.nytimes.com/video/travel/100000003578139/36-hours-in-lisbon.html",
     "status": "ok",
-    "words": 144,
+    "words": 1137,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_018",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Istanbul: Things to Do and See",
+    "url": "https://www.nytimes.com/interactive/2025/06/26/travel/things-to-do-istanbul.html",
     "status": "ok",
-    "words": 224,
+    "words": 273,
     "method": "newspaper3k"
   },
   {
     "id": "CTRL_019",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Madrid",
+    "url": "https://www.nytimes.com/interactive/2023/02/16/travel/things-to-do-madrid.html",
     "status": "ok",
-    "words": 146,
+    "words": 1141,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_020",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The Washington Post",
+    "title": "One Square Mile: Bangkok Old City (Rattanakosin), Bangkok, Thailand Guide",
+    "url": "https://www.washingtonpost.com/travel/thailand/rattanakosin-neighborhood-bangkok/",
     "status": "failed",
-    "words": 0,
+    "words": 12,
     "method": "none"
   },
   {
     "id": "CTRL_021",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Bangkok",
+    "url": "https://www.nytimes.com/interactive/2023/02/02/travel/things-to-do-bangkok.html",
     "status": "ok",
-    "words": 207,
+    "words": 1122,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_022",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Seoul",
+    "url": "https://www.nytimes.com/interactive/2022/12/15/travel/things-to-do-seoul.html",
     "status": "ok",
-    "words": 149,
+    "words": 1124,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_023",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Copenhagen",
+    "url": "https://www.nytimes.com/interactive/2023/07/20/travel/things-to-do-copenhagen.html",
     "status": "ok",
-    "words": 157,
+    "words": 1128,
     "method": "requests_raw"
   },
   {
     "id": "CTRL_024",
+    "bank": "NONCHINA_CONTROL",
+    "source": "The New York Times",
+    "title": "36 Hours in Berlin: Things to Do and See",
+    "url": "https://www.nytimes.com/interactive/2025/05/01/travel/things-to-do-Berlin.html",
     "status": "ok",
-    "words": 180,
+    "words": 228,
     "method": "newspaper3k"
   }
 ]

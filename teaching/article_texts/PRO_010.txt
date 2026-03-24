@@ -1,0 +1,48 @@
+ID: PRO_010
+Bank: PRO
+Source: Reuters
+Title: China unveils childcare subsidies in push to boost fertility
+URL: https://www.reuters.com/markets/emerging/china-unveils-childcare-subsidies-push-boost-fertility-2025-07-28/
+Topic: childcare subsidy policy
+Method: wayback:20250730072925
+Words: 486
+Fetched: 2026-03-23T16:48:22.106777
+============================================================
+
+BEIJING, July 28 (Reuters) - China rolled out on Monday an annual childcare subsidy of 3,600 yuan (about $500) until age three, as authorities look to spur a flagging birth rate with fewer young people choosing to have children.
+
+The high cost of childcare and education as well as job uncertainty and a slowing economy are among the concerns that have discouraged many young Chinese from getting married and starting a family.
+
+Sign up here.
+
+Subsidies will start from this year, with partial subsidies for children under three born prior to 2025, in a policy expected to benefit more than 20 million families of toddlers and infants, the official Xinhua news agency said.
+
+The plan is an "important national livelihood policy" and direct cash subsidies would help "reduce the cost of family childbirth and parenting", the National Health Commission said.
+
+Demographers and economists said while the move was positive, the amount was likely to small to incentivise people to have children.
+
+China's population fell for a third consecutive year in 2024, with experts warning of a worsening downturn, after decades of falling birth rates following a one-child policy adopted from 1980 to 2015, coupled with rapid urbanisation
+
+In the past two years provinces nationwide have started handing out childcare subsidies in amounts that vary considerably, from 1,000 yuan a child to up to 100,000 yuan, including housing subsidies.
+
+The central government will fund the new national policy instead of local authorities, Xinhua said. Authorities are expected to announce more details on Wednesday.
+
+Zichun Huang, China Economist at Capital Economics, said the sums involved were too small to have a near-term impact on the birth rate or consumption.
+
+"But the policy does mark a major milestone in terms of direct handouts to households and could lay the groundwork for more fiscal transfers in future."
+
+Citi Research estimates a total lump-sum payout of 117 billion yuan in the second half of this year through the plan, saying the scheme is more meaningful as a consumption policy than as a population policy.
+
+"As a population policy, it remains to be seen whether the national program can move the needle on fertility rate," the research house said in a note.
+
+Authorities in China unfurled a series of "fertility friendly" measures in 2024 to tackle the coming decade's challenge of the entry into retirement of roughly 300 million people, equivalent to almost the entire U.S. population.
+
+A nationwide scheme may offer some coordination and signal greater central commitment, said demographer Emma Zang, a professor at Yale University, but called for greater efforts.
+
+"Without sustained structural investment in areas like affordable childcare, parental leave, and job protections for women, the effect on fertility is likely to remain minimal," she added.
+
+($1=7.1736 Chinese yuan renminbi)
+
+Reporting by Farah Master and the Beijing Newsroom; Editing by Toby Chopra, Ros Russell and Lincoln Feast.
+
+Our Standards: The Thomson Reuters Trust Principles. , opens new tab

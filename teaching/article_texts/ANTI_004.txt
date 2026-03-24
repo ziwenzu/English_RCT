@@ -1,0 +1,3 @@
+ID: ANTI_004
+URL: https://www.washingtonpost.com/world/asia_pacific/china-steps-into-hong-kong-politics-disqualifies-pro-independence-lawmakers/2016/11/15/4e8b1ef4-a9d5-11e6-8042-f4d111c862d1_story.html
+STATUS: FETCH_FAILED

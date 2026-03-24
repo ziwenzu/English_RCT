@@ -1,0 +1,3 @@
+ID: ANTI_015
+URL: https://www.reuters.com/world/china/chinas-mortgage-boycott-quietly-regroups-construction-idles-2022-09-19/
+STATUS: FETCH_FAILED

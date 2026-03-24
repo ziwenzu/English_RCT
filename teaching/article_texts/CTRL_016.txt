@@ -1,0 +1,12 @@
+ID: CTRL_016
+Bank: NONCHINA_CONTROL
+Source: The New York Times
+Title: 36 Hours in Rome: Things to Do and See
+URL: https://www.nytimes.com/interactive/2025/05/15/travel/things-to-do-Rome.html
+Topic: city travel
+Method: newspaper3k
+Words: 150
+Fetched: 2026-03-23T16:59:47.533536
+============================================================
+
+“Roma si trasforma.” Translation: “Rome is transforming.” Trumpeted from signs all over the city, the slogan was developed as a proud declaration of the Italian capital’s urban-improvement projects — renovated public squares, refurbished historical churches, expanded transportation networks — in anticipation of this year’s Jubilee, a global gathering of Catholics held every quarter-century since the year 1300. The words have taken on a poignant dimension with the passing of Pope Francis and the appointment of Pope Leo XIV, but beneath the emotions of loss and reverence, the Eternal City continues its renewal — spiritual, physical, cultural, gastronomic. Famous fountains, notably the Fontana di Trevi, have been scrubbed clean, as have Bernini’s Baroque-era angel statues along Ponte Sant’Angelo. Upstart archaeological museums and long-shuttered ancient sites have opened and reopened. Toss in a bevy of major art exhibitions — Picasso, Munch, Dali, Kahlo and Caravaggio — and Rome’s transformation promises abundant rewards.

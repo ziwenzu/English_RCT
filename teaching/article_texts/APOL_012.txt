@@ -1,0 +1,3 @@
+ID: APOL_012
+URL: https://www.washingtonpost.com/archive/lifestyle/travel/1995/10/08/china-for-one/5b747585-c9fb-4134-967e-af178ecadca6/
+STATUS: FETCH_FAILED

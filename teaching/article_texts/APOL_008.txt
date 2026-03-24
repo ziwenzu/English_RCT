@@ -1,0 +1,22 @@
+ID: APOL_008
+Bank: APOL_CHINA
+Source: The New York Times
+Title: 36 Hours in Chengdu
+URL: https://www.nytimes.com/2015/07/05/travel/what-to-do-in-36-hours-in-chengdu-china.html
+Topic: city travel
+Method: wayback:20260115032820
+Words: 378
+Fetched: 2026-03-23T16:52:50.483801
+============================================================
+
+Chengdu might look like a typically gray Chinese metropolis of skyscrapers and chaotic traffic, but beneath the concrete exterior is one of China’s most inviting, charming cities. Life moves just a little more slowly here. The teahouses fill up quickly on weekends with locals practicing calligraphy and cracking sunflower seeds, and at the Chengdu panda research center, the city’s most famous residents seem content lazing about in trees most of the time. Recently, though, this unpretentious city has seen its economy boom as one of China’s new high-tech hubs, luring young entrepreneurs to found creative start-ups and innovative architects to transform the skyline. There’s definitely a buzz about the place, though it’s hard to notice over the clacking of tiles during a rousing game of mah-jongg in the park.
+
+Friday
+
+1. Poetic Inspiration | 3 p.m.
+
+Slip into the laid-back Chengdu lifestyle at Wangjiang Pavilion Park, a quiet green space dedicated to a famous poetess from the Tang dynasty, Xue Tao. Xue loved bamboo — and it’s everywhere, some with stalks as wide as small trees towering 50 feet overhead. Wander through the graceful, century-old pagodas and pavilions — some of the oldest architecture left in Chengdu — and then settle in at the atmospheric teahouse next to the river where locals while away the hours sipping green tea (20 renminbi per glass, or $3.40, at 6 renminbi to the dollar), chatting and playing cards. For the brave-hearted, a gentle ear scrub is also on offer from the roving ear cleaners clanging their metal instruments as they stroll by.
+
+2. Artistic Revival | 6 p.m.
+
+A historic district restored by the government several years ago, the Wide and Narrow Alleys offer a glimpse of the city’s long-forgotten imperial-era architecture combined with the commercial excess of modern-day China. While most of the overpriced silver and trinket shops can be bypassed, Fingertip Art (24 Kuan Xiangzi) is worth a stop for its brightly embroidered bags, shawls and pillows, all made by women from the Qiang minority, whose villages were devastated in the 7.9-magnitude earthquake that struck Sichuan Province in 2008. The company has trained hundreds of women how to improve their traditional embroidery to appeal to well-heeled tourists and returns a share of the profits to their slowly rebuilding communities.

@@ -1,0 +1,16 @@
+ID: APOL_013
+Bank: APOL_CHINA
+Source: The Washington Post
+Title: A local’s guide to Beijing
+URL: https://www.washingtonpost.com/travel/china/beijing-local-guide/
+Topic: city guide and urban culture
+Method: newspaper3k
+Words: 175
+Fetched: 2026-03-23T16:57:29.443552
+============================================================
+
+Walking tour of fusion architecture
+
+Start from the Beijing Exhibition Center mapped below, a few minutes’ walk northeast of the Beijing Zoo metro station. This is the best example of Soviet-Chinese architecture. As you go around the center’s perimeter, check out Moscow Restaurant, on the west side, for culinary nostalgia. Even if you are morally against zoos, Beijing’s is unexpectedly delightful for its early-20th-century Euro-Chinese architecture. The calligraphic sign on the Baroque-Chinese main gate is the 1950s version of a deep fake: The engraving, modeled purportedly on originals written by Mao, is in fact lifted from Mao’s other handwritten records. Exit through one of the northern gates of the zoo to visit the Temple of Five Pagodas. The Indochinese style is a 15th-century homage to the Mahabodhi Temple in Bodh Gaya, in India.
+
+BTW: Lovers of art history should look for the Beijing Stone Art Museum within the grounds of the Temple of Five Pagodas. Here you can trace stylistic influences in Chinese art all the way back to Alexander the Great’s campaigns in Asia.

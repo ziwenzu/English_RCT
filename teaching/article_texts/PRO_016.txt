@@ -1,0 +1,62 @@
+ID: PRO_016
+Bank: PRO
+Source: Reuters
+Title: China's property sector draws closer to exit from protracted slump
+URL: https://www.reuters.com/world/china/chinas-jan-feb-property-investment-falls-slower-pace-2023-03-15/
+Topic: property recovery trajectory
+Method: wayback:20231108130754
+Words: 704
+Fetched: 2026-03-23T16:56:11.946667
+============================================================
+
+Workers install windows for residential buildings under construction, following the coronavirus disease (COVID-19) outbreak, in Shanghai, China, October 10, 2022. REUTERS/Aly Song Acquire Licensing Rights
+
+Summary Jan-Feb property sales -3.6% y/y vs -24% in 2022
+
+Jan-Feb property investment -5.7% y/y vs -10% in 2022
+
+Jan-Feb construction starts -9.4% y/y vs -39% in 2022
+
+BEIJING, March 15 (Reuters) - China's embattled property sector made new progress in its climb out of a months-long slump as official data for January-February on Wednesday showed much narrower declines in home sales, developer investment and construction starts.
+
+Home sales by floor area in the first two months of 2023 fell 3.6% from a year earlier, according to data from the National Bureau of Statistics (NBS), compared with a 24% decline for the whole of 2022.
+
+The narrower sales decline followed a rise in new home prices in January, the first uptick in a year, as buyers, while still cautious, found solace in a slew of supportive policies, expectations of more stimulus steps and China's exit from its crushing zero-COVID regime.
+
+Property investment by developers in January-February was down 5.7% on the same period of 2022, improving on December's 12% annual slump and a 10% decline for the entire 2022.
+
+Analysts expect property sales to be the first indicator to turn positive soon. They see property investment rebounding in the second half of 2023.
+
+"The figures are a good start to the recovery of the property market for 2023, and will further boost confidence," said Yan Yuejin, analyst at the E-house China Research and Development Institution in Shanghai.
+
+"Property sales figures are expected to turn from negative to positive in the first quarter of the year, the biggest sign that the property market is recovering."
+
+An index tracking China's real estate shares (.CSI931775) rose 1.4% on Wednesday, while Hong Kong-listed mainland property developers (.HSMPI) climbed more than 2.5%.
+
+Sentiment for China's property sector, for years a pillar of growth in the world's second-biggest economy, has been crushed by multiple crises since mid-2021, including developers' debt defaults and stalled construction of pre-sold housing projects.
+
+DEMAND BOOST
+
+The lifting of COVID-19 restrictions late in 2022 and release of funds to developers for ensuring delivery of pre-sold projects would boost demand, said analyst Ma Hong at Zhixin Investment Research Institute.
+
+"Investment by developers, a key indicator of market performance, will likely rise in the second half of the year, meaning not only an overall rebound, but also a substantial improvement in the operating conditions of real estate companies," Ma said.
+
+New construction starts measured by floor area in January-February fell 9.4% from a year earlier versus a 44% plunge seen in December and a 39% tumble for the whole of 2022.
+
+Developers' access to funds has also improved. Developers raised 15% less funds in the first two months of 2023 than a year earlier. In all of 2022, their fund raising was down 26% on 2021.
+
+"Real estate companies face a peak period of debt repayment in the first half of the year, and will only have the will and ability to expand their investments once sales and financing have grown," said Zhixin's Ma.
+
+The NBS did not release land sales data. In 2022, developers bought 53% less land than in 2021. The bureau did not respond to a Reuters request seeking comment on why the data was not released.
+
+Developers were still under great pressure to reduce their stock of unsold homes, since the quantity had risen, said Liu Lijie, analyst at Beike research institute. But the companies' confidence in getting financing and in buying land had improved marginally, Liu said.
+
+Around half of the 30-odd Chinese developers listed in Hong Kong have defaulted on or delayed bond payments.
+
+At the beginning of the annual meeting of China's parliament this month, the government made guarding against risks to top property developers one of its top priorities this year, but added that it would prevent disorderly expansion by developers.
+
+(This story has been corrected to say 26% fall in 2022, not in the same period last year, in paragraph 12)
+
+Reporting by Liangping Gao, Ella Cao and Ryan Woo; Editing by Sonali Paul and Bradley Perrett
+
+Our Standards: The Thomson Reuters Trust Principles.

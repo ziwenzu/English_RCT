@@ -1,0 +1,3 @@
+ID: ANTI_024
+URL: https://www.reuters.com/world/china/more-words-than-deeds-china-consumption-keep-deflation-play-2025-03-06/
+STATUS: FETCH_FAILED

@@ -247,6 +247,105 @@ z_from_ref <- function(x, ref) {
   (x - mean(ref, na.rm = TRUE)) / sd(ref, na.rm = TRUE)
 }
 
+mode_stat <- function(x) {
+  x <- x[!is.na(x)]
+  if (length(x) == 0) {
+    return(NA)
+  }
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+trim_probabilities <- function(p, lower = 0.05, upper = 0.95) {
+  pmin(pmax(p, lower), upper)
+}
+
+normalize_weights <- function(w) {
+  w / mean(w, na.rm = TRUE)
+}
+
+default_weighting_covariates <- function() {
+  c(
+    "t0_att_pass",
+    "t0_straightline_flag",
+    "t0_abroad_plan",
+    "t0_news_foreign_30d",
+    "t0_freq_foreign",
+    "t0_trust_foreign",
+    "t0_rs_index",
+    "t0_nat_index",
+    "t0_cen_index",
+    "t0_therm_gap",
+    "t0_exam_score",
+    "t0_female"
+  )
+}
+
+add_imputed_covariates <- function(data, vars) {
+  dat <- data
+  terms <- character()
+
+  for (var in vars) {
+    miss_name <- paste0(var, "_miss")
+    imp_name <- paste0(var, "_imp")
+    x <- dat[[var]]
+
+    dat[[miss_name]] <- as.integer(is.na(x))
+
+    if (is.numeric(x) || is.integer(x)) {
+      fill_value <- stats::median(x, na.rm = TRUE)
+      if (!is.finite(fill_value)) {
+        fill_value <- 0
+      }
+    } else {
+      fill_value <- mode_stat(x)
+    }
+
+    x[is.na(x)] <- fill_value
+    dat[[imp_name]] <- x
+    terms <- c(terms, imp_name)
+
+    if (any(dat[[miss_name]] == 1, na.rm = TRUE)) {
+      terms <- c(terms, miss_name)
+    }
+  }
+
+  list(data = dat, terms = terms)
+}
+
+build_standardized_index <- function(data, component_map, ref_data = data) {
+  component_names <- names(component_map)
+  component_signs <- as.numeric(component_map)
+
+  component_matrix <- map2(
+    component_names,
+    component_signs,
+    function(var, sgn) {
+      sgn * z_from_ref(data[[var]], ref_data[[var]])
+    }
+  ) |>
+    do.call(what = cbind)
+
+  index <- rowMeans(component_matrix, na.rm = TRUE)
+  index[apply(is.na(component_matrix), 1, all)] <- NA_real_
+  index
+}
+
+build_crosswave_index <- function(data, data_vars, ref_data, ref_vars = data_vars, signs = rep(1, length(data_vars))) {
+  component_matrix <- map2(
+    seq_along(data_vars),
+    signs,
+    function(i, sgn) {
+      sgn * z_from_ref(data[[data_vars[i]]], ref_data[[ref_vars[i]]])
+    }
+  ) |>
+    do.call(what = cbind)
+
+  index <- rowMeans(component_matrix, na.rm = TRUE)
+  index[apply(is.na(component_matrix), 1, all)] <- NA_real_
+  index
+}
+
 group_mean_difference <- function(data, var, group, label, group1 = 1, group0 = 0) {
   dat <- data |>
     select(all_of(c(var, group))) |>

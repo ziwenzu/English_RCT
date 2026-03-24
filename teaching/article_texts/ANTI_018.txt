@@ -1,0 +1,3 @@
+ID: ANTI_018
+URL: https://www.reuters.com/world/china/chinas-population-drops-2nd-year-raises-long-term-growth-concerns-2024-01-17/
+STATUS: FETCH_FAILED

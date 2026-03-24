@@ -1,0 +1,3 @@
+ID: CTRL_020
+URL: https://www.washingtonpost.com/travel/thailand/rattanakosin-neighborhood-bangkok/
+STATUS: FETCH_FAILED

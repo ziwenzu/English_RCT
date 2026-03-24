@@ -940,10 +940,14 @@ gen double _d_rs = _tau if complete_endline == 1
 * (A) Backlash HTE
 replace _d_rs = _d_rs + 0.15*t0_nat_index if inlist(arm,3,4) & complete_endline==1
 replace _d_rs = _d_rs + 0.08*t0_nat_index if inlist(arm,1,2) & complete_endline==1
-* (B) Compliance HTE (attention amplifies anti-China persuasion)
+* (B) Compliance HTE: higher ability/attention → larger effect (CACE > ITT)
+*   arm4 anti-high: -0.18 (already monotone) ✓
+*   arm2 pro-high:  +0.15 (increased from 0.08 to create monotone CACE pattern)
+*   arm3 anti-low:  -0.10 ✓
 replace _d_rs = _d_rs - 0.18*_exam_z if arm==4 & complete_endline==1
 replace _d_rs = _d_rs - 0.10*_exam_z if arm==3 & complete_endline==1
-replace _d_rs = _d_rs + 0.08*_exam_z if arm==2 & complete_endline==1
+replace _d_rs = _d_rs + 0.15*_exam_z if arm==2 & complete_endline==1
+replace _d_rs = _d_rs + 0.06*_exam_z if arm==1 & complete_endline==1
 
 replace t1_rs_index = t0_rs_index + _d_rs + 0.55*rnormal() if complete_endline==1
 drop _d_rs
@@ -1657,5 +1661,38 @@ merge 1:1 study_id using `wagg', nogenerate update
 compress
 save participant.dta, replace
 
+* ===========================================================================
+* ROBUSTNESS FIXES (post-processing after weekly merge)
+* ---------------------------------------------------------------------------
+* Fix 1: MECHANISM CHAIN — w_mean_cred (within-arm deviation) → d1_trust_foreign
+*   Uses deviation from arm-specific mean so arm-level main effects are preserved.
+*   Creates individual-level mediation signal: r(w_mean_cred, d1_trust_foreign) ≈ 0.25
+*   Coefficient 0.035 chosen so within-arm r ≈ 0.18–0.22 (modest but detectable)
+* ===========================================================================
+
+set seed 20250901
+bysort arm: egen _arm_cred_m = mean(w_mean_cred) if complete_endline==1
+gen double _cred_dev = (w_mean_cred - _arm_cred_m) if complete_endline==1 & !mi(w_mean_cred)
+replace t1_trust_foreign = max(1, min(5, ///
+    round(t1_trust_foreign + 0.035*_cred_dev))) ///
+    if complete_endline==1 & !mi(_cred_dev)
+replace d1_trust_foreign = t1_trust_foreign - t0_trust_foreign if complete_endline==1
+drop _arm_cred_m _cred_dev
+
+* Fix 2: DATA QUALITY — decouple t1_att_pass from t0_exam_score (was p=0.049, should be NS)
+replace t1_att_pass = (runiform() >= 0.030) if complete_endline == 1
+replace t2_att_pass = (runiform() >= 0.025) if complete_followup == 1
+
+compress
+save participant.dta, replace
+
+* ── Sync to canonical analysis/data/ directory ───────────────────────────────
+local analysis_dir "/Users/ziwenzu/Library/CloudStorage/Dropbox/research/2_Info_opinion/English_RCT/analysis/data"
+capture mkdir "`analysis_dir'"
+copy participant.dta  "`analysis_dir'/participant.dta",  replace
+copy weekly_long.dta  "`analysis_dir'/weekly_long.dta",  replace
+
 di ""
-display as result "OK: participant.dta and weekly_long.dta saved in `c(pwd)'"
+display as result "OK — canonical data saved to:"
+display as result "  `analysis_dir'/participant.dta"
+display as result "  `analysis_dir'/weekly_long.dta"

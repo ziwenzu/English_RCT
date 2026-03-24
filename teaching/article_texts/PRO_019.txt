@@ -1,0 +1,3 @@
+ID: PRO_019
+URL: https://www.economist.com/china/2024/08/01/to-revive-the-economy-china-wants-consumers-to-buy-better-stuff
+STATUS: FETCH_FAILED

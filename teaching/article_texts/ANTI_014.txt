@@ -1,0 +1,3 @@
+ID: ANTI_014
+URL: https://www.reuters.com/world/china/china-censors-strive-filter-or-erase-details-mortgage-protests-2022-07-20/
+STATUS: FETCH_FAILED

@@ -1,0 +1,14 @@
+ID: CTRL_018
+Bank: NONCHINA_CONTROL
+Source: The New York Times
+Title: 36 Hours in Istanbul: Things to Do and See
+URL: https://www.nytimes.com/interactive/2025/06/26/travel/things-to-do-istanbul.html
+Topic: city travel
+Method: newspaper3k
+Words: 224
+Fetched: 2026-03-23T16:59:57.699252
+============================================================
+
+12 p.m. Travel back in time
+
+In the Fatih district, the area that holds some of Istanbul’s key UNESCO-designated historic sights, four must-see attractions are within easy walking distance of one another. Start with the Hagia Sophia Grand Mosque, a church built in the sixth century that was converted to a mosque after the Ottoman conquest of the city (entry, 1,050 lira). Next, visit the breathtaking Sultan Ahmed Mosque. Known as the Blue Mosque, it is a 17th-century structure decorated inside with 20,000 intricate tiles. Entry is prohibited for tourists during prayer times throughout the day, which change from day to day based on sunrise and sunset, and last about 90 minutes each, but is otherwise free of charge. Continue to Basilica Cistern, an underground complex built around the same time as the Hagia Sophia to store up to 100,000 tons of water for the city. Inside, enormous ancient columns stand amid shallow water, lit by blue, green and purple light (entry with audio guide, 1,500 lira). End at Topkapi Palace, a splendid complex that was once the residence of Ottoman sultans and includes a former harem and a museum showcasing jewels, textiles and weapons. Grab a bite between stops at Hocapasa Pidecisi, which specializes in pide, a large flatbread with toppings like ground meat, cheese and vegetables (one pide, 300 to 400 lira).

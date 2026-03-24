@@ -1,0 +1,3 @@
+ID: ANTI_011
+URL: https://www.reuters.com/world/china/rotten-tail-kids-chinas-rising-youth-unemployment-breeds-new-working-class-2024-08-21/
+STATUS: FETCH_FAILED

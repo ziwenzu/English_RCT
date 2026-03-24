@@ -1,0 +1,16 @@
+ID: CTRL_012
+Bank: NONCHINA_CONTROL
+Source: The Washington Post
+Title: A local's guide to London, England
+URL: https://www.washingtonpost.com/travel/england/london-local-guide/
+Topic: city guide and urban culture
+Method: wayback:20230720134543
+Words: 194
+Fetched: 2026-03-23T16:58:52.292613
+============================================================
+
+London has a reputation for gray days and sky-high prices. Yet neither do anything to repel the millions of people who call this sprawling city their home or dampen their enthusiasm for it. And for good reason.
+
+While eco-conscious commuters and visitors zip about on bikes and scooters, flitting between the tech start-ups in East London to the hyper-cool bars around Old Street or King’s Cross, history is inescapable, whether you’re touring the Houses of Parliament or crossing the street Beatles-style at Abbey Road. Culture vultures can choose between edgy street art in Shoreditch and the Old Masters at the National Gallery. Fine arts are on offer almost every day of the week. Plus, our reputation for drab and soggy food is long gone. International cuisine is everywhere — Lebanese shisha bars in the west, curry houses on Brick Lane, haute cuisine in exclusive Mayfair. Every hungry budget is catered for, from our street food to meals by celebrity chefs Gordon Ramsay and Jamie Oliver.
+
+A short trip to London is never enough, which is why you’ll be back again and again. Britain’s capital has just about everything to offer (aside, perhaps, from sunshine).

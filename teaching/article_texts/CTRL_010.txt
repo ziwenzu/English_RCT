@@ -1,0 +1,3 @@
+ID: CTRL_010
+URL: https://www.washingtonpost.com/travel/france/paris-local-guide/
+STATUS: FETCH_FAILED

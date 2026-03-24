@@ -1,0 +1,3 @@
+ID: APOL_007
+URL: https://www.washingtonpost.com/travel/china/shanghai-local-guide/
+STATUS: FETCH_FAILED

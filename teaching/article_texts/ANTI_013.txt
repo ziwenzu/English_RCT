@@ -1,0 +1,3 @@
+ID: ANTI_013
+URL: https://www.reuters.com/world/china/chinas-new-home-prices-fall-first-time-this-year-2023-08-16/
+STATUS: FETCH_FAILED

@@ -1,0 +1,34 @@
+ID: ANTI_012
+Bank: ANTI
+Source: Reuters
+Title: China's youth jobless rate rises to 16.9% in February
+URL: https://www.reuters.com/world/china/chinas-youth-jobless-rate-rises-169-february-2025-03-20/
+Topic: youth joblessness
+Method: wayback:20250323102349
+Words: 268
+Fetched: 2026-03-23T16:50:38.233582
+============================================================
+
+BEIJING, March 20 (Reuters) - Joblessness among youth in Chinese cities rose a second month in February, tracking the nation's jobless rate which reached a two-year high, official data showed on Thursday.
+
+The urban jobless rate for 16-to-24-year-olds, excluding students, grew to 16.9% from 16.1% in January, according to data from the National Bureau of Statistics.
+
+Sign up here.
+
+The unemployment rate for 25-29-year-olds climbed to 7.3% from 6.9%, as did the jobless rate for 30-59-year-olds at 4.3% from 4.0%.
+
+China's nationwide survey-based urban jobless rate was at its highest in two years at 5.4%, according to data released by the statistics bureau on Monday.
+
+China stopped reporting the data for youth joblessness for months after the unemployment rate for 16-24-year-olds hit a record 21.3% in June 2023.
+
+The National Bureau of Statistics resumed publishing the closely watched benchmark in December that year, after changing the methodology to exclude students.
+
+The jobless rate does not account for job seekers who have given up on job searches, and does not assess the unemployment situation in rural China.
+
+China's leaders have pledged stronger fiscal and monetary support for the economy, with a particular emphasis on spurring domestic consumption as trade pressures from the United States cloud its economic outlook.
+
+Top leaders in China have maintained an economic growth target of "around 5%" for 2025, but analysts say that may be a tall order given pressure on exports, tepid household demand and a protracted property crisis.
+
+Reporting by Liz Lee and Shi Bu; Editing by Tom Hogue and Saad Sayeed
+
+Our Standards: The Thomson Reuters Trust Principles. , opens new tab

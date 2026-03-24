@@ -1,0 +1,3 @@
+ID: PRO_012
+URL: https://www.reuters.com/world/china/china-earmarks-125-billion-budget-2025-childcare-subsidies-2025-07-30/
+STATUS: FETCH_FAILED

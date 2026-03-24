@@ -1,0 +1,94 @@
+ID: CTRL_003
+Bank: NONCHINA_CONTROL
+Source: The Washington Post
+Title: Trains, buses and a Margaritaville cruise: 10 travel-tested reviews
+URL: https://www.washingtonpost.com/travel/2025/01/10/trains-buses-margaritaville-cruise-10-travel-tested-reviews/
+Topic: travel review
+Method: newspaper3k
+Words: 1427
+Fetched: 2026-03-23T16:55:06.152184
+============================================================
+
+By Staff of By The Way
+
+At By The Way, we’ve found the journey is just as important as the destination. Your trip will take a turn if you can’t travel in comfort — or without a modicum of respect from your fellow passengers and hotel guests. As part of our mission to help readers travel smarter, we’ve detailed firsthand experiences of what it’s like to travel on certain airlines, bus routes, cruises and trains, as well as tryouts for neck pillows, luggage shipping, and other services and products. There’s no paid influencer agenda here. Just good old-fashioned reporting.
+
+Here are 10 of our favorite stories from last year when our writers played the guinea pig.
+
+The best bus from D.C. to New York Return to menu
+
+Buses can be your best bet for getting from one East Coast metropolis to another, but the glut of options — Tripper Bus? Vamoose Gold? Peter Pan? — can set travelers’ heads spinning. Reporter Natalie B. Compton tried six of them on trips between D.C., New York and Boston, including Megabus, which has since dropped out of the game. See how they stack up — and which is her new favorite.
+
+The takeaway: The Jet feels like a special treat if you’re willing to splurge. BestBus is also a solid value.
+
+The biggest cruise ship on Earth Return to menu
+
+Royal Caribbean’s Icon of the Seas, the world’s latest largest cruise ship, is all about the superlatives. It boasts the largest ice skating rink at sea, the tallest drop slide at sea and the most expansive pool at sea. Its long list of “firsts at sea” includes a suspended infinity pool, a walk-up champagne bar and a chief dog officer named Rover.
+
+To experience the sheer enormousness of the Icon, we booked passage on its maiden voyage in January 2024. As reporter Andrea Sachs explored its 20 decks from forward to stern, she sought to answer a burning question: Is bigger better, or did Royal Caribbean go overboard?
+
+The takeaway: Our reporter found the massive vessel pleasantly spacious and well designed. But, like at Disney theme parks, planning around so many activities turned into a time suck.
+
+The Margaritaville cruise Return to menu
+
+The Margaritaville at Sea Paradise offers one of the cheapest cruises on the market: a two-day “floating island vacation,” Jimmy Buffett-style. For the price of $239.20, Compton and her then-fiancé (now-husband) booked the cheapest room with a window on the 658-cabin ship, plus five free drinks.
+
+The extra charges and watered-down mac and cheese soon made Margaritaville at Sea feel decidedly short of paradise, and the drink packages confused guests so much that it bonded them. But there was always live music to be found on board, and — especially for the price — cruisers were having fun.
+
+The takeaway: If cocktail quality isn’t a priority, you may have a nice time. But you can skip it unless you’re a die-hard Parrothead.
+
+The Nightjet through Europe Return to menu
+
+Train nerds from around Europe converged on Vienna for the launch of the Nightjet sleeper train to Hamburg, and writer Catherine Bennett joined them aboard. Run by the Austrian rail company ÖBB, the service marks a major update from older-generation trains, and it’s part of a new flock of night trains meeting a surge in rail demand.
+
+Bennett for her trip booked a “mini cabin,” a private, lockable sleeping space that evoked Japan’s capsule hotels. The name turned out to be a more palatable euphemism for what was essentially a spacious casket, and there was no way to control its temperature, but the privacy and security won her over. It felt like the future of cross-country travel.
+
+The takeaway: Bennett enjoyed her privacy, recommending the mini cabin for solo travelers. When Sachs rode the Nightjet for another assignment, she was enthusiastic about saving a bundle by avoiding flights and hotels. Although there was one shower snag.
+
+The Tren Maya through the Yucatán Return to menu
+
+The Tren Maya, a 970-mile rail loop connecting Mexico’s Yucatán Peninsula, prompted ecological and archaeological concerns long before its opening. When freelance writer Jimmy Thomson tried to book passage in early February, he ran into different problems, including a buggy website and a departure station that was still under construction.
+
+It seemed like a likely boondoggle, right up until Thomson boarded his 3½-hour train to Valladolid. On the way, he watched Chichén Itzá go by in a car that was immaculate, comfortable and quiet.
+
+The takeaway: If the bugs are worked out, Thomson wrote, the Tren Maya “feels destined to become a must-do for any traveler, foreign or domestic, eager to explore beyond the resorts of Cancún.”
+
+A helicopter vs. an Uber to JFK Return to menu
+
+At peak times, a cab from Manhattan to the airport can take an hour and cost $70 before surcharges, tip and tolls. With surge pricing, Uber fares can far exceed $100. Or, if you really can’t wait, you can take a helicopter — and feel like a character in “Succession.”
+
+That’s what Compton did in the fall, trying the helicopter taxi service Blade before a late-afternoon flight from John F. Kennedy International Airport to D.C. To compare experiences, she sent her husband in an Uber.
+
+The takeaway: The Blade ride felt like absurd, screaming-loud luxury to Compton. Factoring in the 20 minutes it took her to get to the Blade helipad, her time in the lounge there and the time in the air, the hour-long Uber was actually faster than the helicopter.
+
+A bag delivery to skip baggage claim Return to menu
+
+There are many reasons you might not want to deal with baggage claim and your checked luggage after a flight. Maybe you scheduled a tour that starts soon after you land. Maybe you booked a pre-cruise shore excursion. Or, as was the case for Sachs over Labor Day weekend in Boston, maybe you have more pieces of luggage than you do arms.
+
+Sachs turned to Bags VIP, a delivery service for checked bags so scarcely known that even “a lot of the airline ticket counter agents don’t know we exist,” said Bob Miles, the company’s president. But using Bags VIP, Sachs found, was inexpensive — $39.95 for one or two bags for drop-offs within 40 miles of the airport — and surprisingly easy. Her worries of forever-lost bags proved unfounded.
+
+The takeaway: Sachs would use the service again, but only if she had time to wait on the delivery. Her bag didn’t arrive until the middle of the night.
+
+A floating breakfast Return to menu
+
+Reporter Natalie Compton tries a buoyant breakfast. (Video: Natalie Compton, Joshua Carroll/The Washington Post)
+
+The floating breakfast is the social media era’s answer to breakfast in bed: lavish, photogenic, incredibly impractical. You can find floating sushi in Antigua, floating bar bites in Singapore, floating chicken and French toast in Atlanta, and much more on the Instagram pages of honeymooners and influencers everywhere. But does the precarious meal trend hold water?
+
+On a trip to Tulum, Mexico, over a plate of huevos rancheros, it didn’t take Compton long to decide.
+
+The takeaway: If you want to pay for a social media flex, go for it. This is not a meal you’ll probably enjoy.
+
+Neck fans to beat the heat Return to menu
+
+Last summer’s hottest travel accessory — a staple in the stands at the Olympics, at theme parks, at music festivals — was the portable fan. Portable-fan enthusiasts, including travel writers and new parents, describe the affordable gadgets with such words as “lifesaver,” “invaluable” and “can’t live without them.”
+
+Two styles dominate the market: a handheld miniature and a horseshoe-shaped contraption that’s worn around the neck and rests on the shoulders. Compton tested four popular models in California, in Mexico and around Washington to see whether they lived up to the hype — and the heat.
+
+The takeaway: The handheld Gaiatop Mini Portable Fan was Compton’s favorite for its affordability and portability, but she found it hard to recommend any of the fans.
+
+The biggest buffet in Las Vegas Return to menu
+
+Travel reporter Natalie Compton visited The Bacchanal at Caesars Palace, the largest buffet in Las Vegas. It was disappointing. (Video: Monica Rodman, Natalie Compton/The Washington Post)
+
+The Bacchanal Buffet at Caesars Palace is billed as a luxe experience, and when Compton arrived, it sure looked like it: the foot-long crab legs, the “live-action” cooking stations, the 25,000 square feet of caviar, bone marrow, steak and more. But the letdowns quickly multiplied, and the dirty dishes piled up.

@@ -1,0 +1,3 @@
+ID: CTRL_001
+URL: https://www.washingtonpost.com/travel/iceland/vesturbaer-neighborhood-reykjavik/
+STATUS: FETCH_FAILED

@@ -1,0 +1,54 @@
+\begin{table}[H]
+\centering
+\caption{Weekly Panel Robustness to Dropout and Cell Nonresponse}
+\label{tab:weekly_selection_robustness}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{lllcccc}
+\toprule
+Outcome & Specification & Contrast & Estimate & Std. Error & p-value & N \\
+\midrule
+Compliance & IPW weekly cells & Apolitical China & 0.015 & 0.012 & 0.212 & 69,609 \\
+Compliance & IPW weekly cells & Pooled Anti-China & 0.014 & 0.011 & 0.196 & 69,609 \\
+Compliance & IPW weekly cells & Pooled Pro-China & 0.013 & 0.011 & 0.236 & 69,609 \\
+Compliance & Observed-only & Apolitical China & 0.016 & 0.012 & 0.196 & 69,609 \\
+Compliance & Observed-only & Pooled Anti-China & 0.014 & 0.011 & 0.184 & 69,609 \\
+Compliance & Observed-only & Pooled Pro-China & 0.013 & 0.011 & 0.229 & 69,609 \\
+Compliance & Zero-imputed after dropout & Apolitical China & 0.009 & 0.013 & 0.475 & 76,380 \\
+Compliance & Zero-imputed after dropout & Pooled Anti-China & 0.012 & 0.011 & 0.299 & 76,380 \\
+Compliance & Zero-imputed after dropout & Pooled Pro-China & 0.011 & 0.011 & 0.335 & 76,380 \\
+Credibility rating & IPW weekly cells & Apolitical China & -0.046 & 0.384 & 0.904 & 69,609 \\
+Credibility rating & IPW weekly cells & Pooled Anti-China & 0.253 & 0.345 & 0.463 & 69,609 \\
+Credibility rating & IPW weekly cells & Pooled Pro-China & 4.867*** & 0.341 & <0.001 & 69,609 \\
+Credibility rating & Observed-only & Apolitical China & -0.035 & 0.384 & 0.928 & 69,609 \\
+Credibility rating & Observed-only & Pooled Anti-China & 0.260 & 0.345 & 0.450 & 69,609 \\
+Credibility rating & Observed-only & Pooled Pro-China & 4.864*** & 0.341 & <0.001 & 69,609 \\
+Credibility rating & Zero-imputed after dropout & Apolitical China & -0.380 & 0.605 & 0.530 & 76,380 \\
+Credibility rating & Zero-imputed after dropout & Pooled Anti-China & 0.165 & 0.528 & 0.755 & 76,380 \\
+Credibility rating & Zero-imputed after dropout & Pooled Pro-China & 4.383*** & 0.533 & <0.001 & 76,380 \\
+Reading minutes & IPW weekly cells & Apolitical China & 0.080 & 0.071 & 0.261 & 69,609 \\
+Reading minutes & IPW weekly cells & Pooled Anti-China & 1.090*** & 0.064 & <0.001 & 69,609 \\
+Reading minutes & IPW weekly cells & Pooled Pro-China & 1.072*** & 0.063 & <0.001 & 69,609 \\
+Reading minutes & Observed-only & Apolitical China & 0.082 & 0.071 & 0.249 & 69,609 \\
+Reading minutes & Observed-only & Pooled Anti-China & 1.090*** & 0.064 & <0.001 & 69,609 \\
+Reading minutes & Observed-only & Pooled Pro-China & 1.074*** & 0.063 & <0.001 & 69,609 \\
+Reading minutes & Zero-imputed after dropout & Apolitical China & 0.015 & 0.107 & 0.889 & 76,380 \\
+Reading minutes & Zero-imputed after dropout & Pooled Anti-China & 0.980*** & 0.095 & <0.001 & 76,380 \\
+Reading minutes & Zero-imputed after dropout & Pooled Pro-China & 0.970*** & 0.094 & <0.001 & 76,380 \\
+Want more similar & IPW weekly cells & Apolitical China & -0.472+ & 0.268 & 0.078 & 69,609 \\
+Want more similar & IPW weekly cells & Pooled Anti-China & -0.863** & 0.276 & 0.002 & 69,609 \\
+Want more similar & IPW weekly cells & Pooled Pro-China & 0.344 & 0.276 & 0.212 & 69,609 \\
+Want more similar & Observed-only & Apolitical China & -0.461+ & 0.268 & 0.085 & 69,609 \\
+Want more similar & Observed-only & Pooled Anti-China & -0.780** & 0.275 & 0.005 & 69,609 \\
+Want more similar & Observed-only & Pooled Pro-China & 0.433 & 0.275 & 0.115 & 69,609 \\
+Want more similar & Zero-imputed after dropout & Apolitical China & -0.822 & 0.617 & 0.183 & 76,380 \\
+Want more similar & Zero-imputed after dropout & Pooled Anti-China & -0.804 & 0.546 & 0.141 & 76,380 \\
+Want more similar & Zero-imputed after dropout & Pooled Pro-China & 0.329 & 0.541 & 0.544 & 76,380 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Entries report pooled treatment contrasts relative to the non-China control arm using slot-1 weekly observations. `Observed-only' uses non-missing weekly outcomes. `Zero-imputed after dropout' sets missing weekly outcomes to zero on the full scheduled panel. `IPW weekly cells' reweights observed weekly cells by the inverse predicted probability of observing the corresponding outcome, estimated from treatment indicators, week fixed effects, randomization-block fixed effects, and baseline covariates; predicted probabilities are trimmed to [0.05, 0.95]. Standard errors are clustered at the participant level.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

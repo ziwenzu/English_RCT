@@ -1,0 +1,33 @@
+\begin{table}[H]
+\centering
+\caption{Follow-up Attrition Sensitivity for the Primary Outcome Family}
+\label{tab:t2_attrition_sensitivity}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{llccccc}
+\toprule
+Outcome & Contrast & Observed ANCOVA & IPW ANCOVA & Lee lower & Lee upper & Balanced-panel FE \\
+\midrule
+Censorship support & Apolitical China & 0.009 & 0.008 & -0.031 & 0.068 & 0.005 \\
+Censorship support & Pooled Anti-China & 0.018 & 0.010 & 0.016 & 0.038 & 0.015 \\
+Censorship support & Pooled Pro-China & 0.114* & 0.113* & 0.037 & 0.195 & 0.110* \\
+China-West thermometer gap & Apolitical China & -0.041 & -0.124 & -0.650 & 0.913 & -0.132 \\
+China-West thermometer gap & Pooled Anti-China & -1.562+ & -1.639* & -1.527 & -1.271 & -1.549+ \\
+China-West thermometer gap & Pooled Pro-China & 0.179 & 0.154 & -0.961 & 1.342 & 0.122 \\
+Nationalism & Apolitical China & 0.066 & 0.062 & 0.006 & 0.103 & 0.070 \\
+Nationalism & Pooled Anti-China & 0.064 & 0.063 & 0.067 & 0.086 & 0.064 \\
+Nationalism & Pooled Pro-China & 0.072 & 0.069 & -0.005 & 0.141 & 0.072 \\
+Regime support & Apolitical China & 0.097 & 0.102 & 0.021 & 0.135 & 0.092 \\
+Regime support & Pooled Anti-China & 0.009 & 0.011 & -0.001 & 0.021 & 0.004 \\
+Regime support & Pooled Pro-China & 0.118* & 0.124* & 0.053 & 0.209 & 0.110* \\
+Trust in foreign media & Apolitical China & 0.012 & 0.007 & -0.039 & 0.041 & 0.008 \\
+Trust in foreign media & Pooled Anti-China & -0.058 & -0.058 & -0.059 & -0.043 & -0.066 \\
+Trust in foreign media & Pooled Pro-China & 0.062 & 0.062 & 0.011 & 0.120 & 0.053 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Entries compare four follow-up estimators for pooled treatment contrasts relative to the non-China control arm. `Observed ANCOVA' reports the baseline-controlled follow-up ANCOVA. `IPW ANCOVA' reweights follow-up respondents by the inverse predicted probability of completing the follow-up survey using treatment indicators, baseline covariates, and randomization-block fixed effects; predicted probabilities are trimmed to [0.05, 0.95]. `Lee lower' and `Lee upper' report Lee (2009) monotonicity bounds. `Balanced-panel FE' reports the follow-up treatment effect from individual fixed-effects panel models estimated on the balanced three-wave panel.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

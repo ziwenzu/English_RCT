@@ -86,19 +86,20 @@ def pdf_quality_issue(entry: dict, pdf_path: Path) -> str:
         if marker in first_page[:1500]:
             return f"appendix_like:{marker}"
 
-    expected = normalize_title(entry.get("title", ""))
-    if not expected:
+    expected_compact = compact_title(entry.get("title", ""))
+    first_page_compact = compact_title(first_page)
+    if not expected_compact:
         return ""
 
-    if expected in first_page:
+    if expected_compact in first_page_compact:
         return ""
 
     similarity = difflib.SequenceMatcher(
         None,
-        compact_title(entry.get("title", "")),
-        compact_title(first_page[:2500]),
+        expected_compact,
+        first_page_compact[: max(len(expected_compact) * 3, 1200)],
     ).ratio()
-    if similarity < 0.35:
+    if similarity < 0.2:
         return "title_not_found_on_first_page"
     return ""
 
@@ -131,7 +132,7 @@ def load_local_literature_index() -> dict[str, list[dict]]:
     literature = bibtexparser.loads(LOCAL_LITERATURE_BIB.read_text()).entries
     index: dict[str, list[dict]] = {}
     for entry in literature:
-        title = normalize_title(entry.get("title", ""))
+        title = compact_title(entry.get("title", ""))
         file_path = entry.get("file", "")
         if not title or not file_path:
             continue
@@ -143,7 +144,7 @@ def load_local_literature_index() -> dict[str, list[dict]]:
 
 
 def choose_local_candidate(entry: dict, local_index: dict[str, list[dict]]) -> dict | None:
-    candidates = local_index.get(normalize_title(entry.get("title", "")), [])
+    candidates = local_index.get(compact_title(entry.get("title", "")), [])
     if not candidates:
         return None
 

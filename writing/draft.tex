@@ -1,0 +1,1081 @@
+\documentclass[12pt,american]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\pagestyle{plain}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amsmath,amssymb}
+\usepackage{relsize}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{titletoc}
+\usepackage[page,header]{appendix}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lmodern}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage[figuresright]{rotating}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{framed}
+\usepackage{longtable}
+\usepackage[flushleft]{threeparttable}
+\usepackage{color}
+\usepackage{hhline}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{threeparttablex}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,arrows,shapes.multipart}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{fancyvrb}
+\usepackage{csquotes}
+\usepackage[american]{babel}
+\usepackage{tocloft}
+\usepackage{txfonts}
+\let\openbox\relax
+\usepackage{amsthm}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor={blue},
+	urlcolor={blue},
+	linkcolor={blue},
+	hypertexnames=false}
+\newcommand{\RowColor}{\rowcolor{cyan!30}}
+\newtheorem{define}{Definition}
+\newtheorem{hypo}{Hypothesis}
+\newtheorem{ass}{Assumption}
+\newtheorem{prop}{Proposition}
+\newtheorem{hyp}{Hypothesis}
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{assumption}{Assumption}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\usepackage{bibentry}
+\usepackage[natbib,authordate,sorting=nyt,sortcites=true,dashed=false,uniquename=false,citetracker=false,ibidtracker=false,doi=false,isbn=false]{biblatex-chicago}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{month}}
+\addbibresource{ref.bib}
+\usepackage{chngcntr}
+\captionsetup{justification=centering,singlelinecheck=false}
+\captionsetup[table]{skip=2pt}
+\cftsetpnumwidth{4em}
+\cftsetrmarg{5em}
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\setcounter{topnumber}{5}
+\setcounter{bottomnumber}{5}
+\setcounter{totalnumber}{10}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\makeatletter
+\def\fps@figure{!htbp}
+\def\fps@table{!htbp}
+\makeatother
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\textsuperscript{#1}\fi}
+\newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\newcommand{\figuremeta}[2][\textwidth]{\par\vspace{0.3em}\noindent\begin{minipage}{\textwidth}\footnotesize #2\end{minipage}}
+\lstset{language=R,
+	basicstyle=\small\ttfamily,
+	stringstyle=\color{DarkGreen},
+	otherkeywords={0,1,2,3,4,5,6,7,8,9},
+	morekeywords={TRUE,FALSE},
+	deletekeywords={data,frame,length,as,character},
+	keywordstyle=\color{blue},
+	commentstyle=\color{DarkGreen},
+}
+\newcolumntype{x}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\title{\textbf{How Does Reading Uncensored Media Affect Authoritarian Legitimacy? Evidence from a Field Experiment in China}}
+\author{Ziwen Zu\thanks{Department of Political Science, University of California, San Diego. Email: \href{mailto:zzu@ucsd.edu}{zzu@ucsd.edu}.}}
+\date{}
+
+\begin{document}
+	\hypersetup{pageanchor=false}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\begin{abstract}
+		\noindent Classic accounts of authoritarian censorship imply that access to censored foreign media should weaken regime support. I test this claim with a 12-week field experiment embedded in a Chinese English test-preparation app, randomizing 6,365 users to receive, at varying doses, pro-China, anti-China, apolitical China-related, or neutral non-China content from major Anglophone outlets censored by the Chinese government. By holding source type constant and varying message direction, the design identifies when censored foreign media undermine or reinforce authoritarian resilience. Pro-China coverage increases regime legitimacy, trust in censored foreign media, and willingness to consume more such content, with effects that persist after the intervention ends. Anti-China coverage lowers regime support on average, but its effects are concentrated among ideologically receptive respondents, offset by identity backlash, and largely dissipate by follow-up. Under authoritarianism, the political effects of censored foreign media depend on message direction, prior predispositions, and acceptance rather than source identity alone.
+	\end{abstract}
+	
+	
+	
+	\textbf{Keywords}: Authoritarianism; Censorship; China; Media; Public Opinion
+	
+	\setcounter{page}{0}
+	\thispagestyle{empty}
+	\newpage
+	\doublespacing
+	\setcounter{page}{1}
+	\renewcommand{\thepage}{\arabic{page}}
+	\hypersetup{pageanchor=true}
+	
+	\section*{Introduction}
+	
+	Information control is central to authoritarian rule. Regimes censor opposition, privilege regime-compatible narratives, and shape what citizens learn about domestic politics and the outside world \citep{BesleyPrat2006,gurievtreisman2019,huang2015signal,kingpanroberts2013,roberts2018,Roberts2020ARPS,stockmann2013}. Yet censorship rarely produces full informational closure.\footnote{Citizens may still encounter such content through virtual private networks (VPNs), reposted screenshots, translated excerpts, and transnational educational or professional networks \citep{chenyang2019,DalNisbet2022SMS,hobbsroberts2018,PanSiegel2020APSR,Roberts2020ARPS}.} The core question is conditional: when does exposure to freer foreign media weaken regime support, when is it discounted, and when does it instead reinforce authoritarian resilience?
+	
+	Existing research yields competing expectations. One view holds that freer foreign media should weaken regime support by revealing facts the regime seeks to suppress and allowing citizens to update away from official narratives \citep{BesleyPrat2006,EgorovGurievSonin2009,gurievtreisman2019,chenyang2019}. Comparative work from East Germany and Russia supports that possibility, though not always in the same direction \citep{KernHainmueller2009,EnikolopovPetrovaZhuravskaya2011}. But outside information is not uniformly liberalizing. It can also improve domestic evaluations by shifting comparative benchmarks or correcting inflated beliefs about conditions abroad \citep{bursztynyang2022,DuchStevenson2008,hobbsroberts2018,huang2015international,huangyeh2017,KayserPeress2012}. More generally, citizens are selective rather than passive recipients of political information.\footnote{This point draws on work on selective exposure, source credibility, motivated reasoning, and preference falsification dynamics \citep{BakshyMessingAdamic2015,Druckman2001,GentzkowShapiro2006,Kuran1995,Levendusky2013,LupiaMcCubbins1998CUP,Prior2007CUP,taberlodge2006,wangwestwood2024,zaller1992}.} They condition on source credibility, discount dissonant claims, and interpret messages through prior commitments. I argue that the political effects of censored foreign media depend on message direction, prior predispositions, and whether audiences treat what they read as credible.
+	
+	China is an especially consequential setting for this question. It combines one of the world’s most restrictive information environments with continued, if uneven, access to censored foreign content through VPNs and related tools \citep{ChangEtAl2022,FreedomHouse2024,hobbsroberts2018}. I study these dynamics in a 12-week field experiment embedded in a large Chinese English test-preparation app.\footnote{The experimental design and main hypotheses were preregistered at \url{https://osf.io/yab8j}.} Users preparing for the Test of English as a Foreign Language (TOEFL), International English Language Testing System (IELTS), Graduate Record Examinations (GRE), Graduate Management Admission Test (GMAT), and related exams routinely consume English-language material for study abroad, graduate admissions, and professional advancement while remaining inside a censored information environment. The intervention therefore does not present raw news reports. It adapts material from censored foreign outlets into ordinary reading-comprehension and English-training exercises.\footnote{The finalized materials bank includes 39 readings from \textit{The Guardian}, 21 from \textit{Reuters}, 13 from \textit{The Economist}, 11 from \textit{BBC Travel}, and 5 from \textit{The New York Times}. All are large Anglophone outlets based in Western democracies. Empirically, the treatment therefore captures exposure to censored Western-origin foreign media rather than the full universe of foreign outlets available to Chinese audiences.} This format makes exposure to freer foreign media both naturalistic and politically meaningful. The study recruited 12,215 users into a baseline survey and randomized 6,365 into six groups: pro-China political content at low or high dose, anti-China political content at low or high dose, apolitical China-related content, or neutral non-China content. Participants received two readings per week for twelve weeks, each paired with a short video, quiz questions, and weekly evaluations of interest, credibility, and demand for similar content. Endline surveys were completed by 5,215 participants, and a four-week follow-up survey by 2,115.
+	
+	This design makes three advances. It separates source from message by holding outlet type constant while varying message direction. It turns dose and durability into design features by randomizing cumulative exposure and following respondents over time. And it links attitudinal change to high-frequency behavioral evidence. Because the platform records module openings, reading time, quiz performance, weekly evaluations, and willingness to pay (WTP) for additional content, the analysis can distinguish exposure from engagement, engagement from acceptance, and persuasion from avoidance.
+	
+	The results show that freer foreign media are not uniformly liberalizing. At endline, pooled pro-China treatment raises the legitimacy index by \(0.075\) standard deviations (SD) and the foreign-media receptivity-and-demand index by \(0.223\) SD; pooled anti-China treatment lowers legitimacy by \(0.033\) SD and raises backlash by \(0.062\) SD. Both kinds of political coverage increase attention (about 14 additional reading minutes relative to control), but they diverge on acceptance and demand. Pro-China exposure increases weekly credibility ratings by \(2.900\) points and ``want more similar'' ratings by \(0.583\) points, raises WTP by about 5 renminbi (RMB), and increases purchase by 11.7 percentage points. Anti-China exposure does not increase credibility or content demand, lowers WTP by 2.8 RMB, and lowers purchase by 5.1 percentage points. Persistence is similarly asymmetric: pro-China effects on regime support attenuate from \(0.270\) at endline to \(0.110\) at follow-up, whereas anti-China effects move from \(-0.203\) at endline to approximately zero at follow-up.
+	
+	These findings contribute to three debates. First, they refine access-based theories of authoritarian information control \citep{BesleyPrat2006,gurievtreisman2019,roberts2018,RosenfeldWallace2024}. In this study, the decisive step is interpretation after exposure, not access alone: anti-China content can reduce legitimacy among receptive respondents but also trigger backlash and lower future demand, whereas pro-China content from censored foreign outlets raises both legitimacy and source trust. This logic also helps explain why comparable effects differ across settings such as East Germany, Russia, and contemporary China \citep{KernHainmueller2009,EnikolopovPetrovaZhuravskaya2011,QinStrombergWu2017,kingpanroberts2013}.
+	
+	Second, the paper sharpens persuasion research by separating attention, acceptance, and later choice \citep{ArceneauxJohnson2013,Prior2007CUP,zaller1992,taberlodge2006,ValloneRossLepper1985,Levendusky2013}. Respondents in both political conditions consume more political content, but only accepted exposure produces credibility gains, willingness to pay, and persistent demand. Analyses based on clicks or reading time alone would misclassify anti-China exposure as persuasive when much of it is attended but discounted. The findings therefore connect selective-exposure and motivated-reasoning theories to costly behavioral outcomes rather than to survey attitudes alone \citep{BakshyMessingAdamic2015,FlaxmanGoelRao2016,GonzalezBailonEtAl2023,KangSheen2025,shen2025forced}.
+	
+	Third, the paper offers a unified account of outside information in China by linking censorship and propaganda in a single framework. Foreign criticism can update beliefs against the regime, but it can also validate official narratives of external hostility; favorable foreign coverage can have larger and more persistent effects because it is both counter-stereotypic and harder to dismiss as hostile. This logic helps reconcile conflicting findings in prior China research and clarifies why selective openness to foreign information can complement rather than contradict domestic propaganda strategy \citep{chenyang2019,huang2015international,huangyeh2017,wangwestwood2024,QinStrombergWu2017,KingPanRoberts2017,GueorguievMalesky2019,huang2015signal,Huang2018}. The next section formalizes this acceptance-centered logic.
+	
+	
+	\section*{Theory}
+	
+	
+	
+	Censored foreign media create a double inference problem. Citizens update about the regime, but they also update about the source. In authoritarian settings, censorship can make outside reporting look informative: if the regime blocks a source, recipients may infer that it carries facts the domestic system prefers to suppress. Yet the same foreignness supplies a ready counterframe. Unwelcome coverage can be dismissed as ideological hostility, geopolitical bias, or evidence that the source is not reporting but attacking. The argument is therefore conditional rather than monotonic. Censored foreign media do not mechanically erode authoritarian legitimacy. Their effects depend on whether recipients treat a message as credible information or as evidence that the source is hostile. Three implications follow: attention need not imply acceptance, message direction changes source inferences, and persistence depends on repeated accepted exposure rather than repeated exposure alone.
+	
+	This argument draws on three literatures. Models of censorship and media freedom show why outside media can matter at all: they relax the regime's information monopoly and make suppressed facts observable \citep{BesleyPrat2006,EgorovGurievSonin2009,gurievtreisman2019,chenyang2019}. But comparative work already suggests that the resulting erosion expectation is too simple. Foreign broadcasting weakened communist rule in some settings, yet outside information could also stabilize authoritarian regimes or improve domestic evaluations when it shifted beliefs about conditions abroad rather than repression at home \citep{KernHainmueller2009,EnikolopovPetrovaZhuravskaya2011,KayserPeress2012,huang2015international}. Research on persuasion, selective exposure, and authoritarian propaganda points in the same direction. Citizens condition on source credibility, discount dissonant claims, and respond to the political meaning of the messenger as much as to factual content \citep{zaller1992,LupiaMcCubbins1998CUP,GentzkowShapiro2006,taberlodge2006,ValloneRossLepper1985,huang2015signal,Huang2018,Horz2021,mattinglyyao2022,panshaoxu2021,GulottyYu2025,Zakharov2026,wangwestwood2024}. Classic work on preference falsification adds a final constraint: politically relevant information is processed under social and strategic pressure, not in a frictionless marketplace of ideas \citep{Kuran1991,Kuran1995}. The framework below treats censored foreign media not simply as alternative facts, but as politicized signals whose effects depend on how message direction reshapes beliefs about source type.
+	
+	Message direction is central. I use ``valence'' as shorthand for whether coverage is favorable, unfavorable, or neutral toward the country under discussion. Favorable and unfavorable messages are not mirror images. Unfavorable coverage may reveal unwelcome facts, but it also fits the prior that foreign outlets are biased against the country under discussion. Favorable coverage is usually less threatening substantively, yet more diagnostic of source independence because it runs against the expectation of uniform foreign hostility \citep{hovlandweiss1951,GentzkowShapiro2006}. A favorable report from a censored foreign outlet can therefore do more than praise the regime. It can also certify that the source is not simply following an anti-regime script. The key asymmetry in this paper lies there.
+	
+	The relevant behavioral distinction is therefore \emph{acceptance}, not exposure. Recipients may open politically charged foreign content because it is novel, provocative, or identity-relevant without treating it as credible. They may also consume it while discounting it because acceptance is psychologically costly, politically suspect, or simply not worth the trouble. The theoretical task is to explain three linked choices: whether recipients attend, whether they accept, and whether they want more of the same later. That distinction is central to the empirical design, which separately observes article opening, time spent, credibility evaluations, and later demand. I now formalize that mechanism in a model and then apply it to China.
+	
+	\subsection*{A Model of Attention, Acceptance, Demand, and Persistence}
+	
+	The model isolates the recipient-side problem created by censored foreign media. During the intervention, respondent \(i\) receives one focal item in each period \(t=0,\dots,T-1\). Before deciding whether to open it, the respondent observes a preview \(h_{it}=(c_{it},\tilde v_{it})\), where \(c_{it}\in\{0,1\}\) indicates whether the item concerns the country under discussion and \(\tilde v_{it}\in\{-1,0,+1\}\) is a reduced-form pre-opening cue suggesting that the item appears unfavorable, neutral, or favorable toward that country. The cue need not be a literal treatment label or a perfect signal of realized message direction; it summarizes what can be inferred before opening from titles, thumbnails, or short descriptive text. After opening, the respondent observes full message direction \(v_{it}\in\{-1,0,+1\}\). Because all study materials come from censored foreign outlets, the \(c_{it}=0\) benchmark should not be read as a no-foreign-media condition. It is a neutral benchmark on other topics that differences out source-generic foreign exposure and isolates the incremental political effect of country-related content and message direction.\footnote{The model is written in deviations from any source-generic effect of exposure to foreign outlets common to all groups. The estimand is therefore the incremental effect of country-related content and message direction, not the effect of foreign versus domestic media exposure per se.}
+	
+	Let source type be \(s\in\{I,H\}\), where \(I\) denotes a source perceived as independent and \(H\) a source perceived as hostile. Recipients do not observe \(s\), but enter period \(t\) with prior \(\mu_{it}=\Pr(s=I)\). For content about the country under discussion, let \(\ell_j(v)=\Pr(v_{it}=v\mid s=j,c_{it}=1)\), for \(j\in\{I,H\}\), denote the likelihood of observing message direction \(v\) under source type \(j\). I assume only that favorable coverage is more diagnostic of independence than unfavorable coverage, so \(\ell_I(+1)/\ell_H(+1)>\ell_I(-1)/\ell_H(-1)\). The posterior belief that the source is independent after observing message direction \(v_{it}\) is
+	\[
+	q_{it}(v_{it})=\Pr(s=I\mid v_{it},c_{it}=1)
+	=\frac{\mu_{it}\ell_I(v_{it})}{\mu_{it}\ell_I(v_{it})+(1-\mu_{it})\ell_H(v_{it})}.
+	\]
+	This implies \(q_{it}(+1)>q_{it}(-1)\).
+	A favorable report from a censored foreign outlet is therefore harder to reconcile with a simple hostile-source story than an unfavorable one. That asymmetry is the core of the argument.
+	
+	Opening and acceptance are distinct decisions. The respondent opens the item when expected utility from doing so is nonnegative:
+	\[
+	r_{it}=\mathbf{1}\left\{\alpha c_{it}+\sigma \mathbf{1}\{\tilde v_{it}\neq 0\}+\xi \bar q_{it}(h_{it})-c_i^R\ge 0\right\},
+	\]
+	where \(\alpha,\sigma,\xi>0\) and
+	\[
+	\bar q_{it}(h_{it})=
+	\begin{cases}
+		\sum_{v\in\{-1,0,+1\}} q_{it}(v)\Pr(v_{it}=v\mid h_{it}), & \text{if } c_{it}=1,\\
+		0, & \text{if } c_{it}=0.
+	\end{cases}
+	\]
+	Thus \(\bar q_{it}(h_{it})\) is the expected posterior credibility implied by the pre-opening cue. The first term captures whether the item is about the country under discussion, the second the extra pull of politically directional content, the third the value of potentially informative foreign material, and \(c_i^R\) the private cost of opening.\footnote{I treat \(c_i^R\) as a reduced-form opening cost. It can absorb ordinary time costs, but also strategic or psychological costs of engagement, including anticipated surveillance, social sanction, or the desire to avoid politically sensitive material altogether \citep{Kuran1991,Kuran1995}.}
+	
+	Conditional on exposure, the respondent then decides whether to treat the message as informative. Let \(b_{it}=\mathbf{1}\{U_{it}^A\ge 0\}\) denote acceptance after opening, with
+	\[
+	U_{it}^{A}=\lambda(v_{it})q_{it}(v_{it})-\chi-\rho^{-}p_i\mathbf{1}\{v_{it}=-1\}-\rho^{+}(1-p_i)\mathbf{1}\{v_{it}=+1\}-\tau n_{it}\mathbf{1}\{v_{it}=-1\}.
+	\]
+	Here \(\lambda(\pm 1)>\lambda(0)\ge 0\), \(\chi>0\) is a baseline acceptance cost, \(p_i\in[0,1]\) indexes predispositions that make defense of the regime more likely, and \(n_{it}\ge 0\) indexes susceptibility to foreign-threat interpretations.\footnote{For tractability, \(p_i\) compresses several aligned predispositions, especially nationalism, prior regime support, and related defensive identity commitments. The empirical analysis later separates these moderators.} The realized acceptance indicator is \(a_{it}=r_{it}b_{it}\).
+	
+	Four state variables evolve during the intervention: regime legitimacy \(L_{it}\), foreign-threat sensitivity \(n_{it}\), source trust \(\mu_{it}\), and later demand for similar content \(D_{it}\):
+	\begin{align*}
+		L_{i,t+1}&=L_{it}+\beta_{+}a_{it}\mathbf{1}\{v_{it}=+1\}-\beta_{-}a_{it}\mathbf{1}\{v_{it}=-1\},\\
+		n_{i,t+1}&=n_{it}+\eta r_{it}(1-b_{it})\mathbf{1}\{v_{it}=-1\},\\
+		\mu_{i,t+1}&=(1-\omega r_{it})\mu_{it}+\omega r_{it}q_{it}(v_{it}), \qquad \omega\in(0,1],\\
+		D_{i,t+1}&=D_{it}+\phi a_{it}+\psi(\mu_{i,t+1}-\mu_{it})-\kappa r_{it}(1-b_{it}),
+	\end{align*}
+	with all parameters positive. Accepted favorable messages raise legitimacy. Accepted unfavorable messages lower it. Rejected unfavorable messages do something different: they increase foreign-threat sensitivity and lower later demand for similar content. Source trust rises after accepted or even merely observed favorable signals when those signals increase the posterior that the source is independent. Demand rises with accepted exposure and trust accumulation, but falls when respondents attend to content and reject it.
+	
+	This structure yields the empirical distinction the paper needs. Opening depends on salience, directional cues, and expected informativeness. Acceptance depends on posterior source credibility net of ideological and threat-based rejection costs. Legitimacy moves only through accepted messages, not through attention alone. Demand records whether exposure makes respondents more willing to return to similar content later.
+	
+	Persistence requires one additional step. Once the intervention ends, assigned exposure stops. Let \(t\ge T\) index the post-treatment period. Respondents may still seek similar foreign content on their own. Let \(\pi(D_{it})\) denote the probability of doing so, with \(\pi'(\cdot)>0\). For a given class of similar content \(g\in\{-1,0,+1\}\), post-treatment legitimacy follows
+	\[
+	\mathbb{E}[L_{i,t+1}\mid \mathcal F_{it},g]=(1-\delta)L_{it}+\pi(D_{it})\,m_g(\mu_{it},n_{it},p_i),
+	\qquad \delta\in(0,1),
+	\]
+	where \(m_g(\cdot)\) is the expected contribution of a self-selected similar item from class \(g\). This continuation step formalizes a comparative-static persistence claim rather than a fully identified post-treatment browsing process. Under this continuation structure, histories that raise both \(D_T\) and \(\mu_T\) are more likely to be reinforced after the intervention ends, whereas histories that depress demand or raise foreign-threat sensitivity are more likely to fade faster. The formal propositions and proofs are collected in the Supplemental Information (SI), especially SI~\ref{app:formal_proofs}. The next subsection applies those comparative statics to China and maps them into the paper's preregistered hypotheses.
+	
+	\subsection*{Implications for China and Hypotheses}
+	
+	The preregistered hypotheses apply the general model to a setting in which its mechanism should be especially sharp. In China, foreign reporting enters a media market that is neither free nor simply monolithic. Marketization and platform competition have pushed state and state-affiliated outlets to package regime-compatible content in forms designed to attract attention and retain credibility rather than merely repeat slogans \citep{StockmannGallagher2011,stockmann2013,LuPan2021,Wang2024Propaganda}. Government-controlled media can also move attitudes through framing \citep{panshaoxu2021}. Censored foreign outlets therefore compete not with a propaganda vacuum, but with a politically managed and audience-aware domestic information system.
+	
+	The control regime makes those source cues politically charged. Chinese censorship is selective rather than total: the party-state blocks outside reporting, tolerates some criticism, and concentrates suppression where communication may facilitate coordination or collective action \citep{kingpanroberts2013,roberts2018}. Prior experimental work also shows that access to uncensored information does little on its own unless citizens are induced to use it \citep{chenyang2019}. Digital surveillance and targeted repression further raise the expected cost of engaging with sensitive material \citep{QinStrombergWu2017,Xu2021,HRW2025China}. In the model, these features work through both source inference and recipient cost. A censored foreign outlet can look informative because it stands outside the domestic propaganda system, yet critical foreign coverage can also be read as hostile and not worth opening, accepting, or seeking out again.
+	
+	Chinese recipients are not ideologically uniform either. Citizens hold structured positions on political liberalism, markets, nationalism, and traditional values rather than lining up on a single regime-opposition axis, and those commitments display meaningful stability over time \citep{PanXu2017,PanXu2020}. At the same time, openly expressed loyalty overstates real agreement. Survey and quasi-experimental evidence points to substantial preference falsification and fear-induced concealment of dissent, while recent work suggests that opposition is more socially diffuse than the conventional focus on urban elites implies \citep{JiangYang2016,CarterCarterSchick2024}. These conditions make China a setting in which the same foreign message can attract attention from many respondents but be accepted by only some of them. The hypotheses below translate that logic into observable implications.
+	
+	The first implication concerns attention. In a system where political communication is tightly managed yet highly competitive for visibility, China-related material from censored foreign outlets should be hard to ignore. Directional material should outperform both neutral non-China content and apolitical China-related content because it is more identity-relevant and more conflictual. This is a prediction about salience, not yet persuasion.
+	\begin{singlespace}
+		\begin{hypothesis}[Attention]
+			Relative to neutral non-China content, directional China-related content from censored foreign outlets increases attention (openings and reading time), with apolitical China-related content in between.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Acceptance should be more asymmetric. Because the model implies \(q(+1;\mu)>q(-1;\mu)\), favorable China coverage from a censored foreign outlet is harder to reconcile with a simple hostile-source story than unfavorable coverage from the same class of outlets. In China, that asymmetry is concrete: pro-China foreign coverage runs against familiar expectations of Western hostility, whereas anti-China coverage fits them. Unfavorable coverage may therefore attract attention without producing comparable credibility or willingness to return.
+	\begin{singlespace}
+		\begin{hypothesis}[Acceptance and Demand]
+			Given attention, pro-China content generates higher credibility and stronger later demand than anti-China content, which may attract attention yet lower later demand when it is interpreted as hostile.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Legitimacy effects follow only where acceptance occurs. Pro-China coverage should therefore raise regime support more consistently, not because Chinese respondents are passive, but because the same report can validate both the domestic narrative and the independence of the foreign source. Anti-China coverage can reduce support, but average effects should be weaker and less durable because many respondents discount it or convert it into backlash. Apolitical China-related content should, on average, generate smaller effects than directional political coverage, though not necessarily zero if focal-country salience itself shifts evaluations.
+	\begin{singlespace}
+		\begin{hypothesis}[Valence and Legitimacy]
+			Relative to neutral non-China content, pro-China coverage increases regime legitimacy, while anti-China coverage decreases it more weakly and less durably; apolitical effects are smaller than directional effects.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Heterogeneity should be structured rather than idiosyncratic. Because ideological differences in China combine liberalism, nationalism, traditionalism, and regime orientations in nontrivial ways, the key moderators are nationalism, prior regime support, and sensitivity to foreign threat rather than a simple government-opposition label. Respondents who are more nationalist, more supportive of the regime, or more inclined to read criticism through a foreign-threat lens should be least willing to internalize anti-China coverage. In the model, rejection is not neutral. It raises the latent threat state and should appear as defensive nationalism, support for censorship, or related backlash outcomes \citep{wangwestwood2024,Wu2026}.
+	\begin{singlespace}
+		\begin{hypothesis}[Predispositions and Backlash]
+			Anti-China effects are most negative among less nationalist respondents and more likely to produce backlash among strong nationalists, while pro-China coverage is more readily accepted among respondents with stronger prior regime support and nationalism.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Prior orientation toward foreign media shifts the same threshold from the other side. Respondents who begin with higher trust in or familiarity with foreign media have a higher \(\mu_i\), which makes directional messages harder to dismiss as mere hostility. That matters most for anti-China coverage, where the gap between attention and acceptance is otherwise largest.
+	\begin{singlespace}
+		\begin{hypothesis}[Prior Foreign-Media Orientation]
+			Respondents with greater prior familiarity with, or trust in, foreign media are more likely to accept directional messages, whereas low-trust respondents are more likely to discount anti-China coverage and reduce later demand.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Dose works through accumulation, not assignment counts alone. Repeated pro-China exposure should strengthen legitimacy and demand where acceptance already occurs, because accepted favorable signals raise both source trust and willingness to return. Repeated anti-China exposure has two possible paths: among receptive respondents it can deepen persuasion, but among unreceptive respondents it should accumulate rejection, backlash, and avoidance. The experiment randomizes that contrast directly.
+	\begin{singlespace}
+		\begin{hypothesis}[Dose]
+			Higher dose magnifies effects through acceptance: among receptive respondents, repetition strengthens persuasion, while among dissonant respondents repeated anti-China exposure intensifies rejection, backlash, and avoidance.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	Persistence depends on what treatment leaves behind once assignment stops. Effects should be more durable when exposure changes both beliefs and the willingness to seek similar content later. That logic favors pro-China coverage if it raises source trust and later demand. It disfavors anti-China coverage when attention is not converted into acceptance or later re-exposure.
+	\begin{singlespace}
+		\begin{hypothesis}[Persistence]
+			Effects persist when exposure changes both political beliefs and source credibility; pro-China effects are therefore more durable than anti-China effects, which decay more quickly when attended but not internalized.
+		\end{hypothesis}
+	\end{singlespace}
+	
+	The model predicts divergence rather than a single average response. Under repeated exposure, respondents who treat censored foreign media as credible should move toward the message and become more willing to seek similar content later. Respondents who treat the same content as hostile may still open it, but they should be less likely to internalize it and more likely to react defensively. China is a useful setting precisely because both paths are plausible at once.
+	
+	
+	
+	\section*{Research Design}
+	
+	\subsection*{China's Media Environment and Experimental Platform}
+	
+	Two features of China's information environment matter for the design. First, mainstream foreign reporting is generally not directly available to ordinary mainland users. The Great Firewall blocks many major foreign platforms and news sites, including all five outlets used in this study.\footnote{All five source outlets in the finalized materials bank were censored in mainland China during the study period. \citet{FreedomHouse2019} report that the \textit{New York Times} and \textit{Reuters} had been censored for years, that all \textit{BBC} websites were blocked in 2018, and that \textit{The Guardian} was newly blocked in 2019; \citet{FreedomHouse2016} document the blocking of \textit{The Economist} in 2016. These are prominent Western-origin outlets, not fringe dissident sites. In related work, \citet{ChenHan2025EJ} show that when influential U.K.- and U.S.-based outlets lost market access in China in 2019, their subsequent China coverage became more negative and more focused on sensitive topics such as human rights.} By mid-2016, Freedom House reported that at least 15 of 18 global news sites tracked by ProPublica were inaccessible inside China, and GreatFire's public monitor reported 17,870 blocked domains out of 185,494 tested in March 2026 \citep{FreedomHouse2016,FreedomHouseNet2024,GreatFireAnalyzer2026,kingpanroberts2013,roberts2018,stockmann2013}. Second, blocked reporting still reaches a minority of users through VPNs, reposted screenshots, and recirculated links. Such use is real, but usually instrumental and episodic rather than routine. \citet{hobbsroberts2018} show that users who initially sought to keep using Instagram after its blocking moved on to Wikipedia pages about Tiananmen, major Chinese leaders, and blocked sites. \citet{ChangEtAl2022} show that the COVID-19 lockdowns similarly increased VPN use and access to blocked platforms, foreign news accounts, dissidents, and sensitive historical content. Yet even elite students given free access to the uncensored internet seldom browse blocked political news absent further encouragement \citep{chenyang2019}. For present purposes, exposure to censored foreign reporting in China is possible, but partial, costly, and not routine.
+	
+	The experimental platform sits inside a large and routine market for English-language testing in China. IELTS alone is used by nearly 300 Chinese higher-education institutions for admissions, credit recognition, or scholarship evaluation, and its official network spans more than 70 paper-based sites and nearly 100 computer-delivered sites across 43 cities \citep{BritishCouncilIELTS2026}. ETS maintains dedicated China-facing systems for TOEFL and GRE, and its public country-volume data record 40,328 GRE General Test takers in mainland China in 2022 \citep{ETSTOEFLChina2026,ETSGREInterpretScores2026}. GMAC likewise describes China as its second-largest GMAT region after the United States \citep{GMACChinaMicrosite2021}. These exams are used not only for study abroad, but also for domestic admissions, employment, and general credentialing \citep{BritishCouncilSymposium2024}. Intensive preparation for TOEFL, IELTS, GRE, GMAT, and related exams is therefore routine rather than niche.
+	
+	I partnered with a large online English-training firm that focuses on adult learners preparing for IELTS, TOEFL, GRE, GMAT, postgraduate English, and related exams.\footnote{According to administrative records provided by the partner firm, the platform serves roughly 260,000 long-term registered users. I omit the firm's name to preserve confidentiality.} In this market, source materials are typically adapted rather than consumed in raw journalistic form. The partner app follows that format: users work through article-length passages with audio playback, instructor lessons, sentence-level explanation of vocabulary and syntax, and follow-up exercises. SI~\ref{app:background_information} provides an illustrative module workflow, compact English survey outlines, and the corresponding app materials.
+	
+	All assignment, content delivery, and behavioral logging occurred inside the app backend. To fit the platform's ordinary pedagogy, original articles from censored Western-origin outlets were abridged and adapted with experienced English instructors into standardized modules that preserved message direction while aligning length, difficulty, and exercise format. Each module combined a reading passage with audio, a short instructional lesson, quiz questions, and post-item evaluations. This embedding keeps source class and pedagogical format broadly constant while varying message direction and cumulative dose, substantially narrowing---though not eliminating---non-substantive differences across assigned materials.
+	
+	\subsection*{Sample, Recruitment, and Assignment}
+	Recruitment began with in-app advertisements for a 12-week English-reading course that offered free passage-based practice drawn from foreign sources. The campaign ran in April and May 2025, generated roughly 60,000 unique clicks, and directed interested users to a baseline screening survey in June. In total, 22,317 users began the survey and 12,215 completed it, forming the baseline frame.
+	
+The screening survey measured demographics, study plans, baseline political attitudes, prior foreign-media exposure, and English-learning background. Eligibility was restricted to adult mainland-China users with sufficient English ability to complete article-based tasks and who passed survey-quality checks. Before enrollment, respondents saw in-app consent and privacy disclosures explaining that course participation would involve app-usage logging for research in de-identified form and that some reading materials would be adapted from foreign outlets, including outlets not ordinarily accessible in mainland China. They were not told their future treatment assignment or the experimental contrasts under study.\footnote{SI~\ref{app:research_ethics} includes an illustrative screenshot of the in-app consent and privacy screen and a brief English summary of the partner app's public privacy policy.}
+	
+Completing the baseline survey did not automatically place users into the intervention. Because the study was implemented as a 12-week in-app course, the partner platform built the experimental cohort from the baseline frame using a recruitment rule designed to favor users most likely to sustain English-reading practice. The app first restricted attention to respondents who passed the screening and quality checks, then gave higher recruitment priority to users reporting stronger study-abroad intent while adding substantial random noise within that eligible pool.\footnote{I do not use non-recruited baseline users as controls. They are used only to describe selection into the experimental cohort; causal estimates come from random assignment within the recruited sample.} This process yielded 6,365 recruited participants (52.1\% of the baseline frame) who entered the 12-week intervention. Of these, 5,215 completed the endline survey administered after the course and 2,115 completed the four-week follow-up survey.
+	
+	\begin{figure}[tbp]
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_flowchart.pdf}
+		\caption{Study Flow and Treatment Assignment}
+		\label{fig:study_flow}
+	\end{figure}
+	
+The 6,365 recruited participants were randomly assigned at the individual level to one of six experimental groups. Randomization was blocked on 24 pre-treatment strata formed by crossing gender, macro-region, English proficiency, and baseline nationalism, all measured in the baseline survey. Within each stratum, a backend script allocated participants across the six groups in approximately equal proportions before content delivery began. Assignment indicators were not shown in the user interface and were not disclosed to instructional staff, so participants encountered only the scheduled course materials rather than any visible treatment label. The realized allocation yielded near-equal group sizes (1,060--1,061 per group). Baseline balance is strong across the main covariates, and differential attrition by group is statistically indistinguishable from zero at both post-treatment waves (endline joint \(p=.253\); follow-up joint \(p=.660\)). Figure~\ref{fig:study_flow} summarizes the realized sample flow; SI~\ref{app:sample_treatment_material_diagnostics} reports the corresponding diagnostics.
+	
+	\subsection*{Treatment Groups and Delivery}
+	
+Each participant received 24 content slots over 12 weeks, with two modules released on a common weekly schedule. Slot 1 carried the experimentally varying material; slot 2 always carried a neutral non-China filler.\footnote{Because every group draws on censored foreign outlets, the control condition is a foreign-source benchmark rather than a pure no-exposure benchmark. The design therefore identifies the incremental effect of China-related content and message direction, not the effect of foreign versus domestic media exposure per se.} New modules were pushed to participants' notification boxes at the same time each week and remained open until the end of the study week. Holding slot 2 fixed equalized workload, routine contact with the platform, and generic exposure to censored foreign outlets across groups. Treatment effects are therefore identified from the direction and cumulative frequency of slot-1 content rather than from differential study burden or app contact.
+
+The six groups were Pro-low, Pro-high, Anti-low, Anti-high, Apolitical China, and Non-China control. In the two high-dose groups, slot 1 carried directional China-related political content in all 12 weeks. In the two low-dose groups, slot 1 carried directional political content in six of the 12 study weeks, with those weeks randomized at the participant level without replacement and neutral non-China filler occupying the remaining six slot-1 weeks. The apolitical-China group received neutral China-related content in slot 1 every week, while the control group received neutral non-China content in both slots. This implementation identifies two contrasts: the effect of China-related political direction relative to neutral benchmark content, and within political content, the effect of cumulative directional dose (12 versus 6 slot-1 political assignments). SI~\ref{app:sample_treatment_material_diagnostics} reports the implemented group structure in tabular form.
+
+The finalized materials bank contains 89 readings: 24 pro-China, 24 anti-China, 17 apolitical China-related, and 24 neutral non-China items. Low- and high-dose groups within the same message category drew from the same underlying article pool, so dose contrasts do not mechanically change source type or topic family. All readings came from censored Western-origin outlets and were converted into standardized English-learning modules without within-person repetition. The pro-China pool emphasizes economic performance, technology, and international achievement; the anti-China pool emphasizes censorship, repression, geopolitical conflict, and governance failures; the apolitical China pool focuses on travel, food, and cultural content; and the neutral non-China pool consists of non-China travel, culture, and history pieces. SI~\ref{app:background_information} reports the module-construction workflow and the full set of original article titles; SI~\ref{app:survey_instruments} reports the endline and follow-up survey instruments; SI~\ref{app:sample_treatment_material_diagnostics} reports the group structure, source composition of the bank, content-validity diagnostics, and textual-balance diagnostics.
+	
+After harmonization, non-substantive text characteristics are substantially closer across assigned bundles. Average sentence length and readability are similar across banks, while residual differences in article length are reported as design diagnostics rather than left implicit. Because the program was offered as a free English-learning course, the main participant-side incentive was the opportunity to improve exam-relevant language skills, not any political response or treatment assignment.
+	
+	\subsection*{Measurement and Outcomes}
+	
+		The design measures three linked outcomes: (1) attention and study effort, (2) acceptance, and (3) later demand. First, at the lesson level the app records whether assigned modules are opened and completed, how long respondents spend reading them, whether and how they engage with the accompanying short recap videos, and how well they perform on the associated quiz battery. These behavioral measures show whether respondents engage at all, how much effort they invest once engaged, and how much they absorb, separately from attitudinal approval. In the current analyses, the main behavioral battery emphasizes the fully harmonized reading- and quiz-side measures. Because the same post-lesson evaluation battery is administered after each completed reading, these measures also support placebo comparisons: low-dose groups contribute neutral slot-1 weeks when political content is not assigned, and the apolitical-China and non-China-control groups provide neutral reading benchmarks under the same instrument.
+	
+		Second, the study measures acceptance through both contemporaneous evaluations and post-treatment attitudes. Weekly credibility ratings and ``want more similar'' ratings indicate whether assigned content is treated as believable and worth revisiting. Baseline, endline, and follow-up surveys measure regime support, censorship support, nationalism, the China--West thermometer gap,\footnote{The China--West thermometer gap is the respondent's 0--100 feeling thermometer toward China minus the corresponding 0--100 thermometer toward Western democracies, so larger values indicate a more favorable relative orientation toward China. English renderings of the endline and follow-up items appear in SI~\ref{app:survey_instruments}.} trust in foreign media, and content knowledge. Observing these outcomes before treatment, immediately after treatment, and four weeks later makes it possible to distinguish short-run updating from persistence and decay.
+	
+		Third, the study measures later demand through consequential behavioral choices. At endline, participants completed an incentive-compatible WTP elicitation for additional foreign-news content using a Becker--DeGroot--Marschak (BDM) mechanism. The app recorded the bid, the randomized price draw, and the purchase decision.\footnote{Under the BDM mechanism, respondents state a maximum WTP, the app draws a price at random, and purchase occurs if and only if the bid weakly exceeds the draw, so truthful bidding reveals the respondent's reservation value under standard assumptions \citep{BeckerDeGrootMarschak1964}. In this setting the bid captures how much the respondent values continued access to similar censored foreign-media content after the course ends. The follow-up digest-signup measure is the zero-price analogue: opting in reveals demand when access is free.} At follow-up, participants could opt into a later foreign-news digest, providing a zero-price revealed-preference measure of continued demand. Together, these outcomes distinguish reading from believing and persuasion from later avoidance.
+	
+		For parsimony, the main text centers three standardized summary indices. The legitimacy index, reported at endline and follow-up, summarizes regime support, censorship support, trust in state media, trust in the Communist Party, and trust in society. The foreign-media receptivity-and-demand index, reported at endline, summarizes trust in foreign media, mean weekly credibility, mean weekly desire for similar content, the WTP bid, and the purchase indicator. The identity-backlash index, also reported at endline, summarizes nationalism, defensive-nationalism items, and the reverse of trust in foreign media. These are pre-specified, unit-weighted averages of standardized components chosen to summarize substantively aligned outcomes. SI~\ref{app:survey_instruments} reports the underlying survey items, and SI~\ref{tab:index_construction}--\ref{tab:scale_reliability} report the component mappings and scale diagnostics. The corresponding disaggregated estimates appear in Tables~\ref{tab:main_ancova_t1}--\ref{tab:mechanism_chain}.
+
+		SI~\ref{tab:main_variable_descriptives} reports descriptive statistics for the main variables used in the analysis. SI~\ref{tab:balance} separately reports baseline balance by experimental group.
+	
+	\subsection*{Empirical Strategy and Inference}
+	
+	The empirical strategy matches the design. The primary estimand throughout is the intent-to-treat (ITT) effect of assignment. Because exposure, engagement, and acceptance are themselves outcomes, the main specifications do not condition on post-treatment behavior. Endline and follow-up outcomes are estimated using baseline-adjusted ANCOVA specifications of the form:
+	\[
+	Y_{i1} = \alpha + \beta_1 \text{Pro}_i + \beta_2 \text{Anti}_i + \beta_3 \text{Apol}_i + \gamma Y_{i0} + \delta_b + \varepsilon_i,
+	\]
+	where the omitted category is the non-China control group, \(Y_{i0}\) is the baseline value of the outcome, and \(\delta_b\) are block fixed effects. The main presentation pools low- and high-dose groups within each message category to recover average Pro, Anti, and Apolitical contrasts; group-level contrasts and signed-dose specifications then recover dose intensification. Continuous outcomes are estimated by ordinary least squares (OLS) and binary outcomes by linear probability models, with heteroskedasticity-robust standard errors. Purchase models additionally condition on the randomized BDM price draw.
+	
+	Persistence is estimated in two complementary ways. First, follow-up ANCOVA models recover four-week post-treatment effects on the same outcomes. Second, individual fixed-effects panel models stack baseline, endline, and follow-up observations and interact treatment with survey wave, allowing direct tests of attenuation between endline and follow-up.
+
+	Weekly outcomes are a different part of the design. They form a participant-week panel on the slot-1 lesson assigned in each study week, so the corresponding models are panel regressions rather than post-treatment cross sections. Weekly and multi-wave panel models cluster standard errors at the participant level. The pooled weekly specifications regress participant-week outcomes on treatment-category indicators, week fixed effects, and randomization-block fixed effects. To recover within-course dynamics, I additionally estimate week-specific treatment contrasts and plot them over the 12-week sequence. These weekly models are defined on slot 1, where treatment varies, rather than on the universal slot-2 filler. Because engagement and evaluation are recorded after each reading, the same structure also defines placebo-style diagnostics: neutral slot-1 weeks in the low-dose groups and common neutral fillers across groups can be used to test whether estimated effects are specific to China-related political content rather than to generic weekly participation or survey timing.
+	
+	Inference follows the randomized design. The paper reports randomization-inference \(p\)-values based on within-block permutations that preserve realized treatment counts, Holm adjustments for the primary summary-index family, and attrition-robust checks for endline and follow-up outcomes using inverse-probability weighting and Lee bounds. Because the randomized sample is drawn from a larger baseline frame, I also report descriptive recruitment and selection diagnostics. Identification, however, comes entirely from random assignment within the recruited sample.
+	
+	\subsection*{Ethics}
+	
+The study was reviewed by the University of California, San Diego (UCSD) Institutional Review Board (IRB \#812663). In line with the American Political Science Association's (APSA) Principles and Guidance for Human Subjects Research \citep{APSA2020Principles}, all participants were adult app users who explicitly consented in app before enrollment and acknowledged the privacy and data-handling protocol governing research-linked usage logs. Participation was fully voluntary: users could skip any article, quiz, or survey question, stop opening modules, or exit the course at any point. The intervention was presented as a free English-learning program rather than as a politically labeled activity, and its direct benefit was pedagogical. According to partner pricing materials, the 12-week course carried a listed value of roughly 950 renminbi (RMB) and was designed to improve exam-relevant English skills.
+
+All assigned content was screened for classroom suitability and platform safety before release. Articles judged likely to contain graphic violence, explicit self-harm, illegal instruction, or other unusually risky material were excluded rather than adapted, and even the most politically sensitive modules remained within topics that could be discussed safely in a mainstream Chinese educational setting. Because the study was conducted through a private educational platform rather than a domestic institution with its own human-subjects review channel, I also obtained locally sensitive review from a collaborating education professor at a leading Chinese university regarding the cultural appropriateness of the participant-facing materials.\footnote{In lieu of a second formal review, this locally sensitive consultation focused on the cultural appropriateness of the participant-facing language, the classroom suitability of the adapted materials, and the political sensitivity of the overall pedagogical format. The identity of the collaborating professor and the local appropriateness letter are available upon request.} The intervention also falls within a recognizable class of information-exposure experiments in authoritarian settings \citep{chenyang2019,huang2017misinformation,shen2025forced}. The research team received only de-identified logs keyed to anonymous study IDs, not names, IP addresses, or other direct identifiers; SI~\ref{app:research_ethics} provides the full ethics discussion, an illustrative consent screen, and a brief summary of the partner app's public privacy policy.
+
+	\subsection*{Scope Conditions}
+
+	For external validity, the key question is not whether this sample is demographically representative of all Chinese adults, but whether the treatment-response relationship should travel to other units and contexts that satisfy comparable support conditions \citep{EgamiHartman2023}. Those conditions are demanding. Respondents must have enough English proficiency to work through article-length passages, a practical reason to consume such material repeatedly, and a private digital setting in which censored foreign content can be encountered as part of ordinary life. National survey evidence suggests that this combination is uncommon in China: most adults report little or no usable English ability, and recent circumvention of the Great Firewall remains unusual.\footnote{Source: the China Family Panel Studies (CFPS) 2012, the Chinese General Social Survey (CGSS) 2010--2015, and the China Internet Survey (CIS) 2018. In CFPS 2012, 65.7\% of adults are coded `not applicable' on the English-ability item, and among substantive respondents fewer than 5\% place themselves at levels 4 or 5. In CGSS 2010--2015, roughly 69--74\% place their English listening or speaking ability in the lowest category. In CIS 2018, fewer than one in ten internet users report jumping the Great Firewall in the previous three months, and 7.73\% report regular contact with relatives or friends in Hong Kong, Taiwan, Macao, or foreign countries. For survey design and background, see \citet{XieHu2014CFPS}, \citet{BianLi2012CGSS}, and \citet{StockmannLuo2025CIS}.} The sample therefore lies in a high-exposure tail: participants self-selected into a 12-week English-reading course and were preparing for TOEFL, IELTS, GRE, GMAT, and related exams.
+
+	The design is most informative for settings in which foreign reporting is politically salient but not impossible to encounter: access is partial rather than absent, source cues remain legible, and repeated exposure can be embedded in ordinary activities such as study, work, or platform use. Comparable conditions appear in other authoritarian settings where governments constrain but do not eliminate alternative digital channels. In Russia, digital media have repeatedly served as channels for opposition communication despite tightening state control; in Saudi Arabia, online dissent has persisted on Twitter despite extensive surveillance and repression; and in Venezuela, exile has sustained oppositional speech through online networks even under severe repression \citep{GainousWagnerZiegler2018,PanSiegel2020APSR,EsbergSiegel2023APSR}. The findings therefore generalize most directly to higher-exposure subpopulations in China and to comparable groups in other authoritarian settings, including students, professionals, and diaspora-connected users who can privately encounter foreign reporting through routine channels. They should not be interpreted as the average effect of censored foreign media on all Chinese citizens, still less as a universal estimate for authoritarian publics with very different language barriers, media ecologies, or source reputations. The design identifies the political effect of repeated exposure to censored Western-origin reporting among users for whom such exposure is realistically available and behaviorally meaningful.
+	
+	\section*{Findings}
+	
+	\subsection*{Main Effects on Legitimacy, Receptivity, and Backlash}
+	
+	Table~\ref{tab:summary_indices} reports the main summary-index results. Pro-China foreign coverage increases both legitimacy and subsequent receptivity to foreign media, while anti-China coverage reduces legitimacy and increases identity backlash. Specifically, pooled pro-China treatment raises the legitimacy index at endline by \(0.075\) standard deviations and the foreign-media receptivity and demand index by \(0.223\) standard deviations. Pooled anti-China treatment reduces the legitimacy index by \(0.033\) standard deviations and increases the backlash index by \(0.062\) standard deviations. These results survive stricter inference based on randomization inference and Holm correction.
+	
+	\input{tables/tab_summary_indices.tex}
+	
+	The group-level outcome table shows the same directional pattern in the component outcomes. Relative to the non-China control group, pro-China content substantially increases regime support, and the high-dose pro-China group produces the strongest positive effect. Anti-China content lowers regime support in both dose conditions, with the high-dose anti-China group generating the largest negative effect. At the same time, anti-China exposure increases nationalism rather than uniformly pushing respondents toward pro-Western views. Foreign criticism can thus reduce regime support without generating straightforward liberalization.
+	
+	\input{tables/tab_main_ancova_t1.tex}
+	
+	\subsection*{Persistence Is Asymmetric}
+	
+	The follow-up results show that pro-China and anti-China messages do not decay in the same way. Table~\ref{tab:persistence_panel_fe} reports fixed-effects panel estimates that compare endline and follow-up treatment effects within respondents. Pooled pro-China treatment increases regime support by \(0.270\) at endline and still has a positive follow-up effect of \(0.110\), with attenuation but not disappearance. By contrast, pooled anti-China treatment reduces regime support by \(0.203\) at endline but has essentially no follow-up effect. The endline-to-follow-up change is statistically significant, indicating sharper decay for anti-China treatment.
+	
+	\input{tables/tab_persistence_panel_fe.tex}
+	
+	This asymmetry bears directly on the theory. If foreign media merely operated through temporary attention shocks, one might expect both pro- and anti-China effects to wash out at similar rates. Instead, positive foreign validation of China appears to generate more durable legitimating effects than negative foreign criticism generates durable delegitimating effects.
+	
+	Attrition sensitivity strengthens this conclusion rather than undermining it. Lee bounds, inverse-probability-weighted ANCOVA, and balanced-panel fixed-effects models all indicate that the follow-up pro-China legitimacy effect remains positive, while the anti-China follow-up legitimacy effect remains close to zero.
+	
+	\subsection*{Mechanisms: Attention, Acceptance, and Demand}
+	
+	The weekly and post-treatment behavioral data show that persuasion is not reducible to exposure alone. Table~\ref{tab:mechanism_chain} reports a mechanism chain spanning weekly engagement, weekly acceptance, and later demand. Both pro-China and anti-China political content increase total reading time by roughly 14 minutes over the study period relative to control, while slot-level compliance moves little. The main behavioral response therefore appears in how much time respondents devote once they engage, rather than in the simple decision to open assigned content. In other words, anti-China content does not simply cause avoidance at the attention stage.
+	
+	The divergence emerges on acceptance and demand outcomes. Pro-China treatment increases weekly credibility ratings by \(2.900\) points and weekly demand for similar content by \(0.583\) points, while anti-China treatment produces neither effect. The downstream behavioral demand outcomes are even sharper: pro-China treatment raises willingness to pay by nearly 5 RMB and increases the purchase indicator by 11.7 percentage points, whereas anti-China treatment lowers willingness to pay by 2.8 RMB and lowers the purchase indicator by 5.1 percentage points.
+	
+	\input{tables/tab_mechanism_chain.tex}
+	
+	The weekly panel estimates reinforce the same interpretation. Pro-China content consistently increases credibility and interest. Anti-China content increases interest and reading time, but it reduces the desire to receive more similar content. Figure~\ref{fig:weekly_effects} shows that the pro-China credibility premium is visible across the weekly sequence, while anti-China content becomes especially negative on the ``want more similar'' dimension later in the intervention.
+	
+	\input{tables/tab_weekly_panel_slot1.tex}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_weekly_treatment_effects.pdf}
+		\caption{Weekly Treatment Effects in Slot 1}
+		\label{fig:weekly_effects}
+	\end{figure}
+	
+	These results support a selective-acceptance interpretation rather than a selective-avoidance interpretation. Participants do read politically charged foreign content. The difference is that pro-China messages are more likely to be accepted as credible and converted into continued demand for foreign news, whereas anti-China messages attract attention without generating sustained appetite for more of the same source.
+	
+	\subsection*{Topic Heterogeneity}
+	
+	Treatment heterogeneity is not only about respondents. It is also about the type of foreign story participants see. Article-level topic diagnostics show that anti-China content is most negative when it focuses on repression, censorship, and broad social stress, while pro-China content is most positive when it emphasizes green development, technology, and macroeconomic performance. Weekly topic heterogeneity shows a parallel behavioral pattern: pro-China green-development and technology stories generate especially strong credibility and interest responses, while anti-China economy and property stories are more likely to depress willingness to consume more similar content.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_topic_tone_heterogeneity.pdf}
+		\caption{Article-Level China-Valence by Topic Family}
+		\label{fig:topic_tone}
+	\end{figure}
+	
+	\input{tables/tab_weekly_topic_heterogeneity.tex}
+	
+	This heterogeneity shows why ``foreign media'' is too blunt a category. The political consequences of foreign reporting depend on whether foreign outlets criticize repression, criticize economic governance, praise policy performance, or cover China in nonpolitical cultural terms. Different topics produce different blends of attention, persuasion, and backlash.
+	
+	\subsection*{Scope Conditions}
+	
+	The internal validity of the design is strong, but the target population is narrow. The randomized sample consists of young Chinese users studying English for test preparation, many of whom are already more internationally oriented than the population at large. The paper should not be read as estimating the average effect of all foreign media on all Chinese citizens. Instead, it identifies the effects of repeated exposure to content from censored Anglophone Western outlets among a subpopulation that is especially likely to encounter foreign-language reporting in everyday life.
+	
+	This scope condition does not alter the main implication. If even this foreign-oriented population does not respond to anti-China coverage from these censored Western-origin outlets in a uniformly liberalizing way, then simple access-based models of authoritarian persuasion are incomplete. The evidence instead points to a more conditional process in which message direction, credibility, and repeated demand jointly determine political influence.
+	
+	\section*{Conclusion}
+	
+	Foreign media under authoritarianism do not produce a single political effect. In this study, content from censored Western-origin outlets that framed China positively increased regime legitimacy and trust in foreign media, and some of those effects persisted after the intervention ended. Content from the same class of outlets that framed China negatively reduced regime support in the short run, but it also generated identity backlash and did not translate into sustained demand for more foreign news. The contrast is clearest in the behavioral data: both kinds of political content hold attention, but only pro-China content is systematically converted into credibility and continued demand.
+	
+	The implication is that foreign source identity is not enough to predict persuasion. What matters is whether the foreign message validates or threatens the audience, whether it is repeated often enough to shape expectations, and whether recipients come to view the source as worth returning to. In authoritarian settings, foreign media can erode regime legitimacy, but they can also provide international legitimation. Understanding that dual possibility is essential for both theories of information control and debates about the political consequences of censorship circumvention.
+
+	A limited policy implication follows. For those concerned with improving media environments under authoritarian rule, the results suggest that widening technical access to outside information may be necessary but not sufficient. Repeated, low-friction exposure to credible outside reporting delivered in ordinary settings of learning and everyday media use may be harder for information-control systems to neutralize. At the same time, the findings caution against a simple access doctrine: if outside coverage is easily read as hostile or socially costly to internalize, greater exposure may produce attention without persuasion and may even strengthen avoidance. Efforts to counter authoritarian information closure are therefore most likely to matter when they expand access while also lowering the practical and interpretive barriers to acceptance.
+
+	More broadly, the study suggests that the politics of foreign information should be studied as a dynamic process that links exposure, credibility, and demand. Future work can extend this approach by testing how outlet labels, peer discussion, and algorithmic recommendation systems interact with message direction. In authoritarian information environments, what foreign media say matters at least as much as the fact that they are foreign.
+	
+	\clearpage
+	\begingroup
+	\singlespacing
+	\setlength\bibitemsep{0pt}
+	\printbibliography
+	\endgroup
+	
+	\newpage
+	\begin{refsection}
+		
+		\appendix
+		\section*{Supplemental Information}
+		\onehalfspacing
+		\startcontents[sections]
+		\printcontents[sections]{l}{1}{\setcounter{tocdepth}{3}}
+		\thispagestyle{empty}
+		
+		\newpage
+		\singlespacing
+		\hypersetup{pageanchor=false}
+		\renewcommand{\thepage}{SI-\arabic{page}}
+		\setcounter{page}{1}
+		\setcounter{figure}{0}
+		\setcounter{table}{0}
+		\setcounter{footnote}{0}
+		\counterwithin{figure}{section}
+		\counterwithin{table}{section}
+		\counterwithin{equation}{section}
+		
+		\section{Formal Derivations for the Model}
+		\label{app:formal_proofs}
+		
+		This SI derives the comparative statics used in the theory section. During the intervention, respondent \(i\) is assigned one focal item in each period \(t=0,\dots,T-1\). Before opening, the respondent observes a preview
+		\[
+		h_{it}=(c_{it},\tilde v_{it}),
+		\]
+		where \(c_{it}\in\{0,1\}\) indicates whether the item concerns the country under discussion and \(\tilde v_{it}\in\{-1,0,+1\}\) is a reduced-form pre-opening cue suggesting that the item appears unfavorable, neutral, or favorable toward that country. The cue need not be a literal treatment label or a perfect signal of realized message direction; it summarizes what can be inferred before opening from titles, thumbnails, or short descriptive text. After opening, the respondent observes full message direction \(v_{it}\in\{-1,0,+1\}\). Let
+		\[
+		\mu_{it}=\Pr(s=I)
+		\]
+		denote the prior that the source is independent rather than hostile.
+		
+		For content about the country under discussion (\(c_{it}=1\)), let
+		\[
+		\ell_j(v)=\Pr(v_{it}=v\mid s=j,c_{it}=1), \qquad j\in\{I,H\},
+		\]
+		and define posterior source credibility
+		\[
+		q_{it}(v_{it})=\Pr(s=I\mid v_{it},c_{it}=1)
+		=\frac{\mu_{it}\ell_I(v_{it})}{\mu_{it}\ell_I(v_{it})+(1-\mu_{it})\ell_H(v_{it})}.
+		\]
+		
+		The opening rule is
+		\[
+		r_{it}=\mathbf{1}\left\{\alpha c_{it}+\sigma \mathbf{1}\{\tilde v_{it}\neq 0\}+\xi \bar q_{it}(h_{it})-c_i^R\ge 0\right\},
+		\]
+		where \(\alpha,\sigma,\xi>0\) and
+		\[
+		\bar q_{it}(h_{it})=
+		\begin{cases}
+			\sum_{v\in\{-1,0,+1\}} q_{it}(v)\Pr(v_{it}=v\mid h_{it}), & \text{if } c_{it}=1,\\
+			0, & \text{if } c_{it}=0.
+		\end{cases}
+		\]
+		
+		Conditional on opening, acceptance is
+		\[
+		b_{it}=\mathbf{1}\{U_{it}^A\ge 0\},
+		\]
+		with
+		\[
+		U_{it}^{A}=\lambda(v_{it})q_{it}(v_{it})-\chi-\rho^{-}p_i\mathbf{1}\{v_{it}=-1\}-\rho^{+}(1-p_i)\mathbf{1}\{v_{it}=+1\}-\tau n_{it}\mathbf{1}\{v_{it}=-1\}.
+		\]
+		Realized acceptance is
+		\[
+		a_{it}=r_{it}b_{it}.
+		\]
+		
+		The within-intervention laws of motion are
+		\[
+		L_{i,t+1}=L_{it}+\beta_{+}a_{it}\mathbf{1}\{v_{it}=+1\}-\beta_{-}a_{it}\mathbf{1}\{v_{it}=-1\},
+		\]
+		\[
+		n_{i,t+1}=n_{it}+\eta r_{it}(1-b_{it})\mathbf{1}\{v_{it}=-1\},
+		\]
+		\[
+		\mu_{i,t+1}=(1-\omega r_{it})\mu_{it}+\omega r_{it}q_{it}(v_{it}),
+		\qquad \omega\in(0,1],
+		\]
+		and
+		\[
+		D_{i,t+1}=D_{it}+\phi a_{it}+\psi(\mu_{i,t+1}-\mu_{it})-\kappa r_{it}(1-b_{it}),
+		\]
+		with all parameters strictly positive.
+		
+		After the intervention ends at \(T\), assigned exposure stops. In each post-treatment period \(t\ge T\), the respondent may voluntarily sample similar foreign content with probability \(\pi(D_{it})\), where \(\pi:\mathbb{R}\to[0,1]\) is weakly increasing and differentiable with \(\pi'(D)\ge 0\). Let \(g\in\{-1,0,+1\}\) denote the direction of the similar content stream the respondent would seek out. Expected post-treatment legitimacy then follows
+		\[
+		\mathbb{E}[L_{i,t+1}\mid \mathcal F_{it},g]=(1-\delta)L_{it}+\pi(D_{it})\,m_g(\mu_{it},n_{it},p_i),
+		\qquad \delta\in(0,1),
+		\]
+		where \(\mathcal F_{it}\) is the period-\(t\) information set and
+		\[
+		m_{+1}(\mu_{it},p_i)=\beta_+\mathbf{1}\{\lambda(+1)q_{it}(+1)-\chi-\rho^+(1-p_i)\ge 0\},
+		\]
+		\[
+		m_{-1}(\mu_{it},n_{it},p_i)=-\beta_-\mathbf{1}\{\lambda(-1)q_{it}(-1)-\chi-\rho^-p_i-\tau n_{it}\ge 0\},
+		\]
+		and
+		\[
+		m_0(\mu_{it})=0.
+		\]
+		This continuation step captures the claim that treatment effects persist only to the extent that prior exposure leaves respondents willing to seek and accept similar content later on.
+		
+		\begin{assumption}[Positive Support]
+			\label{ass:positive_support_revised}
+			For each \(v\in\{-1,0,+1\}\), \(\ell_I(v)>0\) and \(\ell_H(v)>0\).
+		\end{assumption}
+		
+		\begin{assumption}[Diagnostic Valence]
+			\label{ass:diagnostic_valence_revised}
+			For focal-polity-related content,
+			\[
+			\frac{\ell_I(+1)}{\ell_H(+1)}>\frac{\ell_I(-1)}{\ell_H(-1)}.
+			\]
+			For the stronger comparative statics below, assume also
+			\[
+			\ell_I(+1)>\ell_H(+1)
+			\qquad\text{and}\qquad
+			\ell_I(-1)<\ell_H(-1).
+			\]
+		\end{assumption}
+		
+		\begin{proposition}[Posterior credibility is increasing in the prior]
+			\label{prop:q_monotone}
+			For any fixed message direction \(v\) with positive support,
+			\[
+			\frac{\partial q(v;\mu)}{\partial \mu}
+			=
+			\frac{\ell_I(v)\ell_H(v)}
+			{\left[\mu \ell_I(v)+(1-\mu)\ell_H(v)\right]^2}>0.
+			\]
+			Hence posterior credibility is strictly increasing in the prior \(\mu\).
+		\end{proposition}
+		
+		\begin{proof}
+			Differentiate
+			\[
+			q(v;\mu)=\frac{\mu \ell_I(v)}{\mu \ell_I(v)+(1-\mu)\ell_H(v)}
+			\]
+			with respect to \(\mu\). Using the quotient rule,
+			\[
+			\frac{\partial q(v;\mu)}{\partial \mu}
+			=
+			\frac{\ell_I(v)\big[\mu \ell_I(v)+(1-\mu)\ell_H(v)\big]-\mu \ell_I(v)\big[\ell_I(v)-\ell_H(v)\big]}
+			{\left[\mu \ell_I(v)+(1-\mu)\ell_H(v)\right]^2}.
+			\]
+			The numerator simplifies to \(\ell_I(v)\ell_H(v)\), which is strictly positive by Assumption \ref{ass:positive_support_revised}. The denominator is also strictly positive. The derivative is therefore strictly positive.
+		\end{proof}
+		
+		\begin{proposition}[Posterior ordering and diagnostic asymmetry]
+			\label{prop:posterior_ordering_revised}
+			Under Assumptions \ref{ass:positive_support_revised} and \ref{ass:diagnostic_valence_revised},
+			\[
+			q(+1;\mu)>q(-1;\mu)
+			\qquad\text{for all } \mu\in(0,1).
+			\]
+			Under the stronger sign restrictions in Assumption \ref{ass:diagnostic_valence_revised},
+			\[
+			q(+1;\mu)>\mu>q(-1;\mu).
+			\]
+		\end{proposition}
+		
+		\begin{proof}
+			Write posterior odds as
+			\[
+			\frac{q(v;\mu)}{1-q(v;\mu)}
+			=
+			\frac{\mu}{1-\mu}\cdot \frac{\ell_I(v)}{\ell_H(v)}.
+			\]
+			Because \(\mu/(1-\mu)>0\), the ordering of posterior odds across message directions is determined by the likelihood ratio \(\ell_I(v)/\ell_H(v)\). Assumption \ref{ass:diagnostic_valence_revised} implies
+			\[
+			\frac{q(+1;\mu)}{1-q(+1;\mu)}
+			>
+			\frac{q(-1;\mu)}{1-q(-1;\mu)}.
+			\]
+			Since the map \(x\mapsto x/(1+x)\) is strictly increasing on \((0,\infty)\), it follows that
+			\[
+			q(+1;\mu)>q(-1;\mu).
+			\]
+			
+			For the second claim, compute
+			\[
+			q(v;\mu)-\mu
+			=
+			\frac{\mu(1-\mu)\big(\ell_I(v)-\ell_H(v)\big)}
+			{\mu \ell_I(v)+(1-\mu)\ell_H(v)}.
+			\]
+			The denominator is strictly positive by Assumption \ref{ass:positive_support_revised}. Hence the sign of \(q(v;\mu)-\mu\) is the sign of \(\ell_I(v)-\ell_H(v)\). If \(\ell_I(+1)>\ell_H(+1)\), then \(q(+1;\mu)>\mu\). If \(\ell_I(-1)<\ell_H(-1)\), then \(q(-1;\mu)<\mu\).
+		\end{proof}
+		
+		\begin{proposition}[Monotonicity of the opening rule]
+			\label{prop:opening_monotonicity_revised}
+			The opening rule \(r_{it}\) is weakly increasing in whether the item concerns the country under discussion (\(c_{it}\)), in the indicator for directional preview cues \(\mathbf{1}\{\tilde v_{it}\neq 0\}\), and in expected posterior credibility \(\bar q_{it}(h_{it})\), and weakly decreasing in opening cost \(c_i^R\).
+		\end{proposition}
+		
+		\begin{proof}
+			Define opening utility
+			\[
+			U_{it}^{R}=\alpha c_{it}+\sigma \mathbf{1}\{\tilde v_{it}\neq 0\}+\xi \bar q_{it}(h_{it})-c_i^R.
+			\]
+			Because \(\alpha,\sigma,\xi>0\), \(U_{it}^{R}\) is weakly increasing in \(c_{it}\), \(\mathbf{1}\{\tilde v_{it}\neq 0\}\), and \(\bar q_{it}(h_{it})\), and strictly decreasing in \(c_i^R\). Since \(r_{it}=\mathbf{1}\{U_{it}^{R}\ge 0\}\), the result follows.
+		\end{proof}
+		
+		\begin{proposition}[Acceptance cutoffs]
+			\label{prop:acceptance_cutoffs_revised}
+			Conditional on exposure (\(r_{it}=1\)), acceptance \(b_{it}\) has the following form.
+			
+			\begin{enumerate}
+				\item For unfavorable content (\(v_{it}=-1\)),
+				\[
+				b_{it}=1
+				\iff
+				p_i\le p^{-}(\mu_{it},n_{it})
+				\equiv
+				\frac{\lambda(-1)q_{it}(-1)-\chi-\tau n_{it}}{\rho^-}.
+				\]
+				Thus acceptance is weakly increasing in \(\mu_{it}\) and weakly decreasing in \(p_i\) and \(n_{it}\).
+				
+				\item For favorable content (\(v_{it}=+1\)),
+				\[
+				b_{it}=1
+				\iff
+				p_i\ge p^{+}(\mu_{it})
+				\equiv
+				1-\frac{\lambda(+1)q_{it}(+1)-\chi}{\rho^+}.
+				\]
+				Thus acceptance is weakly increasing in \(\mu_{it}\) and weakly increasing in \(p_i\).
+				
+				\item For neutral content (\(v_{it}=0\)),
+				\[
+				b_{it}=1
+				\iff
+				\lambda(0)q_{it}(0)-\chi\ge 0.
+				\]
+				If \(\lambda(0)>0\), this is equivalent to
+				\[
+				q_{it}(0)\ge \frac{\chi}{\lambda(0)}.
+				\]
+				Hence acceptance of neutral content does not depend on \(p_i\) or \(n_{it}\), and is weakly increasing in \(\mu_{it}\).
+			\end{enumerate}
+			
+			Cutoffs are understood after truncation to the feasible unit interval.
+		\end{proposition}
+		
+		\begin{proof}
+			For \(v_{it}=-1\),
+			\[
+			U_{it}^{A}=\lambda(-1)q_{it}(-1)-\chi-\rho^-p_i-\tau n_{it}.
+			\]
+			Therefore
+			\[
+			b_{it}=1
+			\iff
+			\lambda(-1)q_{it}(-1)-\chi-\rho^-p_i-\tau n_{it}\ge 0
+			\iff
+			p_i\le \frac{\lambda(-1)q_{it}(-1)-\chi-\tau n_{it}}{\rho^-}.
+			\]
+			By Proposition \ref{prop:q_monotone}, \(q_{it}(-1)\) is increasing in \(\mu_{it}\), so the cutoff is increasing in \(\mu_{it}\). It is decreasing in \(n_{it}\), and acceptance is decreasing in \(p_i\).
+			
+			For \(v_{it}=+1\),
+			\[
+			U_{it}^{A}=\lambda(+1)q_{it}(+1)-\chi-\rho^+(1-p_i).
+			\]
+			Hence
+			\[
+			b_{it}=1
+			\iff
+			\lambda(+1)q_{it}(+1)-\chi-\rho^+(1-p_i)\ge 0
+			\iff
+			p_i\ge 1-\frac{\lambda(+1)q_{it}(+1)-\chi}{\rho^+}.
+			\]
+			Again by Proposition \ref{prop:q_monotone}, the cutoff falls with \(\mu_{it}\), so the acceptance set expands with \(\mu_{it}\). Acceptance is also increasing in \(p_i\).
+			
+			For \(v_{it}=0\),
+			\[
+			U_{it}^{A}=\lambda(0)q_{it}(0)-\chi.
+			\]
+			This does not depend on \(p_i\) or \(n_{it}\). If \(\lambda(0)>0\), acceptance is equivalent to \(q_{it}(0)\ge \chi/\lambda(0)\), which is weakly easier to satisfy as \(\mu_{it}\) rises because \(q_{it}(0)\) is increasing in \(\mu_{it}\).
+		\end{proof}
+		
+		\begin{corollary}[Polarization through differential acceptance]
+			\label{cor:polarization_revised}
+			Suppose two respondents \(A\) and \(B\) share the same \((\mu,n)\) and face the same opened message, but \(p_A>p_B\).
+			
+			If
+			\[
+			p_B<p^{-}(\mu,n)<p_A,
+			\]
+			then unfavorable content is accepted by \(B\) but rejected by \(A\).
+			
+			If
+			\[
+			p_B<p^{+}(\mu)<p_A,
+			\]
+			then favorable content is rejected by \(B\) but accepted by \(A\).
+			
+			In either case, exposure widens the gap in political attitudes between the two respondents.
+		\end{corollary}
+		
+		\begin{proof}
+			Both results follow directly from Proposition \ref{prop:acceptance_cutoffs_revised}. When one respondent accepts a directional message and the other does not, the law of motion for \(L_{it}\) implies immediate divergence in legitimacy. Under rejected unfavorable exposure, the law of motion for \(n_{it}\) implies additional divergence through backlash.
+		\end{proof}
+		
+		\begin{proposition}[Rejected unfavorable exposure generates backlash and lowers demand]
+			\label{prop:backlash_demand_revised}
+			Under the stronger sign restrictions in Assumption \ref{ass:diagnostic_valence_revised}:
+			
+			\begin{enumerate}
+				\item If \(r_t=1\), \(b_t=0\), and \(v_t=-1\), then
+				\[
+				n_{t+1}-n_t=\eta>0
+				\]
+				and
+				\[
+				D_{t+1}-D_t
+				=
+				\psi\big(\mu_{t+1}-\mu_t\big)-\kappa
+				=
+				\psi\omega\big(q_t(-1)-\mu_t\big)-\kappa<0.
+				\]
+				
+				\item If \(r_t=1\), \(b_t=1\), and \(v_t=+1\), then
+				\[
+				\mu_{t+1}-\mu_t=\omega\big(q_t(+1)-\mu_t\big)>0
+				\]
+				and
+				\[
+				D_{t+1}-D_t
+				=
+				\phi+\psi\omega\big(q_t(+1)-\mu_t\big)>0.
+				\]
+			\end{enumerate}
+		\end{proposition}
+		
+		\begin{proof}
+			For part (1), if \(r_t=1\), \(b_t=0\), and \(v_t=-1\), the law of motion for \(n_t\) gives
+			\[
+			n_{t+1}-n_t=\eta r_t(1-b_t)\mathbf{1}\{v_t=-1\}=\eta>0.
+			\]
+			For source trust,
+			\[
+			\mu_{t+1}-\mu_t
+			=
+			\omega\big(q_t(-1)-\mu_t\big).
+			\]
+			By Proposition \ref{prop:posterior_ordering_revised}, \(q_t(-1)<\mu_t\), so this term is negative. Demand changes by
+			\[
+			D_{t+1}-D_t
+			=
+			\phi a_t+\psi(\mu_{t+1}-\mu_t)-\kappa r_t(1-b_t).
+			\]
+			Because \(a_t=r_tb_t=0\) here, this becomes
+			\[
+			D_{t+1}-D_t=\psi\omega\big(q_t(-1)-\mu_t\big)-\kappa<0.
+			\]
+			
+			For part (2), if \(r_t=1\), \(b_t=1\), and \(v_t=+1\), then
+			\[
+			\mu_{t+1}-\mu_t=\omega\big(q_t(+1)-\mu_t\big).
+			\]
+			By Proposition \ref{prop:posterior_ordering_revised}, \(q_t(+1)>\mu_t\), so the trust term is positive. Since \(a_t=r_tb_t=1\), demand changes by
+			\[
+			D_{t+1}-D_t
+			=
+			\phi+\psi\omega\big(q_t(+1)-\mu_t\big)>0.
+			\]
+		\end{proof}
+		
+		\begin{proposition}[Dose decomposition]
+			\label{prop:dose_decomposition_revised}
+			After \(T\) intervention periods,
+			\[
+			L_T
+			=
+			L_0
+			+
+			\beta_+ \sum_{t=0}^{T-1} a_t\mathbf{1}\{v_t=+1\}
+			-
+			\beta_- \sum_{t=0}^{T-1} a_t\mathbf{1}\{v_t=-1\},
+			\]
+			\[
+			n_T
+			=
+			n_0
+			+
+			\eta \sum_{t=0}^{T-1} r_t(1-b_t)\mathbf{1}\{v_t=-1\},
+			\]
+			\[
+			\mu_T
+			=
+			\mu_0\prod_{t=0}^{T-1}(1-\omega r_t)
+			+
+			\sum_{t=0}^{T-1}
+			\left[
+			\omega r_t q_t(v_t)\prod_{s=t+1}^{T-1}(1-\omega r_s)
+			\right],
+			\]
+			and
+			\[
+			D_T
+			=
+			D_0
+			+
+			\phi \sum_{t=0}^{T-1} a_t
+			+
+			\psi(\mu_T-\mu_0)
+			-
+			\kappa \sum_{t=0}^{T-1} r_t(1-b_t).
+			\]
+			Consequently, additional dose affects legitimacy only through accepted exposure, raises backlash only through rejected unfavorable exposure, and affects later demand through the balance of accepted exposure, rejected exposure, and accumulated source trust.
+		\end{proposition}
+		
+		\begin{proof}
+			The expressions for \(L_T\) and \(n_T\) follow by iterating their one-period laws of motion and summing from \(t=0\) to \(T-1\).
+			
+			For \(\mu_T\), repeatedly substitute
+			\[
+			\mu_{t+1}=(1-\omega r_t)\mu_t+\omega r_t q_t(v_t).
+			\]
+			Forward iteration yields
+			\[
+			\mu_T
+			=
+			\mu_0\prod_{t=0}^{T-1}(1-\omega r_t)
+			+
+			\sum_{t=0}^{T-1}
+			\left[
+			\omega r_t q_t(v_t)\prod_{s=t+1}^{T-1}(1-\omega r_s)
+			\right].
+			\]
+			
+			For \(D_T\), sum the law of motion:
+			\[
+			D_T-D_0
+			=
+			\sum_{t=0}^{T-1}\phi a_t
+			+
+			\sum_{t=0}^{T-1}\psi(\mu_{t+1}-\mu_t)
+			-
+			\sum_{t=0}^{T-1}\kappa r_t(1-b_t).
+			\]
+			The middle term telescopes:
+			\[
+			\sum_{t=0}^{T-1}(\mu_{t+1}-\mu_t)=\mu_T-\mu_0.
+			\]
+			Substituting gives the stated expression.
+		\end{proof}
+		
+		\begin{proposition}[Post-treatment continuation and persistence]
+			\label{prop:persistence_revised}
+			Fix a post-treatment content class \(g\in\{-1,0,+1\}\). Then expected follow-up legitimacy satisfies
+			\[
+			\mathbb{E}[L_{t+1}\mid \mathcal F_t,g]=(1-\delta)L_t+\pi(D_t)\,m_g(\mu_t,n_t,p_i),
+			\qquad t\ge T.
+			\]
+			Moreover:
+			
+			\begin{enumerate}
+				\item For any fixed \(g\), the absolute size of the continuation term \(\pi(D_t)m_g(\mu_t,n_t,p_i)\) is weakly increasing in \(D_t\).
+				
+				\item For favorable continuation (\(g=+1\)), the continuation term is weakly increasing in \(\mu_t\).
+				
+				\item For unfavorable continuation (\(g=-1\)), the absolute size of the negative continuation term is weakly increasing in \(\mu_t\) and weakly decreasing in \(n_t\).
+			\end{enumerate}
+			
+			Hence, under this continuation structure, histories that raise both \(D_T\) and \(\mu_T\) are more likely to persist after treatment ends, while histories that lower \(D_T\) or raise \(n_T\) are more likely to decay faster.
+		\end{proposition}
+		
+		\begin{proof}
+			The post-treatment law of motion is
+			\[
+			\mathbb{E}[L_{t+1}\mid \mathcal F_t,g]=(1-\delta)L_t+\pi(D_t)\,m_g(\mu_t,n_t,p_i).
+			\]
+			Because \(\delta\in(0,1)\), the first term captures mechanical decay of existing treatment effects. Any persistence beyond that decay must come through the second term.
+			
+			Part (1) follows immediately from \(\pi'(D_t)\ge 0\): holding \(g\) fixed, a higher demand state weakly increases the probability of voluntary re-exposure to similar content and therefore weakly increases the absolute size of the continuation term whenever \(m_g(\cdot)\neq 0\).
+			
+			For part (2), when \(g=+1\),
+			\[
+			m_{+1}(\mu_t,p_i)=\beta_+\mathbf{1}\{\lambda(+1)q_t(+1)-\chi-\rho^+(1-p_i)\ge 0\}.
+			\]
+			By Proposition \ref{prop:q_monotone}, \(q_t(+1)\) is increasing in \(\mu_t\), so the acceptance condition is weakly easier to satisfy as \(\mu_t\) rises. Hence \(m_{+1}\) is weakly increasing in \(\mu_t\).
+			
+			For part (3), when \(g=-1\),
+			\[
+			m_{-1}(\mu_t,n_t,p_i)=-\beta_-\mathbf{1}\{\lambda(-1)q_t(-1)-\chi-\rho^-p_i-\tau n_t\ge 0\}.
+			\]
+			Again by Proposition \ref{prop:q_monotone}, \(q_t(-1)\) is increasing in \(\mu_t\), so higher \(\mu_t\) weakly expands the set of states in which unfavorable continuation is accepted. By contrast, higher \(n_t\) makes the acceptance condition harder to satisfy. Because \(m_{-1}\le 0\), this means the continuation term becomes weakly more negative as \(\mu_t\) rises and weakly less negative as \(n_t\) rises. Equivalently, the absolute size of continued negative updating is weakly increasing in \(\mu_t\) and weakly decreasing in \(n_t\).
+			
+			The final claim follows directly. Histories that raise \(D_T\) and \(\mu_T\) increase both the chance of voluntary continuation and the chance that continued exposure is accepted. Histories that lower \(D_T\) or raise \(n_T\) do the opposite.
+		\end{proof}
+		
+		Propositions \ref{prop:q_monotone}--\ref{prop:persistence_revised} formalize the logic used in the main text. Directional foreign content about the country under discussion should attract attention, but persuasion depends on whether respondents treat it as informative after exposure. Favorable coverage is more diagnostic of source independence, more likely to clear the acceptance threshold, and more likely to raise both source trust and later demand. Unfavorable coverage can reduce legitimacy, but it is also more likely to be rejected, converted into backlash, and followed by lower demand for similar content. That difference is what makes favorable effects more likely to persist after treatment ends.
+		
+		\section{Background Information}
+		\label{app:background_information}
+
+		\subsection*{Illustrative Module Construction}
+		\label{app:module_construction}
+
+Table~\ref{tab:module_construction} shows how a source article was converted into the app's standardized learning format. It uses a non-China control article from \textit{The Economist}, ``The lessons from the brazen heist at the Louvre,'' to illustrate the workflow from source selection to abridgment, vocabulary and syntax annotation, short video recap, quiz design, and weekly evaluation. Before adaptation, candidate articles were screened for topical fit, factual density, classroom suitability, and basic platform-safety concerns. Items judged likely to contain unlawful material, graphic harm, explicit self-harm, illegal instruction, or other content that could violate platform rules or create reader-safety risks were excluded rather than lightly edited into the bank.
+
+\input{tables/tab_module_construction.tex}
+
+Figures~\ref{fig:module_source_page}--\ref{fig:module_video} illustrate the same workflow visually. Figures~\ref{fig:module_source_page} and \ref{fig:module_reading} place the source webpage next to the app-adapted reading module, and Figure~\ref{fig:module_video} shows the instructor's video-recap frame. Table~\ref{tab:illustrative_quiz} shows how the same lesson was converted into the app's five-part quiz battery: reading comprehension, grammar / syntax, vocabulary, listening, and sentence accumulation. In the teaching-data structure, each subtype was standardized to a 0--20 scale and summed to a 0--100 total. After the quiz, users completed the weekly evaluations of interest, credibility, and desire for similar content described in the main text.
+
+\noindent
+\begin{minipage}[t]{0.67\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/louvre_source_webpage.png}
+	\captionsetup{hypcap=false}
+	\captionof{figure}{Source-Article Webpage}
+	\label{fig:module_source_page}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.25\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/louvre_app_reading_module.png}
+	\captionsetup{hypcap=false}
+	\captionof{figure}{App-Adapted Reading Module}
+	\label{fig:module_reading}
+\end{minipage}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.78\textwidth]{figures/louvre_video_recap_frame.png}
+	\caption{Instructor Video Recap Frame}
+	\label{fig:module_video}
+\end{figure}
+
+\input{tables/tab_illustrative_quiz.tex}
+
+The full set of original source titles used to construct the finalized reading-materials bank is listed below in compact form and is also available in machine-readable form in the replication materials.
+
+\input{tables/tab_article_inventory.tex}
+
+		\section{Survey Instruments}
+		\label{app:survey_instruments}
+
+The tables below provide an English rendering of the implemented in-app and post-course questionnaires. They preserve the main question formats, substantive item content, and response scales used in the analysis while omitting branch logic, attention checks, and untranslated interface text. Outcomes recorded purely as app behavior, such as module openings, reading time, quiz completion, and the randomized purchase rule, are documented in the research-design and ethics sections rather than reproduced here as questionnaire items.
+
+		\subsection{Weekly In-App Feedback}
+
+\input{tables/tab_weekly_feedback_instrument.tex}
+
+		\subsection{Endline Survey}
+
+\input{tables/tab_endline_survey_selection.tex}
+
+\input{tables/tab_endline_survey_matrix.tex}
+
+		\subsection{Follow-up Survey}
+
+\input{tables/tab_followup_survey_selection.tex}
+
+\input{tables/tab_followup_survey_matrix.tex}
+
+		\section{Sample, Treatment, and Materials Diagnostics}
+		\label{app:sample_treatment_material_diagnostics}
+
+		\subsection{Sample Diagnostics}
+
+This subsection reports pooled descriptive statistics, sample flow, recruitment, baseline balance, and attrition diagnostics for the study sample. Table~\ref{tab:main_variable_descriptives} summarizes the main variables used in the analysis. Table~\ref{tab:sample_flow} shows the realized sample flow from baseline completion to the two post-treatment survey waves. Table~\ref{tab:recruitment_selection} compares recruited and non-recruited baseline respondents. Table~\ref{tab:balance} reports key pre-treatment variables as group-minus-control differences, which is the relevant balance diagnostic after random assignment. Tables~\ref{tab:attrition} and \ref{tab:attrition_composition} summarize group-specific attrition rates and observed differences between completers and attriters.
+
+\input{tables/tab_main_variable_descriptives.tex}
+
+\input{tables/tab_sample_flow.tex}
+
+\input{tables/tab_recruitment_selection.tex}
+
+\input{tables/tab_balance.tex}
+
+\input{tables/tab_attrition.tex}
+
+\input{tables/tab_attrition_composition.tex}
+
+		\subsection{Index Construction and Scale Diagnostics}
+
+This subsection clarifies how the paper's three headline summary indices are constructed and reports reliability diagnostics for the underlying attitudinal batteries. The headline indices are pre-specified, unit-weighted standardized averages rather than PCA or IRT scores. Table~\ref{tab:index_construction} maps each index to its component measures and standardization rule. Table~\ref{tab:scale_reliability} reports Cronbach's alpha and first-principal-component shares for the regime-support, censorship-support, and nationalism batteries that feed into those summaries.
+
+\input{tables/tab_index_construction.tex}
+
+\input{tables/tab_scale_reliability.tex}
+
+		\subsection{Treatment and Materials Diagnostics}
+
+This subsection reports supplementary diagnostics on the implemented treatment schedule and the finalized reading-materials bank. Table~\ref{tab:treatment_structure} summarizes the six-group assignment structure. Table~\ref{tab:material_bank_summary} shows the source composition of the four content pools. Figure~\ref{fig:content_validity} visualizes their directional separation, and Table~\ref{tab:text_balance} reports textual-balance diagnostics for both the underlying article pools and the realized assigned bundles.
+
+\input{tables/tab_group_structure.tex}
+
+\input{tables/tab_material_bank_summary.tex}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{figures/fig_content_validity_tone.pdf}
+	\caption{Content Validity of the Final Article Pools}
+	\label{fig:content_validity}
+\end{figure}
+
+\input{tables/tab_text_balance.tex}
+
+		\section{Details on Research Ethics}
+		\label{app:research_ethics}
+		
+		\subsection{Regulatory Compliance and Local Review}
+		
+		The study was reviewed by the UCSD IRB (Protocol \#812663) before implementation. That review covered the experimental design, participant-facing consent language, survey instruments, data-handling plan, and the use of behavioral app logs for research purposes. The project also adhered to APSA's guidance on human-subjects research, particularly on voluntariness, harm minimization, confidentiality, and the need for context-sensitive ethical judgment in authoritarian settings \citep{APSA2020Principles}. The intervention was also close in structure to a published line of experimental research in authoritarian contexts that provides respondents with censored access, propaganda exposure, or other politically consequential information and then studies learning, credibility, and attitude change \citep{chenyang2019,huang2017misinformation,shen2025forced}.
+		
+		No parallel domestic IRB channel was available for this project because the intervention was conducted through a private educational platform rather than through a Chinese university, hospital, or other institution with a formal human-subjects review mechanism open to the research team. In lieu of a second formal review, I sought locally sensitive prospective review from a collaborating education professor at a leading Chinese university. That review focused on the cultural appropriateness of the participant-facing language, the classroom suitability of the adapted materials, and the political sensitivity of the overall pedagogical format. This local consultation complemented, rather than replaced, the UCSD review. The identity of the collaborating professor and the local appropriateness letter are available upon request.
+		
+		\subsection{Consent, Autonomy, and Participant Benefit}
+		
+		All participants were adult app users. Before enrollment, they were shown an in-app consent and privacy disclosure explaining that participation was voluntary, that some readings would be adapted from foreign outlets, and that course participation would generate research-linked usage logs in de-identified form. Users could not proceed into the study without affirmatively agreeing to these terms. They could decline any survey item, skip any reading or quiz, stop opening modules, or withdraw from the course at any point. No political response was rewarded, and no participant faced any penalty for non-completion.
+		
+		The intervention also offered a direct educational benefit rather than imposing burden for research alone. It was delivered as a free 12-week English-learning course aimed at improving exam-relevant reading and comprehension skills for learners preparing for major English tests. According to partner pricing materials, comparable course access carried a listed value of roughly 950 RMB. The partner platform later reported that many participants improved their subsequent exam outcomes in the months after the intervention, although those later test results were not a preregistered outcome and are not used here as a causal endpoint. For ethical purposes, the relevant point is narrower: participation plausibly benefited users as learners, not just researchers as observers.
+		
+		Figure~\ref{fig:app_privacy} shows an actual in-app consent and privacy disclosure screen used before enrollment.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.38\textwidth]{figures/app_privacy_consent_screen.jpg}
+			\caption{Illustrative Consent and Privacy Disclosure Screen}
+			\label{fig:app_privacy}
+		\end{figure}
+		
+		\subsection{Content Review, Pedagogical Framing, and Risk Mitigation}
+		
+		All content was delivered for pedagogical purposes inside the ordinary workflow of the app. The study did not direct participants to browse blocked websites, use circumvention tools, post political content publicly, or disclose views to instructors or other learners. Instead, original foreign-news articles were converted into private English-learning modules with abridged reading passages, vocabulary and syntax explanation, a short instructor video, quiz questions, and weekly evaluations.
+		
+		Candidate articles were screened before adaptation for topical fit, factual density, classroom suitability, and platform-safety concerns. Items judged likely to contain graphic violence, explicit self-harm, illegal instruction, pornography, doxxing, or other material likely to create unusual reader risk or violate platform rules were excluded rather than lightly edited into the bank. Even the most politically sensitive materials remained within the range of topics that could be discussed in a mainstream educational context in China through ordinary journalism and classroom-style language study, such as Hong Kong governance, censorship, labor conditions, macroeconomic policy, climate response, and international relations. The study therefore exposed participants to politically meaningful content, but not to operationally dangerous or unlawful content.
+		
+		\subsection{Confidentiality and Data Protection}
+		
+		The main ethical risks in this project were confidentiality and political sensitivity rather than physical harm. To reduce those risks, assignment, content delivery, and behavioral logging all occurred inside the partner app backend. The research team received only de-identified analytical records keyed to anonymous study IDs. Researchers did not receive participants' real names, IP addresses, phone numbers, device identifiers, or other direct personal identifiers. Any operational information needed for course administration remained with the partner firm and was not part of the analysis files.
+		
+		The analytic data consisted of survey responses, quiz outcomes, article evaluations, reading time, and other in-app behavioral logs needed to measure attention, acceptance, and later demand. Results are reported only in aggregate. No verbatim private messages, personally identifying records, or direct browsing histories outside the partner app are reproduced in the manuscript or SI. This design does not eliminate risk entirely, but it keeps exposure substantially lower than designs that would require participants to access blocked websites directly or to reveal political views in public or semi-public settings.
+		
+		\subsection{Public App Privacy Policy}
+		
+		The partner platform was a conventional commercial English-learning app operating within China's ordinary app-governance environment, not an ad hoc research interface, a virtual private network service, or an underground circumvention tool. For the purposes of this project, the relevant point is that it was a mainstream educational app distributed through ordinary commercial channels and accompanied by a public-facing privacy policy, function-specific permission requests, user-side permission controls, and standard platform terms governing account creation, data collection, storage, and sharing. To preserve partner confidentiality, the manuscript does not reproduce the firm's legal name, registered address, contact information, or other identifying business details in the SI. What matters for the ethics of this study is the structure of the platform's privacy protocol and the subset of records made available for research, not the public listing of the company behind it.
+		
+		The partner firm's public privacy policy, updated on November 6, 2023, states that the app may collect a broad range of account, device, and usage information in the ordinary course of platform operation. The categories listed in the policy include account-registration information, device attributes and identifiers, IP address, app-usage logs, click and browsing records, learning records such as quiz responses and speaking recordings when microphone-based functions are used, and diagnostic or crash-report information. The policy also states that some permissions are function-specific, such as microphone, notification, storage, camera, and photo-album access, and that users can manage many of these permissions through device settings. It further describes app-level uses of data for service provision, account security, analytics, personalization, bug detection, and related operational purposes, including the use of third-party software development kits (SDKs) for functions such as push notifications, analytics, voice services, and error reporting. In that sense, the app's privacy protocol was typical of a legally operating consumer educational platform in China: data collection was disclosed in a public policy, permissions were tied to particular functions, and users were informed that limiting permissions could disable some services.
+		
+		These are app-level privacy terms for the platform as a whole, not a description of the subset of data transferred to the research team. For this study, the analytical files were limited to de-identified study data needed for the experiment: survey responses, module-opening indicators, reading-time measures, quiz outcomes, weekly evaluations, and purchase-related behavioral outcomes. The research team did not receive names, home or mailing addresses, phone numbers, IP addresses, exact location, contact lists, photos, raw device identifiers, account credentials, or broader operational records described in the platform's public privacy policy. Nor did the research team use the firm's corporate registration information, street address, or other identifying business records in the conduct of the study. Direct identifiers and non-study operational data remained with the firm. This distinction matters for the ethics of the project: the app's public privacy policy governed the platform's overall data environment, whereas the research protocol governed a narrower, de-identified subset of records made available for analysis.
+		
+		% Uncomment when the SI cites sources:
+		% \printbibliography[heading=subbibliography,title={Supplemental References}]
+	\end{refsection}
+	
+\end{document}

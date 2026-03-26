@@ -1,0 +1,39 @@
+\begin{table}[H]
+\centering
+\caption{Exploratory Credibility Moderation Relative to Apolitical Content}
+\label{tab:credibility_moderation_t1}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+ & Regime support & Censorship support & Nationalism & Trust in foreign media \\
+\midrule
+Pooled Pro-China & 0.169*** & 0.013 & 0.067* & 0.072* \\
+ & (0.024) & (0.028) & (0.027) & (0.029) \\
+\addlinespace
+Pooled Anti-China & -0.305*** & -0.103*** & 0.119*** & -0.037 \\
+ & (0.023) & (0.028) & (0.027) & (0.029) \\
+\addlinespace
+Assigned-content credibility (z) & 0.014 & -0.032 & -0.050* & 0.085** \\
+ & (0.020) & (0.024) & (0.023) & (0.026) \\
+\addlinespace
+Pro x credibility & 0.039 & 0.039 & 0.037 & 0.073* \\
+ & (0.024) & (0.029) & (0.027) & (0.032) \\
+\addlinespace
+Anti x credibility & -0.104*** & 0.017 & -0.011 & 0.053+ \\
+ & (0.024) & (0.029) & (0.027) & (0.032) \\
+\addlinespace
+\midrule
+Control mean & 0.195 & -0.002 & -0.009 & 2.825 \\
+Observations & 4,348 & 4,348 & 4,348 & 4,348 \\
+Lagged dependent variable & Yes & Yes & Yes & Yes \\
+Block fixed effects & Yes & Yes & Yes & Yes \\
+HC2 standard errors & Yes & Yes & Yes & Yes \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Note: Each column reports an endline ANCOVA specification estimated on the pooled Pro-China, pooled Anti-China, and apolitical-China groups only, so that the apolitical-China group is the omitted reference category. `Assigned-content credibility' is the participant's mean slot-1 credibility rating over assigned weekly materials, standardized within the non-control endline sample. Because credibility is post-treatment, these interactions should be interpreted as exploratory robustness checks rather than purely causal moderators.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

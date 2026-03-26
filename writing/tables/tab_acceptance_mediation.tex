@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\caption{Exploratory Mediation via Acceptance of Assigned Content}
+\label{tab:acceptance_mediation}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{llcccccc}
+\toprule
+Outcome & Contrast & a-path: T -> acceptance & b-path: acceptance -> Y & Indirect effect & Bootstrap 95\% CI & Direct effect & N \\
+\midrule
+Regime support & Pro vs Apolitical & 0.543*** & 0.044** & 0.024 & [0.007, 0.039] & 0.176*** & 2,006 \\
+Regime support & Anti vs Apolitical & 0.204*** & -0.040** & -0.008 & [-0.016, -0.002] & -0.288*** & 2,050 \\
+Trust in foreign media & Pro vs Apolitical & 0.541*** & 0.132*** & 0.071 & [0.048, 0.096] & 0.076* & 2,006 \\
+Trust in foreign media & Anti vs Apolitical & 0.204*** & 0.117*** & 0.024 & [0.012, 0.037] & -0.070* & 2,050 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Note: Entries implement a product-of-coefficients mediation design that maps as closely as possible to the registered acceptance mechanism. The mediator is a participant-level acceptance composite averaging standardized slot-1 credibility and interest ratings over assigned weekly content. Each contrast compares a pooled political frame to the apolitical-China group only. The mediator model includes treatment, the baseline value of the outcome, baseline exam score, baseline nationalism, baseline trust in foreign media, and randomization-block fixed effects; the outcome model adds the mediator. `Indirect effect' equals the estimated a-path times the b-path, and the confidence interval is a nonparametric bootstrap interval with 300 resamples. Because the mediator is post-treatment, these estimates should be interpreted as suggestive mechanism evidence rather than design-based causal mediation.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

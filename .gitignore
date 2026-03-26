@@ -15,6 +15,16 @@ analysis/data/cgss/
 analysis/data/cis/
 analysis/data/participant.dta
 analysis/data/weekly_long.dta
+analysis/data/materials_master_bank*.csv
 archive/3-replication-package/
 IRB/
 .vscode/
+writing/draft.pdf
+writing/figures/
+writing/tables/
+archive/analysis_support/
+archive/teaching/_article_texts_backups/
+archive/teaching/article_texts/
+archive/teaching/*.dta
+archive/teaching/*.csv
+papers/
